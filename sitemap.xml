@@ -2,162 +2,162 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/index.html</loc>
-    <lastmod>2023-10-05T08:07:21.357Z</lastmod>
+    <lastmod>2023-10-05T08:14:56.314Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/projects/index.html</loc>
-    <lastmod>2023-10-05T08:07:22.289Z</lastmod>
+    <lastmod>2023-10-05T08:14:57.494Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/projects/hackathon-projects.html</loc>
-    <lastmod>2023-10-05T08:07:23.253Z</lastmod>
+    <lastmod>2023-10-05T08:14:58.957Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials/02_Data_Discovery_CMR-STAC_API.html</loc>
-    <lastmod>2023-10-05T08:07:26.080Z</lastmod>
+    <lastmod>2023-10-05T08:15:01.925Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials/03_Xarray_hvplot.html</loc>
-    <lastmod>2023-10-05T08:07:30.100Z</lastmod>
+    <lastmod>2023-10-05T08:15:04.070Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials/index.html</loc>
-    <lastmod>2023-10-05T08:07:30.739Z</lastmod>
+    <lastmod>2023-10-05T08:15:04.558Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials/00_Setup.html</loc>
-    <lastmod>2023-10-05T08:07:31.681Z</lastmod>
+    <lastmod>2023-10-05T08:15:05.414Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials/08_On-Prem_Cloud.html</loc>
-    <lastmod>2023-10-05T08:07:32.895Z</lastmod>
+    <lastmod>2023-10-05T08:15:07.114Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials/05_Data_Access_Direct_S3.html</loc>
-    <lastmod>2023-10-05T08:07:38.376Z</lastmod>
+    <lastmod>2023-10-05T08:15:10.928Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials/01_Data_Discovery_CMR.html</loc>
-    <lastmod>2023-10-05T08:07:39.687Z</lastmod>
+    <lastmod>2023-10-05T08:15:12.044Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials/04_NASA_Earthdata_Authentication.html</loc>
-    <lastmod>2023-10-05T08:07:41.117Z</lastmod>
+    <lastmod>2023-10-05T08:15:13.289Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials/06_S6_OPeNDAP_Access_Gridding.html</loc>
-    <lastmod>2023-10-05T08:07:42.330Z</lastmod>
+    <lastmod>2023-10-05T08:15:15.131Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials/Additional_Resources__Data_Access__Direct_S3_Access__PODAAC_ECCO_SSH.html</loc>
-    <lastmod>2023-10-05T08:07:45.288Z</lastmod>
+    <lastmod>2023-10-05T08:15:17.937Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials/09_Zarr_Access.html</loc>
-    <lastmod>2023-10-05T08:07:46.534Z</lastmod>
+    <lastmod>2023-10-05T08:15:19.399Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials/Additional_Resources__Direct_S3_Access__gdalvrt.html</loc>
-    <lastmod>2023-10-05T08:07:50.445Z</lastmod>
+    <lastmod>2023-10-05T08:15:23.159Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials/07_Harmony_Subsetting.html</loc>
-    <lastmod>2023-10-05T08:07:51.517Z</lastmod>
+    <lastmod>2023-10-05T08:15:24.177Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials/03_Xarray.html</loc>
-    <lastmod>2023-10-05T08:07:52.286Z</lastmod>
+    <lastmod>2023-10-05T08:15:25.141Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials/Additional_Resources__Direct_S3_Access__rioxarray_clipping.html</loc>
-    <lastmod>2023-10-05T08:07:57.075Z</lastmod>
+    <lastmod>2023-10-05T08:15:29.149Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/further-resources.html</loc>
-    <lastmod>2023-10-05T08:07:57.844Z</lastmod>
+    <lastmod>2023-10-05T08:15:29.767Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials-templates/02_Data_Discovery_CMR-STAC_API.html</loc>
-    <lastmod>2023-10-05T08:07:58.960Z</lastmod>
+    <lastmod>2023-10-05T08:15:30.655Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials-templates/index.html</loc>
-    <lastmod>2023-10-05T08:07:59.642Z</lastmod>
+    <lastmod>2023-10-05T08:15:31.273Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials-templates/06_S6_OPeNDAP_Access_Gridding_template.html</loc>
-    <lastmod>2023-10-05T08:08:01.343Z</lastmod>
+    <lastmod>2023-10-05T08:15:32.540Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials-templates/08_On-Prem_Cloud.html</loc>
-    <lastmod>2023-10-05T08:08:02.242Z</lastmod>
+    <lastmod>2023-10-05T08:15:33.461Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials-templates/05_Data_Access_Direct_S3.html</loc>
-    <lastmod>2023-10-05T08:08:03.130Z</lastmod>
+    <lastmod>2023-10-05T08:15:34.165Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials-templates/01_Data_Discovery_CMR.html</loc>
-    <lastmod>2023-10-05T08:08:03.932Z</lastmod>
+    <lastmod>2023-10-05T08:15:34.794Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials-templates/04_NASA_Earthdata_Authentication.html</loc>
-    <lastmod>2023-10-05T08:08:04.853Z</lastmod>
+    <lastmod>2023-10-05T08:15:36.007Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials-templates/09_Zarr_Access.html</loc>
-    <lastmod>2023-10-05T08:08:05.568Z</lastmod>
+    <lastmod>2023-10-05T08:15:36.668Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials-templates/07_Harmony_Subsetting.html</loc>
-    <lastmod>2023-10-05T08:08:06.391Z</lastmod>
+    <lastmod>2023-10-05T08:15:37.437Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/tutorials-templates/03_Xarray.html</loc>
-    <lastmod>2023-10-05T08:08:07.041Z</lastmod>
+    <lastmod>2023-10-05T08:15:38.109Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/team.html</loc>
-    <lastmod>2023-10-05T08:08:07.745Z</lastmod>
+    <lastmod>2023-10-05T08:15:38.650Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/huggingface.html</loc>
-    <lastmod>2023-10-05T08:08:08.558Z</lastmod>
+    <lastmod>2023-10-05T08:15:39.116Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/clinic/github.html</loc>
-    <lastmod>2023-10-05T08:08:09.360Z</lastmod>
+    <lastmod>2023-10-05T08:15:39.604Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/clinic/index.html</loc>
-    <lastmod>2023-10-05T08:08:10.075Z</lastmod>
+    <lastmod>2023-10-05T08:15:40.091Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/clinic/notebooks.html</loc>
-    <lastmod>2023-10-05T08:08:10.909Z</lastmod>
+    <lastmod>2023-10-05T08:15:40.860Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/clinic/earthdata.html</loc>
-    <lastmod>2023-10-05T08:08:12.068Z</lastmod>
+    <lastmod>2023-10-05T08:15:41.857Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/clinic/jupyterhub.html</loc>
-    <lastmod>2023-10-05T08:08:12.891Z</lastmod>
+    <lastmod>2023-10-05T08:15:42.648Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/logistics/index.html</loc>
-    <lastmod>2023-10-05T08:08:13.595Z</lastmod>
+    <lastmod>2023-10-05T08:15:43.363Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/logistics/github-workflows.html</loc>
-    <lastmod>2023-10-05T08:08:14.354Z</lastmod>
+    <lastmod>2023-10-05T08:15:44.013Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/logistics/schedule.html</loc>
-    <lastmod>2023-10-05T08:08:15.090Z</lastmod>
+    <lastmod>2023-10-05T08:15:44.847Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/logistics/prerequisites.html</loc>
-    <lastmod>2023-10-05T08:08:15.654Z</lastmod>
+    <lastmod>2023-10-05T08:15:45.378Z</lastmod>
   </url>
 </urlset>
