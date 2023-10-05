@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>2023 Everyday AI Hackathon - 00. Setup for tutorials</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../tutorials/01_Data_Discovery_CMR.html" rel="next">
+<link href="../tutorials/index.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">00. Setup for tutorials</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="https://github.com/Pseudo-Lab/huggingface_krew/assets/29195190/78f067c4-99e0-42bc-8d9f-06155c4ee9be" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main tools-wide">
+    <a href="https://pseudo-lab.github.io" title="PseudoLab website" class="sidebar-tool px-1"><i class="bi bi-globe"></i></a>
+    <a href="https://github.com/Pseudo-Lab/huggingface_krew/tree/23hackathon" title="2023 Everyday AI Hackathon repo" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Welcome</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">2023 Everyday AI Hackathon</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../huggingface.html" class="sidebar-item-text sidebar-link">Hugging Face</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../team.html" class="sidebar-item-text sidebar-link">Our Team</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Logistics</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/index.html" class="sidebar-item-text sidebar-link">Logistics overview</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/schedule.html" class="sidebar-item-text sidebar-link">Schedule</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/prerequisites.html" class="sidebar-item-text sidebar-link">Prerequisites &amp; help</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/github-workflows.html" class="sidebar-item-text sidebar-link">GitHub/Hugging Face workflows</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Tutorials</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/index.html" class="sidebar-item-text sidebar-link">Tutorials Overview</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/00_Setup.html" class="sidebar-item-text sidebar-link active">00. Setup for tutorials</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/01_Data_Discovery_CMR.html" class="sidebar-item-text sidebar-link">01. Data discovery with CMR</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/02_Data_Discovery_CMR-STAC_API.html" class="sidebar-item-text sidebar-link">02. Data Discovery with CMR-STAC API</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/03_Xarray.html" class="sidebar-item-text sidebar-link">03. Introduction to <code>xarray</code></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/04_NASA_Earthdata_Authentication.html" class="sidebar-item-text sidebar-link">04. Authentication for NASA Earthdata</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/05_Data_Access_Direct_S3.html" class="sidebar-item-text sidebar-link">05. Direct S3 Data Access with rioxarray</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/06_S6_OPeNDAP_Access_Gridding.html" class="sidebar-item-text sidebar-link">06. Sentinel-6 MF L2 Altimetry Data Access (OPeNDAP) &amp; Gridding</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/07_Harmony_Subsetting.html" class="sidebar-item-text sidebar-link">07. Data Subsetting and Transformation Services in the Cloud</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/08_On-Prem_Cloud.html" class="sidebar-item-text sidebar-link">08. Pairing Cloud and non-Cloud Data</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/09_Zarr_Access.html" class="sidebar-item-text sidebar-link">09. Zarr Access for NetCDF4 files</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Tutorial Templates</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials-templates/index.html" class="sidebar-item-text sidebar-link">Notebooks for live-coding</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">Projects</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../projects/index.html" class="sidebar-item-text sidebar-link">Projects Overview</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../projects/hackathon-projects.html" class="sidebar-item-text sidebar-link">Hackathon Projects</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">Further Resources</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../further-resources.html" class="sidebar-item-text sidebar-link">Additional resources</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">Pre-Hackathon-Clinic</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../clinic/index.html" class="sidebar-item-text sidebar-link">Overview and Agenda</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../clinic/jupyterhub.html" class="sidebar-item-text sidebar-link">NASA Openscapes Cloud Environment</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../clinic/notebooks.html" class="sidebar-item-text sidebar-link">Notebooks, Python, Git</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../clinic/github.html" class="sidebar-item-text sidebar-link">GitHub</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../clinic/earthdata.html" class="sidebar-item-text sidebar-link">Earthdata Login</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#step-1.-login-to-the-hub" id="toc-step-1.-login-to-the-hub" class="nav-link active" data-scroll-target="#step-1.-login-to-the-hub">Step 1. Login to the Hub</a></li>
+  <li><a href="#discussion-cloud-environment" id="toc-discussion-cloud-environment" class="nav-link" data-scroll-target="#discussion-cloud-environment">Discussion: Cloud environment</a></li>
+  <li><a href="#discussion-my-desktop-setup" id="toc-discussion-my-desktop-setup" class="nav-link" data-scroll-target="#discussion-my-desktop-setup">Discussion: My desktop setup</a></li>
+  <li><a href="#step-2.-fork-the-hackathon-github-repository" id="toc-step-2.-fork-the-hackathon-github-repository" class="nav-link" data-scroll-target="#step-2.-fork-the-hackathon-github-repository">Step 2. Fork the Hackathon GitHub repository</a></li>
+  <li><a href="#discussion-python-and-conda-environments" id="toc-discussion-python-and-conda-environments" class="nav-link" data-scroll-target="#discussion-python-and-conda-environments">Discussion: Python and Conda environments</a>
+  <ul class="collapse">
+  <li><a href="#bash-terminal-and-installed-software" id="toc-bash-terminal-and-installed-software" class="nav-link" data-scroll-target="#bash-terminal-and-installed-software">Bash terminal and installed software</a></li>
+  <li><a href="#updating-the-environment" id="toc-updating-the-environment" class="nav-link" data-scroll-target="#updating-the-environment">Updating the environment</a></li>
+  <li><a href="#corn" id="toc-corn" class="nav-link" data-scroll-target="#corn">corn 🌽</a></li>
+  </ul></li>
+  <li><a href="#step-3.-jupyterhub-orientation" id="toc-step-3.-jupyterhub-orientation" class="nav-link" data-scroll-target="#step-3.-jupyterhub-orientation">Step 3. JupyterHub orientation</a>
+  <ul class="collapse">
+  <li><a href="#first-impressions" id="toc-first-impressions" class="nav-link" data-scroll-target="#first-impressions">First impressions</a></li>
+  </ul></li>
+  <li><a href="#step-4.-clone-the-hackathon-github-repository" id="toc-step-4.-clone-the-hackathon-github-repository" class="nav-link" data-scroll-target="#step-4.-clone-the-hackathon-github-repository">Step 4. Clone the Hackathon GitHub repository</a></li>
+  <li><a href="#jupyter-notebooks" id="toc-jupyter-notebooks" class="nav-link" data-scroll-target="#jupyter-notebooks">Jupyter notebooks</a></li>
+  <li><a href="#how-do-i-end-my-session" id="toc-how-do-i-end-my-session" class="nav-link" data-scroll-target="#how-do-i-end-my-session">How do I end my session?</a></li>
+  <li><a href="#step-5.-tracking-changes-optional" id="toc-step-5.-tracking-changes-optional" class="nav-link" data-scroll-target="#step-5.-tracking-changes-optional">Step 5. Tracking changes (Optional)</a>
+  <ul class="collapse">
+  <li><a href="#step-5.1.-configure-git-git-config" id="toc-step-5.1.-configure-git-git-config" class="nav-link" data-scroll-target="#step-5.1.-configure-git-git-config">Step 5.1. Configure Git (<code>git config</code>)</a></li>
+  <li><a href="#step-5.2.-create-a-new-file" id="toc-step-5.2.-create-a-new-file" class="nav-link" data-scroll-target="#step-5.2.-create-a-new-file">Step 5.2. Create a new file</a></li>
+  <li><a href="#step-5.3.-track-the-changes-to-the-new-file-git-add" id="toc-step-5.3.-track-the-changes-to-the-new-file-git-add" class="nav-link" data-scroll-target="#step-5.3.-track-the-changes-to-the-new-file-git-add">Step 5.3. Track the changes to the new file (<code>git add</code>)</a></li>
+  <li><a href="#step-5.4.-commit-the-changes-to-the-new-file-git-commit" id="toc-step-5.4.-commit-the-changes-to-the-new-file-git-commit" class="nav-link" data-scroll-target="#step-5.4.-commit-the-changes-to-the-new-file-git-commit">Step 5.4. Commit the changes to the new file (<code>git commit</code>)</a></li>
+  <li><a href="#step-5.5.-transmit-committed-changes-to-your-github-git-push" id="toc-step-5.5.-transmit-committed-changes-to-your-github-git-push" class="nav-link" data-scroll-target="#step-5.5.-transmit-committed-changes-to-your-github-git-push">Step 5.5. Transmit committed changes to your github (<code>git push</code>)</a></li>
+  <li><a href="#step-5.6.-setup-pat" id="toc-step-5.6.-setup-pat" class="nav-link" data-scroll-target="#step-5.6.-setup-pat">Step 5.6. Setup your Personal Access Token (PAT)</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Pseudo-Lab/huggingface_krew/tree/23hackathon/edit/main/tutorials/00_Setup.md" class="toc-action">Edit this page</a></p><p><a href="https://github.com/Pseudo-Lab/huggingface_krew/tree/23hackathon/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">00. Setup for tutorials</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>This tutorial will help you set up your JupyterHub (or Hub) with tutorials and other materials from our Cloud Hackathon github repository and connect your github account.</p>
+<section id="step-1.-login-to-the-hub" class="level2">
+<h2 class="anchored" data-anchor-id="step-1.-login-to-the-hub">Step 1. Login to the Hub</h2>
+<p>Please go to the Openscapes Jupyter Hub. Log in with your GitHub Account, and select “Small”.</p>
+<!-- Alternatively, you can also click this badge to launch the Hub:
+
+![](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Openscapes&message=AWS+us-west-2&color=orange){fig-align="center"}
+
+![](img/JupyterHub-2i2c.png){width="500"}
+
+![](img/JupyterHub-Login.png){width="500"}
+
+![](img/JupyterHub-SelectSmall.png){width="500"}
+
+![](img/JupyterHub-Loading.png){width="500"} -->
+<blockquote class="blockquote">
+<p><strong>Note:</strong> It takes a few minutes for the Hub to load. Please be patient!</p>
+</blockquote>
+<p>While the Hub loads, we’ll:</p>
+<ul>
+<li>Discuss cloud environments</li>
+<li>See how my Desktop is setup</li>
+<li>Fork the Hackathon repository at github.com</li>
+<li>Discuss python and conda environments</li>
+</ul>
+<p>Then, when the Hub is loaded, we’ll get oriented in the Hub and clone the forked repository into our cloud environment.</p>
+</section>
+<section id="discussion-cloud-environment" class="level2">
+<h2 class="anchored" data-anchor-id="discussion-cloud-environment">Discussion: Cloud environment</h2>
+<p>A brief overview about the <a href="https://nasa-openscapes.github.io/2021-Cloud-Hackathon/clinic/jupyterhub.html">NASA Openscapes Cloud Environment</a> (following lessons from the Clinic).</p>
+<section id="cloud-infrastructure" class="level4">
+<h4 class="anchored" data-anchor-id="cloud-infrastructure">Cloud infrastructure</h4>
+<ul>
+<li>Cloud: AWS <a href="https://goo.gl/maps/BYqGYxahpwJgzKwR8"><code>us-west-2</code></a>
+<ul>
+<li>Data: AWS S3 (cloud) and <a href="https://earthdata.nasa.gov/eosdis/daacs">NASA DAAC</a> data centers (on-prem).</li>
+<li>Cloud compute environment: <a href="https://docs.2i2c.org/en/latest/">2i2c Jupyterhub deployment</a>
+<ul>
+<li>IDE: <a href="https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html"><strong>JupyterLab</strong></a></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="discussion-my-desktop-setup" class="level2">
+<h2 class="anchored" data-anchor-id="discussion-my-desktop-setup">Discussion: My desktop setup</h2>
+<p>I’ll screenshare to show and/or talk through how I have oriented the following software we’re using:</p>
+<ul>
+<li>2i2c Jupyterhub (our main workspace)</li>
+<li><a href="https://github.com/nasa-openscapes/2021-Cloud-Hackathon/">Hackathon Repo</a> &lt;&gt; <a href="https://nasa-openscapes.github.io/2021-Cloud-Hackathon/">Hackathon Book</a> (my teaching notes, your reference material)</li>
+<li>Zoom Chat</li>
+<li>Slack</li>
+</ul>
+</section>
+<section id="step-2.-fork-the-hackathon-github-repository" class="level2">
+<h2 class="anchored" data-anchor-id="step-2.-fork-the-hackathon-github-repository">Step 2. Fork the Hackathon GitHub repository</h2>
+<p>“How do I get the tutorial repository into the Hub?”. There are 2 steps. The first is from GitHub.com to fork the tutorial repository so that there is a connected copy in your user account that you can edit and push changes that won’t affect the nasa-openscapes copy.</p>
+<p>Go to <a href="https://github.com/nasa-openscapes/2021-Cloud-Hackathon" class="uri">https://github.com/nasa-openscapes/2021-Cloud-Hackathon</a> and fork the repository.</p>
+<p><img src="../clinic/img/fork-tutorials.png" class="img-fluid"></p>
+<p><strong>Note:</strong> if you’ve already done this in the Pre-Hackathon Clinic, you’ll need to make sure you have the latest, following the <a href="https://nasa-openscapes.github.io/2021-Cloud-Hackathon/logistics/github-workflows.html#daily-setup">daily setup</a> instructions.</p>
+</section>
+<section id="discussion-python-and-conda-environments" class="level2">
+<h2 class="anchored" data-anchor-id="discussion-python-and-conda-environments">Discussion: Python and Conda environments</h2>
+<p><a href="https://foundations.projectpythia.org/foundations/why-python.html"><strong>Why Python?</strong></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://pangeo-data.github.io/img/scientific-python-28-638.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Python Data Stack. Source: Jake VanderPlas, “The State of the Stack,” SciPy Keynote (SciPy 2015).</figcaption><p></p>
+</figure>
+</div>
+<p><strong>Default Python Environment:</strong></p>
+<p>We’ve set up the Python environment with conda.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Conda environment
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">name</span><span class="kw">:</span><span class="at"> openscapes</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">channels</span><span class="kw">:</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> conda-forge</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">dependencies</span><span class="kw">:</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> python=3.9</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> pangeo-notebook</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> awscli~=1.20</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> boto3~=1.19</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> gdal~=3.3</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> rioxarray~=0.8</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> xarray~=0.19</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> h5netcdf~=0.11</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> netcdf4~=1.5</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> h5py~=2.10</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> geoviews~=1.9</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> matplotlib-base~=3.4</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> hvplot~=0.7</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> pyproj~=3.2</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> bqplot~=0.12</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> geopandas~=0.10</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> zarr~=2.10</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> cartopy~=0.20</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> shapely==1.7.1</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> pyresample~=1.22</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> joblib~=1.1</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> pystac-client~=0.3</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> s3fs~=2021.7</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> ipyleaflet~=0.14</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> sidecar~=0.5</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> jupyterlab-geojson~=3.1</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> jupyterlab-git</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> jupyter-resource-usage</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> ipympl~=0.6</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> conda-lock~=0.12</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> pooch~=1.5</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> pip</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="fu">pip</span><span class="kw">:</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> tqdm</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> harmony-py</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> earthdata</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> zarr-eosdis-store</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+<section id="bash-terminal-and-installed-software" class="level3">
+<h3 class="anchored" data-anchor-id="bash-terminal-and-installed-software">Bash terminal and installed software</h3>
+<p>Libraries that are available from the terminal</p>
+<ul>
+<li>gdal 3.3 commands ( gdalinfo, gdaltransform…)</li>
+<li>hdf5 commands ( h5dump, h5ls..)</li>
+<li>netcdf4 commands (ncdump, ncinfo …)</li>
+<li>jq (parsing json files or streams from curl)</li>
+<li>curl (fetch resources from the web)</li>
+<li>awscli (AWS API client, to interact with AWS cloud services)</li>
+<li>vim (editor)</li>
+<li>tree ( directory tree)</li>
+<li>more …</li>
+</ul>
+</section>
+<section id="updating-the-environment" class="level3">
+<h3 class="anchored" data-anchor-id="updating-the-environment">Updating the environment</h3>
+<p>Scientific Python is a vast space and we only included libraries that are needed in our tutorials. Our default environment can be updated to include any Python library that’s available on pip or conda.</p>
+<p>The project used to create our default environment is called <strong>corn</strong> (as it can include many Python kernels).</p>
+<p>If we want to update a library or install a whole new environment we need to open an issue on this repository. We can help your teams do this during project hacktime.</p>
+</section>
+<section id="corn" class="level3">
+<h3 class="anchored" data-anchor-id="corn"><a href="https://github.com/NASA-Openscapes/corn">corn 🌽</a></h3>
+</section>
+</section>
+<section id="step-3.-jupyterhub-orientation" class="level2">
+<h2 class="anchored" data-anchor-id="step-3.-jupyterhub-orientation">Step 3. JupyterHub orientation</h2>
+<p>Now that the Hub is loaded, let’s get oriented.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/JupyterHub-View.png"><img src="img/JupyterHub-View.png" class="img-fluid figure-img" width="500"></a></p>
+</figure>
+</div>
+<section id="first-impressions" class="level3">
+<h3 class="anchored" data-anchor-id="first-impressions">First impressions</h3>
+<ul>
+<li>Launcher &amp; the big blue button</li>
+<li>“home directory”</li>
+</ul>
+</section>
+</section>
+<section id="step-4.-clone-the-hackathon-github-repository" class="level2">
+<h2 class="anchored" data-anchor-id="step-4.-clone-the-hackathon-github-repository">Step 4. Clone the Hackathon GitHub repository</h2>
+<p>Now we’ll clone the GitHub repository, using a git extension for the JupyterHub. Go to your github account, and navigate to the repository that you just created by forking from the Openscapes repository.</p>
+<p>Click to copy the url for cloning the repository.</p>
+<p><img src="img/Github-forked-repo.png" class="img-fluid" width="2224"></p>
+<p>Now, go to JupyterHub and click on the git extension in the left panel and then click the blue button “Clone a Repository”.</p>
+<p><img src="img/JupyterHub-GitExtension.png" class="img-fluid"></p>
+<p>Then, paste the repository link to the forked repository that you copied from your github account into the “Clone a repo” pop up window. Then click the blue “CLONE” button. It will take a few moments to clone the repository into your Hub.</p>
+<p>Your link should look like <code>https://github.com/YOUR-USERNAME/2021-Cloud-Hackathon</code>. For example, the link is https://github.com/<strong>virdi</strong>/2021-Cloud-Hackathon. Note that it include your github username in the repo link.</p>
+<p><img src="img/JupyterHub-Clone-Extension.png" class="img-fluid"></p>
+<p>Alternatively, you can use the terminal (command line) as per <a href="https://nasa-openscapes.github.io/2021-Cloud-Hackathon/logistics/github-workflows.html">github workflows: first-time setup</a>.</p>
+<p>Once the repository is cloned, you will see a new directory in the “File Browser” panel on the left named “2021-Cloud-Hackathon”. In this directory, you have all hackathon material including the tutorials and this book to follow along during other Tutorials. You are all set.</p>
+<p><img src="img/JupyterHub-Cloned-Repo-FileBrowser.png" class="img-fluid"></p>
+<blockquote class="blockquote">
+<p><strong>REMEMBER:</strong> This is your copy (or fork) of the hackathon materials and jupyter notebooks. So feel free to make any changes to the content of this repository.</p>
+</blockquote>
+</section>
+<section id="jupyter-notebooks" class="level2">
+<h2 class="anchored" data-anchor-id="jupyter-notebooks">Jupyter notebooks</h2>
+<p>Let’s get oriented to Jupyter notebooks, which we’ll use in all the tutorials.</p>
+</section>
+<section id="how-do-i-end-my-session" class="level2">
+<h2 class="anchored" data-anchor-id="how-do-i-end-my-session">How do I end my session?</h2>
+<p><em>(Also see <a href="https://nasa-openscapes.github.io/2021-Cloud-Hackathon/clinic/jupyterhub.html#how-do-i-end-my-openscapes-session">How do I end my Openscapes session? Will I lose all of my work?</a>)</em></p>
+<p>When you are finished working for the day it is important to explicitly log out of your Openscapes session. The reason for this is it will save us a bit of money! When you keep a session active it uses up AWS resources and keeps a series of virtual machines deployed.</p>
+<p>Stopping the server happens automatically when you log out, so navigate to “File -&gt; Log Out” and just click “Log Out”!</p>
+<p>!!! NOTE “logging out” - Logging out will <strong>NOT</strong> cause any of your work to be lost or deleted. It simply shuts down some resources. It would be equivalent to turning off your desktop computer at the end of the day.</p>
+</section>
+<section id="step-5.-tracking-changes-optional" class="level2">
+<h2 class="anchored" data-anchor-id="step-5.-tracking-changes-optional">Step 5. Tracking changes (Optional)</h2>
+<p>Now that you have forked and cloned the repository in your Hub, you can make changes (edit, add, and/or delete content) and track these files using git. In this step, we will provide an overview of how to use git using the graphical interface (the JupyterLab git extension).</p>
+<section id="step-5.1.-configure-git-git-config" class="level3">
+<h3 class="anchored" data-anchor-id="step-5.1.-configure-git-git-config">Step 5.1. Configure Git (<code>git config</code>)</h3>
+<p>Configure git with your name and email address as shown here.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"Makhan Virdi"</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">"Makhan.Virdi@gmail.com"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Open a new terminal: <code>File &gt;&gt; New &gt;&gt; Terminal</code></p>
+<p><img src="img/JupyterHub-Tracking-GitConfig.png" class="img-fluid"></p>
+<p>Configure <code>git</code> to store your github credentials to avoid having to enter your github username and token each time you push changes to your repository(in <a href="#step-5.5.-transmit-committed-changes-to-your-github-(git-push),%20we%20will%20describe%20how%20to%20use%20github%20token%20instead%20of%20a%20password">Step 5.5</a>, we will describe how to use github token instead of a password)</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> credential.helper store</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="step-5.2.-create-a-new-file" class="level3">
+<h3 class="anchored" data-anchor-id="step-5.2.-create-a-new-file">Step 5.2. Create a new file</h3>
+<p>Let’s create a new file: In the left panel on your Hub, click on the “directory” icon and then double click on “2021-Cloud-Hackathon” directory. Then, create a new file using the text editor in your 2i2c JupyterHub (<code>File &gt;&gt; New &gt;&gt; Text File</code>). Add some text to this file, for example: <code>A test file</code>. Save this file and rename it to <code>test.txt</code>.</p>
+<p><img src="img/JupyterHub-Tracking-NewFile.png" class="img-fluid"></p>
+</section>
+<section id="step-5.3.-track-the-changes-to-the-new-file-git-add" class="level3">
+<h3 class="anchored" data-anchor-id="step-5.3.-track-the-changes-to-the-new-file-git-add">Step 5.3. Track the changes to the new file (<code>git add</code>)</h3>
+<p>Click the git icon in the left panel. You can see that the newly added file is in the “Untracked” section. You can click the <code>+</code> icon next to the file name to let <code>git</code> track this file for changes.</p>
+<p><img src="img/JupyterHub-Tracking-GitAdd.png" class="img-fluid"></p>
+</section>
+<section id="step-5.4.-commit-the-changes-to-the-new-file-git-commit" class="level3">
+<h3 class="anchored" data-anchor-id="step-5.4.-commit-the-changes-to-the-new-file-git-commit">Step 5.4. Commit the changes to the new file (<code>git commit</code>)</h3>
+<p>Now, you will see that the file is <strong>Staged</strong>, which means that <code>git</code> is ready to take a snapshot of this file (and the repository) with the changes that you made. This snapshot is called a <code>commit</code>. To commit the changes, add a note (called a <em>commit message</em>) by typing in the text box that say “Summary”.</p>
+<p>Now, click the blue “COMMIT” button to commit this change.</p>
+<blockquote class="blockquote">
+<p>Note: A short message indicating the type of change to this file is a good practice. Optionally, a longer description may be added to the “Description” field.</p>
+</blockquote>
+<p><img src="img/JupyterHub-Tracking-GitCommit.png" class="img-fluid"></p>
+</section>
+<section id="step-5.5.-transmit-committed-changes-to-your-github-git-push" class="level3">
+<h3 class="anchored" data-anchor-id="step-5.5.-transmit-committed-changes-to-your-github-git-push">Step 5.5. Transmit committed changes to your github (<code>git push</code>)</h3>
+<p>At this stage, you have committed the changes to your git repository on your Hub. However, these changes are still on your Hub and needs to be transmitted to your repository on github (so that both the <code>local</code> copy on the JupyterHub and the <code>remote</code> copy on github are in sync).</p>
+<p>As seen in the picture below, the git extension indicates (with an orange dot on the cloud icon) that it is ready to <code>push</code> your changes to the <code>remote</code> (remote = your repository on github.com). To push to github, click the cloud button with an up arrow (circled in red in the picture).</p>
+<p><img src="img/JupyterHub-Tracking-GitPush.png" class="img-fluid"></p>
+<p>When you push for the first time, it will ask that you input your credentials. You will need to set this up with your Personal Access Token (PAT), explained next.</p>
+</section>
+<section id="step-5.6.-setup-pat" class="level3">
+<h3 class="anchored" data-anchor-id="step-5.6.-setup-pat">Step 5.6. Setup your Personal Access Token (PAT)</h3>
+<p>When you see the following screenshot, GitHub is asking for you to input your credentials. (Note: you see this screenshot when you have committed work to push to GitHub.com, as detailed above).</p>
+<p><img src="img/JupyterHub-Tracking-Credentials-Prompt.png" class="img-fluid"></p>
+<p>The git extension in the Hub is prompting you to enter your github.com credentials. Enter you github.com username and a Personal Access Token (PAT); <strong>DO NOT</strong> use your password.</p>
+<p>To create a PAT, visit <strong><a href="https://github.com/settings/tokens/new" class="uri">https://github.com/settings/tokens/new</a></strong> and create a new token with the permission as per the image below and specify its validity for 90 days.</p>
+<p><img src="../clinic/img/github-token.png" class="img-fluid"></p>
+<p><strong>IMPORTANT:</strong> You will see this token only once, so be sure to copy this. If you do not copy your token at this stage, you will need to generate a new token.</p>
+<p><img src="../clinic/img/github-token-generated.png" class="img-fluid"></p>
+<p>Once you generate the token, copy it and paste in the Hub window that prompted you to enter the “Personal Access Token”.</p>
+<p><img src="img/JupyterHub-Tracking-GitPush-With-Credentials.png" class="img-fluid"></p>
+<p>Git will show a message at the bottom right telling that the changes were “Successfully pushed”. Also, you will see that the “cloud icon with an up arrow” no longer has an orange dot, indicating that there are no more committed changes to push to the remote (github.com).</p>
+<blockquote class="blockquote">
+<p>Note: You have configured git extension to store your credentials. You will not be prompted for your login/token again!</p>
+</blockquote>
+<p><img src="img/JupyterHub-Tracking-GitPush-Success.png" class="img-fluid"></p>
+<p>That’s all. You can use the same workflow (<code>add &gt; commit &gt; push</code>) for any other new or modified files!</p>
+<hr>
+<blockquote class="blockquote">
+<p>Note: If you are comfortable with the command line, you can use the Terminal (In Hub, New &gt; Terminal) and follow the steps outlined in <a href="https://nasa-openscapes.github.io/2021-Cloud-Hackathon/clinic/notebooks.html#introduction-version-control-git-and-github">the Clinic section</a>.</p>
+</blockquote>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../tutorials/index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Tutorials Overview</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../tutorials/01_Data_Discovery_CMR.html" class="pagination-link">
+        <span class="nav-page-text">01. Data discovery with CMR</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">Pseudo Lab (2023). 2023 Everyday AI Hackathon</div>
+  </div>
+</footer>
+
+
+
+</body></html>
