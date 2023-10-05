@@ -1,1 +1,1 @@
-Sitemap: https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/sitemap.xml
+Sitemap: https://github.com/Pseudo-Lab/huggingface-hackathon23/sitemap.xml
