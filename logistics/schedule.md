@@ -2,15 +2,15 @@
 title: Schedule
 ---
 
-**The 2021 Cloud Hackathon will take place November 15-19 from 9am-1pm PST [(UTC-8)](https://www.timeanddate.com/time/zones/pst) each day**.   
+**The 2023 Everday AI Hackathon will take place October 20 - November 10th**.   
 
-An optional pre-hackathon clinic will be held on November 9 from 8-10am PST, and the recording will be made available to all hackathon participants to review on their own.
+An optional pre-hackathon clinic will be held on October 15th from 8-10am KST, and the recording will be made available to all hackathon participants to review on their own.
 
-All Cloud Hackathon activities are **virtual**. We will engage primarily with this group and schedule via Zoom and Slack; see [prerequisites & getting help](https://nasa-openscapes.github.io/2021-Cloud-Hackathon/logistics/prerequisites.html).
+Most Everyday AI Hackathon activities are **virtual**. We will engage primarily with this group and schedule via Google Meet and Discord; see [prerequisites & getting help](https://pseudo-lab.github.io/2023-EverdayAI-Hackathon/logistics/prerequisites.html).
 
-**Zoom links** will be posted on the `2021-nasacloudhack-general` Slack channel
+**Google Meet links** will be posted on the `2023-everydayaihack-general` Discord channel
  
-## Hackathon Day 1: November 15
+## Hackathon Day 1: October 20
 
 ```{.include}
 _schedule-day1.md

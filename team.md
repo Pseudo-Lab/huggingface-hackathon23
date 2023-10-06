@@ -1,73 +1,22 @@
 ---
 title: Our Team
+format:
+  html:
+    css: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
 ---
 
 ## Main Instructors and Support
 
-This effort was supported by the whole NASA Openscapes Mentors cohort, with the following main folks listed alphabetically.
+This effort was supported by the whole Hugging Face KREW team, with the following main folks listed alphabetically.
 
 
-### Andy Barrett
-
-![](https://avatars.githubusercontent.com/u/2358591?v=4){width=20% fig-alt="picture of Andy Barrett"}
-
-**Affiliations:** NSIDC DAAC, University of Colorado
-<!--- **Ask me about:** NSIDC DAAC data access and services --->
-
-### Aaron Friesz
-
-![](https://avatars.githubusercontent.com/u/7210313?v=4){width=20% fig-alt="picture of Aaron Friesz"}
-
-**Affiliations:** USGS, LP DAAC
-
-### Luis Lopez
-
-![](https://avatars.githubusercontent.com/u/717735?v=4){width=20% fig-alt="picture of Luis Lopez"}
-
-**Affiliations:** NSIDC
-
-### Julie Lowndes
-
-![](https://avatars.githubusercontent.com/u/5891909?v=4){width=20% fig-alt="picture of Julie Lowndes"}
-
-**Affiliations:** Openscapes, NCEAS, UC Santa Barbara
-
-### Jack McNelis
-
-![](https://avatars.githubusercontent.com/u/27017734?v=4){width=20% fig-alt="picture of Jack McNelis"}
-
-**Affiliations:** PO.DAAC
-
-### Catalina Oaida
-
-![](https://avatars.githubusercontent.com/u/51928352?v=4){width=20% fig-alt="picture of Catalina Oaida"}
-
-**Affiliations:** PO.DAAC, NASA Jet Propulsion Laboratory/California Institute of Technology
-
-
-### Erin Robinson
-
-![](https://avatars.githubusercontent.com/u/2915555?v=4){width=20% fig-alt="picture of Erin Robinson"}
-
-**Affiliations:** Openscapes, Metadata Game Changers, University of Colorado
-
-### Amy Steiker
-
-![](https://avatars.githubusercontent.com/u/47193922?v=4){width=20% fig-alt="picture of Amy Steiker"}
-
-**Affiliations:** NSIDC DAAC, CIRES, University of Colorado
-
-
-### Makhan Virdi
-
-![](https://avatars.githubusercontent.com/u/123472?v=4){width=20% fig-alt="picture of Makhan Virdi"}
-
-**Affiliations:** Atmospheric Science Data Center (ASDC), NASA Langley Research Center (LaRC)
+|          | Chanran Kim | Gabriel Yang | Hyunseo Yun | Kihoon Son | Nayeon Han | Sohyun Sim | Wonhyeong Seo | Woojun Jung |
+|----------|-------------|--------------|-------------|------------|------------|------------|---------------|-------------|
+| **Image**| ![](https://avatars.githubusercontent.com/u/4317641?v=4){width=5em fig-alt="picture of Kim"} | ![](https://avatars.githubusercontent.com/u/102908949?v=4){width=5em fig-alt="picture of Gabriel"} | ![](https://avatars.githubusercontent.com/u/47289574?v=4){width=5em fig-alt="picture of Hyunseo Yun"} | ![](https://avatars.githubusercontent.com/u/75935546?v=4){width=5em fig-alt="picture of Kihoon Son"} | ![](https://avatars.githubusercontent.com/u/33839093?v=4){width=5em fig-alt="picture of Nayeon Han"} | ![](https://avatars.githubusercontent.com/u/96299403?v=4){width=5em fig-alt="picture of Sohyun Sim"} | ![](https://avatars.githubusercontent.com/u/29195190?v=4){width=5em fig-alt="picture of Wonhyeong Seo"} | ![](https://avatars.githubusercontent.com/u/46880056?v=4){width=5em fig-alt="picture of Woojun Jung"} |
+| **Links** | <i class="fa fa-linkedin-square"></i>&nbsp;&nbsp;<i class="fa fa-github"></i> | <i class="fa fa-linkedin-square"></i>&nbsp;&nbsp;<i class="fa fa-github"></i> | <i class="fa fa-linkedin-square"></i>&nbsp;&nbsp;<i class="fa fa-github"></i> | <i class="fa fa-linkedin-square"></i>&nbsp;&nbsp;<i class="fa fa-github"></i> | <i class="fa fa-linkedin-square"></i>&nbsp;&nbsp;<i class="fa fa-github"></i> | <i class="fa fa-linkedin-square"></i>&nbsp;&nbsp;<i class="fa fa-github"></i> | <i class="fa fa-linkedin-square"></i>&nbsp;&nbsp;<i class="fa fa-github"></i> | <i class="fa fa-linkedin-square"></i>&nbsp;&nbsp;<i class="fa fa-github"></i> |
 
 ## Hackathon Helpers
 
-- Mike Gangl, PO.DAAC
-- Jinbo Wang, JPL
-- Celia	Ou, PO.DAAC
-- Ed, Armstrong, JPL
+- Arthur Zucker, Hugging Face
+- Lysandre Debut, Hugging Face
 

@@ -3,25 +3,25 @@ project:
 
 website:
   page-navigation: true  
-  title: "2021 Cloud Hackathon"
-  site-url: https://nasa-openscapes.github.io/2021-Cloud-Hackathon
+  title: "2023 Everyday AI Hackathon"
+  site-url: https://pseudo-lab.github.io/2023-EverydayAI-Hackathon
   
-  repo-url: https://github.com/nasa-openscapes/2021-Cloud-Hackathon
+  repo-url: https://github.com/Pseudo-Lab/huggingface_krew/tree/23hackathon
   repo-actions: [edit, issue]
   
-  page-footer: "PODAAC, NSIDC DAAC and LPDAAC (2021). 2021 Cloud Hackathon" 
+  page-footer: "Pseudo Lab (2023). 2023 Everyday AI Hackathon" 
  
   sidebar:
-    logo: https://user-images.githubusercontent.com/2915555/133525653-2a2278b1-1015-4350-b2a5-160d125aaaf7.png
+    logo: https://github.com/Pseudo-Lab/huggingface_krew/assets/29195190/78f067c4-99e0-42bc-8d9f-06155c4ee9be
     pinned: true
     align: center
     tools: 
       - icon: globe
-        href: https://nasa-openscapes.github.io
-        text: "NASA-Openscapes website"
+        href: https://pseudo-lab.github.io
+        text: "PseudoLab website"
       - icon: github
-        href: https://github.com/nasa-openscapes/2021-Cloud-Hackathon
-        text: "2021 Cloud Hackathon repo"
+        href: https://github.com/Pseudo-Lab/huggingface_krew/tree/23hackathon
+        text: "2023 Everyday AI Hackathon repo"
     
     style: "docked"
     search: true
@@ -30,7 +30,7 @@ website:
       - section: "Welcome"
         contents:
           - index.md
-          - cloud-paradigm.md
+          - huggingface.md
           - team.md
       - section: "Logistics"
         contents:

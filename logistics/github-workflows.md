@@ -1,5 +1,5 @@
 ---
-title: GitHub/Jupyter workflows
+title: GitHub/Hugging Face workflows
 ---
 
 We will be live-coding during the tutorials and collaborating during the project hack-time, using GitHub in both cases. Here is how to setup and work for each. 
