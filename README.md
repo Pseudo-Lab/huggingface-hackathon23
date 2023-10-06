@@ -1,85 +1,99 @@
+## Everyday AI Hackathon: A Hugging Face Community Event
 
-## Cloud Hackathon: Transitioning Earthdata Workflows to the Cloud
+![banner]()
 
-![banner](https://user-images.githubusercontent.com/2915555/133526401-b79abf6c-ab0d-438d-9927-da39b7c17b96.jpg)
+## Welcome
 
-### Welcome
+Welcome to the **Everyday AI Hackathon: A Hugging Face Community Event**, hosted by PseudoLab, with the aim to strengthen the Korean AI community by exploring innovative and practical applications of AI using Hugging Face technology.
 
-Welcome to **Cloud Hackathon: Transitioning Earthdata Workflows to the Cloud,** co-hosted by the NASA EOSDIS Physical Oceanography Distributed Active Archive Center ([PO.DAAC](https://podaac.jpl.nasa.gov/)), National Snow and Ice Data Center DAAC ([NSIDC DAAC](https://nsidc.org/daac)), Land Processes Distributed Active Archive Center ([LP.DAAC](https://lpdaac.usgs.gov/)), with support provided by [ASDC DAAC](https://asdc.larc.nasa.gov/), [GES DISC](https://disc.gsfc.nasa.gov), [IMPACT](https://impact.earthdata.nasa.gov/), and [NASA Openscapes](https://nasa-openscapes.github.io/) Project.
+The hackathon will take place **virtually** from Oct 20 - Nov 10, 2023. Culminating in a 4-hour offline event on Nov 11th for presentations and community building. The event is free to attend, but an application is required.
 
-The Cloud Hackathon will take place **virtually** from **November 15-19, 2021.** The event is free to attend, but an application is required.The application period (September 21 - October 12, 2021) is now closed. Those who applied will be informed of the outcome on or around October 20th, 2021.
+## About
 
+The **Everyday AI Hackathon** is a collaborative open science learning experience aimed at fostering innovation and practical knowledge in AI. The goals are to:
 
-### About
+- **Empower Participants:** Enable every participant to harness the power of AI to solve real-world problems and make a positive impact.
+- **Foster Learning and Collaboration:** Create a supportive environment where participants can learn from each other, share knowledge, and collaborate to bring ideas to life.
+- **Promote Practical Application of AI:** Encourage the development and implementation of AI solutions that are applicable and beneficial in everyday scenarios.
+- **Strengthen Community Engagement:** Build a strong, inclusive, and diverse community that continues to collaborate and grow in the field of AI, contributing to open science and open data initiatives.
 
-The **Cloud Hackathon: Transitioning Earthdata Workflows to the Cloud** is a virtual 5-day (4 hours per day) collaborative open science learning experience aimed at exploring, creating, and promoting effective cloud-based science and applications workflows using NASA Earthdata Cloud data, tools, and services (among others), in support of Earth science data processing and analysis in the era of big data. Its goals are to:
+**Outcome**: Participants will prototype AI applications, developing practical AI solutions and contributing to the open community. This event is an opportunity for individuals of all levels to explore, learn, and prototype workflows, enhancing their skills and understanding of AI.
 
+This is an opportunity for researchers, students, and professionals who might not yet have had the opportunity to work with Hugging Face technology to explore, learn, and prototype workflows, but more intermediate or advanced users interested in further exploring AI applications are also welcome.
 
+## Application
 
-1. **Introduce** Earth science data users to NASA Earthdata cloud-based data products, tools and services in order to increase awareness and support transition to cloud-based science and applications workflows.
-2. **Enable** science and applications workflows in the cloud that leverage NASA Earth Observations and capabilities (services) from within the NASA Earthdata Cloud, hosted in Amazon Web Services (AWS) cloud, thus increasing NASA Earthdata data utility and meaningfulness for science and applications use cases.
-3. **Foster community engagement** utilizing Earthdata cloud tools and services in support of open science and open data.
+### Information for applicants
 
-**Outcome**: Participants prototype their science and applications workflows (via hackathon projects) that leverage Earthdata Cloud data and services (focusing on, but not limited to, oceanography, cryosphere, hydrology and land data), which supports them in their transition to cloud-based or hybrid workflows for data processing and analysis.
+The Everyday AI Hackathon is where participants will explore the intersection of AI, Hugging Face technology, and daily life through demonstration tutorials and hands-on “hacking” projects. To best benefit from the event, we recommend some familiarity or experience with:
 
-This is an opportunity for researchers that might not yet have had the opportunity to work in the Cloud to explore, learn and prototype workflows with NASA Earthdata in the Cloud, but more intermediate or advanced cloud users interested in further exploring cloud workflows with Earthdata Cloud data and service are also welcome.
+- Hugging Face technology and tools; and
+- Programming skills using Python. We plan to accept participants with diverse skill levels and backgrounds in programming. However, to best benefit from and contribute to the program, participants are expected to have some experience with Python programming.
 
+No prior experience with Hugging Face technology is required, but we encourage both beginner and more experienced participants to apply.
 
-### Application
+### Application Form
 
-#### Information for applicants
+In the application form, we encourage you to think about and provide an AI use case that you would like to prototype. During the hackathon, participants will get into teams of their choosing, around a common use case to “hack” - by which we mean collaboratively experiment working in with Hugging Face technology. The use cases provided in the application form will also help the organizers best prepare materials tailored to those use cases.
 
-The Cloud Hackathon will be a virtual event held November 15-19, 2021, where participants will explore the intersection of Earth science data, cloud computing, and big data analysis through demonstration tutorials and hands-on “hacking” projects. To best benefit from the event, we recommend some familiarity or experience with:
+**Applications are now open! Please apply [here]()**
 
-* NASA Earthdata data (focusing on oceanography, cryosphere, hydrology, cryosphere and land data, including interdisciplinary applications); and
-* Programming skills using Python. We plan to accept participants with diverse skill levels and backgrounds in programming. However, to best benefit from and contribute to the program, participants are expected to have some experience with Python programming.
+## What to expect
 
-No cloud computing experience is required, but we encourage both beginner and more experienced participants with AWS cloud to apply.
+* During the Everyday AI Hackathon, the selected participants will have access to Cloud environments and will be guided on how to use the environment, import needed data recipes and resources, and will have the opportunity to explore and develop AI applications using example tutorials as building blocks.
+* Participants will be able to freely ask questions about the hackathon through a dedicated discord channel as well as engage with other participants.
+* The Everyday AI Hackathon is an open science event: all tutorials and examples are developed openly and will be publicly available during and following the hackathon. Participants will strengthen their practice of open science, using open source code and “hacking” their projects openly to enable further discovery and contributions by the broader open community following the hackathon.
+* Throughout the hackathon, participants will learn about Hugging Face's impact on AI workflows for model and dataset discovery, usage, and prototyping to enable faster, more efficient time to science.
 
-If selected, participants will have the option to attend a Carpentries-style github, python, shell scripting clinic ahead of the Cloud Hachathon.
+In the two weeks leading up to the hackathon, participants are encouraged to review **background resources** that will faciliate a more effective hackathon experience. These resources will be shared here leading up to the Hackathon dates, and will be accessible to all data users, whether they attend the hackathon or not.
 
-#### Application Form
+**The following datasets are currently available from the Hugging Face Hub.** Participants can choose to prototype a cloud-based science workflow using a combination of these datasets, as well as data from other sources (e.g. AI Hub). If your preferred dataset is not yet available in the Hugging Face Hub, consider using a current cloud-based dataset as proxy to explore prototyping.
 
-In the application form, we encourage you to think about and provide a science use case that you would like to prototype in the cloud. At the beginning of the hackathon, participants will be able to pitch their use case to support the formation of “hack” projects - by which we mean collaboratively experiment working in with NASA Earthdata data and capabilities in the Cloud. During the hackathon, participants will get into teams of their choosing, around a common use case to “hack” in the cloud. The use cases provided in the application form will also help the organizers best prepare materials tailored to those use cases.
-
-**The application period has now closed. Thank you for your interest.**
-
-
-### What to expect
-
-* During the Cloud Hackathon, the selected participants will have access to cloud environments in AWS through a JupyterHub interface, provided through 2i2c.
-* Participants will be guided on how to log into the cloud environment, import needed data recipes and resources, and will have the opportunity to explore and develop science and applications workflows in a cloud environment (hosted in AWS) using example tutorials as building blocks.
-* The Cloud Hackathon is an open science event: all tutorials and examples are developed openly and will be publicly available during and following hackathon. Participants will strengthen their practice of open science, using open source code and “hacking” their projects openly to enable further discovery and contributions by the broader open community following the hackathon.
-* Throughout the hackathon, participants will learn about NASA’s Earthdata move to the cloud and Earthdata APIs for data discovery, access, and transformations to enable faster, more efficient time to science.
-
-In the two to three weeks leading up to the hackathon, participants are encouraged to review **background resources** that will facilitate a more effective hackathon experience. These resources will be shared here leading up to the Hackathon dates, and will be accessible to all data users, whether they attend the hackathon or not.
-
-**The following datasets are currently available from the NASA Earthdata Cloud.** Participants can choose to prototype a cloud-based science workflow using a combination of these datasets, as well as other non-Earthdata Cloud data. If your preferred dataset is not yet available in the Earthdata Cloud, consider using a current cloud-based dataset as proxy to explore prototyping.
+**Example use cases** to explore (note these are for inspiration only, you are not limited to these workflows):
 
 
-* [https://search.earthdata.nasa.gov/search?ff=Available%20from%20AWS%20Cloud](https://search.earthdata.nasa.gov/search?ff=Available%20from%20AWS%20Cloud)
+* TODO
 
-**Example** **use** **cases** to explore in the cloud (note these are for inspiration only, you are not limited to these workflows):
+This event is motivated by the dawn of the era of AI. Hugging Face is in the process of collecting models and datasets to its Hub, driven by a rapid rate of transformers-based innovations in the industry. More will be available in the Hugging Face Hub in the coming years. The paradigm shift from on-premise (local) to cloud-based model distribution, and that from “build from scratch” to “use and iterate” present opportunities and challenges. Guiding users through this transition is of the utmost importance.
 
+## FAQ
 
+- **Q: Who can apply to participate in the hackathon?**
+  
+  A: Anyone with an interest in AI and Hugging Face technology, from beginners to advanced users, is welcome to apply.
 
-* Use the advanced wildcard search capabilities in Earthdata Search Client/Common Metadata Repository (CMR) to precisely search/select all cloud-archived Sentinel-6A granules
-    * from a specific cycle (i.e. a sequence orbits that together provide global spatial coverage), and/or
-    * from a specific pass(es) over multiple cycles (i.e. selected orbits over a series of cycles that together provide a time series coverage).
-    * Then, prepare the data for gridding or for local analysis at space/time scales which are appropriate for the target analysis (and limited by default given the length of S6A data record...)
-* Time series analysis across multi-mission measurements spanning data housed both within and outside of NASA Earthdata Cloud, to develop a workflow that can accommodate different data locations, as data continue to migrate to the Cloud:
-    * Programmatically search for a data variable (e.g. altimetry measurements) at a single point or area of interest across multiple datasets and identify whether the data are available in the Cloud
-    * Acquire the data based on archived location and combine in order to produce a homogenous time series
-* Explore/leverage cloud-optimized formats (COFs) such as Zarr to compute global or regional climatology and anomalies for a large-volume dataset (e.g. 1-km MUR SST) without having to download data (in-cloud analysis).
-* Subset Level 2 swath dataset of interest spatially and for specific variable and do some exploratory analysis and visualization from within the cloud.
-* Use NASA’s CMR-STAC API to search and discover Harmonized Landsat Sentinel-2 (HLS) cloud assets based on cloud data products, area of interest, and date range query parameters.
-* Harmonized Landsat Sentinel-2 (HLS) for land monitoring: access, explore, and visualize time series surface reflectance data in the cloud.
+- **Q: Is there any fee to attend the hackathon?**
+  
+  A: No, the event is free to attend, but an application is required.
 
+- **Q: Will there be any prizes or certificates for participants?**
+  
+  A: Yes, prizes will include certificates, official Hugging Face swags, and Hugging Face Hub credits.
 
+- **Q: Can I participate if I don’t have any experience with Hugging Face technology?**
+  
+  A: Absolutely! The hackathon is a learning experience, and participants of all levels are encouraged to apply.
 
+- **Q: Will there be any post-event engagement or follow-up?**
+  
+  A: Yes, efforts will be made to sustain engagement and collaboration within the community post-event, with platforms or forums for continued knowledge sharing and interaction.
 
-This event is motivated by the dawn of the era of Big Data. NASA’s Earth Observing System Data and Information System (EOSDIS) is in the process of moving EOSDIS data to the cloud, driven by a rapid rate of data ingest into the EOSDIS archive. NASA remote sensing data from both upcoming (e.g. SWOT) and existing (e.g. Terra, Aqua, ICESat-2) missions will be available in the Earthdata Cloud platform in the coming years. The paradigm shift from on-premise (local) to cloud-based data distribution, and that from “download and analyze” to “analysis in place” present opportunities and challenges. Guiding users through this transition is of the utmost importance.
+## Code of Conduct 
 
+The 2023 Everyday AI Hackathon is a safe learning space and all participants are required to abide by our [Code of Conduct](https://pseudo-lab.github.io/code-of-conduct).
 
-Cloud Hackathon: Transitioning Earthdata Workflows to the Cloud is co-hosted by NASA's PO.DAAC, NSIDC DAAC, LP.DAAC, with support from ASDC DAAC, GES DISC and the NASA Openscapes Project, and cloud computing infrastructure by 2i2c. <br>
-![Screen Shot 2021-09-15 at 5 22 15 PM](https://user-images.githubusercontent.com/2915555/133525653-2a2278b1-1015-4350-b2a5-160d125aaaf7.png) <br>
+## Acknowledgements
+
+The Everyday AI Hackathon: A Hugging Face Community Event is hosted by PseudoLab and sponsored by Hugging Face, aiming to foster innovation and learning within the Korean AI community.
+
+We thank all of the additional PseudoLab members that have have joined as helpers.
+
+Thank you to the open science community that has created software, teaching resources, and workflows that we have been able to build heavily from! These include: 
+
+- NASA, eScience Institute, University of Washington:
+  - <https://nasa-openscapes.github.io/2021-Cloud-Hackathon/>
+  - <https://uwhackweek.github.io/hackweeks-as-a-service/intro.html>
+  - <https://snowex-hackweek.github.io/website/intro.html>
+  - <https://icesat-2hackweek.github.io/learning-resources/>
+  
+This hackathon book is made with [quarto](https://quarto.org). See the [earthdata-cloud-cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/) to learn more about how we work and contributing.
