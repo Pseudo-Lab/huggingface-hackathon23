@@ -4,7 +4,7 @@ title: Logistics overview
 
 ## For Hackathon Participants
 
-Before the hackathon, please complete the [prerequisites](https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/logistics/prerequisites.html#prerequisites) and be prepared for the [daily setup](https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/logistics/prerequisites.html#daily-setup) and be familiar with the ways of [getting help](https://pseudo-lab.github.io/2023-EverydayAI-Hackathon/logistics/prerequisites.html#getting-help).
+Before the hackathon, please complete the [prerequisites](https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#prerequisites) and be prepared for the [daily setup](https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#daily-setup) and be familiar with the ways of [getting help](https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#getting-help).
 
 ## For Hackathon Helpers - A Mentor’s Guide
 
@@ -29,10 +29,10 @@ Update your Discord name temporarily to include “helper”, e.g. Wonhyeong Seo
 
 ### Github 
 
-Hackathon repo: **<https://github.com/Pseudo-Lab/huggingface_krew/tree/23hackathon>**; any updates to the main branch will be updated in this book (via GitHub Action).
+Hackathon repo: **<https://github.com/Pseudo-Lab/huggingface-hackathon23>**; any updates to the main branch will be updated in this book (via GitHub Action).
 
-* [tutorials](https://github.com/Pseudo-Lab/huggingface_krew/tree/23hackathon/tutorials) folder
-* [tutorials-templates](https://github.com/Pseudo-Lab/huggingface_krew/tree/23hackathon/tutorials-templates) folder for live coding - same as tutorials but the code is removed and only markdown remains
+* [tutorials](https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials) folder
+* [tutorials-templates](https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials-templates) folder for live coding - same as tutorials but the code is removed and only markdown remains
 * Participants will create their own repos, we can link to their projects in the cloud hackathon repo to capture the hackathon projects artifacts
 * Working with the CH repo
     * Participants are instructed to fork the CH repo to their own github, then clone the CH repo. This way they can push any updates or changes to the CH repo within their own version of the repo without impacting the original CH repo
@@ -57,7 +57,7 @@ Hackathon repo: **<https://github.com/Pseudo-Lab/huggingface_krew/tree/23hackath
 * Welcome mentor share link to CH Book during Welcome each day
 * Welcome mentor to instruct participant to spin up cloud instance if they haven’t done so that morning already
 * Tutorial presenters can also role-model having the CH Book open as a tab when they teach if they want to refer to it. 
-* Tutorial presenter will be using [template](https://github.com/Pseudo-Lab/huggingface_krew/tree/23hackathon/tutorials-templates) notebooks based on each tutorial 
+* Tutorial presenter will be using [template](https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials-templates) notebooks based on each tutorial 
 * Tutorial presenter will live code, and participants will follow along in their instance 
 * Tutorial presenter screen Google Meet level should be 130%
 
