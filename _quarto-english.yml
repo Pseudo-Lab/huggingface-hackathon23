@@ -1,0 +1,81 @@
+project:
+  title: "2023 Everyday AI Hackathon"
+  output-dir: ./_site/ko
+
+website:
+  page-navigation: true
+  site-url: https://pseudo-lab.github.io/huggingface-hackathon23/
+  page-footer: "Pseudo Lab (2023). 2023 Everyday AI Hackathon"
+  body-header: |
+    <button onclick="window.location = location.href.replace('/en/','/ko/');" class="btn btn-translate">
+      <i class="bi bi-translate"></i> 한국어 버전
+    </button>
+
+  navbar:
+    search: true
+    left:
+      - text: About
+        file: about.qmd
+      - text: Apply
+        file: apply.qmd
+      - text: Logistics
+        file: logistics/index.qmd
+      - text: Tutorial
+        file: tutorials/index.qmd
+      - text: Projects
+        file: projects/index.qmd
+    tools:
+      - icon: twitter
+        href: https://twitter.com
+      - icon: github
+        href: https://github.com
+
+  sidebar:
+    - title: About
+      style: floating
+      contents:
+        - text: About the hackathon
+          file: about.qmd
+        - text: Organizers
+          file: organizers.qmd
+        - text: Code of conduct
+          file: code-of-conduct.qmd
+
+    - title: Logistics
+      contents:
+        - text: Main Guidelines
+          file: logistics/index.qmd
+        - text: How to Form teams
+          file: logistics/how-to-form-teams.qmd
+        - text: Pre-requisites
+          file: logistics/prerequisites.qmd
+
+    - title: Tutorial
+      contents:
+        - text: Begin
+          file: tutorials/index.qmd
+        - text: Setup your environment
+          file: tutorials/00_Setup.md
+
+    - title: Projects
+      contents:
+        - text: How to submit
+          file: projects/index.qmd
+        - text: 7th PseudoCon (Offline)
+          file: projects/offline.qmd
+        - text: Completed Projects
+          file: projects/hackathon-projects.md
+      
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: [cosmo, theme-dark.scss]
+    code-background: true
+    code-copy: true
+    css: styles.css
+    toc: true
+
+filters:
+  - include-files.lua
+  - quarto

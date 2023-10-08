@@ -15,3 +15,8 @@
   margin-top: 0.3rem;
   margin-bottom: 0.3rem;
 }
+
+.btn-translate {
+  float: right;
+  /* Make the button less visible, may be off below the internal toc */
+}

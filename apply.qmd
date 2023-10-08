@@ -1,0 +1,33 @@
+::: {.content-visible when-profile="english"}
+### Information for applicants
+
+The Everyday AI Hackathon is where participants will explore the intersection of AI, Hugging Face technology, and daily life through demonstration tutorials and hands-on “hacking” projects. To best benefit from the event, we recommend some familiarity or experience with:
+
+- Hugging Face technology and tools; and
+- Programming skills using Python. We plan to accept participants with diverse skill levels and backgrounds in programming. However, to best benefit from and contribute to the program, participants are expected to have some experience with Python programming.
+
+No prior experience with Hugging Face technology is required, but we encourage both beginner and more experienced participants to apply.
+
+### Application Form
+
+In the application form, we encourage you to think about and provide an AI use case that you would like to prototype. During the hackathon, participants will get into teams of their choosing, around a common use case to “hack” - by which we mean collaboratively experiment working in with Hugging Face technology. The use cases provided in the application form will also help the organizers best prepare materials tailored to those use cases.
+
+**Applications are now open! Please apply [here]()**
+:::
+
+::: {.content-visible when-profile="korean"}
+### Information for applicants
+
+The Everyday AI Hackathon is where participants will explore the intersection of AI, Hugging Face technology, and daily life through demonstration tutorials and hands-on “hacking” projects. To best benefit from the event, we recommend some familiarity or experience with:
+
+- Hugging Face technology and tools; and
+- Programming skills using Python. We plan to accept participants with diverse skill levels and backgrounds in programming. However, to best benefit from and contribute to the program, participants are expected to have some experience with Python programming.
+
+No prior experience with Hugging Face technology is required, but we encourage both beginner and more experienced participants to apply.
+
+### Application Form
+
+In the application form, we encourage you to think about and provide an AI use case that you would like to prototype. During the hackathon, participants will get into teams of their choosing, around a common use case to “hack” - by which we mean collaboratively experiment working in with Hugging Face technology. The use cases provided in the application form will also help the organizers best prepare materials tailored to those use cases.
+
+**Applications are now open! Please apply [here]()**
+:::
