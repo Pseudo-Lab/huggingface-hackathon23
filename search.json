@@ -1,5 +1,187 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "헤커톤 소개",
+    "section": "",
+    "text": "The Everyday AI Hackathon is a collaborative open science learning experience aimed at fostering innovation and practical knowledge in AI. The goals are to:\n\nEmpower Participants: Enable every participant to harness the power of AI to solve real-world problems and make a positive impact.\nFoster Learning and Collaboration: Create a supportive environment where participants can learn from each other, share knowledge, and collaborate to bring ideas to life.\nPromote Practical Application of AI: Encourage the development and implementation of AI solutions that are applicable and beneficial in everyday scenarios.\nStrengthen Community Engagement: Build a strong, inclusive, and diverse community that continues to collaborate and grow in the field of AI, contributing to open science and open data initiatives.\n\nOutcome: Participants will prototype AI applications, developing practical AI solutions and contributing to the open community. This event is an opportunity for individuals of all levels to explore, learn, and prototype workflows, enhancing their skills and understanding of AI.\nThis is an opportunity for researchers, students, and professionals who might not yet have had the opportunity to work with Hugging Face technology to explore, learn, and prototype workflows, but more intermediate or advanced users interested in further exploring AI applications are also welcome.\n\n\n\n\nThe Everyday AI Hackathon is where participants will explore the intersection of AI, Hugging Face technology, and daily life through demonstration tutorials and hands-on “hacking” projects. To best benefit from the event, we recommend some familiarity or experience with:\n\nHugging Face technology and tools; and\nProgramming skills using Python. We plan to accept participants with diverse skill levels and backgrounds in programming. However, to best benefit from and contribute to the program, participants are expected to have some experience with Python programming.\n\nNo prior experience with Hugging Face technology is required, but we encourage both beginner and more experienced participants to apply.\n\n\n\nIn the application form, we encourage you to think about and provide an AI use case that you would like to prototype. During the hackathon, participants will get into teams of their choosing, around a common use case to “hack” - by which we mean collaboratively experiment working in with Hugging Face technology. The use cases provided in the application form will also help the organizers best prepare materials tailored to those use cases.\nApplications are now open! Please apply here\n\n\n\n\n\nDuring the Everyday AI Hackathon, the selected participants will have access to Cloud environments and will be guided on how to use the environment, import needed data recipes and resources, and will have the opportunity to explore and develop AI applications using example tutorials as building blocks.\nParticipants will be able to freely ask questions about the hackathon through a dedicated discord channel as well as engage with other participants.\nThe Everyday AI Hackathon is an open science event: all tutorials and examples are developed openly and will be publicly available during and following the hackathon. Participants will strengthen their practice of open science, using open source code and “hacking” their projects openly to enable further discovery and contributions by the broader open community following the hackathon.\nThroughout the hackathon, participants will learn about Hugging Face’s impact on AI workflows for model and dataset discovery, usage, and prototyping to enable faster, more efficient time to science.\n\nIn the two weeks leading up to the hackathon, participants are encouraged to review background resources that will faciliate a more effective hackathon experience. These resources will be shared here leading up to the Hackathon dates, and will be accessible to all data users, whether they attend the hackathon or not.\nThe following datasets are currently available from the Hugging Face Hub. Participants can choose to prototype a cloud-based science workflow using a combination of these datasets, as well as data from other sources (e.g. AI Hub). If your preferred dataset is not yet available in the Hugging Face Hub, consider using a current cloud-based dataset as proxy to explore prototyping.\nExample use cases to explore (note these are for inspiration only, you are not limited to these workflows):\n\nTODO\n\nThis event is motivated by the dawn of the era of AI. Hugging Face is in the process of collecting models and datasets to its Hub, driven by a rapid rate of transformers-based innovations in the industry. More will be available in the Hugging Face Hub in the coming years. The paradigm shift from on-premise (local) to cloud-based model distribution, and that from “build from scratch” to “use and iterate” present opportunities and challenges. Guiding users through this transition is of the utmost importance.\n\n\n\n\nQ: Who can apply to participate in the hackathon?\nA: Anyone with an interest in AI and Hugging Face technology, from beginners to advanced users, is welcome to apply.\nQ: Is there any fee to attend the hackathon?\nA: No, the event is free to attend, but an application is required.\nQ: Will there be any prizes or certificates for participants?\nA: Yes, prizes will include certificates, official Hugging Face swags, and Hugging Face Hub credits.\nQ: Can I participate if I don’t have any experience with Hugging Face technology?\nA: Absolutely! The hackathon is a learning experience, and participants of all levels are encouraged to apply.\nQ: Will there be any post-event engagement or follow-up?\nA: Yes, efforts will be made to sustain engagement and collaboration within the community post-event, with platforms or forums for continued knowledge sharing and interaction.\n\n\n\n\nThe 2023 Everyday AI Hackathon is a safe learning space and all participants are required to abide by our Code of Conduct.\n\n\n\nThe Everyday AI Hackathon: A Hugging Face Community Event is hosted by PseudoLab and sponsored by Hugging Face, aiming to foster innovation and learning within the Korean AI community.\nWe thank all of the additional PseudoLab members that have have joined as helpers.\nThank you to the open science community that has created software, teaching resources, and workflows that we have been able to build heavily from! These include:\n\nNASA, eScience Institute, University of Washington:\n\nhttps://nasa-openscapes.github.io/2021-Cloud-Hackathon/\nhttps://uwhackweek.github.io/hackweeks-as-a-service/intro.html\nhttps://snowex-hackweek.github.io/website/intro.html\nhttps://icesat-2hackweek.github.io/learning-resources/\n\n\nThis hackathon book is made with quarto. See the earthdata-cloud-cookbook to learn more about how we work and contributing."
+  },
+  {
+    "objectID": "about.html#application",
+    "href": "about.html#application",
+    "title": "헤커톤 소개",
+    "section": "",
+    "text": "The Everyday AI Hackathon is where participants will explore the intersection of AI, Hugging Face technology, and daily life through demonstration tutorials and hands-on “hacking” projects. To best benefit from the event, we recommend some familiarity or experience with:\n\nHugging Face technology and tools; and\nProgramming skills using Python. We plan to accept participants with diverse skill levels and backgrounds in programming. However, to best benefit from and contribute to the program, participants are expected to have some experience with Python programming.\n\nNo prior experience with Hugging Face technology is required, but we encourage both beginner and more experienced participants to apply.\n\n\n\nIn the application form, we encourage you to think about and provide an AI use case that you would like to prototype. During the hackathon, participants will get into teams of their choosing, around a common use case to “hack” - by which we mean collaboratively experiment working in with Hugging Face technology. The use cases provided in the application form will also help the organizers best prepare materials tailored to those use cases.\nApplications are now open! Please apply here"
+  },
+  {
+    "objectID": "about.html#what-to-expect",
+    "href": "about.html#what-to-expect",
+    "title": "헤커톤 소개",
+    "section": "",
+    "text": "During the Everyday AI Hackathon, the selected participants will have access to Cloud environments and will be guided on how to use the environment, import needed data recipes and resources, and will have the opportunity to explore and develop AI applications using example tutorials as building blocks.\nParticipants will be able to freely ask questions about the hackathon through a dedicated discord channel as well as engage with other participants.\nThe Everyday AI Hackathon is an open science event: all tutorials and examples are developed openly and will be publicly available during and following the hackathon. Participants will strengthen their practice of open science, using open source code and “hacking” their projects openly to enable further discovery and contributions by the broader open community following the hackathon.\nThroughout the hackathon, participants will learn about Hugging Face’s impact on AI workflows for model and dataset discovery, usage, and prototyping to enable faster, more efficient time to science.\n\nIn the two weeks leading up to the hackathon, participants are encouraged to review background resources that will faciliate a more effective hackathon experience. These resources will be shared here leading up to the Hackathon dates, and will be accessible to all data users, whether they attend the hackathon or not.\nThe following datasets are currently available from the Hugging Face Hub. Participants can choose to prototype a cloud-based science workflow using a combination of these datasets, as well as data from other sources (e.g. AI Hub). If your preferred dataset is not yet available in the Hugging Face Hub, consider using a current cloud-based dataset as proxy to explore prototyping.\nExample use cases to explore (note these are for inspiration only, you are not limited to these workflows):\n\nTODO\n\nThis event is motivated by the dawn of the era of AI. Hugging Face is in the process of collecting models and datasets to its Hub, driven by a rapid rate of transformers-based innovations in the industry. More will be available in the Hugging Face Hub in the coming years. The paradigm shift from on-premise (local) to cloud-based model distribution, and that from “build from scratch” to “use and iterate” present opportunities and challenges. Guiding users through this transition is of the utmost importance."
+  },
+  {
+    "objectID": "about.html#faq",
+    "href": "about.html#faq",
+    "title": "헤커톤 소개",
+    "section": "",
+    "text": "Q: Who can apply to participate in the hackathon?\nA: Anyone with an interest in AI and Hugging Face technology, from beginners to advanced users, is welcome to apply.\nQ: Is there any fee to attend the hackathon?\nA: No, the event is free to attend, but an application is required.\nQ: Will there be any prizes or certificates for participants?\nA: Yes, prizes will include certificates, official Hugging Face swags, and Hugging Face Hub credits.\nQ: Can I participate if I don’t have any experience with Hugging Face technology?\nA: Absolutely! The hackathon is a learning experience, and participants of all levels are encouraged to apply.\nQ: Will there be any post-event engagement or follow-up?\nA: Yes, efforts will be made to sustain engagement and collaboration within the community post-event, with platforms or forums for continued knowledge sharing and interaction."
+  },
+  {
+    "objectID": "about.html#code-of-conduct",
+    "href": "about.html#code-of-conduct",
+    "title": "헤커톤 소개",
+    "section": "",
+    "text": "The 2023 Everyday AI Hackathon is a safe learning space and all participants are required to abide by our Code of Conduct."
+  },
+  {
+    "objectID": "about.html#acknowledgements",
+    "href": "about.html#acknowledgements",
+    "title": "헤커톤 소개",
+    "section": "",
+    "text": "The Everyday AI Hackathon: A Hugging Face Community Event is hosted by PseudoLab and sponsored by Hugging Face, aiming to foster innovation and learning within the Korean AI community.\nWe thank all of the additional PseudoLab members that have have joined as helpers.\nThank you to the open science community that has created software, teaching resources, and workflows that we have been able to build heavily from! These include:\n\nNASA, eScience Institute, University of Washington:\n\nhttps://nasa-openscapes.github.io/2021-Cloud-Hackathon/\nhttps://uwhackweek.github.io/hackweeks-as-a-service/intro.html\nhttps://snowex-hackweek.github.io/website/intro.html\nhttps://icesat-2hackweek.github.io/learning-resources/\n\n\nThis hackathon book is made with quarto. See the earthdata-cloud-cookbook to learn more about how we work and contributing."
+  },
+  {
+    "objectID": "application.html",
+    "href": "application.html",
+    "title": "참여신청",
+    "section": "",
+    "text": "참여신청"
+  },
+  {
+    "objectID": "introduction.html",
+    "href": "introduction.html",
+    "title": "헤커톤 참여하기",
+    "section": "",
+    "text": "Welcome to the Everyday AI Hackathon: A Hugging Face Community Event, hosted by PseudoLab, with the aim to strengthen the Korean AI community by exploring innovative and practical applications of AI using Hugging Face technology.\nThe hackathon will take place virtually from Oct 20 - Nov 10, 2023. Culminating in a 4-hour offline event on Nov 11th for presentations and community building. The event is free to attend, but an application is required.\n\n\nThe Everyday AI Hackathon is a collaborative open science learning experience aimed at fostering innovation and practical knowledge in AI. The goals are to:\n\nEmpower Participants: Enable every participant to harness the power of AI to solve real-world problems and make a positive impact.\nFoster Learning and Collaboration: Create a supportive environment where participants can learn from each other, share knowledge, and collaborate to bring ideas to life.\nPromote Practical Application of AI: Encourage the development and implementation of AI solutions that are applicable and beneficial in everyday scenarios.\nStrengthen Community Engagement: Build a strong, inclusive, and diverse community that continues to collaborate and grow in the field of AI, contributing to open science and open data initiatives.\n\nOutcome: Participants will prototype AI applications, developing practical AI solutions and contributing to the open community. This event is an opportunity for individuals of all levels to explore, learn, and prototype workflows, enhancing their skills and understanding of AI.\nThis is an opportunity for researchers, students, and professionals who might not yet have had the opportunity to work with Hugging Face technology to explore, learn, and prototype workflows, but more intermediate or advanced users interested in further exploring AI applications are also welcome.\n\n\n\n\n\nThe Everyday AI Hackathon is where participants will explore the intersection of AI, Hugging Face technology, and daily life through demonstration tutorials and hands-on “hacking” projects. To best benefit from the event, we recommend some familiarity or experience with:\n\nHugging Face technology and tools; and\nProgramming skills using Python. We plan to accept participants with diverse skill levels and backgrounds in programming. However, to best benefit from and contribute to the program, participants are expected to have some experience with Python programming.\n\nNo prior experience with Hugging Face technology is required, but we encourage both beginner and more experienced participants to apply.\n\n\n\nIn the application form, we encourage you to think about and provide an AI use case that you would like to prototype. During the hackathon, participants will get into teams of their choosing, around a common use case to “hack” - by which we mean collaboratively experiment working in with Hugging Face technology. The use cases provided in the application form will also help the organizers best prepare materials tailored to those use cases.\nApplications are now open! Please apply here\n\n\n\n\n\nDuring the Everyday AI Hackathon, the selected participants will have access to Cloud environments and will be guided on how to use the environment, import needed data recipes and resources, and will have the opportunity to explore and develop AI applications using example tutorials as building blocks.\nParticipants will be able to freely ask questions about the hackathon through a dedicated discord channel as well as engage with other participants.\nThe Everyday AI Hackathon is an open science event: all tutorials and examples are developed openly and will be publicly available during and following the hackathon. Participants will strengthen their practice of open science, using open source code and “hacking” their projects openly to enable further discovery and contributions by the broader open community following the hackathon.\nThroughout the hackathon, participants will learn about Hugging Face’s impact on AI workflows for model and dataset discovery, usage, and prototyping to enable faster, more efficient time to science.\n\nIn the two weeks leading up to the hackathon, participants are encouraged to review background resources that will faciliate a more effective hackathon experience. These resources will be shared here leading up to the Hackathon dates, and will be accessible to all data users, whether they attend the hackathon or not.\nThe following datasets are currently available from the Hugging Face Hub. Participants can choose to prototype a cloud-based science workflow using a combination of these datasets, as well as data from other sources (e.g. AI Hub). If your preferred dataset is not yet available in the Hugging Face Hub, consider using a current cloud-based dataset as proxy to explore prototyping.\nExample use cases to explore (note these are for inspiration only, you are not limited to these workflows):\n\nTODO\n\nThis event is motivated by the dawn of the era of AI. Hugging Face is in the process of collecting models and datasets to its Hub, driven by a rapid rate of transformers-based innovations in the industry. More will be available in the Hugging Face Hub in the coming years. The paradigm shift from on-premise (local) to cloud-based model distribution, and that from “build from scratch” to “use and iterate” present opportunities and challenges. Guiding users through this transition is of the utmost importance.\n\n\n\n\nQ: Who can apply to participate in the hackathon?\nA: Anyone with an interest in AI and Hugging Face technology, from beginners to advanced users, is welcome to apply.\nQ: Is there any fee to attend the hackathon?\nA: No, the event is free to attend, but an application is required.\nQ: Will there be any prizes or certificates for participants?\nA: Yes, prizes will include certificates, official Hugging Face swags, and Hugging Face Hub credits.\nQ: Can I participate if I don’t have any experience with Hugging Face technology?\nA: Absolutely! The hackathon is a learning experience, and participants of all levels are encouraged to apply.\nQ: Will there be any post-event engagement or follow-up?\nA: Yes, efforts will be made to sustain engagement and collaboration within the community post-event, with platforms or forums for continued knowledge sharing and interaction.\n\n\n\n\nThe 2023 Everyday AI Hackathon is a safe learning space and all participants are required to abide by our Code of Conduct.\n\n\n\nThe Everyday AI Hackathon: A Hugging Face Community Event is hosted by PseudoLab and sponsored by Hugging Face, aiming to foster innovation and learning within the Korean AI community.\nWe thank all of the additional PseudoLab members that have have joined as helpers.\nThank you to the open science community that has created software, teaching resources, and workflows that we have been able to build heavily from! These include:\n\nNASA, eScience Institute, University of Washington:\n\nhttps://nasa-openscapes.github.io/2021-Cloud-Hackathon/\nhttps://uwhackweek.github.io/hackweeks-as-a-service/intro.html\nhttps://snowex-hackweek.github.io/website/intro.html\nhttps://icesat-2hackweek.github.io/learning-resources/\n\n\nThis hackathon book is made with quarto. See the earthdata-cloud-cookbook to learn more about how we work and contributing."
+  },
+  {
+    "objectID": "introduction.html#about",
+    "href": "introduction.html#about",
+    "title": "헤커톤 참여하기",
+    "section": "",
+    "text": "The Everyday AI Hackathon is a collaborative open science learning experience aimed at fostering innovation and practical knowledge in AI. The goals are to:\n\nEmpower Participants: Enable every participant to harness the power of AI to solve real-world problems and make a positive impact.\nFoster Learning and Collaboration: Create a supportive environment where participants can learn from each other, share knowledge, and collaborate to bring ideas to life.\nPromote Practical Application of AI: Encourage the development and implementation of AI solutions that are applicable and beneficial in everyday scenarios.\nStrengthen Community Engagement: Build a strong, inclusive, and diverse community that continues to collaborate and grow in the field of AI, contributing to open science and open data initiatives.\n\nOutcome: Participants will prototype AI applications, developing practical AI solutions and contributing to the open community. This event is an opportunity for individuals of all levels to explore, learn, and prototype workflows, enhancing their skills and understanding of AI.\nThis is an opportunity for researchers, students, and professionals who might not yet have had the opportunity to work with Hugging Face technology to explore, learn, and prototype workflows, but more intermediate or advanced users interested in further exploring AI applications are also welcome."
+  },
+  {
+    "objectID": "introduction.html#application",
+    "href": "introduction.html#application",
+    "title": "헤커톤 참여하기",
+    "section": "",
+    "text": "The Everyday AI Hackathon is where participants will explore the intersection of AI, Hugging Face technology, and daily life through demonstration tutorials and hands-on “hacking” projects. To best benefit from the event, we recommend some familiarity or experience with:\n\nHugging Face technology and tools; and\nProgramming skills using Python. We plan to accept participants with diverse skill levels and backgrounds in programming. However, to best benefit from and contribute to the program, participants are expected to have some experience with Python programming.\n\nNo prior experience with Hugging Face technology is required, but we encourage both beginner and more experienced participants to apply.\n\n\n\nIn the application form, we encourage you to think about and provide an AI use case that you would like to prototype. During the hackathon, participants will get into teams of their choosing, around a common use case to “hack” - by which we mean collaboratively experiment working in with Hugging Face technology. The use cases provided in the application form will also help the organizers best prepare materials tailored to those use cases.\nApplications are now open! Please apply here"
+  },
+  {
+    "objectID": "introduction.html#what-to-expect",
+    "href": "introduction.html#what-to-expect",
+    "title": "헤커톤 참여하기",
+    "section": "",
+    "text": "During the Everyday AI Hackathon, the selected participants will have access to Cloud environments and will be guided on how to use the environment, import needed data recipes and resources, and will have the opportunity to explore and develop AI applications using example tutorials as building blocks.\nParticipants will be able to freely ask questions about the hackathon through a dedicated discord channel as well as engage with other participants.\nThe Everyday AI Hackathon is an open science event: all tutorials and examples are developed openly and will be publicly available during and following the hackathon. Participants will strengthen their practice of open science, using open source code and “hacking” their projects openly to enable further discovery and contributions by the broader open community following the hackathon.\nThroughout the hackathon, participants will learn about Hugging Face’s impact on AI workflows for model and dataset discovery, usage, and prototyping to enable faster, more efficient time to science.\n\nIn the two weeks leading up to the hackathon, participants are encouraged to review background resources that will faciliate a more effective hackathon experience. These resources will be shared here leading up to the Hackathon dates, and will be accessible to all data users, whether they attend the hackathon or not.\nThe following datasets are currently available from the Hugging Face Hub. Participants can choose to prototype a cloud-based science workflow using a combination of these datasets, as well as data from other sources (e.g. AI Hub). If your preferred dataset is not yet available in the Hugging Face Hub, consider using a current cloud-based dataset as proxy to explore prototyping.\nExample use cases to explore (note these are for inspiration only, you are not limited to these workflows):\n\nTODO\n\nThis event is motivated by the dawn of the era of AI. Hugging Face is in the process of collecting models and datasets to its Hub, driven by a rapid rate of transformers-based innovations in the industry. More will be available in the Hugging Face Hub in the coming years. The paradigm shift from on-premise (local) to cloud-based model distribution, and that from “build from scratch” to “use and iterate” present opportunities and challenges. Guiding users through this transition is of the utmost importance."
+  },
+  {
+    "objectID": "introduction.html#faq",
+    "href": "introduction.html#faq",
+    "title": "헤커톤 참여하기",
+    "section": "",
+    "text": "Q: Who can apply to participate in the hackathon?\nA: Anyone with an interest in AI and Hugging Face technology, from beginners to advanced users, is welcome to apply.\nQ: Is there any fee to attend the hackathon?\nA: No, the event is free to attend, but an application is required.\nQ: Will there be any prizes or certificates for participants?\nA: Yes, prizes will include certificates, official Hugging Face swags, and Hugging Face Hub credits.\nQ: Can I participate if I don’t have any experience with Hugging Face technology?\nA: Absolutely! The hackathon is a learning experience, and participants of all levels are encouraged to apply.\nQ: Will there be any post-event engagement or follow-up?\nA: Yes, efforts will be made to sustain engagement and collaboration within the community post-event, with platforms or forums for continued knowledge sharing and interaction."
+  },
+  {
+    "objectID": "introduction.html#code-of-conduct",
+    "href": "introduction.html#code-of-conduct",
+    "title": "헤커톤 참여하기",
+    "section": "",
+    "text": "The 2023 Everyday AI Hackathon is a safe learning space and all participants are required to abide by our Code of Conduct."
+  },
+  {
+    "objectID": "introduction.html#acknowledgements",
+    "href": "introduction.html#acknowledgements",
+    "title": "헤커톤 참여하기",
+    "section": "",
+    "text": "The Everyday AI Hackathon: A Hugging Face Community Event is hosted by PseudoLab and sponsored by Hugging Face, aiming to foster innovation and learning within the Korean AI community.\nWe thank all of the additional PseudoLab members that have have joined as helpers.\nThank you to the open science community that has created software, teaching resources, and workflows that we have been able to build heavily from! These include:\n\nNASA, eScience Institute, University of Washington:\n\nhttps://nasa-openscapes.github.io/2021-Cloud-Hackathon/\nhttps://uwhackweek.github.io/hackweeks-as-a-service/intro.html\nhttps://snowex-hackweek.github.io/website/intro.html\nhttps://icesat-2hackweek.github.io/learning-resources/\n\n\nThis hackathon book is made with quarto. See the earthdata-cloud-cookbook to learn more about how we work and contributing."
+  },
+  {
+    "objectID": "logistics/github-workflows.html",
+    "href": "logistics/github-workflows.html",
+    "title": "GitHub/Hugging Face workflows",
+    "section": "",
+    "text": "We will be live-coding during the tutorials and collaborating during the project hack-time, using GitHub in both cases. Here is how to setup and work for each.\nNote: we’ll be using Git together with GitHub and will talk about them interchangeably."
+  },
+  {
+    "objectID": "logistics/github-workflows.html#first-time-setup",
+    "href": "logistics/github-workflows.html#first-time-setup",
+    "title": "GitHub/Hugging Face workflows",
+    "section": "First-Time Setup",
+    "text": "First-Time Setup\n\nFork the hackathon repo\nGo to https://github.com/nasa-openscapes/2021-Cloud-Hackathon and fork the repository. This will enable you to you can edit your own copy and live-code with us\n\nNote: The term fork means that you are going to copy the project into your own user space in Github\n\n\n\n\nFork a copy\n\n\n\n\nClone your forked repo into JupyterHub\nOpen your terminal\ngit clone https://github.com/YOUR-USERNAME/2021-Cloud-Hackathon\ndon’t do all the credentials/token — they don’t need push access to follow along with the tutorials. We can help them via Slack/breakouts when/if they need to push with tokens"
+  },
+  {
+    "objectID": "logistics/github-workflows.html#daily-setup",
+    "href": "logistics/github-workflows.html#daily-setup",
+    "title": "GitHub/Hugging Face workflows",
+    "section": "Daily Setup",
+    "text": "Daily Setup\nThe daily setup has 2 steps: get the latest into your forked copy of the repo, then get the latest of your fork into your JupyterHub.\nIf you have any conflicts with the following steps, you will likely need to commit your work, or clear your work if you don’t want to keep anything you’ve done. See below for daily setup troubleshooting as well as Git update, revert, etc.\n\nGitHub: Update your fork\nFrom github.com Fetch and merge: Update your forked repo from main by clicking “Fetch upstream” beneath the big green code button, and then the green “Fetch and merge” button. You may have to refresh the page to see any recent activity.\n\n\n\nJupyterHub: Get your fork’s updates\nGo to the JupyterHub\nGo to the GitHub extension and click the “pull button”\nIf you see\n\nYou’ll need to decide if you want to keep or delete the changes you made yesterday. This will depend on the work you did and how important it was. If you’d like to delete it, please follow delete your local changes below, and then come back above and retype git status and git pull.\nIf you’d like to keep your changes, you’ll need to commit them. You can press “Cancel” and look at the files in the “Changed” category and you can hover over the file to inspect them (open, diff, discard, add) and if you’d like to add them, they will be staged and then you can commit them with a message.\nYou could also do the above in the terminal, making sure you are in the 2021-Cloud-Hackathon directory (double check with pwd and move with cd)\ngit status\ngit pull\n\n\nDaily setup troubleshooting\nNot a git repository - in your terminal if you see the following, you likely need to cd change directory into your GitHub folder.\nfatal: not a git repository (or any parent up to mount point /home)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set)."
+  },
+  {
+    "objectID": "logistics/github-workflows.html#git-update-revert-etc",
+    "href": "logistics/github-workflows.html#git-update-revert-etc",
+    "title": "GitHub/Hugging Face workflows",
+    "section": "Git: update, revert, etc",
+    "text": "Git: update, revert, etc\nThese are some useful commands to revert/delete your local changes and update your fork with the most recent information from the main branch.\n\nDelete your local changes\nThere are several ways to delete your local changes if you were playing around and want to reset. Here are a few:\n\nUndo changes you’ve maybe saved or committed, but not pushed\nThis is less time and internet intensive (no new clone/download).\nIf you’ve got changes saved, but not yet staged, committed, or pushed, you’ll delete unstaged changes in the working directory with clean:\nYou’ll need to make sure you’re in the github repository (use pwd to check your present working directory and cd to change directory)\ngit clean -df\ngit checkout -- .\n\n\nBurn it all down\nYou’ll delete the whole repo that you have locally, and then reclone.\nYou’ll need to make sure you’re in the github repository (use pwd to check your present working directory and cd to change directory)\nrm -rf YOUR-REPO\nHere is a whole blog on how to go back in time (walk back changes), with conceptual diagrams, command line code, and screenshots from RStudio. https://ohi-science.org/news/github-going-back-in-time\n\n\n\nUpdate local branch with remote main branch\nIf while you’re working you would like to update your local your-branch with the most recent updates on the main branch on GitHub.com, there are several ways to do this. Here’s one.\ngit checkout your-branch\ngit fetch\ngit merge origin/main\n\n\nUpdate from main"
+  },
+  {
+    "objectID": "logistics/github-workflows.html#project-hacktime-setup",
+    "href": "logistics/github-workflows.html#project-hacktime-setup",
+    "title": "GitHub/Hugging Face workflows",
+    "section": "Project Hacktime Setup",
+    "text": "Project Hacktime Setup\nHere are some suggestions for collaborating with your project groups (and beyond!) using GitHub.\nThis means a combination of creating a place to collaborate (a github repository) and a shared workflow to contribute.\n\nCreate a repository on GitHub.com\nJust one person does this.\nYou can do this in one of your user/organization accounts, or ask someone from the Cloud Hackathon Team to create one for you in the NASA-Openscapes organization.\nHere are instructions for creating a repo on GitHub.com — remember to make it public so that other hackathon folks can see and help!\n\n\nDiscuss edit access vs branches\nThe person who created the repo will manage the permission.\nThe simplest way to collaborate on GitHub is if everyone has permission to edit the repository directly through the main branch. Talk to your team — folks that have experience using branches can do so but others can push changes directly to the main branch.\nHere are instructions for updating github repo permissions.\n\n\nClone repo into 2i2c\nEverybody does this.\nTo to the JupyterHub, go to your Terminal, then:\ngit clone https://github.com/USERNAME/REPOSITORY-NAME.\n\n\nCheck in as you push changes\nWhether you’re using branches or not, check in with each other as you push updates to avoid merge conflicts and have the latest progress.\nHere are instructions for a workflow with branches (optional).\n\n\nUploading files from your local computer to 2i2c\nDo this using the “Upload Files” button in JupyterHub in 2i2c, the UP arrow two over from the big blue + button."
+  },
+  {
+    "objectID": "logistics/github-workflows.html#github-qa",
+    "href": "logistics/github-workflows.html#github-qa",
+    "title": "GitHub/Hugging Face workflows",
+    "section": "GitHub Q&A",
+    "text": "GitHub Q&A\n\nWhen should I fork+clone instead of just clone?\nFrom Mike Gangl:\nA fork becomes ‘independent’ of the repository you’re forking. So you control if/when you pull in changes. a clone on the other hand, will be linked to the original repository- so if you do “pull” you’ll get the changes from the parent repository as well.\nIf you plan on contributing to a project, a fork is usually the best way to do that, if you plan on simply consuming the project (e.g. run a tutorial) then cloning is fine. A fork can always be appropriate.\nOr, if you plan on updating and making changes that you’d want to preserve, a fork allows you to do that in your own repository, whereas cloning would need you to have permissions to write (push) to the repository."
+  },
+  {
+    "objectID": "logistics/github-workflows.html#jupyter-qa",
+    "href": "logistics/github-workflows.html#jupyter-qa",
+    "title": "GitHub/Hugging Face workflows",
+    "section": "Jupyter Q&A",
+    "text": "Jupyter Q&A\n\nJupyter notebook question: is there a way to copy multiple cells at once and paste in a new notebook?\n(rather than having to go into each cell individually to copy that snippet of code)\nAnswer: while pressing shift, with the mouse or the arrow keys select the cells you want then you can press ‘C’ or right click and copy the cells and then go to a different notebook and paste them. To make this work you need to focus on the notebook not in a cell (press ESC if so)"
+  },
+  {
+    "objectID": "logistics/index.html",
+    "href": "logistics/index.html",
+    "title": "운영안내",
+    "section": "",
+    "text": "Before the hackathon, please complete the prerequisites and be prepared for the daily setup and be familiar with the ways of getting help.\n\n\nMentor = trainer = helper = any Hugging Face KREW or PseudoLab volunteer\n\n\nChannels in PseudoLab workspace\nUpdate your Discord name temporarily to include “helper”, e.g. Wonhyeong Seo (Helper)\n\nMentors’/Helper channel - #r-huggingface-krew\n\nOur back channel to coordinate amongst ourselves\n\nGeneral channel - #2023-everdayaihack-general\n\nAnnouncements, general questions and communications\n\nPitchfest channel - #2023-everdayaihack-projects\n\nParticipants discuss project ideas\nUse discord direct message (DM) for team/project work\n\nHelp channel - #2023-everdayaihack-help\n\nTroubleshooting, share screenshots, etc\nWhen you see a question you will reply to, please add the “eyes” emoji below so other helpers know that you are looking into it. Then please reply in-thread in Discord to help. Can tag additional helpers if you need further support.\n\n\n\n\n\nHackathon repo: https://github.com/Pseudo-Lab/huggingface-hackathon23; any updates to the main branch will be updated in this book (via GitHub Action).\n\ntutorials folder\ntutorials-templates folder for live coding - same as tutorials but the code is removed and only markdown remains\nParticipants will create their own repos, we can link to their projects in the cloud hackathon repo to capture the hackathon projects artifacts\nWorking with the CH repo\n\nParticipants are instructed to fork the CH repo to their own github, then clone the CH repo. This way they can push any updates or changes to the CH repo within their own version of the repo without impacting the original CH repo\nThis should be covered in Tutorial 0.\n\nWhat happens to my work on  after the 3 months?\n\nCode: push to your own Github repo\nData and analysis outputs - working on S3 solution\n\nFrom Clinic chapter: “This section is a step-by-step guide to set up git on your cloud instance and configure git to use your github.com account for managing your repositories hosted on github.com.” We are also looking into using Git Extension.\n\n\n\n\n\nHost: Wonhyeong and …\nBreak-out rooms\n\nWe will set up Breakout rooms ahead of time, and have helpers ready to meet with participants. If there are many people in breakout rooms/lots of same issues, we’ll pause the tutorial and address things together\nIf a participant is stuck and needs 1:1 help, ping one of the Google Meet hosts in the mentor/general channel to place you in a breakout room with participant X\n\nChat - Encourage participants to use the Discord general or help channel for questions, not the Google Meet chat\n\nWonhyeong will mention this in the Welcome (logistics) session beginning of Day 1\n\n\n\n\n\n\nWelcome mentor share link to CH Book during Welcome each day\nWelcome mentor to instruct participant to spin up cloud instance if they haven’t done so that morning already\nTutorial presenters can also role-model having the CH Book open as a tab when they teach if they want to refer to it.\nTutorial presenter will be using template notebooks based on each tutorial\nTutorial presenter will live code, and participants will follow along in their instance\nTutorial presenter screen Google Meet level should be 130%\n\n\n\n\n\nTutorial mentor live codes, participants follow along\nAll other helpers monitor Discord help (and general) channel for questions, people being stuck\n\nWhen you see a question you will reply to, please add the “eyes” emoji below so other helpers know that you are looking into it. Then please reply in-thread in Discord to help. Can tag additional helpers if you need further support.\nIf needed, ask host to place you and participant in breakout room temporarily for easier help/support\n\nReminder: Update your Discord name temporarily to include “helper”, e.g. “Wonhyeong Seo (Helper)”\n\n\n\n\n\nGoogle Meet host - Place participants in breakout rooms based on their team\n\nCan collaborate in Google Meet breakout rooms and in their discord team DM (direct messaging)\n\nParticipants should post any team project questions in the help discord channel; screenshot are helpful\n\nParticipants can create a DM thread with their teammates for team work discussions\n\nMentors monitor the help discord channel for questions\n\nWhen you see a question you will reply to, please add the “eyes” emoji below so other helpers know that you are looking into it. Then please reply in-thread in discord to help. Can tag additional helpers if you need further support.\nand/or ask host to be added to the team Google Meet breakout room\n\nMentors use the mentor discord channel if you need additional help from a colleague\n\nThey can then also be added to Google Meet breakout room, as needed\n\nBeyond the scheduled time for Team Hack Time, the Google Meet meeting will close out, but participants are welcome to continue to discuss via their DM in discord\n\nNo on-call mentor support beyond the scheduled team hack time session\nAdditional help from mentors available 8-9am Tue-Fri during optional office hours\n\n\n\n\n\nLog-in before we start each day to our cloud instance."
+  },
+  {
+    "objectID": "logistics/index.html#for-hackathon-helpers---a-mentors-guide",
+    "href": "logistics/index.html#for-hackathon-helpers---a-mentors-guide",
+    "title": "운영안내",
+    "section": "",
+    "text": "Mentor = trainer = helper = any Hugging Face KREW or PseudoLab volunteer\n\n\nChannels in PseudoLab workspace\nUpdate your Discord name temporarily to include “helper”, e.g. Wonhyeong Seo (Helper)\n\nMentors’/Helper channel - #r-huggingface-krew\n\nOur back channel to coordinate amongst ourselves\n\nGeneral channel - #2023-everdayaihack-general\n\nAnnouncements, general questions and communications\n\nPitchfest channel - #2023-everdayaihack-projects\n\nParticipants discuss project ideas\nUse discord direct message (DM) for team/project work\n\nHelp channel - #2023-everdayaihack-help\n\nTroubleshooting, share screenshots, etc\nWhen you see a question you will reply to, please add the “eyes” emoji below so other helpers know that you are looking into it. Then please reply in-thread in Discord to help. Can tag additional helpers if you need further support.\n\n\n\n\n\nHackathon repo: https://github.com/Pseudo-Lab/huggingface-hackathon23; any updates to the main branch will be updated in this book (via GitHub Action).\n\ntutorials folder\ntutorials-templates folder for live coding - same as tutorials but the code is removed and only markdown remains\nParticipants will create their own repos, we can link to their projects in the cloud hackathon repo to capture the hackathon projects artifacts\nWorking with the CH repo\n\nParticipants are instructed to fork the CH repo to their own github, then clone the CH repo. This way they can push any updates or changes to the CH repo within their own version of the repo without impacting the original CH repo\nThis should be covered in Tutorial 0.\n\nWhat happens to my work on  after the 3 months?\n\nCode: push to your own Github repo\nData and analysis outputs - working on S3 solution\n\nFrom Clinic chapter: “This section is a step-by-step guide to set up git on your cloud instance and configure git to use your github.com account for managing your repositories hosted on github.com.” We are also looking into using Git Extension.\n\n\n\n\n\nHost: Wonhyeong and …\nBreak-out rooms\n\nWe will set up Breakout rooms ahead of time, and have helpers ready to meet with participants. If there are many people in breakout rooms/lots of same issues, we’ll pause the tutorial and address things together\nIf a participant is stuck and needs 1:1 help, ping one of the Google Meet hosts in the mentor/general channel to place you in a breakout room with participant X\n\nChat - Encourage participants to use the Discord general or help channel for questions, not the Google Meet chat\n\nWonhyeong will mention this in the Welcome (logistics) session beginning of Day 1\n\n\n\n\n\n\nWelcome mentor share link to CH Book during Welcome each day\nWelcome mentor to instruct participant to spin up cloud instance if they haven’t done so that morning already\nTutorial presenters can also role-model having the CH Book open as a tab when they teach if they want to refer to it.\nTutorial presenter will be using template notebooks based on each tutorial\nTutorial presenter will live code, and participants will follow along in their instance\nTutorial presenter screen Google Meet level should be 130%\n\n\n\n\n\nTutorial mentor live codes, participants follow along\nAll other helpers monitor Discord help (and general) channel for questions, people being stuck\n\nWhen you see a question you will reply to, please add the “eyes” emoji below so other helpers know that you are looking into it. Then please reply in-thread in Discord to help. Can tag additional helpers if you need further support.\nIf needed, ask host to place you and participant in breakout room temporarily for easier help/support\n\nReminder: Update your Discord name temporarily to include “helper”, e.g. “Wonhyeong Seo (Helper)”\n\n\n\n\n\nGoogle Meet host - Place participants in breakout rooms based on their team\n\nCan collaborate in Google Meet breakout rooms and in their discord team DM (direct messaging)\n\nParticipants should post any team project questions in the help discord channel; screenshot are helpful\n\nParticipants can create a DM thread with their teammates for team work discussions\n\nMentors monitor the help discord channel for questions\n\nWhen you see a question you will reply to, please add the “eyes” emoji below so other helpers know that you are looking into it. Then please reply in-thread in discord to help. Can tag additional helpers if you need further support.\nand/or ask host to be added to the team Google Meet breakout room\n\nMentors use the mentor discord channel if you need additional help from a colleague\n\nThey can then also be added to Google Meet breakout room, as needed\n\nBeyond the scheduled time for Team Hack Time, the Google Meet meeting will close out, but participants are welcome to continue to discuss via their DM in discord\n\nNo on-call mentor support beyond the scheduled team hack time session\nAdditional help from mentors available 8-9am Tue-Fri during optional office hours\n\n\n\n\n\nLog-in before we start each day to our cloud instance."
+  },
+  {
+    "objectID": "logistics/prerequisites.html",
+    "href": "logistics/prerequisites.html",
+    "title": "Prerequisites & help",
+    "section": "",
+    "text": "Before the Hackathon, please do the following (20 minutes). All software is free. If you are attending the Clinic, please do this in advance of the Clinic.\n\nGitHub username\n\nCreate a GitHub account (if you don’t already have one) at https://github.com. Follow optional advice on choosing your username\nPlease provide your GitHub username here; this will allow us to add you to the cloud hackathon workspace.\nRemember your username and password; you will need to be logged in during the workshop!\n\nHugging Face account\n\nCreate a Hugging Face account (if you don’t already have one) at https://hf.co/join\nRemember your username and password; you will need to be logged in during the workshop!\n\nDiscord\n\nJoin our Discord workspace (invite sent via email). In the 2023-everydayaihack-projects channel, suggest a hackathon project idea/use case, and mention if you are looking for teammates to join. Read through other entries and comment on those of interest to you. On Day one of the hackathon we will hold a project pitchfest and finalize teams for the week.\nLearn more about how we’ll use Discord during the workshop\n\nGoogle Meet\n\nBe prepared to call into Google Meet using the link provided in the Discord 2023-everydayaihack-general Channel.\n\nGet comfortable\n\nConsider your computer set-up in advance, including an external monitor if possible. You will be following along on your own computer while also watching an instructor live-code over Google Meet (or equivalent), and will also want quick-access to Discord to ask for help and follow links."
+  },
+  {
+    "objectID": "logistics/prerequisites.html#prerequisites",
+    "href": "logistics/prerequisites.html#prerequisites",
+    "title": "Prerequisites & help",
+    "section": "",
+    "text": "Before the Hackathon, please do the following (20 minutes). All software is free. If you are attending the Clinic, please do this in advance of the Clinic.\n\nGitHub username\n\nCreate a GitHub account (if you don’t already have one) at https://github.com. Follow optional advice on choosing your username\nPlease provide your GitHub username here; this will allow us to add you to the cloud hackathon workspace.\nRemember your username and password; you will need to be logged in during the workshop!\n\nHugging Face account\n\nCreate a Hugging Face account (if you don’t already have one) at https://hf.co/join\nRemember your username and password; you will need to be logged in during the workshop!\n\nDiscord\n\nJoin our Discord workspace (invite sent via email). In the 2023-everydayaihack-projects channel, suggest a hackathon project idea/use case, and mention if you are looking for teammates to join. Read through other entries and comment on those of interest to you. On Day one of the hackathon we will hold a project pitchfest and finalize teams for the week.\nLearn more about how we’ll use Discord during the workshop\n\nGoogle Meet\n\nBe prepared to call into Google Meet using the link provided in the Discord 2023-everydayaihack-general Channel.\n\nGet comfortable\n\nConsider your computer set-up in advance, including an external monitor if possible. You will be following along on your own computer while also watching an instructor live-code over Google Meet (or equivalent), and will also want quick-access to Discord to ask for help and follow links."
+  },
+  {
+    "objectID": "logistics/prerequisites.html#getting-help",
+    "href": "logistics/prerequisites.html#getting-help",
+    "title": "Prerequisites & help",
+    "section": "Getting help",
+    "text": "Getting help\nWe will use Discord rather than Google Meet Chat as our main channel for help, since the conversations are preserved beyond a single call and since it’s easier to reply and have threaded conversations and post screenshots.\n\nDiscord\nYou will be invited to the PseudoLab Discord organization, where there is a growing community of ML experts. (New to Discord? See this Quick Start Guide). We have three private Discord channels for the Hackathon:\n2023-everydayaihack-general: General channel is for announcements and general questions and communications.\n2023-everydayaihack-projects: Projects channel is for for participants to pitch project ideas and discuss projects with the whole hackathon group. As teams form you can have direct messages with your team (and we can create new channels as needed).\n2023-everydayaihack-help: Help channel is the place to get troubleshooting help: please paste error messages and post screenshots and we will help you by replying to your post.\nTo create a screenshot:\n\nOn your Mac - Screenshot\nOn your PC - Snipping Tool\n\n\n\nGoogle Meet Breakout Rooms\n\nDuring Tutorials Session\nIf you’d like to talk to someone and live-screenshare about your issue, please write in Google Meet Chat that you need help and we will move you into a breakout room with a helper.\n\n\nDuring Team Hacktime\nDuring the team project time, you will be placed in a Google Meet breakout room with your respective teammates to collaborate more easily. If you have questions as you work, post your question(s) in the Discord 2023-everydayaihack-help Channel and a helper will respond in that thread. If needed, a helper can also join your team’s Google Meet breakour room for easy screensharing, troubleshooting or to further discuss a question."
+  },
+  {
     "objectID": "logistics/schedule.html",
     "href": "logistics/schedule.html",
     "title": "Schedule",
@@ -49,123 +231,109 @@
     "text": "Pre-Hackathon Clinic: November 9\nThis Clinic is optional and we will share a recording that participants can review ahead of time.\n\n\n\nTime, PST (UTC-8)\nEvent\nLeads/Instructors\n\n\n\n\n8:00 am\nWelcome\nJulie Lowndes, Openscapes\n\n\n8:05 am\nJupyterHub, repos, environments\nLuis Lopez, NSIDC\n\n\n9:00 am\nBreak\n\n\n\n9:05 am\nNotebooks, python, syncing\nMakhan Virdi, ASDC\n\n\n10:00 am\nClosing"
   },
   {
-    "objectID": "logistics/prerequisites.html",
-    "href": "logistics/prerequisites.html",
-    "title": "Prerequisites & help",
+    "objectID": "projects/hackathon-projects.html",
+    "href": "projects/hackathon-projects.html",
+    "title": "Hackathon Projects",
     "section": "",
-    "text": "Before the Hackathon, please do the following (20 minutes). All software is free. If you are attending the Clinic, please do this in advance of the Clinic.\n\nGitHub username\n\nCreate a GitHub account (if you don’t already have one) at https://github.com. Follow optional advice on choosing your username\nPlease provide your GitHub username here; this will allow us to add you to the cloud hackathon workspace.\nRemember your username and password; you will need to be logged in during the workshop!\n\nHugging Face account\n\nCreate a Hugging Face account (if you don’t already have one) at https://hf.co/join\nRemember your username and password; you will need to be logged in during the workshop!\n\nDiscord\n\nJoin our Discord workspace (invite sent via email). In the 2023-everydayaihack-projects channel, suggest a hackathon project idea/use case, and mention if you are looking for teammates to join. Read through other entries and comment on those of interest to you. On Day one of the hackathon we will hold a project pitchfest and finalize teams for the week.\nLearn more about how we’ll use Discord during the workshop\n\nGoogle Meet\n\nBe prepared to call into Google Meet using the link provided in the Discord 2023-everydayaihack-general Channel.\n\nGet comfortable\n\nConsider your computer set-up in advance, including an external monitor if possible. You will be following along on your own computer while also watching an instructor live-code over Google Meet (or equivalent), and will also want quick-access to Discord to ask for help and follow links."
+    "text": "On the final day of the Hackathon, 9 awesome teams presented work-in-progress projects they had been hacking on, and we were so excited to see what they had already done and their ongoing momentum. Teams evolved throughout the Hackathon, some joined as a team and welcomed others, and other teams formed and merged throughout the week.\nHackathon participants will have 3 months of continued access to the 2i2c JupyterHub and Slack as they continue experimenting. This way we can all learn more about what the transition to the Cloud looks like (and costs) and support more researchers using NASA Earthdata on the Cloud.\nBelow is brief information about each project team, with links and screenshots from slides and notebooks in GitHub repos that they shared on the final day of the Hackathon."
   },
   {
-    "objectID": "logistics/prerequisites.html#prerequisites",
-    "href": "logistics/prerequisites.html#prerequisites",
-    "title": "Prerequisites & help",
-    "section": "",
-    "text": "Before the Hackathon, please do the following (20 minutes). All software is free. If you are attending the Clinic, please do this in advance of the Clinic.\n\nGitHub username\n\nCreate a GitHub account (if you don’t already have one) at https://github.com. Follow optional advice on choosing your username\nPlease provide your GitHub username here; this will allow us to add you to the cloud hackathon workspace.\nRemember your username and password; you will need to be logged in during the workshop!\n\nHugging Face account\n\nCreate a Hugging Face account (if you don’t already have one) at https://hf.co/join\nRemember your username and password; you will need to be logged in during the workshop!\n\nDiscord\n\nJoin our Discord workspace (invite sent via email). In the 2023-everydayaihack-projects channel, suggest a hackathon project idea/use case, and mention if you are looking for teammates to join. Read through other entries and comment on those of interest to you. On Day one of the hackathon we will hold a project pitchfest and finalize teams for the week.\nLearn more about how we’ll use Discord during the workshop\n\nGoogle Meet\n\nBe prepared to call into Google Meet using the link provided in the Discord 2023-everydayaihack-general Channel.\n\nGet comfortable\n\nConsider your computer set-up in advance, including an external monitor if possible. You will be following along on your own computer while also watching an instructor live-code over Google Meet (or equivalent), and will also want quick-access to Discord to ask for help and follow links."
+    "objectID": "projects/hackathon-projects.html#field-campaigns",
+    "href": "projects/hackathon-projects.html#field-campaigns",
+    "title": "Hackathon Projects",
+    "section": "Field Campaigns",
+    "text": "Field Campaigns\n\nTeam: Tom Farrar, Kyla Drushka, Bia Villas Boas., Matthew Archer, Kathleen Dohan, Severine Fournier, Eli Hunter, John Wilkin\nPrimary Helpers: Jinbo Wang, Jack McNelis, Ed Armstrong\nSlides; GitHub: https://github.com/NASA-Openscapes/nch2021-projects-contexdata\nProject Goals: Extract and visualize multiple data sets that can be used to give context to field campaigns or other regional events (e.g., the “Warm Blob” or the recent atmospheric river event on the West Coast). For example, choose a target region and time period, cycle through all available high-resolution sea surface temperature data, identify clear images, catalog them. Extract wind, wave, sea surface height, salinity data."
   },
   {
-    "objectID": "logistics/prerequisites.html#getting-help",
-    "href": "logistics/prerequisites.html#getting-help",
-    "title": "Prerequisites & help",
-    "section": "Getting help",
-    "text": "Getting help\nWe will use Discord rather than Google Meet Chat as our main channel for help, since the conversations are preserved beyond a single call and since it’s easier to reply and have threaded conversations and post screenshots.\n\nDiscord\nYou will be invited to the PseudoLab Discord organization, where there is a growing community of ML experts. (New to Discord? See this Quick Start Guide). We have three private Discord channels for the Hackathon:\n2023-everydayaihack-general: General channel is for announcements and general questions and communications.\n2023-everydayaihack-projects: Projects channel is for for participants to pitch project ideas and discuss projects with the whole hackathon group. As teams form you can have direct messages with your team (and we can create new channels as needed).\n2023-everydayaihack-help: Help channel is the place to get troubleshooting help: please paste error messages and post screenshots and we will help you by replying to your post.\nTo create a screenshot:\n\nOn your Mac - Screenshot\nOn your PC - Snipping Tool\n\n\n\nGoogle Meet Breakout Rooms\n\nDuring Tutorials Session\nIf you’d like to talk to someone and live-screenshare about your issue, please write in Google Meet Chat that you need help and we will move you into a breakout room with a helper.\n\n\nDuring Team Hacktime\nDuring the team project time, you will be placed in a Google Meet breakout room with your respective teammates to collaborate more easily. If you have questions as you work, post your question(s) in the Discord 2023-everydayaihack-help Channel and a helper will respond in that thread. If needed, a helper can also join your team’s Google Meet breakour room for easy screensharing, troubleshooting or to further discuss a question."
+    "objectID": "projects/hackathon-projects.html#global-upwelling-patterns",
+    "href": "projects/hackathon-projects.html#global-upwelling-patterns",
+    "title": "Hackathon Projects",
+    "section": "Global Upwelling Patterns",
+    "text": "Global Upwelling Patterns\n\nTeam: Eli Holmes, Jorge Vazquez\nPrimary Helpers: Aaron Friesz, Andy Barrett, Jack McNelis\nSlides, GitHub: https://github.com/NASA-Openscapes/nhw21-projects-upwelling, Notebook: http://nbviewer.org/github/NASA-Openscapes/nhw21-projects-upwelling/blob/main/notebooks/05-Multi-year-upi-plots.ipynb\nProject Goals: Climate change is predicted to change coastal upwelling. This study explores the use of simple SST metrics for studying upwelling signatures.\n\nAlso: Running the NASA Cloud Workshop notebooks with mybinder.org - by Eli Holmes, 2021 Cloud Hackathon Participant who then set up working in Binder"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "2023 Everyday AI Hackathon",
-    "section": "",
-    "text": "Welcome to the Everyday AI Hackathon: A Hugging Face Community Event, hosted by PseudoLab, with the aim to strengthen the Korean AI community by exploring innovative and practical applications of AI using Hugging Face technology.\nThe hackathon will take place virtually from Oct 20 - Nov 10, 2023. Culminating in a 4-hour offline event on Nov 11th for presentations and community building. The event is free to attend, but an application is required."
+    "objectID": "projects/hackathon-projects.html#surface-body-water",
+    "href": "projects/hackathon-projects.html#surface-body-water",
+    "title": "Hackathon Projects",
+    "section": "Surface Body Water",
+    "text": "Surface Body Water\n\nTeam: Matthew Bonnema, Maximilian Parzen\nSlides, GitHub: https://github.com/pz-max/NASA_projectX\nProject Goals: Estimate surface area of surface water body and track changes over time. Test Case: Oroville Reservoir, California"
   },
   {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "2023 Everyday AI Hackathon",
-    "section": "",
-    "text": "Welcome to the Everyday AI Hackathon: A Hugging Face Community Event, hosted by PseudoLab, with the aim to strengthen the Korean AI community by exploring innovative and practical applications of AI using Hugging Face technology.\nThe hackathon will take place virtually from Oct 20 - Nov 10, 2023. Culminating in a 4-hour offline event on Nov 11th for presentations and community building. The event is free to attend, but an application is required."
+    "objectID": "projects/hackathon-projects.html#pypsicle-cryo-computing-in-the-cloud",
+    "href": "projects/hackathon-projects.html#pypsicle-cryo-computing-in-the-cloud",
+    "title": "Hackathon Projects",
+    "section": "Pypsicle: cryo computing in the cloud",
+    "text": "Pypsicle: cryo computing in the cloud\n\nTeam: Chad Greene, Susan Howard, Luis Lopez, Cassandra Nickles, Christine Sadlik, Jessica Scheick\nPrimary Helpers: Luis Lopez\nSlides, GitHub: https://github.com/NASA-Openscapes/nch2021-projects-pypsicle, Notebook:  https://nbviewer.org/github/NASA-Openscapes/nch2021-projects-pypsicle/blob/main/S3-h5_example_rendered.ipynb\nProject Goals: Selectively read in part of an hdf5 file, explore a dataset on the cloud"
   },
   {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "2023 Everyday AI Hackathon",
-    "section": "About",
-    "text": "About\nThe Everyday AI Hackathon is a collaborative open science learning experience aimed at fostering innovation and practical knowledge in AI. The goals are to:\n\nEmpower Participants: Enable every participant to harness the power of AI to solve real-world problems and make a positive impact.\nFoster Learning and Collaboration: Create a supportive environment where participants can learn from each other, share knowledge, and collaborate to bring ideas to life.\nPromote Practical Application of AI: Encourage the development and implementation of AI solutions that are applicable and beneficial in everyday scenarios.\nStrengthen Community Engagement: Build a strong, inclusive, and diverse community that continues to collaborate and grow in the field of AI, contributing to open science and open data initiatives.\n\nOutcome: Participants will prototype AI applications, developing practical AI solutions and contributing to the open community. This event is an opportunity for individuals of all levels to explore, learn, and prototype workflows, enhancing their skills and understanding of AI.\nThis is an opportunity for researchers, students, and professionals who might not yet have had the opportunity to work with Hugging Face technology to explore, learn, and prototype workflows, but more intermediate or advanced users interested in further exploring AI applications are also welcome."
+    "objectID": "projects/hackathon-projects.html#query-stact-for-hls-data-and-load-as-a-time-series",
+    "href": "projects/hackathon-projects.html#query-stact-for-hls-data-and-load-as-a-time-series",
+    "title": "Hackathon Projects",
+    "section": "Query stact for HLS data and load as a time series",
+    "text": "Query stact for HLS data and load as a time series\n\nTeam: Todd Hawbaker, Jodi Riegle, and Kehan Yang\nSlides; GitHub: https://github.com/tjhawbaker/nch21_hls_timeseries\nProject Goals: A cloud-deployable framework to identify burned areas in the harmonized Landsat Sentinel-2 data, and possibly other remotely sensed data sources. Basically, extending what we’ve done with Landsat to HLS data (Hawbaker et. al., 2020). The end product we are planning is code or a container that users could run in the cloud to generate a time series of burned area products for their area of interest."
   },
   {
-    "objectID": "index.html#application",
-    "href": "index.html#application",
-    "title": "2023 Everyday AI Hackathon",
-    "section": "Application",
-    "text": "Application\n\nInformation for applicants\nThe Everyday AI Hackathon is where participants will explore the intersection of AI, Hugging Face technology, and daily life through demonstration tutorials and hands-on “hacking” projects. To best benefit from the event, we recommend some familiarity or experience with:\n\nHugging Face technology and tools; and\nProgramming skills using Python. We plan to accept participants with diverse skill levels and backgrounds in programming. However, to best benefit from and contribute to the program, participants are expected to have some experience with Python programming.\n\nNo prior experience with Hugging Face technology is required, but we encourage both beginner and more experienced participants to apply.\n\n\nApplication Form\nIn the application form, we encourage you to think about and provide an AI use case that you would like to prototype. During the hackathon, participants will get into teams of their choosing, around a common use case to “hack” - by which we mean collaboratively experiment working in with Hugging Face technology. The use cases provided in the application form will also help the organizers best prepare materials tailored to those use cases.\nApplications are now open! Please apply here"
+    "objectID": "projects/hackathon-projects.html#drought-monitor",
+    "href": "projects/hackathon-projects.html#drought-monitor",
+    "title": "Hackathon Projects",
+    "section": "Drought Monitor",
+    "text": "Drought Monitor\n\nTeam: Colin Brust, Arthur Endsley\nProject Goals: Build a data pipeline library that clips, reprojects and aggregates a given dataset to a desired spatial and temporal resolution. Then, use this library to feed GHRSST data into a neural network that forecasts changes in the U.S. Drought Monitor."
   },
   {
-    "objectID": "index.html#what-to-expect",
-    "href": "index.html#what-to-expect",
-    "title": "2023 Everyday AI Hackathon",
-    "section": "What to expect",
-    "text": "What to expect\n\nDuring the Everyday AI Hackathon, the selected participants will have access to Cloud environments and will be guided on how to use the environment, import needed data recipes and resources, and will have the opportunity to explore and develop AI applications using example tutorials as building blocks.\nParticipants will be able to freely ask questions about the hackathon through a dedicated discord channel as well as engage with other participants.\nThe Everyday AI Hackathon is an open science event: all tutorials and examples are developed openly and will be publicly available during and following the hackathon. Participants will strengthen their practice of open science, using open source code and “hacking” their projects openly to enable further discovery and contributions by the broader open community following the hackathon.\nThroughout the hackathon, participants will learn about Hugging Face’s impact on AI workflows for model and dataset discovery, usage, and prototyping to enable faster, more efficient time to science.\n\nIn the two weeks leading up to the hackathon, participants are encouraged to review background resources that will faciliate a more effective hackathon experience. These resources will be shared here leading up to the Hackathon dates, and will be accessible to all data users, whether they attend the hackathon or not.\nThe following datasets are currently available from the Hugging Face Hub. Participants can choose to prototype a cloud-based science workflow using a combination of these datasets, as well as data from other sources (e.g. AI Hub). If your preferred dataset is not yet available in the Hugging Face Hub, consider using a current cloud-based dataset as proxy to explore prototyping.\nExample use cases to explore (note these are for inspiration only, you are not limited to these workflows):\n\nTODO\n\nThis event is motivated by the dawn of the era of AI. Hugging Face is in the process of collecting models and datasets to its Hub, driven by a rapid rate of transformers-based innovations in the industry. More will be available in the Hugging Face Hub in the coming years. The paradigm shift from on-premise (local) to cloud-based model distribution, and that from “build from scratch” to “use and iterate” present opportunities and challenges. Guiding users through this transition is of the utmost importance."
+    "objectID": "projects/hackathon-projects.html#county-temperatures",
+    "href": "projects/hackathon-projects.html#county-temperatures",
+    "title": "Hackathon Projects",
+    "section": "County Temperatures",
+    "text": "County Temperatures\n\nTeam: Binita KC, Xiaohua Pan\nPrimary Helpers: Alexis Hunzinger\nGitHub: https://github.com/NASA-Openscapes/nch21-projects-counties-temp, Notebook: https://github.com/NASA-Openscapes/nch21-projects-counties-temp/blob/main/Project9.ipynb\nProject Goals: Read the hourly MERRA-2 data from the GES DISC S3 bucket, subset by temperature and calculate the monthly average, ideally extract zonal mean using county shapefile"
   },
   {
-    "objectID": "index.html#faq",
-    "href": "index.html#faq",
-    "title": "2023 Everyday AI Hackathon",
-    "section": "FAQ",
-    "text": "FAQ\n\nQ: Who can apply to participate in the hackathon?\nA: Anyone with an interest in AI and Hugging Face technology, from beginners to advanced users, is welcome to apply.\nQ: Is there any fee to attend the hackathon?\nA: No, the event is free to attend, but an application is required.\nQ: Will there be any prizes or certificates for participants?\nA: Yes, prizes will include certificates, official Hugging Face swags, and Hugging Face Hub credits.\nQ: Can I participate if I don’t have any experience with Hugging Face technology?\nA: Absolutely! The hackathon is a learning experience, and participants of all levels are encouraged to apply.\nQ: Will there be any post-event engagement or follow-up?\nA: Yes, efforts will be made to sustain engagement and collaboration within the community post-event, with platforms or forums for continued knowledge sharing and interaction."
-  },
-  {
-    "objectID": "index.html#code-of-conduct",
-    "href": "index.html#code-of-conduct",
-    "title": "2023 Everyday AI Hackathon",
-    "section": "Code of Conduct",
-    "text": "Code of Conduct\nThe 2023 Everyday AI Hackathon is a safe learning space and all participants are required to abide by our Code of Conduct."
-  },
-  {
-    "objectID": "index.html#acknowledgements",
-    "href": "index.html#acknowledgements",
-    "title": "2023 Everyday AI Hackathon",
-    "section": "Acknowledgements",
-    "text": "Acknowledgements\nThe Everyday AI Hackathon: A Hugging Face Community Event is hosted by PseudoLab and sponsored by Hugging Face, aiming to foster innovation and learning within the Korean AI community.\nWe thank all of the additional PseudoLab members that have have joined as helpers.\nThank you to the open science community that has created software, teaching resources, and workflows that we have been able to build heavily from! These include:\n\nNASA, eScience Institute, University of Washington:\n\nhttps://nasa-openscapes.github.io/2021-Cloud-Hackathon/\nhttps://uwhackweek.github.io/hackweeks-as-a-service/intro.html\nhttps://snowex-hackweek.github.io/website/intro.html\nhttps://icesat-2hackweek.github.io/learning-resources/\n\n\nThis hackathon book is made with quarto. See the earthdata-cloud-cookbook to learn more about how we work and contributing."
+    "objectID": "projects/hackathon-projects.html#retrieval-of-pre-swot-data",
+    "href": "projects/hackathon-projects.html#retrieval-of-pre-swot-data",
+    "title": "Hackathon Projects",
+    "section": "Retrieval of Pre SWOT data",
+    "text": "Retrieval of Pre SWOT data\n\nTeam: Prof. J. Indu, Kaushlendra V., Nitish K., Manu K.S., Girish P.\nSlides\nProject Goals: To access multi-mission altimetry data sets and merge them to generate high temporal resolution altimetry data"
   },
   {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
-    "title": "Projects Overview",
+    "title": "프로젝트",
     "section": "",
-    "text": "The following was borrowed and adapted from the excellent SnowEx Hackathon 2021\nThis section contains everything you need to know about cloud hackathon projects."
+    "text": "The following was borrowed and adapted from the excellent SnowEx Hackathon 2021\nThis section contains everything you need to know about cloud hackathon projects.\n\n\nDuring the Cloud Hackathon we will be facilitating team hacking sessions in the second half of each day. The purpose of these sessions is for you to gain hands-on experience in working together on a well-defined problem, in a collaborative space where you can talk things through and get help.\n\n\n\nHacking is a session of focused, highly collaborative work time – often involving coding – in which the group creates conditions for rapid absorption of new ideas and methods. The word “hack” or “hackathon” has many different interpretations, both positive and negative. Here our intention is to foster the idea of hacking as a fun, interactive and welcoming environment to explore and experiment with computer code.\n\n\n\nParticipants are invited to start conversations about projects in the Slack channel 2021-nasacloudhack-projects one week before the Cloud Hackathon begins.\n\nIf you have a project idea brewing, please pitch it in this channel (even if you have signed up for the cloud hackathon as a team; tag your proposed teammates if you already have that worked out).\nStart a thread with “Project idea:” and then provide a few sentences. Include whether you are looking for teammates to join this project. Others who are interested can respond in a thread.\nWe welcome a broad range of project topics. People often use project time to dig deeper into concepts introduced in tutorials, to explore problems within their own research, or to advance community data sharing and software building efforts.\nThe Cloud Hackathon team is here to help you get clear on project ideas and decide on what is possible within 5 days. Feel free to reach out to any of us between now and the Cloud Hackathon in the 2021-nasacloudhack-help channel, or @ us – we all have “helper” appended to the front of our names. !\n\nAt the end of Day 1 of the Cloud Hackathon we will have a Pitchfest where proposer(s) can pitch their idea, and mention whether they are still looking for teammates or if they have already formed a team using the Slack _#2021-nasacloudhack-projects _channel. At this time we will finalize the project teams for the week.\nTeam hacktime will begin on Day 2.\nEach team is encouraged to identify a project lead, likely the person who pitched the idea, who has knowledge of the datasets and the specific problem to be explored. But roles can be assigned as the group decides to best fit skills and needs.\nThroughout the hackathon we will have optional morning office hours 8-9am PT for additional support or team check-in time.\nOn the final day of the Cloud Hackathon, each team will present their work in a series of lightning talks.\n\n\n\n\nIf you have a project idea already brewing, we encourage you to share that with participants on our Slack channel 2021-nasacloudhack-projects.\nFeel free to explore various projects and initiate conversations. The goal is to gather as much information as you can to inform your decision about which team to join during the Cloud Hackathon\n\n\n\n\nSuggestions for how to set up your GitHub workflow is in the GitHub Workflows section.\nThis is a great slide deck for collaborating on project teamwork collaborating from SnowEx Hackweek."
   },
   {
     "objectID": "projects/index.html#purpose-of-the-projects",
     "href": "projects/index.html#purpose-of-the-projects",
-    "title": "Projects Overview",
-    "section": "Purpose of the projects:",
-    "text": "Purpose of the projects:\nDuring the Cloud Hackathon we will be facilitating team hacking sessions in the second half of each day. The purpose of these sessions is for you to gain hands-on experience in working together on a well-defined problem, in a collaborative space where you can talk things through and get help."
+    "title": "프로젝트",
+    "section": "",
+    "text": "During the Cloud Hackathon we will be facilitating team hacking sessions in the second half of each day. The purpose of these sessions is for you to gain hands-on experience in working together on a well-defined problem, in a collaborative space where you can talk things through and get help."
   },
   {
     "objectID": "projects/index.html#what-is-hacking",
     "href": "projects/index.html#what-is-hacking",
-    "title": "Projects Overview",
-    "section": "What is hacking?",
-    "text": "What is hacking?\nHacking is a session of focused, highly collaborative work time – often involving coding – in which the group creates conditions for rapid absorption of new ideas and methods. The word “hack” or “hackathon” has many different interpretations, both positive and negative. Here our intention is to foster the idea of hacking as a fun, interactive and welcoming environment to explore and experiment with computer code."
+    "title": "프로젝트",
+    "section": "",
+    "text": "Hacking is a session of focused, highly collaborative work time – often involving coding – in which the group creates conditions for rapid absorption of new ideas and methods. The word “hack” or “hackathon” has many different interpretations, both positive and negative. Here our intention is to foster the idea of hacking as a fun, interactive and welcoming environment to explore and experiment with computer code."
   },
   {
     "objectID": "projects/index.html#how-will-the-projects-be-conducted",
     "href": "projects/index.html#how-will-the-projects-be-conducted",
-    "title": "Projects Overview",
-    "section": "How will the projects be conducted?",
-    "text": "How will the projects be conducted?\nParticipants are invited to start conversations about projects in the Slack channel 2021-nasacloudhack-projects one week before the Cloud Hackathon begins.\n\nIf you have a project idea brewing, please pitch it in this channel (even if you have signed up for the cloud hackathon as a team; tag your proposed teammates if you already have that worked out).\nStart a thread with “Project idea:” and then provide a few sentences. Include whether you are looking for teammates to join this project. Others who are interested can respond in a thread.\nWe welcome a broad range of project topics. People often use project time to dig deeper into concepts introduced in tutorials, to explore problems within their own research, or to advance community data sharing and software building efforts.\nThe Cloud Hackathon team is here to help you get clear on project ideas and decide on what is possible within 5 days. Feel free to reach out to any of us between now and the Cloud Hackathon in the 2021-nasacloudhack-help channel, or @ us – we all have “helper” appended to the front of our names. !\n\nAt the end of Day 1 of the Cloud Hackathon we will have a Pitchfest where proposer(s) can pitch their idea, and mention whether they are still looking for teammates or if they have already formed a team using the Slack _#2021-nasacloudhack-projects _channel. At this time we will finalize the project teams for the week.\nTeam hacktime will begin on Day 2.\nEach team is encouraged to identify a project lead, likely the person who pitched the idea, who has knowledge of the datasets and the specific problem to be explored. But roles can be assigned as the group decides to best fit skills and needs.\nThroughout the hackathon we will have optional morning office hours 8-9am PT for additional support or team check-in time.\nOn the final day of the Cloud Hackathon, each team will present their work in a series of lightning talks."
+    "title": "프로젝트",
+    "section": "",
+    "text": "Participants are invited to start conversations about projects in the Slack channel 2021-nasacloudhack-projects one week before the Cloud Hackathon begins.\n\nIf you have a project idea brewing, please pitch it in this channel (even if you have signed up for the cloud hackathon as a team; tag your proposed teammates if you already have that worked out).\nStart a thread with “Project idea:” and then provide a few sentences. Include whether you are looking for teammates to join this project. Others who are interested can respond in a thread.\nWe welcome a broad range of project topics. People often use project time to dig deeper into concepts introduced in tutorials, to explore problems within their own research, or to advance community data sharing and software building efforts.\nThe Cloud Hackathon team is here to help you get clear on project ideas and decide on what is possible within 5 days. Feel free to reach out to any of us between now and the Cloud Hackathon in the 2021-nasacloudhack-help channel, or @ us – we all have “helper” appended to the front of our names. !\n\nAt the end of Day 1 of the Cloud Hackathon we will have a Pitchfest where proposer(s) can pitch their idea, and mention whether they are still looking for teammates or if they have already formed a team using the Slack _#2021-nasacloudhack-projects _channel. At this time we will finalize the project teams for the week.\nTeam hacktime will begin on Day 2.\nEach team is encouraged to identify a project lead, likely the person who pitched the idea, who has knowledge of the datasets and the specific problem to be explored. But roles can be assigned as the group decides to best fit skills and needs.\nThroughout the hackathon we will have optional morning office hours 8-9am PT for additional support or team check-in time.\nOn the final day of the Cloud Hackathon, each team will present their work in a series of lightning talks."
   },
   {
     "objectID": "projects/index.html#what-can-i-do-to-prepare-in-advance",
     "href": "projects/index.html#what-can-i-do-to-prepare-in-advance",
-    "title": "Projects Overview",
-    "section": "What can I do to prepare in advance?",
-    "text": "What can I do to prepare in advance?\n\nIf you have a project idea already brewing, we encourage you to share that with participants on our Slack channel 2021-nasacloudhack-projects.\nFeel free to explore various projects and initiate conversations. The goal is to gather as much information as you can to inform your decision about which team to join during the Cloud Hackathon"
+    "title": "프로젝트",
+    "section": "",
+    "text": "If you have a project idea already brewing, we encourage you to share that with participants on our Slack channel 2021-nasacloudhack-projects.\nFeel free to explore various projects and initiate conversations. The goal is to gather as much information as you can to inform your decision about which team to join during the Cloud Hackathon"
   },
   {
     "objectID": "projects/index.html#how-to-start-hacking",
     "href": "projects/index.html#how-to-start-hacking",
-    "title": "Projects Overview",
-    "section": "How to start hacking",
-    "text": "How to start hacking\nSuggestions for how to set up your GitHub workflow is in the GitHub Workflows section.\nThis is a great slide deck for collaborating on project teamwork collaborating from SnowEx Hackweek."
+    "title": "프로젝트",
+    "section": "",
+    "text": "Suggestions for how to set up your GitHub workflow is in the GitHub Workflows section.\nThis is a great slide deck for collaborating on project teamwork collaborating from SnowEx Hackweek."
   },
   {
     "objectID": "team.html",
@@ -187,209 +355,6 @@
     "title": "Our Team",
     "section": "Hackathon Helpers",
     "text": "Hackathon Helpers\n\nArthur Zucker, Hugging Face\nLysandre Debut, Hugging Face"
-  },
-  {
-    "objectID": "tutorials/index.html",
-    "href": "tutorials/index.html",
-    "title": "Tutorials Overview",
-    "section": "",
-    "text": "These tutorials are a combination of narrative, links, code, and outputs. They have been developed for live-coding during the Hackathon, and are available for self-paced learning.\nTutorials are markdown (.md) and Jupyter (.ipynb) notebooks, and are available on GitHub:\nhttps://github.com/NASA-Openscapes/2021-Cloud-Hackathon/tree/main/tutorials."
-  },
-  {
-    "objectID": "clinic/notebooks.html",
-    "href": "clinic/notebooks.html",
-    "title": "Notebooks, Python, Git",
-    "section": "",
-    "text": "In this session, we will provide a brief introduction to:\n\nCommand line (terminal/shell)\nVersion Control (code management using git)\nProgramming in Python (using Jupyter Notebook)\nGeospatial Fundamentals (optional, self-study)\n\nYou will need a working knowledge of git and terminal for this hackathon. We will provide an overview of these topics and also share resources for self-paced learning."
-  },
-  {
-    "objectID": "clinic/notebooks.html#summary",
-    "href": "clinic/notebooks.html#summary",
-    "title": "Notebooks, Python, Git",
-    "section": "",
-    "text": "In this session, we will provide a brief introduction to:\n\nCommand line (terminal/shell)\nVersion Control (code management using git)\nProgramming in Python (using Jupyter Notebook)\nGeospatial Fundamentals (optional, self-study)\n\nYou will need a working knowledge of git and terminal for this hackathon. We will provide an overview of these topics and also share resources for self-paced learning."
-  },
-  {
-    "objectID": "clinic/notebooks.html#introduction-command-line-terminalshell",
-    "href": "clinic/notebooks.html#introduction-command-line-terminalshell",
-    "title": "Notebooks, Python, Git",
-    "section": "Introduction :: Command Line (Terminal/Shell)",
-    "text": "Introduction :: Command Line (Terminal/Shell)\n\nShell Basics\n\nWhat is Terminal or Shell?\nNavigating Files and Directories\nWorking with Files and Directories\n\n\n\nShell: More Details\nDetailed self-paced lesson on shell: Shell Lesson from Software Carpentry"
-  },
-  {
-    "objectID": "clinic/notebooks.html#introduction-version-control-git-and-github",
-    "href": "clinic/notebooks.html#introduction-version-control-git-and-github",
-    "title": "Notebooks, Python, Git",
-    "section": "Introduction :: Version Control (Git and Github)",
-    "text": "Introduction :: Version Control (Git and Github)\n\nWhat is version control, git, github, and how to set it up?\nVersion control is managing and tracking changes to your documents (program source code, images, websites, data files, etc.). git is a popular tool used for version control of software code. github.com is popular platform that provides remote server hosting for git repositories. A repository is a collection of various files that you are tracking for changes and versions (think of it as a directory with files that are being tracked for changes, using git for taking snapshots of versions as you are developing).\nThis section is a step-by-step guide to set up git on your 2i2c JupyterHub instance (referred to as 2i2c JupyterHub in these instruction). We will also configure git to use your github.com account for managing your repositories hosted on github.com. There are 5 main steps with substeps, includes instruction for addressing github’s new approach for token authentication.\n\n\nStep 1: Create a github account\nTo complete the setup, you will need an account on github.com. If you don’t have an account, please visit github.com, create an account (free) and come back to this guide for setting up git.\n\n\nStep 2: Fork a repository\nA fork is a copy of a repository from another github account (for example NASA-Openscapes account) to your github account (for example, my account virdi) that then you have permission to edit. To help you finish this setup correctly, we have created a demo repository on Openscapes github account named check_github_setup. You can fork this repository into your github account following these steps:\n\nLog in to your github.com account\nGo to the demo repository at NASA-Openscapes github\n\nClick on the fork icon in the top right corner, as shown in the image below and click your user name if prompted to do so\n\n\n\n\nStep 3: Clone the repository that you just forked\nNow you have a fork of the demo repository in your github account that we can clone it in your 2i2c instance. In the code below, commands beginning with git is a git command for version control and synching; commands that don’t start with git are bash/linux/command line commands.\n\nStart your 2i2c JupyterHub and open a terminal\nFile &gt;&gt; New &gt;&gt; Terminal\nMake sure you are in your home directory by usingpwd command and verifying the output as below\n/home/jovyan\n\nConfigure git with your name and email address.\ngit config --global user.name \"Makhan Virdi\"\ngit config --global user.email \"Makhan.Virdi@gmail.com\"\nNote: This name and email could be different from your github.com credentials. Remember git is a program that keeps track of your changes locally (on 2i2c JupyterHub or your own computer) and github.com is a platform to host your repositories. However, since your changes are tracked by git, the email/name used in git configuration will show up next to your contributions on github.com when you push your repository to github.com (git push is discussed in a later step).\nConfigure git to store your github credentials to avoid having to enter your github username and token each time you push changes to your repository(in Step 5, we will describe how to use github token instead of a password)\ngit config --global credential.helper store\nCopy link for the demo repository from your github account. Click the green “Code” button and copy the link as shown.\n\nClone the repository using git clone command in the terminal\nTo clone a repository from github, copy the link for the repository (previous step) and use git clone:\ngit clone https://github.com/YOUR-GITHUB-USERNAME/check_github_setup\nNote: Replace YOUR-GITHUB-USERNAME here with your github.com username. For example, it is virdi for my github.com account as seen in this image.\n\nUse ls (list files) to verify the existence of the repository that you just cloned\n\nChange directory to the cloned repository using cd check_github_setup and check the current directory using pwd command (present working directory)\n\nCheck status of your git repository to confirm git set up using git status\n\nYou are all set with using git on your 2i2c JupyterHub! But the collaborative power of git through github needs some additional setup.\nIn the next step, we will create a new file in this repository, track changes to this file, and link it with your github.com account.\n\n\n\nStep 4. Creating new file and tracking changes\n\nIn the left panel on your 2i2c JupyterHub, click on the “directory” icon and then double click on “check_github_setup” directory.\n\n\nOnce you are in the check_github_setup directory, create a new file using the text editor in your 2i2c JupyterHub (File &gt;&gt; New &gt;&gt; Text File).\n\nName the file lastname.txt. For example, virdi.txt for me (use your last name). Add some content to this file (for example, I added this to my virdi.txt file: my last name is virdi).\n\nNow you should have a new file (lastname.txt) in the git repository directory check_github_setup\nCheck if git can see that you have added a new file using git status. Git reports that you have a new file that is not tracked by git yet, and suggests adding that file to the git tracking system.\n\nAs seen in this image, git suggests adding that file so it can be tracked for changes. You can add file to git for tracking changes using git add. Then, you can commit changes to this file’s content using git commit as shown in the image.\ngit add virdi.txt\ngit status\ngit commit -m \"adding a new file\"\ngit status\n\nAs seen in the image above, git is suggesting to push the change that you just committed to the remote server at github.com (so that your collaborators can also see what changes you made).\nNote: DO NOT execute push yet. Before we push to github.com, let’s configure git further and store our github.com credentials to avoid entering the credentials every time we invoke git push. For doing so, we need to create a token on github.com to be used in place of your github.com password.\n\n\n\nStep 5. Create access token on github.com\n\nGo to your github account and create a new “personal access token”: https://github.com/settings/tokens/new\n\n\n\nGenerate Personal Access Token on github.com\n\n\nEnter a description in “Note” field as seen above, select “repo” checkbox, and scroll to the bottom and click the green button “Generate Token”. Once generated, copy the token (or save it in a text file for reference).\nIMPORTANT: You will see this token only once, so be sure to copy this. If you do not copy your token at this stage, you will need to generate a new token.\n\nTo push (transfer) your changes to github, use git push in terminal. It requires you to enter your github credentials. You will be prompted to enter your github username and “password”. When prompted for your “password”, DO NOT use your github password, use the github token that was copied in the previous step.\ngit push\n\nNote: When you paste your token in the terminal window, windows users will press Ctrl+V and mac os users will press Cmd+V. If it does not work, try generating another token and use the copy icon next to the token to copy the token. Then, paste using your computer’s keyboard shortcut for paste.\nNow your password is stored in ~/.git-credentials and you will not be prompted again unless the Github token expires. You can check the presence of this git-credentials file using Terminal. Here the ~ character represents your home directory (/home/jovyan/).\nls -la ~\nThe output looks like this:\ndrwxr-xr-x 13 jovyan jovyan 6144 Oct 22 17:35 .\ndrwxr-xr-x  1 root   root   4096 Oct  4 16:21 ..\n-rw-------  1 jovyan jovyan 1754 Oct 29 18:30 .bash_history\ndrwxr-xr-x  4 jovyan jovyan 6144 Oct 29 16:38 .config\n-rw-------  1 jovyan jovyan   66 Oct 22 17:35 .git-credentials\n-rw-r--r--  1 jovyan jovyan   84 Oct 22 17:14 .gitconfig\ndrwxr-xr-x 10 jovyan jovyan 6144 Oct 21 16:19 2021-Cloud-Hackathon\nYou can also verify your git configuration\n(notebook) jovyan@jupyter-virdi:~$ git config -l\nThe output should have credential.helper = store:\nuser.email        = Makhan.Virdi@gmail.com\nuser.name         = Makhan Virdi\ncredential.helper = store\n\nNow we are all set to collaborate with github on the JupyterHub during the Cloud Hackathon!\n\n\nSummary: Git Commands\n\nCommonly used git commands (modified from source)\n\n\nGit Command\nDescription\n\n\n\n\ngit status\nShows the current state of the repository: the current working branch, files in the staging area, etc.\n\n\ngit add\nAdds a new, previously untracked file to version control and marks already tracked files to be committed with the next commit\n\n\ngit commit\nSaves the current state of the repository and creates an entry in the log\n\n\ngit log\nShows the history for the repository\n\n\ngit diff\nShows content differences between commits, branches, individual files and more\n\n\ngit clone\nCopies a repository to your local environment, including all the history\n\n\ngit pull\nGets the latest changes of a previously cloned repository\n\n\ngit push\nPushes your local changes to the remote repository, sharing them with others\n\n\n\n\n\nGit: More Details\nLesson: For a more detailed self-paced lesson on git, visit Git Lesson from Software Carpentry\nCheatsheet: Frequently used git commands\nDangit, Git!?!: If you are stuck after a git mishap, there are ready-made solutions to common problems at Dangit, Git!?!\n\n\nCloning our repository using the git Jupyter lab extension.\nIf we’re already familiar with git commands and feel more confortable using a GUI our Jupyterhub deployment comes with a git extension. This plugin allows us to operate with git using a simple user interface.\nFor example we can clone our repository using the extension.\n\n\n\ngit extension"
-  },
-  {
-    "objectID": "clinic/notebooks.html#introduction-programming-in-python",
-    "href": "clinic/notebooks.html#introduction-programming-in-python",
-    "title": "Notebooks, Python, Git",
-    "section": "Introduction :: Programming in Python",
-    "text": "Introduction :: Programming in Python\nSwitch to Jupyter Notebook for an introduction to programming in Python\n\nVariables (and mathematical operations)\nData Structures (list, tuple, dict)\nFlow Control using loops (for, while)\nConditionals (if, else, elif)\nFunctions\nErrors and Exceptions (understanding and handling errors)\nUsing modules (libraries, packages)\n\npandas: high-performance, easy-to-use data structures and data analysis tools\nrioxarray: based on the rasterio package for working with rasters and xarray\n\n\n\nPython Learning Resources\nSelf-paced lesson on Programming with Python from Software Carpentry"
-  },
-  {
-    "objectID": "clinic/notebooks.html#introduction-geospatial-fundamentals-optional",
-    "href": "clinic/notebooks.html#introduction-geospatial-fundamentals-optional",
-    "title": "Notebooks, Python, Git",
-    "section": "Introduction :: Geospatial Fundamentals (Optional)",
-    "text": "Introduction :: Geospatial Fundamentals (Optional)\nDetailed self-paced lesson on Fundamentals of Geospatial Raster and Vector Data with Python from Data Carpentry\nThe end!"
-  },
-  {
-    "objectID": "clinic/earthdata.html",
-    "href": "clinic/earthdata.html",
-    "title": "Earthdata Login",
-    "section": "",
-    "text": "The following was borrowed from the excellent SnowEx Hackathon 2021\n\n\nNASA data are stored at one of several Distributed Active Archive Centers (DAACs). If you’re interested in available data for a given area and time of interest, the Earthdata Search portal provides a convenient web interface.\n\n\n\nEach participant will need a login. We will be teaching you ways to programmatically access NASA data from within your Python scripts. You will need to enter your Earthdata username and password in order for this to work.\n\n\n\nIf you do not already have an Earthdata login, then navigate to the Earthdata Login page, a username and password, and then record this somewhere for use during the tutorials:\n\n\n\nearthdata-login\n\n\n\n\n\nIf you use web interfaces to retrieve nasa data such as Earthdata Search you are prompted to login. We will be using software to retrieve data from NASA Servers during the hackweek, so you must store your credentials on the JupyterHub as explained in this documentation. Run the following commands on the JupyterHub in a terminal replacing your Earthdata login username and password:\necho \"machine urs.earthdata.nasa.gov login EARTHDATA_LOGIN password EARTHDATA_PASSWORD\" &gt; ~/.netrc\nchmod 0600 .netrc"
-  },
-  {
-    "objectID": "clinic/earthdata.html#overview",
-    "href": "clinic/earthdata.html#overview",
-    "title": "Earthdata Login",
-    "section": "",
-    "text": "NASA data are stored at one of several Distributed Active Archive Centers (DAACs). If you’re interested in available data for a given area and time of interest, the Earthdata Search portal provides a convenient web interface."
-  },
-  {
-    "objectID": "clinic/earthdata.html#why-do-i-need-an-earthdata-login",
-    "href": "clinic/earthdata.html#why-do-i-need-an-earthdata-login",
-    "title": "Earthdata Login",
-    "section": "",
-    "text": "Each participant will need a login. We will be teaching you ways to programmatically access NASA data from within your Python scripts. You will need to enter your Earthdata username and password in order for this to work."
-  },
-  {
-    "objectID": "clinic/earthdata.html#getting-an-earthdata-login",
-    "href": "clinic/earthdata.html#getting-an-earthdata-login",
-    "title": "Earthdata Login",
-    "section": "",
-    "text": "If you do not already have an Earthdata login, then navigate to the Earthdata Login page, a username and password, and then record this somewhere for use during the tutorials:\n\n\n\nearthdata-login"
-  },
-  {
-    "objectID": "clinic/earthdata.html#configure-programmatic-access-to-nasa-servers",
-    "href": "clinic/earthdata.html#configure-programmatic-access-to-nasa-servers",
-    "title": "Earthdata Login",
-    "section": "",
-    "text": "If you use web interfaces to retrieve nasa data such as Earthdata Search you are prompted to login. We will be using software to retrieve data from NASA Servers during the hackweek, so you must store your credentials on the JupyterHub as explained in this documentation. Run the following commands on the JupyterHub in a terminal replacing your Earthdata login username and password:\necho \"machine urs.earthdata.nasa.gov login EARTHDATA_LOGIN password EARTHDATA_PASSWORD\" &gt; ~/.netrc\nchmod 0600 .netrc"
-  },
-  {
-    "objectID": "clinic/jupyterhub.html",
-    "href": "clinic/jupyterhub.html",
-    "title": "NASA Openscapes Cloud Environment",
-    "section": "",
-    "text": "Summary of what we’ll cover:"
-  },
-  {
-    "objectID": "clinic/jupyterhub.html#why-are-we-using-a-cloud-environment",
-    "href": "clinic/jupyterhub.html#why-are-we-using-a-cloud-environment",
-    "title": "NASA Openscapes Cloud Environment",
-    "section": "Why are we using a cloud environment?",
-    "text": "Why are we using a cloud environment?\n“Anyone working with large-scale Earth System data today faces the same general problems:\n\nThe data we want to work with are huge (typical analyses involve several TB at least)\nThe data we need are produced and distributed by many different organizations (NASA, NOAA, ESGF, Copernicus, etc.)\nWe want to apply a wide range of different analysis methodologies to the data, from simple statistics to signal processing to machine learning.\n\nThe community is waking up to the idea that we can’t simply expect scientists to download all this data to their personal computers for processing.”\nRyan Abernathey, Pangeo Project.\n\n\n\nDownload-based workflow. From Abernathey, Ryan (2020): Data Access Modes in Science"
-  },
-  {
-    "objectID": "clinic/jupyterhub.html#openscapes-hub-and-cloud-infrastructure",
-    "href": "clinic/jupyterhub.html#openscapes-hub-and-cloud-infrastructure",
-    "title": "NASA Openscapes Cloud Environment",
-    "section": "Openscapes Hub and Cloud Infrastructure",
-    "text": "Openscapes Hub and Cloud Infrastructure\nThere is no cloud, it’s someone else’s computer\nGo to Openscapes Jupyter Hub. You will be asked to log in with your GitHub Account\n\n\n\nOpenscapes JupyterHub Login\n\n\nOnce we are logged with our Github account we need to select our server type. There are different hardware configurations for each profile, for the duration of the Hackweek we’ll use small instances, the option at the top.\n\n\n\nMachine Profiles\n\n\nAfter we select our server type and click on start, Jupyterhub will allocate our instance using Amazon Web Services (AWS). This may take several minutes. While we wait, we’ll get set up with GitHub and a brief overview.\n\n\n\nJupyterhub Spawning"
-  },
-  {
-    "objectID": "clinic/jupyterhub.html#jupyter-ecosystem",
-    "href": "clinic/jupyterhub.html#jupyter-ecosystem",
-    "title": "NASA Openscapes Cloud Environment",
-    "section": "Jupyter Ecosystem",
-    "text": "Jupyter Ecosystem\n\nSource: Project Pythia"
-  },
-  {
-    "objectID": "clinic/jupyterhub.html#pythonconda-environments",
-    "href": "clinic/jupyterhub.html#pythonconda-environments",
-    "title": "NASA Openscapes Cloud Environment",
-    "section": "Python/Conda environments",
-    "text": "Python/Conda environments\nname: nsidc\nchannels:\n  - conda-forge\ndependencies:\n  - ipykernel\n  - awscli~=1.21.4\n  - requests\n  - pip\n\nHow do I get my code in and out of the Openscapes hub?\nWhen you start your own server you will have access to your own virtual drive space. No other users will be able to see or access your data files. You can easily upload files to your virtual drive space and save files from the hub back to another location, such as GitHub or your own local laptop drive.\nHere we’ll show you how to pull (copy) some files from GitHub into your virtual drive space using git. This will be a common task during the hackweek: at the start of each tutorial we’ll ask you to “fork” (create your own copy of in your GitHub account) and “clone” (make a copy of in a computing environment, such as your local computer or Openscapes instance) the GitHub repository corresponding to the specific tutorial being taught into your Openscapes drive space.\n\n\n\nterminal-button\n\n\nThis will open a new terminal tab in your JupyterLab interface:\n\n\n\nterminal-tab\n\n\nNow you can issue any Linux commands to manage your local file system.\nYou may also upload files from your local system using the upload button (up-pointing arrow) on the top left of the JupyterHub navigation panel. Similarly, you may download files to your local system by right-clicking the file and selecting download (down-pointing arrow).\nSimple, example GitHub/git/local-workspace workflows for getting a tutorial started in your Openscapes instance and working on a group project are provided. The getting started on a tutorial workflow briefly reviews much of the information in this preliminary exercise along with steps for making and saving notes or other changes as you work through the tutorial and keeping it updated with the original, master copy. The basic git workflow for a project serves as a reminder of the git workflow for working on a group project while minimizing code conflicts that could result from multiple people making changes to the same files simultaneously."
-  },
-  {
-    "objectID": "clinic/jupyterhub.html#how-do-i-end-my-openscapes-session",
-    "href": "clinic/jupyterhub.html#how-do-i-end-my-openscapes-session",
-    "title": "NASA Openscapes Cloud Environment",
-    "section": "How do I end my Openscapes session?",
-    "text": "How do I end my Openscapes session?\nWhen you are finished working for the day it is important to explicitly log out of your Openscapes session. The reason for this is it will save money and is a good habit to be in. When you keep a session active it uses up AWS resources and keeps a series of virtual machines deployed.\nStopping the server happens automatically when you log out, so navigate to “File -&gt; Log Out” and click “Log Out”!\n\n\n\nhub-control-panel-button\n\n\n\nWill I lose all of my work?\nLogging out will NOT cause any of your work to be lost or deleted. It simply shuts down some resources. It would be equivalent to turning off your desktop computer at the end of the day."
-  },
-  {
-    "objectID": "clinic/jupyterhub.html#references",
-    "href": "clinic/jupyterhub.html#references",
-    "title": "NASA Openscapes Cloud Environment",
-    "section": "References",
-    "text": "References\n\nProject Pythia\nWhy Jupyter is data scientists’ computational notebook of choice\nClosed Platforms vs. Open Architectures for Cloud-Native Earth System Analytics\nIntroduction to Geospatial Concepts\n2i2c user storage\nSnowEX Hackweek"
-  },
-  {
-    "objectID": "clinic/jupyterhub.html#faq",
-    "href": "clinic/jupyterhub.html#faq",
-    "title": "NASA Openscapes Cloud Environment",
-    "section": "FAQ",
-    "text": "FAQ\nfrom participants during our first Clinic\nI have an empty ‘shared’ folder. That’s expected. There shouldn’t be anything in the ‘shared/’ folder\nAfter the 3 months are up, what do we do with our work on the server? You’ll have them since you can back everything up with GitHub. We can follow up with more details of what happens on the 2i2c side\nCan we use Matlab with JupyterHub? You can also use Octave kernel as a Matlab replacement. It is open source and free. If you want to integrate Matlab, there is a project to do so jupyter-matlab-proxy\nWhy do we have the same home directory as /home/jovyan? /home/jovyan is the default home directory for ‘jupyter’ based images/dockers. It is the historic home directory for Jupyter deployments.\n/home/jovyan is the default home directory for jupyter-based deployments\nCan other users see the .git-credentials file in my /home/jovyan folder? No, other users can not see your creds\nHow to exit 2i2c’s terminal text editor? esc to get to the command, and then :w to save, :q to quit."
-  },
-  {
-    "objectID": "huggingface.html",
-    "href": "huggingface.html",
-    "title": "Hugging Face",
-    "section": "",
-    "text": "Slides that introduce Hugging Face."
-  },
-  {
-    "objectID": "clinic/github.html",
-    "href": "clinic/github.html",
-    "title": "GitHub",
-    "section": "",
-    "text": "The following was borrowed from the excellent SnowEx Hackathon 2021\n\n\nGitHub is a hosting service for Git repositories, enabling us to share code across teams in a web environment.\n\n\n\nThere are three reasons you are required to have a GitHub account for the hackweek:\n\nYour GitHub accounts will give you access to the hackweek cloud computing resources\nAll hackweek tutorials will be shared on GitHub\nAll project teams will use GitHub to collaborate and work together on their code\n\n\n\n\nGo to GitHub.\n\n\n\ngithub-signup\n\n\nNext, enter your email address and click on the green ‘Sing up for GitHub’ button. You will need to answer a few required questions in the following dialogs. Be sure to save your password somewhere safe because you will need it later! The steps for doing this are also well documented on this GitHub help page.\n\n\n\nrepos-tab\n\n\nEach repository is a container for a specific subset of material for this event. For example, there is a repository for the public-facing website you used to register for this event {{website_url}}. We’ll also create new repositories for each project."
-  },
-  {
-    "objectID": "clinic/github.html#what-is-github",
-    "href": "clinic/github.html#what-is-github",
-    "title": "GitHub",
-    "section": "",
-    "text": "GitHub is a hosting service for Git repositories, enabling us to share code across teams in a web environment."
-  },
-  {
-    "objectID": "clinic/github.html#why-do-i-need-a-github-account",
-    "href": "clinic/github.html#why-do-i-need-a-github-account",
-    "title": "GitHub",
-    "section": "",
-    "text": "There are three reasons you are required to have a GitHub account for the hackweek:\n\nYour GitHub accounts will give you access to the hackweek cloud computing resources\nAll hackweek tutorials will be shared on GitHub\nAll project teams will use GitHub to collaborate and work together on their code"
-  },
-  {
-    "objectID": "clinic/github.html#creating-a-github-account",
-    "href": "clinic/github.html#creating-a-github-account",
-    "title": "GitHub",
-    "section": "",
-    "text": "Go to GitHub.\n\n\n\ngithub-signup\n\n\nNext, enter your email address and click on the green ‘Sing up for GitHub’ button. You will need to answer a few required questions in the following dialogs. Be sure to save your password somewhere safe because you will need it later! The steps for doing this are also well documented on this GitHub help page.\n\n\n\nrepos-tab\n\n\nEach repository is a container for a specific subset of material for this event. For example, there is a repository for the public-facing website you used to register for this event {{website_url}}. We’ll also create new repositories for each project."
-  },
-  {
-    "objectID": "clinic/index.html",
-    "href": "clinic/index.html",
-    "title": "Overview and Agenda",
-    "section": "",
-    "text": "Before the Hackathon, we are hosting a 2-hour Clinic where you can build skills and practice the tooling and workflow that we will use during the Hackathon.\nThe Clinic will cover the following as a workflow:"
-  },
-  {
-    "objectID": "clinic/index.html#welcome",
-    "href": "clinic/index.html#welcome",
-    "title": "Overview and Agenda",
-    "section": "Welcome!",
-    "text": "Welcome!\nThanks for being here\n\nWho instructors & helpers are, how to ask for help.\nCode of Conduct reminder: Be respectful and value each other’s ideas, styles and viewpoints.\nIf you have issues, please direct them to: Julie - lowndes @ nceas.ucsb.edu.\nLive transcripts are available.\nWe are recording this session.\n\n\n\n\n\n\n\nText to paste into Zoom Chat\n\n\n\n\n\nWelcome to the Cloud Hackathon Clinic!\nPlease go to 2i2c Openscapes Hub - log in with your GitHub Account, and select “Small”\nClinic materials that we’ll cover today are here: https://nasa-openscapes.github.io/2021-Cloud-Hackathon/clinic/"
-  },
-  {
-    "objectID": "clinic/index.html#agenda",
-    "href": "clinic/index.html#agenda",
-    "title": "Overview and Agenda",
-    "section": "Agenda",
-    "text": "Agenda\nThe Clinic will occur in 2 halves, with a 5 minute break in-between:\n\n\n\nTime, PST (UTC-8)\nEvent\nLeads/Instructors\n\n\n\n\n8:00 am\nWelcome\nJulie Lowndes, Openscapes\n\n\n8:05 am\nJupyterHub, repos, environments\nLuis Lopez, NSIDC\n\n\n9:00 am\nBreak\n\n\n\n9:05 am\nNotebooks, python, syncing\nMakhan Virdi, ASDC\n\n\n10:00 am\nClosing"
-  },
-  {
-    "objectID": "clinic/index.html#before-the-clinic",
-    "href": "clinic/index.html#before-the-clinic",
-    "title": "Overview and Agenda",
-    "section": "Before the Clinic",
-    "text": "Before the Clinic\nPlease follow the set up prerequisites before the Clinic."
   },
   {
     "objectID": "tutorials/00_Setup.html",
@@ -469,88 +434,11 @@
     "text": "Step 5. Tracking changes (Optional)\nNow that you have forked and cloned the repository in your Hub, you can make changes (edit, add, and/or delete content) and track these files using git. In this step, we will provide an overview of how to use git using the graphical interface (the JupyterLab git extension).\n\nStep 5.1. Configure Git (git config)\nConfigure git with your name and email address as shown here.\ngit config --global user.name \"Makhan Virdi\"\ngit config --global user.email \"Makhan.Virdi@gmail.com\"\nOpen a new terminal: File &gt;&gt; New &gt;&gt; Terminal\n\nConfigure git to store your github credentials to avoid having to enter your github username and token each time you push changes to your repository(in Step 5.5, we will describe how to use github token instead of a password)\ngit config --global credential.helper store\n\n\nStep 5.2. Create a new file\nLet’s create a new file: In the left panel on your Hub, click on the “directory” icon and then double click on “2021-Cloud-Hackathon” directory. Then, create a new file using the text editor in your 2i2c JupyterHub (File &gt;&gt; New &gt;&gt; Text File). Add some text to this file, for example: A test file. Save this file and rename it to test.txt.\n\n\n\nStep 5.3. Track the changes to the new file (git add)\nClick the git icon in the left panel. You can see that the newly added file is in the “Untracked” section. You can click the + icon next to the file name to let git track this file for changes.\n\n\n\nStep 5.4. Commit the changes to the new file (git commit)\nNow, you will see that the file is Staged, which means that git is ready to take a snapshot of this file (and the repository) with the changes that you made. This snapshot is called a commit. To commit the changes, add a note (called a commit message) by typing in the text box that say “Summary”.\nNow, click the blue “COMMIT” button to commit this change.\n\nNote: A short message indicating the type of change to this file is a good practice. Optionally, a longer description may be added to the “Description” field.\n\n\n\n\nStep 5.5. Transmit committed changes to your github (git push)\nAt this stage, you have committed the changes to your git repository on your Hub. However, these changes are still on your Hub and needs to be transmitted to your repository on github (so that both the local copy on the JupyterHub and the remote copy on github are in sync).\nAs seen in the picture below, the git extension indicates (with an orange dot on the cloud icon) that it is ready to push your changes to the remote (remote = your repository on github.com). To push to github, click the cloud button with an up arrow (circled in red in the picture).\n\nWhen you push for the first time, it will ask that you input your credentials. You will need to set this up with your Personal Access Token (PAT), explained next.\n\n\nStep 5.6. Setup your Personal Access Token (PAT)\nWhen you see the following screenshot, GitHub is asking for you to input your credentials. (Note: you see this screenshot when you have committed work to push to GitHub.com, as detailed above).\n\nThe git extension in the Hub is prompting you to enter your github.com credentials. Enter you github.com username and a Personal Access Token (PAT); DO NOT use your password.\nTo create a PAT, visit https://github.com/settings/tokens/new and create a new token with the permission as per the image below and specify its validity for 90 days.\n\nIMPORTANT: You will see this token only once, so be sure to copy this. If you do not copy your token at this stage, you will need to generate a new token.\n\nOnce you generate the token, copy it and paste in the Hub window that prompted you to enter the “Personal Access Token”.\n\nGit will show a message at the bottom right telling that the changes were “Successfully pushed”. Also, you will see that the “cloud icon with an up arrow” no longer has an orange dot, indicating that there are no more committed changes to push to the remote (github.com).\n\nNote: You have configured git extension to store your credentials. You will not be prompted for your login/token again!\n\n\nThat’s all. You can use the same workflow (add &gt; commit &gt; push) for any other new or modified files!\n\n\nNote: If you are comfortable with the command line, you can use the Terminal (In Hub, New &gt; Terminal) and follow the steps outlined in the Clinic section."
   },
   {
-    "objectID": "further-resources.html",
-    "href": "further-resources.html",
-    "title": "Additional resources",
+    "objectID": "tutorials/index.html",
+    "href": "tutorials/index.html",
+    "title": "튜토리얼",
     "section": "",
-    "text": "NASA Earthdata: How to Cloud\nUSGS Eyes on Earth Podcast: Satellites and Cloud Computing - with Aaron Friesz (LP DAAC!)\nPO.DAAC Cloud Data Page\nPO.DAAC Earthdata Webinar (Aug 2021): Surfing Ocean Data in the Cloud - The Beginner’s Guide to PO.DAAC in the NASA Earthdata Cloud\nPO.DAAC Github Repository\nNASA Earthdata Cloud Primer -AWS cloud primer: helpful tutorials for how to set up your own EC2 cloud instance in AWS, attach storeage, move files back and forth, and more.\nSetting up Jupyter Notebooks in a user EC2 instance in AWS - helpful blog post for setting up jupyter notebooks in an EC2 instance in AWS. (Builds on the Cloud Primer tutorials, which are missing that next step)\nRunning the NASA Cloud Workshop notebooks with mybinder.org - by Eli Holmes, 2021 Cloud Hackathon Participant who then set up working in Binder"
-  },
-  {
-    "objectID": "further-resources.html#a-growing-list-of-resources",
-    "href": "further-resources.html#a-growing-list-of-resources",
-    "title": "Additional resources",
-    "section": "",
-    "text": "NASA Earthdata: How to Cloud\nUSGS Eyes on Earth Podcast: Satellites and Cloud Computing - with Aaron Friesz (LP DAAC!)\nPO.DAAC Cloud Data Page\nPO.DAAC Earthdata Webinar (Aug 2021): Surfing Ocean Data in the Cloud - The Beginner’s Guide to PO.DAAC in the NASA Earthdata Cloud\nPO.DAAC Github Repository\nNASA Earthdata Cloud Primer -AWS cloud primer: helpful tutorials for how to set up your own EC2 cloud instance in AWS, attach storeage, move files back and forth, and more.\nSetting up Jupyter Notebooks in a user EC2 instance in AWS - helpful blog post for setting up jupyter notebooks in an EC2 instance in AWS. (Builds on the Cloud Primer tutorials, which are missing that next step)\nRunning the NASA Cloud Workshop notebooks with mybinder.org - by Eli Holmes, 2021 Cloud Hackathon Participant who then set up working in Binder"
-  },
-  {
-    "objectID": "further-resources.html#additional-tutorials",
-    "href": "further-resources.html#additional-tutorials",
-    "title": "Additional resources",
-    "section": "Additional tutorials",
-    "text": "Additional tutorials\n\nData_Access__Direct_S3_Access__PODAAC_ECCO_SSH using CMR-STAC API to retrieve S3 links\nDirect access to ECCO data in S3 (from us-west-2) - Direct S3 access example with netCDF data\nDirect_S3_Access__gdalvrt\nDirect_S3_Access__rioxarray_clipping\nGetting Started with Cloud-Native Harmonized Landsat Sentinel-2 (HLS) Data in R\nCalculate black-sky, white-sky, and actual albedo (MCD43A) from MCD43A1 BRDF Parameters using R\nXarray Zonal Statistics"
-  },
-  {
-    "objectID": "projects/hackathon-projects.html",
-    "href": "projects/hackathon-projects.html",
-    "title": "Hackathon Projects",
-    "section": "",
-    "text": "On the final day of the Hackathon, 9 awesome teams presented work-in-progress projects they had been hacking on, and we were so excited to see what they had already done and their ongoing momentum. Teams evolved throughout the Hackathon, some joined as a team and welcomed others, and other teams formed and merged throughout the week.\nHackathon participants will have 3 months of continued access to the 2i2c JupyterHub and Slack as they continue experimenting. This way we can all learn more about what the transition to the Cloud looks like (and costs) and support more researchers using NASA Earthdata on the Cloud.\nBelow is brief information about each project team, with links and screenshots from slides and notebooks in GitHub repos that they shared on the final day of the Hackathon."
-  },
-  {
-    "objectID": "projects/hackathon-projects.html#field-campaigns",
-    "href": "projects/hackathon-projects.html#field-campaigns",
-    "title": "Hackathon Projects",
-    "section": "Field Campaigns",
-    "text": "Field Campaigns\n\nTeam: Tom Farrar, Kyla Drushka, Bia Villas Boas., Matthew Archer, Kathleen Dohan, Severine Fournier, Eli Hunter, John Wilkin\nPrimary Helpers: Jinbo Wang, Jack McNelis, Ed Armstrong\nSlides; GitHub: https://github.com/NASA-Openscapes/nch2021-projects-contexdata\nProject Goals: Extract and visualize multiple data sets that can be used to give context to field campaigns or other regional events (e.g., the “Warm Blob” or the recent atmospheric river event on the West Coast). For example, choose a target region and time period, cycle through all available high-resolution sea surface temperature data, identify clear images, catalog them. Extract wind, wave, sea surface height, salinity data."
-  },
-  {
-    "objectID": "projects/hackathon-projects.html#global-upwelling-patterns",
-    "href": "projects/hackathon-projects.html#global-upwelling-patterns",
-    "title": "Hackathon Projects",
-    "section": "Global Upwelling Patterns",
-    "text": "Global Upwelling Patterns\n\nTeam: Eli Holmes, Jorge Vazquez\nPrimary Helpers: Aaron Friesz, Andy Barrett, Jack McNelis\nSlides, GitHub: https://github.com/NASA-Openscapes/nhw21-projects-upwelling, Notebook: http://nbviewer.org/github/NASA-Openscapes/nhw21-projects-upwelling/blob/main/notebooks/05-Multi-year-upi-plots.ipynb\nProject Goals: Climate change is predicted to change coastal upwelling. This study explores the use of simple SST metrics for studying upwelling signatures.\n\nAlso: Running the NASA Cloud Workshop notebooks with mybinder.org - by Eli Holmes, 2021 Cloud Hackathon Participant who then set up working in Binder"
-  },
-  {
-    "objectID": "projects/hackathon-projects.html#surface-body-water",
-    "href": "projects/hackathon-projects.html#surface-body-water",
-    "title": "Hackathon Projects",
-    "section": "Surface Body Water",
-    "text": "Surface Body Water\n\nTeam: Matthew Bonnema, Maximilian Parzen\nSlides, GitHub: https://github.com/pz-max/NASA_projectX\nProject Goals: Estimate surface area of surface water body and track changes over time. Test Case: Oroville Reservoir, California"
-  },
-  {
-    "objectID": "projects/hackathon-projects.html#pypsicle-cryo-computing-in-the-cloud",
-    "href": "projects/hackathon-projects.html#pypsicle-cryo-computing-in-the-cloud",
-    "title": "Hackathon Projects",
-    "section": "Pypsicle: cryo computing in the cloud",
-    "text": "Pypsicle: cryo computing in the cloud\n\nTeam: Chad Greene, Susan Howard, Luis Lopez, Cassandra Nickles, Christine Sadlik, Jessica Scheick\nPrimary Helpers: Luis Lopez\nSlides, GitHub: https://github.com/NASA-Openscapes/nch2021-projects-pypsicle, Notebook:  https://nbviewer.org/github/NASA-Openscapes/nch2021-projects-pypsicle/blob/main/S3-h5_example_rendered.ipynb\nProject Goals: Selectively read in part of an hdf5 file, explore a dataset on the cloud"
-  },
-  {
-    "objectID": "projects/hackathon-projects.html#query-stact-for-hls-data-and-load-as-a-time-series",
-    "href": "projects/hackathon-projects.html#query-stact-for-hls-data-and-load-as-a-time-series",
-    "title": "Hackathon Projects",
-    "section": "Query stact for HLS data and load as a time series",
-    "text": "Query stact for HLS data and load as a time series\n\nTeam: Todd Hawbaker, Jodi Riegle, and Kehan Yang\nSlides; GitHub: https://github.com/tjhawbaker/nch21_hls_timeseries\nProject Goals: A cloud-deployable framework to identify burned areas in the harmonized Landsat Sentinel-2 data, and possibly other remotely sensed data sources. Basically, extending what we’ve done with Landsat to HLS data (Hawbaker et. al., 2020). The end product we are planning is code or a container that users could run in the cloud to generate a time series of burned area products for their area of interest."
-  },
-  {
-    "objectID": "projects/hackathon-projects.html#drought-monitor",
-    "href": "projects/hackathon-projects.html#drought-monitor",
-    "title": "Hackathon Projects",
-    "section": "Drought Monitor",
-    "text": "Drought Monitor\n\nTeam: Colin Brust, Arthur Endsley\nProject Goals: Build a data pipeline library that clips, reprojects and aggregates a given dataset to a desired spatial and temporal resolution. Then, use this library to feed GHRSST data into a neural network that forecasts changes in the U.S. Drought Monitor."
-  },
-  {
-    "objectID": "projects/hackathon-projects.html#county-temperatures",
-    "href": "projects/hackathon-projects.html#county-temperatures",
-    "title": "Hackathon Projects",
-    "section": "County Temperatures",
-    "text": "County Temperatures\n\nTeam: Binita KC, Xiaohua Pan\nPrimary Helpers: Alexis Hunzinger\nGitHub: https://github.com/NASA-Openscapes/nch21-projects-counties-temp, Notebook: https://github.com/NASA-Openscapes/nch21-projects-counties-temp/blob/main/Project9.ipynb\nProject Goals: Read the hourly MERRA-2 data from the GES DISC S3 bucket, subset by temperature and calculate the monthly average, ideally extract zonal mean using county shapefile"
-  },
-  {
-    "objectID": "projects/hackathon-projects.html#retrieval-of-pre-swot-data",
-    "href": "projects/hackathon-projects.html#retrieval-of-pre-swot-data",
-    "title": "Hackathon Projects",
-    "section": "Retrieval of Pre SWOT data",
-    "text": "Retrieval of Pre SWOT data\n\nTeam: Prof. J. Indu, Kaushlendra V., Nitish K., Manu K.S., Girish P.\nSlides\nProject Goals: To access multi-mission altimetry data sets and merge them to generate high temporal resolution altimetry data"
+    "text": "튜토리얼\nThese tutorials are a combination of narrative, links, code, and outputs. They have been developed for live-coding during the Hackathon, and are available for self-paced learning.\nTutorials are markdown (.md) and Jupyter (.ipynb) notebooks, and are available on GitHub:\nhttps://github.com/NASA-Openscapes/2021-Cloud-Hackathon/tree/main/tutorials."
   },
   {
     "objectID": "tutorials-templates/index.html",
@@ -558,75 +446,5 @@
     "title": "Notebooks for live-coding",
     "section": "",
     "text": "Templates of all tutorials — .ipynb notebooks with code removed — are available at:\nhttps://github.com/NASA-Openscapes/2021-Cloud-Hackathon/tree/main/tutorials-templates.\nPlease open these tutorial templates in our JupyterHub to follow along and live-code with the tutorial lead."
-  },
-  {
-    "objectID": "logistics/github-workflows.html",
-    "href": "logistics/github-workflows.html",
-    "title": "GitHub/Hugging Face workflows",
-    "section": "",
-    "text": "We will be live-coding during the tutorials and collaborating during the project hack-time, using GitHub in both cases. Here is how to setup and work for each.\nNote: we’ll be using Git together with GitHub and will talk about them interchangeably."
-  },
-  {
-    "objectID": "logistics/github-workflows.html#first-time-setup",
-    "href": "logistics/github-workflows.html#first-time-setup",
-    "title": "GitHub/Hugging Face workflows",
-    "section": "First-Time Setup",
-    "text": "First-Time Setup\n\nFork the hackathon repo\nGo to https://github.com/nasa-openscapes/2021-Cloud-Hackathon and fork the repository. This will enable you to you can edit your own copy and live-code with us\n\nNote: The term fork means that you are going to copy the project into your own user space in Github\n\n\n\n\nFork a copy\n\n\n\n\nClone your forked repo into JupyterHub\nOpen your terminal\ngit clone https://github.com/YOUR-USERNAME/2021-Cloud-Hackathon\ndon’t do all the credentials/token — they don’t need push access to follow along with the tutorials. We can help them via Slack/breakouts when/if they need to push with tokens"
-  },
-  {
-    "objectID": "logistics/github-workflows.html#daily-setup",
-    "href": "logistics/github-workflows.html#daily-setup",
-    "title": "GitHub/Hugging Face workflows",
-    "section": "Daily Setup",
-    "text": "Daily Setup\nThe daily setup has 2 steps: get the latest into your forked copy of the repo, then get the latest of your fork into your JupyterHub.\nIf you have any conflicts with the following steps, you will likely need to commit your work, or clear your work if you don’t want to keep anything you’ve done. See below for daily setup troubleshooting as well as Git update, revert, etc.\n\nGitHub: Update your fork\nFrom github.com Fetch and merge: Update your forked repo from main by clicking “Fetch upstream” beneath the big green code button, and then the green “Fetch and merge” button. You may have to refresh the page to see any recent activity.\n\n\n\nJupyterHub: Get your fork’s updates\nGo to the JupyterHub\nGo to the GitHub extension and click the “pull button”\nIf you see\n\nYou’ll need to decide if you want to keep or delete the changes you made yesterday. This will depend on the work you did and how important it was. If you’d like to delete it, please follow delete your local changes below, and then come back above and retype git status and git pull.\nIf you’d like to keep your changes, you’ll need to commit them. You can press “Cancel” and look at the files in the “Changed” category and you can hover over the file to inspect them (open, diff, discard, add) and if you’d like to add them, they will be staged and then you can commit them with a message.\nYou could also do the above in the terminal, making sure you are in the 2021-Cloud-Hackathon directory (double check with pwd and move with cd)\ngit status\ngit pull\n\n\nDaily setup troubleshooting\nNot a git repository - in your terminal if you see the following, you likely need to cd change directory into your GitHub folder.\nfatal: not a git repository (or any parent up to mount point /home)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set)."
-  },
-  {
-    "objectID": "logistics/github-workflows.html#git-update-revert-etc",
-    "href": "logistics/github-workflows.html#git-update-revert-etc",
-    "title": "GitHub/Hugging Face workflows",
-    "section": "Git: update, revert, etc",
-    "text": "Git: update, revert, etc\nThese are some useful commands to revert/delete your local changes and update your fork with the most recent information from the main branch.\n\nDelete your local changes\nThere are several ways to delete your local changes if you were playing around and want to reset. Here are a few:\n\nUndo changes you’ve maybe saved or committed, but not pushed\nThis is less time and internet intensive (no new clone/download).\nIf you’ve got changes saved, but not yet staged, committed, or pushed, you’ll delete unstaged changes in the working directory with clean:\nYou’ll need to make sure you’re in the github repository (use pwd to check your present working directory and cd to change directory)\ngit clean -df\ngit checkout -- .\n\n\nBurn it all down\nYou’ll delete the whole repo that you have locally, and then reclone.\nYou’ll need to make sure you’re in the github repository (use pwd to check your present working directory and cd to change directory)\nrm -rf YOUR-REPO\nHere is a whole blog on how to go back in time (walk back changes), with conceptual diagrams, command line code, and screenshots from RStudio. https://ohi-science.org/news/github-going-back-in-time\n\n\n\nUpdate local branch with remote main branch\nIf while you’re working you would like to update your local your-branch with the most recent updates on the main branch on GitHub.com, there are several ways to do this. Here’s one.\ngit checkout your-branch\ngit fetch\ngit merge origin/main\n\n\nUpdate from main"
-  },
-  {
-    "objectID": "logistics/github-workflows.html#project-hacktime-setup",
-    "href": "logistics/github-workflows.html#project-hacktime-setup",
-    "title": "GitHub/Hugging Face workflows",
-    "section": "Project Hacktime Setup",
-    "text": "Project Hacktime Setup\nHere are some suggestions for collaborating with your project groups (and beyond!) using GitHub.\nThis means a combination of creating a place to collaborate (a github repository) and a shared workflow to contribute.\n\nCreate a repository on GitHub.com\nJust one person does this.\nYou can do this in one of your user/organization accounts, or ask someone from the Cloud Hackathon Team to create one for you in the NASA-Openscapes organization.\nHere are instructions for creating a repo on GitHub.com — remember to make it public so that other hackathon folks can see and help!\n\n\nDiscuss edit access vs branches\nThe person who created the repo will manage the permission.\nThe simplest way to collaborate on GitHub is if everyone has permission to edit the repository directly through the main branch. Talk to your team — folks that have experience using branches can do so but others can push changes directly to the main branch.\nHere are instructions for updating github repo permissions.\n\n\nClone repo into 2i2c\nEverybody does this.\nTo to the JupyterHub, go to your Terminal, then:\ngit clone https://github.com/USERNAME/REPOSITORY-NAME.\n\n\nCheck in as you push changes\nWhether you’re using branches or not, check in with each other as you push updates to avoid merge conflicts and have the latest progress.\nHere are instructions for a workflow with branches (optional).\n\n\nUploading files from your local computer to 2i2c\nDo this using the “Upload Files” button in JupyterHub in 2i2c, the UP arrow two over from the big blue + button."
-  },
-  {
-    "objectID": "logistics/github-workflows.html#github-qa",
-    "href": "logistics/github-workflows.html#github-qa",
-    "title": "GitHub/Hugging Face workflows",
-    "section": "GitHub Q&A",
-    "text": "GitHub Q&A\n\nWhen should I fork+clone instead of just clone?\nFrom Mike Gangl:\nA fork becomes ‘independent’ of the repository you’re forking. So you control if/when you pull in changes. a clone on the other hand, will be linked to the original repository- so if you do “pull” you’ll get the changes from the parent repository as well.\nIf you plan on contributing to a project, a fork is usually the best way to do that, if you plan on simply consuming the project (e.g. run a tutorial) then cloning is fine. A fork can always be appropriate.\nOr, if you plan on updating and making changes that you’d want to preserve, a fork allows you to do that in your own repository, whereas cloning would need you to have permissions to write (push) to the repository."
-  },
-  {
-    "objectID": "logistics/github-workflows.html#jupyter-qa",
-    "href": "logistics/github-workflows.html#jupyter-qa",
-    "title": "GitHub/Hugging Face workflows",
-    "section": "Jupyter Q&A",
-    "text": "Jupyter Q&A\n\nJupyter notebook question: is there a way to copy multiple cells at once and paste in a new notebook?\n(rather than having to go into each cell individually to copy that snippet of code)\nAnswer: while pressing shift, with the mouse or the arrow keys select the cells you want then you can press ‘C’ or right click and copy the cells and then go to a different notebook and paste them. To make this work you need to focus on the notebook not in a cell (press ESC if so)"
-  },
-  {
-    "objectID": "logistics/index.html",
-    "href": "logistics/index.html",
-    "title": "Logistics overview",
-    "section": "",
-    "text": "Before the hackathon, please complete the prerequisites and be prepared for the daily setup and be familiar with the ways of getting help."
-  },
-  {
-    "objectID": "logistics/index.html#for-hackathon-participants",
-    "href": "logistics/index.html#for-hackathon-participants",
-    "title": "Logistics overview",
-    "section": "",
-    "text": "Before the hackathon, please complete the prerequisites and be prepared for the daily setup and be familiar with the ways of getting help."
-  },
-  {
-    "objectID": "logistics/index.html#for-hackathon-helpers---a-mentors-guide",
-    "href": "logistics/index.html#for-hackathon-helpers---a-mentors-guide",
-    "title": "Logistics overview",
-    "section": "For Hackathon Helpers - A Mentor’s Guide",
-    "text": "For Hackathon Helpers - A Mentor’s Guide\nMentor = trainer = helper = any Hugging Face KREW or PseudoLab volunteer\n\nDiscord\nChannels in PseudoLab workspace\nUpdate your Discord name temporarily to include “helper”, e.g. Wonhyeong Seo (Helper)\n\nMentors’/Helper channel - #r-huggingface-krew\n\nOur back channel to coordinate amongst ourselves\n\nGeneral channel - #2023-everdayaihack-general\n\nAnnouncements, general questions and communications\n\nPitchfest channel - #2023-everdayaihack-projects\n\nParticipants discuss project ideas\nUse discord direct message (DM) for team/project work\n\nHelp channel - #2023-everdayaihack-help\n\nTroubleshooting, share screenshots, etc\nWhen you see a question you will reply to, please add the “eyes” emoji below so other helpers know that you are looking into it. Then please reply in-thread in Discord to help. Can tag additional helpers if you need further support.\n\n\n\n\nGithub\nHackathon repo: https://github.com/Pseudo-Lab/huggingface-hackathon23; any updates to the main branch will be updated in this book (via GitHub Action).\n\ntutorials folder\ntutorials-templates folder for live coding - same as tutorials but the code is removed and only markdown remains\nParticipants will create their own repos, we can link to their projects in the cloud hackathon repo to capture the hackathon projects artifacts\nWorking with the CH repo\n\nParticipants are instructed to fork the CH repo to their own github, then clone the CH repo. This way they can push any updates or changes to the CH repo within their own version of the repo without impacting the original CH repo\nThis should be covered in Tutorial 0.\n\nWhat happens to my work on  after the 3 months?\n\nCode: push to your own Github repo\nData and analysis outputs - working on S3 solution\n\nFrom Clinic chapter: “This section is a step-by-step guide to set up git on your cloud instance and configure git to use your github.com account for managing your repositories hosted on github.com.” We are also looking into using Git Extension.\n\n\n\nGoogle Meet teleconference\n\nHost: Wonhyeong and …\nBreak-out rooms\n\nWe will set up Breakout rooms ahead of time, and have helpers ready to meet with participants. If there are many people in breakout rooms/lots of same issues, we’ll pause the tutorial and address things together\nIf a participant is stuck and needs 1:1 help, ping one of the Google Meet hosts in the mentor/general channel to place you in a breakout room with participant X\n\nChat - Encourage participants to use the Discord general or help channel for questions, not the Google Meet chat\n\nWonhyeong will mention this in the Welcome (logistics) session beginning of Day 1\n\n\n\n\nTutorials workflow\n\nWelcome mentor share link to CH Book during Welcome each day\nWelcome mentor to instruct participant to spin up cloud instance if they haven’t done so that morning already\nTutorial presenters can also role-model having the CH Book open as a tab when they teach if they want to refer to it.\nTutorial presenter will be using template notebooks based on each tutorial\nTutorial presenter will live code, and participants will follow along in their instance\nTutorial presenter screen Google Meet level should be 130%\n\n\n\nHelpers support during “live coding” Tutorials Demos\n\nTutorial mentor live codes, participants follow along\nAll other helpers monitor Discord help (and general) channel for questions, people being stuck\n\nWhen you see a question you will reply to, please add the “eyes” emoji below so other helpers know that you are looking into it. Then please reply in-thread in Discord to help. Can tag additional helpers if you need further support.\nIf needed, ask host to place you and participant in breakout room temporarily for easier help/support\n\nReminder: Update your Discord name temporarily to include “helper”, e.g. “Wonhyeong Seo (Helper)”\n\n\n\nHelper support during Team Hack Time\n\nGoogle Meet host - Place participants in breakout rooms based on their team\n\nCan collaborate in Google Meet breakout rooms and in their discord team DM (direct messaging)\n\nParticipants should post any team project questions in the help discord channel; screenshot are helpful\n\nParticipants can create a DM thread with their teammates for team work discussions\n\nMentors monitor the help discord channel for questions\n\nWhen you see a question you will reply to, please add the “eyes” emoji below so other helpers know that you are looking into it. Then please reply in-thread in discord to help. Can tag additional helpers if you need further support.\nand/or ask host to be added to the team Google Meet breakout room\n\nMentors use the mentor discord channel if you need additional help from a colleague\n\nThey can then also be added to Google Meet breakout room, as needed\n\nBeyond the scheduled time for Team Hack Time, the Google Meet meeting will close out, but participants are welcome to continue to discuss via their DM in discord\n\nNo on-call mentor support beyond the scheduled team hack time session\nAdditional help from mentors available 8-9am Tue-Fri during optional office hours\n\n\n\n\nCloud Instance\nLog-in before we start each day to our cloud instance."
   }
 ]
