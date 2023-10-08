@@ -1,18 +1,3 @@
----
-title: "2023 Everyday AI Hackathon"
-subtitle: "A Hugging Face Community Event"
- 
-author: "This Hackathon is hosted by PseudoLab and sponsored by Hugging Face."
----
-
-## Welcome
-
-Welcome to the **Everyday AI Hackathon: A Hugging Face Community Event**, hosted by PseudoLab, with the aim to strengthen the Korean AI community by exploring innovative and practical applications of AI using Hugging Face technology.
-
-The hackathon will take place **virtually** from Oct 20 - Nov 10, 2023. Culminating in a 4-hour offline event on Nov 11th for presentations and community building. The event is free to attend, but an application is required.
-
-## About
-
 The **Everyday AI Hackathon** is a collaborative open science learning experience aimed at fostering innovation and practical knowledge in AI. The goals are to:
 
 - **Empower Participants:** Enable every participant to harness the power of AI to solve real-world problems and make a positive impact.
@@ -62,26 +47,26 @@ This event is motivated by the dawn of the era of AI. Hugging Face is in the pro
 ## FAQ
 
 - **Q: Who can apply to participate in the hackathon?**
-  
+
   A: Anyone with an interest in AI and Hugging Face technology, from beginners to advanced users, is welcome to apply.
 
 - **Q: Is there any fee to attend the hackathon?**
-  
+
   A: No, the event is free to attend, but an application is required.
 
 - **Q: Will there be any prizes or certificates for participants?**
-  
+
   A: Yes, prizes will include certificates, official Hugging Face swags, and Hugging Face Hub credits.
 
 - **Q: Can I participate if I don’t have any experience with Hugging Face technology?**
-  
+
   A: Absolutely! The hackathon is a learning experience, and participants of all levels are encouraged to apply.
 
 - **Q: Will there be any post-event engagement or follow-up?**
-  
+
   A: Yes, efforts will be made to sustain engagement and collaboration within the community post-event, with platforms or forums for continued knowledge sharing and interaction.
 
-## Code of Conduct 
+## Code of Conduct
 
 The 2023 Everyday AI Hackathon is a safe learning space and all participants are required to abide by our [Code of Conduct](https://pseudo-lab.github.io/code-of-conduct).
 
@@ -91,12 +76,12 @@ The Everyday AI Hackathon: A Hugging Face Community Event is hosted by PseudoLab
 
 We thank all of the additional PseudoLab members that have have joined as helpers.
 
-Thank you to the open science community that has created software, teaching resources, and workflows that we have been able to build heavily from! These include: 
+Thank you to the open science community that has created software, teaching resources, and workflows that we have been able to build heavily from! These include:
 
 - NASA, eScience Institute, University of Washington:
   - <https://nasa-openscapes.github.io/2021-Cloud-Hackathon/>
   - <https://uwhackweek.github.io/hackweeks-as-a-service/intro.html>
   - <https://snowex-hackweek.github.io/website/intro.html>
   - <https://icesat-2hackweek.github.io/learning-resources/>
-  
+
 This hackathon book is made with [quarto](https://quarto.org). See the [earthdata-cloud-cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/) to learn more about how we work and contributing.
