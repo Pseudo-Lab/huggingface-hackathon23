@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2023 일상속의 AI 헤커톤 with HuggingFace - 05. Direct S3 Data Access with rioxarray</title>
+<title>2023 Everyday AI Hackathon - GitHub/Hugging Face workflows</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -63,6 +63,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../tutorials/index.html" rel="next">
+<link href="../logistics/prerequisites.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -108,7 +110,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">05. Direct S3 Data Access with rioxarray</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../logistics/index.html">Logistics</a></li><li class="breadcrumb-item"><a href="../logistics/github-workflows.html">GitHub/Hugging Face workflows</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -126,8 +128,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <img src="https://github.com/Pseudo-Lab/huggingface_krew/assets/29195190/78f067c4-99e0-42bc-8d9f-06155c4ee9be" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
-    <a href="https://pseudolab.github.io" rel="" title="PseudoLab website" class="quarto-navigation-tool px-1" aria-label="PseudoLab website"><i class="bi bi-globe"></i></a>
-    <a href="https://github.com/Pseudo-Lab/huggingface_krew/tree/23hackathon" rel="" title="2023 Everyday AI Hackathon repo." class="quarto-navigation-tool px-1" aria-label="2023 Everyday AI Hackathon repo."><i class="bi bi-github"></i></a>
+    <a href="https://pseudo-lab.github.io/huggingface-hackathon23/" rel="" title="PseudoLab website" class="quarto-navigation-tool px-1" aria-label="PseudoLab website"><i class="bi bi-globe"></i></a>
+    <a href="https://github.com/Pseudo-Lab/huggingface-hackathon23" rel="" title="2023 Everyday AI Hackathon repo" class="quarto-navigation-tool px-1" aria-label="2023 Everyday AI Hackathon repo"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div>
@@ -141,7 +143,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">환영합니다.</span></a>
+ <span class="menu-text">Welcome</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -177,17 +179,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
- <span class="menu-text">logistics/index.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Logistics overview</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">logistics/schedule.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/schedule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Schedule</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">logistics/prerequisites.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/prerequisites.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prerequisites &amp; help</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">logistics/github-workflows.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/github-workflows.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">GitHub/Hugging Face workflows</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -203,12 +217,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <div class="sidebar-item-container"> 
   <a href="../tutorials/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tutorials Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tutorials/00_Setup.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">00. Setup for tutorials</span></a>
   </div>
 </li>
       </ul>
@@ -286,11 +294,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../clinic/jupyterhub.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NASA Openscapes Cloud Environment</span></a>
-  </div>
-</li>
+ <span class="menu-text">clinic/huggingfacehub.md</span>
+  </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../clinic/notebooks.html" class="sidebar-item-text sidebar-link">
@@ -315,37 +320,48 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#timing" id="toc-timing" class="nav-link active" data-scroll-target="#timing">Timing</a></li>
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a>
+  <li><a href="#first-time-setup" id="toc-first-time-setup" class="nav-link active" data-scroll-target="#first-time-setup">First-Time Setup</a>
   <ul class="collapse">
-  <li><a href="#direct-s3-access" id="toc-direct-s3-access" class="nav-link" data-scroll-target="#direct-s3-access">Direct S3 Access</a></li>
+  <li><a href="#fork-the-hackathon-repo" id="toc-fork-the-hackathon-repo" class="nav-link" data-scroll-target="#fork-the-hackathon-repo">Fork the hackathon repo</a></li>
+  <li><a href="#clone-your-forked-repo-into-jupyterhub" id="toc-clone-your-forked-repo-into-jupyterhub" class="nav-link" data-scroll-target="#clone-your-forked-repo-into-jupyterhub">Clone your forked repo into JupyterHub</a></li>
   </ul></li>
-  <li><a href="#what-you-will-learn-from-this-tutorial" id="toc-what-you-will-learn-from-this-tutorial" class="nav-link" data-scroll-target="#what-you-will-learn-from-this-tutorial">What you will learn from this tutorial</a></li>
-  <li><a href="#import-required-packages" id="toc-import-required-packages" class="nav-link" data-scroll-target="#import-required-packages">Import Required Packages</a></li>
-  <li><a href="#configure-local-environment-and-get-temporary-credentials" id="toc-configure-local-environment-and-get-temporary-credentials" class="nav-link" data-scroll-target="#configure-local-environment-and-get-temporary-credentials">Configure Local Environment and Get Temporary Credentials</a>
+  <li><a href="#daily-setup" id="toc-daily-setup" class="nav-link" data-scroll-target="#daily-setup">Daily Setup</a>
   <ul class="collapse">
-  <li><a href="#insert-the-credentials-into-our-boto3-session-and-configure-our-rasterio-environment-for-data-access" id="toc-insert-the-credentials-into-our-boto3-session-and-configure-our-rasterio-environment-for-data-access" class="nav-link" data-scroll-target="#insert-the-credentials-into-our-boto3-session-and-configure-our-rasterio-environment-for-data-access">Insert the credentials into our <code>boto3</code> session and configure our <code>rasterio</code> environment for data access</a></li>
+  <li><a href="#github-update-your-fork" id="toc-github-update-your-fork" class="nav-link" data-scroll-target="#github-update-your-fork">GitHub: Update your fork</a></li>
+  <li><a href="#jupyterhub-get-your-forks-updates" id="toc-jupyterhub-get-your-forks-updates" class="nav-link" data-scroll-target="#jupyterhub-get-your-forks-updates">JupyterHub: Get your fork’s updates</a></li>
+  <li><a href="#daily-setup-troubleshooting" id="toc-daily-setup-troubleshooting" class="nav-link" data-scroll-target="#daily-setup-troubleshooting">Daily setup troubleshooting</a></li>
   </ul></li>
-  <li><a href="#read-in-s3-links" id="toc-read-in-s3-links" class="nav-link" data-scroll-target="#read-in-s3-links">Read in S3 Links</a>
+  <li><a href="#git-update-revert-etc" id="toc-git-update-revert-etc" class="nav-link" data-scroll-target="#git-update-revert-etc">Git: update, revert, etc</a>
   <ul class="collapse">
-  <li><a href="#list-the-available-files-in-the-data-directory" id="toc-list-the-available-files-in-the-data-directory" class="nav-link" data-scroll-target="#list-the-available-files-in-the-data-directory">List the available files in the data directory</a></li>
+  <li><a href="#delete-your-local-changes" id="toc-delete-your-local-changes" class="nav-link" data-scroll-target="#delete-your-local-changes">Delete your local changes</a></li>
+  <li><a href="#update-local-branch-with-remote-main-branch" id="toc-update-local-branch-with-remote-main-branch" class="nav-link" data-scroll-target="#update-local-branch-with-remote-main-branch">Update local branch with remote main branch</a></li>
+  <li><a href="#update-from-main" id="toc-update-from-main" class="nav-link" data-scroll-target="#update-from-main">Update from main</a></li>
   </ul></li>
-  <li><a href="#read-in-a-single-hls-file" id="toc-read-in-a-single-hls-file" class="nav-link" data-scroll-target="#read-in-a-single-hls-file">Read in a single HLS file</a>
+  <li><a href="#project-hacktime-setup" id="toc-project-hacktime-setup" class="nav-link" data-scroll-target="#project-hacktime-setup">Project Hacktime Setup</a>
   <ul class="collapse">
-  <li><a href="#plot-the-hls-s3-object" id="toc-plot-the-hls-s3-object" class="nav-link" data-scroll-target="#plot-the-hls-s3-object">Plot the HLS S3 object</a></li>
+  <li><a href="#create-a-repository-on-github.com" id="toc-create-a-repository-on-github.com" class="nav-link" data-scroll-target="#create-a-repository-on-github.com">Create a repository on GitHub.com</a></li>
+  <li><a href="#discuss-edit-access-vs-branches" id="toc-discuss-edit-access-vs-branches" class="nav-link" data-scroll-target="#discuss-edit-access-vs-branches">Discuss edit access vs branches</a></li>
+  <li><a href="#clone-repo-into-2i2c" id="toc-clone-repo-into-2i2c" class="nav-link" data-scroll-target="#clone-repo-into-2i2c">Clone repo into 2i2c</a></li>
+  <li><a href="#check-in-as-you-push-changes" id="toc-check-in-as-you-push-changes" class="nav-link" data-scroll-target="#check-in-as-you-push-changes">Check in as you push changes</a></li>
+  <li><a href="#uploading-files-from-your-local-computer-to-2i2c" id="toc-uploading-files-from-your-local-computer-to-2i2c" class="nav-link" data-scroll-target="#uploading-files-from-your-local-computer-to-2i2c">Uploading files from your local computer to 2i2c</a></li>
   </ul></li>
-  <li><a href="#read-in-hls-as-a-time-series" id="toc-read-in-hls-as-a-time-series" class="nav-link" data-scroll-target="#read-in-hls-as-a-time-series">Read in HLS as a time series</a></li>
-  <li><a href="#concluding-remarks" id="toc-concluding-remarks" class="nav-link" data-scroll-target="#concluding-remarks">Concluding Remarks</a></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#github-qa" id="toc-github-qa" class="nav-link" data-scroll-target="#github-qa">GitHub Q&amp;A</a>
+  <ul class="collapse">
+  <li><a href="#when-should-i-forkclone-instead-of-just-clone" id="toc-when-should-i-forkclone-instead-of-just-clone" class="nav-link" data-scroll-target="#when-should-i-forkclone-instead-of-just-clone">When should I fork+clone instead of just clone?</a></li>
+  </ul></li>
+  <li><a href="#jupyter-qa" id="toc-jupyter-qa" class="nav-link" data-scroll-target="#jupyter-qa">Jupyter Q&amp;A</a>
+  <ul class="collapse">
+  <li><a href="#jupyter-notebook-question-is-there-a-way-to-copy-multiple-cells-at-once-and-paste-in-a-new-notebook" id="toc-jupyter-notebook-question-is-there-a-way-to-copy-multiple-cells-at-once-and-paste-in-a-new-notebook" class="nav-link" data-scroll-target="#jupyter-notebook-question-is-there-a-way-to-copy-multiple-cells-at-once-and-paste-in-a-new-notebook">Jupyter notebook question: is there a way to copy multiple cells at once and paste in a new notebook?</a></li>
+  </ul></li>
   </ul>
-</nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Pseudo-Lab/huggingface-hackathon23/edit/main/logistics/github-workflows.md" class="toc-action">Edit this page</a></p><p><a href="https://github.com/Pseudo-Lab/huggingface-hackathon23/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">05. Direct S3 Data Access with rioxarray</h1>
+<h1 class="title">GitHub/Hugging Face workflows</h1>
 </div>
 
 
@@ -360,200 +376,142 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="timing" class="level2">
-<h2 class="anchored" data-anchor-id="timing">Timing</h2>
-<ul>
-<li>Exercise: 20 minutes</li>
-</ul>
-</section>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>In the previous exercises we searched for and discovered cloud data assets that met certain search criteria (i.e., intersects with our region of interest and for a specified date range). The end goal was to find and save web links to the data assets we want to use in our workflow. The links we found allow us to download data via HTTPS (Hypertext Transfer Protocol Secure). However, NASA allows for direct in-region S3 bucket access for the same assets. In addition to saving the HTTPS links, we also created and saved the S3 links for those same cloud assets and we will use them here. In this exercise we will demonstrate how to perform direct in-region S3 bucket access for Harmonized Landsat Sentinel-2 (HLS) cloud data assets.</p>
-<section id="direct-s3-access" class="level3">
-<h3 class="anchored" data-anchor-id="direct-s3-access">Direct S3 Access</h3>
-<p>NASA Earthdata Cloud provides two pathways for accessing data from the cloud. The first is via HTTPS. The other is through direct S3 bucket access. Below are some benefits and considerations when choosing to use direct S3 bucket access for NASA cloud assets.</p>
-<section id="benefits" class="level4">
-<h4 class="anchored" data-anchor-id="benefits">Benefits</h4>
-<ul>
-<li>Retrieving data can be much quicker</li>
-<li>No need to download data! Work with data in a more efficient manner, “next to it, in the cloud”<br>
-</li>
-<li>Increased capacity to do parallel processing, due to working in the cloud<br>
-</li>
-<li>You are working completely within the AWS cloud ecosystem and thus have access to the might of all AWS offerings (e.g., infrastructure, S3 API, services, etc.)</li>
-</ul>
-</section>
-<section id="considerations" class="level4">
-<h4 class="anchored" data-anchor-id="considerations">Considerations</h4>
-<ul>
-<li>If your workflow is in the cloud, choose S3 over HTTPS<br>
-</li>
-<li>Access only works within AWS <em>us-west-2</em> region<br>
-</li>
-<li>Need an AWS S3 “token” to access S3 Bucket<br>
-</li>
-<li>Token expires after 1 hour (currently)<br>
-</li>
-<li>Token only works at the DAAC that generates it, e.g.,
-<ul>
-<li>PO.DAAC token generator: <a href="https://archive.podaac.earthdata.nasa.gov/s3credentials" class="uri">https://archive.podaac.earthdata.nasa.gov/s3credentials</a><br>
-</li>
-<li>LP DAAC token generator: <a href="https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials" class="uri">https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials</a><br>
-</li>
-</ul></li>
-<li>Direct S3 access on its own does not solve ‘cloud’ problems, but it is one key technology in solving big data problems<br>
-</li>
-<li>Still have to load things in to memory, parallelize the computation, if working with really large data volumes. There are a lot of tools that allow you to do that, but are not discussed in this tutorial</li>
-</ul>
-</section>
-</section>
-</section>
-<section id="what-you-will-learn-from-this-tutorial" class="level2">
-<h2 class="anchored" data-anchor-id="what-you-will-learn-from-this-tutorial">What you will learn from this tutorial</h2>
-<ul>
-<li>how to retrieve temporary S3 credentials for in-region direct S3 bucket access<br>
-</li>
-<li>how to configure our notebook environment for in-region direct S3 bucket access<br>
-</li>
-<li>how to access a single HLS file via in-region direct S3 bucket access<br>
-</li>
-<li>how to create an HLS time series data array from cloud assets via in-region direct S3 bucket access<br>
-</li>
-<li>how to plot results</li>
-</ul>
-<p>This exercise can be found in the <a href="https://nasa-openscapes.github.io/2021-Cloud-Hackathon/tutorials/Data_Access__Direct_S3_Access.html">2021 Cloud Hackathon Book</a></p>
-<hr>
-</section>
-<section id="import-required-packages" class="level2">
-<h2 class="anchored" data-anchor-id="import-required-packages">Import Required Packages</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>We will be live-coding during the tutorials and collaborating during the project hack-time, using GitHub in both cases. Here is how to setup and work for each.</p>
+<p>Note: we’ll be using Git together with GitHub and will talk about them interchangeably.</p>
+<section id="first-time-setup" class="level2">
+<h2 class="anchored" data-anchor-id="first-time-setup">First-Time Setup</h2>
+<section id="fork-the-hackathon-repo" class="level3">
+<h3 class="anchored" data-anchor-id="fork-the-hackathon-repo">Fork the hackathon repo</h3>
+<p>Go to <a href="https://github.com/nasa-openscapes/2021-Cloud-Hackathon">https://github.com/nasa-openscapes/2021-Cloud-Hackathon</a> and fork the repository. This will enable you to you can edit your own copy and live-code with us</p>
+<blockquote class="blockquote">
+<p>Note: The term fork means that you are going to copy the project into your own user space in Github</p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../clinic/img/fork-tutorials.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Fork a copy</figcaption>
+</figure>
 </div>
 </section>
-<section id="configure-local-environment-and-get-temporary-credentials" class="level2">
-<h2 class="anchored" data-anchor-id="configure-local-environment-and-get-temporary-credentials">Configure Local Environment and Get Temporary Credentials</h2>
-<p>To perform direct S3 data access one needs to acquire temporary S3 credentials. The credentials give users direct access to S3 buckets in NASA Earthdata Cloud. <strong>AWS credentials should not be shared</strong>, so take precautions when using them in notebooks our scripts. <strong>Note,</strong> these temporary credentials are valid for only <strong>1 hour</strong>. For more information regarding the temporary credentials visit <a href="https://data.lpdaac.earthdatacloud.nasa.gov/s3credentialsREADME" class="uri">https://data.lpdaac.earthdatacloud.nasa.gov/s3credentialsREADME</a>. A <code>netrc</code> file is required to aquire these credentials. Use the <a href="NASA_Earthdata_Authentication.ipynb">NASA Earthdata Authentication</a> to create a <code>netrc</code> file in your home directory.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<section id="insert-the-credentials-into-our-boto3-session-and-configure-our-rasterio-environment-for-data-access" class="level3">
-<h3 class="anchored" data-anchor-id="insert-the-credentials-into-our-boto3-session-and-configure-our-rasterio-environment-for-data-access">Insert the credentials into our <code>boto3</code> session and configure our <code>rasterio</code> environment for data access</h3>
-<p>Create a boto3 Session object using your temporary credentials. This Session is used to pass credentials and configuration to AWS so we can interact wit S3 objects from applicable buckets.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>For this exercise, we are going to open up a context manager for the notebook using the <code>rasterio.env</code> module to store the required GDAL and AWS configurations we need to access the data in Earthdata Cloud. While the context manager is open (<code>rio_env.__enter__()</code>) we will be able to run the open or get data commands that would typically be executed within a <code>with</code> statement, thus allowing us to more freely interact with the data. We’ll close the context (<code>rio_env.__exit__()</code>) at the end of the notebook.</p>
-<p>GDAL environment variables must be configured to access Earthdata Cloud data assets. Geospatial data access Python packages like <code>rasterio</code> and <code>rioxarray</code> depend on GDAL, leveraging GDAL’s “Virtual File Systems” to read remote files. GDAL has a lot of environment variables that control it’s behavior. Changing these settings can mean the difference being able to access a file or not. They can also have an impact on the performance.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="clone-your-forked-repo-into-jupyterhub" class="level3">
+<h3 class="anchored" data-anchor-id="clone-your-forked-repo-into-jupyterhub">Clone your forked repo into JupyterHub</h3>
+<p>Open your terminal</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/YOUR-USERNAME/2021-Cloud-Hackathon</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><em>don’t do all the credentials/token — they don’t need push access to follow along with the tutorials. We can help them via Slack/breakouts when/if they need to push with tokens</em></p>
 </section>
 </section>
-<section id="read-in-s3-links" class="level2">
-<h2 class="anchored" data-anchor-id="read-in-s3-links">Read in S3 Links</h2>
-<p>In the <a href="Data_Discovery__CMR-STAC_API.ipynb">CMR-STAC API</a> tutorial we saved off multiple text file containing links, both HTTPS and S3 links, to Harmonized Landsat Sentinel-2 (HLS) cloud data assets. We will now read in one of those file and show how to access those data assets.</p>
-<section id="list-the-available-files-in-the-data-directory" class="level3">
-<h3 class="anchored" data-anchor-id="list-the-available-files-in-the-data-directory">List the available files in the data directory</h3>
-<p><strong>NOTE:</strong> If you are running the notebook from the tutorials-templates directory, please use the following path to connect to the data directoy: “<strong>../tutorials/data</strong>”</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>We will save our list of links and a single link as Python objects for use later.</p>
-<p><strong>NOTE:</strong> If you are running the notebook from the tutorials-templates directory, please use the following path to connect to the data directoy: “<strong>../tutorials/data</strong>”</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="daily-setup" class="level2">
+<h2 class="anchored" data-anchor-id="daily-setup">Daily Setup</h2>
+<p>The daily setup has 2 steps: get the latest into your forked copy of the repo, then get the latest of your fork into your JupyterHub.</p>
+<p>If you have any conflicts with the following steps, you will likely need to commit your work, or clear your work if you don’t want to keep anything you’ve done. See below for <a href="#daily-setup-troubleshooting">daily setup troubleshooting</a> as well as <a href="#git-update-revert-etc">Git update, revert, etc</a>.</p>
+<section id="github-update-your-fork" class="level3">
+<h3 class="anchored" data-anchor-id="github-update-your-fork">GitHub: Update your fork</h3>
+<p><strong>From github.com Fetch and merge</strong>: Update your forked repo from main by clicking “Fetch upstream” beneath the big green code button, and then the green “Fetch and merge” button. You may have to refresh the page to see any recent activity.</p>
+<p><img src="images/github-fetch-and-merge.png" class="img-fluid"></p>
+</section>
+<section id="jupyterhub-get-your-forks-updates" class="level3">
+<h3 class="anchored" data-anchor-id="jupyterhub-get-your-forks-updates">JupyterHub: Get your fork’s updates</h3>
+<p>Go to the JupyterHub</p>
+<p>Go to the GitHub extension and click the “pull button”</p>
+<p>If you see</p>
+<p><img src="images/jupyterhub-gh-discard.png" class="img-fluid"></p>
+<p>You’ll need to decide if you want to keep or delete the changes you made yesterday. This will depend on the work you did and how important it was. If you’d like to delete it, please follow <a href="#delete-your-local-changes">delete your local changes</a> below, and then come back above and retype <code>git status</code> and <code>git pull</code>.</p>
+<p>If you’d like to keep your changes, you’ll need to commit them. You can press “Cancel” and look at the files in the “Changed” category and you can hover over the file to inspect them (open, diff, discard, add) and if you’d like to add them, they will be staged and then you can commit them with a message.</p>
+<p>You could also do the above in the terminal, making sure you are in the <code>2021-Cloud-Hackathon</code> directory (double check with <code>pwd</code> and move with <code>cd</code>)</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> pull</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="daily-setup-troubleshooting" class="level3">
+<h3 class="anchored" data-anchor-id="daily-setup-troubleshooting">Daily setup troubleshooting</h3>
+<p><strong>Not a git repository</strong> - in your terminal if you see the following, you likely need to <code>cd</code> change directory into your GitHub folder.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">fatal:</span> not a git repository <span class="er">(</span><span class="ex">or</span> any parent up to mount point /home<span class="kw">)</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">Stopping</span> at filesystem boundary <span class="er">(</span><span class="ex">GIT_DISCOVERY_ACROSS_FILESYSTEM</span> not set<span class="kw">)</span><span class="bu">.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
-<section id="read-in-a-single-hls-file" class="level2">
-<h2 class="anchored" data-anchor-id="read-in-a-single-hls-file">Read in a single HLS file</h2>
-<p>We’ll access the HLS S3 object using the <a href="https://corteva.github.io/rioxarray/stable/"><code>rioxarray</code></a> Python package. The package is an extension of <code>xarray</code> and <code>rasterio</code>, allowing users to read in and interact with geospatial data using xarray data structures. We will also be leveraging the tight integration between xarray and dask to lazily read in data via the <code>chunks</code> parameter. This allows us to connect to the HLS S3 object, reading only metadata, an not load the data into memory until we request it via the <code>loads()</code> function.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>When GeoTIFFS/Cloud Optimized GeoTIFFS are read in, a <code>band</code> coordinate variable is automatically created (see the print out above). In this exercise we will not use that coordinate variable, so we will remove it using the <code>squeeze()</code> function to avoid confusion.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<section id="plot-the-hls-s3-object" class="level3">
-<h3 class="anchored" data-anchor-id="plot-the-hls-s3-object">Plot the HLS S3 object</h3>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>We can print out the data value as a numpy array by typing <code>.values</code></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Up to this point, we have not saved anything but metadata into memory. To save or load the data into memory we can call the <code>.load()</code> function.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="git-update-revert-etc" class="level2">
+<h2 class="anchored" data-anchor-id="git-update-revert-etc">Git: update, revert, etc</h2>
+<p>These are some useful commands to revert/delete your local changes and update your fork with the most recent information from the main branch.</p>
+<section id="delete-your-local-changes" class="level3">
+<h3 class="anchored" data-anchor-id="delete-your-local-changes">Delete your local changes</h3>
+<p>There are several ways to delete your local changes if you were playing around and want to reset. Here are a few:</p>
+<section id="undo-changes-youve-maybe-saved-or-committed-but-not-pushed" class="level4">
+<h4 class="anchored" data-anchor-id="undo-changes-youve-maybe-saved-or-committed-but-not-pushed">Undo changes you’ve maybe saved or committed, but not pushed</h4>
+<p>This is less time and internet intensive (no new clone/download).</p>
+<p>If you’ve got changes saved, but not yet staged, committed, or pushed, you’ll delete unstaged changes in the working directory with clean:</p>
+<p>You’ll need to make sure you’re in the github repository (use <code>pwd</code> to check your present working directory and <code>cd</code> to change directory)</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clean <span class="at">-df</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout <span class="at">--</span> .</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="burn-it-all-down" class="level4">
+<h4 class="anchored" data-anchor-id="burn-it-all-down">Burn it all down</h4>
+<p>You’ll delete the whole repo that you have locally, and then reclone.</p>
+<p>You’ll need to make sure you’re in the github repository (use <code>pwd</code> to check your present working directory and <code>cd</code> to change directory)</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span> <span class="at">-rf</span> YOUR-REPO</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Here is a whole blog on how to go back in time (walk back changes), with conceptual diagrams, command line code, and screenshots from RStudio. <a href="https://ohi-science.org/news/github-going-back-in-time" class="uri">https://ohi-science.org/news/github-going-back-in-time</a></p>
 </section>
 </section>
-<section id="read-in-hls-as-a-time-series" class="level2">
-<h2 class="anchored" data-anchor-id="read-in-hls-as-a-time-series">Read in HLS as a time series</h2>
-<p>Now we’ll read in multiple HLS S3 objects as a time series xarray. Let’s print the links list again to see what we’re working with.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Currently, the utilities and packages used in Python to read in GeoTIFF/COG file do not recognize associated dates stored in the internal metadata. To account for the dates for each file we must create a time variable and add it as a dimension in our final time series xarray. We’ll create a function that extracts the date from the file link and create an xarray variable with a time array of datetime objects.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>We’ll now specify a chunk size to use that matches the internal tiling of HLS files. This will help improve performance.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Now, we will create our time series.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Since we used the <code>chunks</code> parameter while reading the data, the <code>hls_ts_da</code> object is not read into memory yet. To do that we’ll use the <code>load()</code> function.</p>
-<p>Now, we’ll see what we have. Use <code>hvplot</code> to plot our time series</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<hr>
+<section id="update-local-branch-with-remote-main-branch" class="level3">
+<h3 class="anchored" data-anchor-id="update-local-branch-with-remote-main-branch">Update local branch with remote main branch</h3>
+<p>If while you’re working you would like to update your local <code>your-branch</code> with the most recent updates on the <code>main</code> branch on GitHub.com, there are several ways to do this. Here’s one.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout your-branch</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> fetch</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> merge origin/main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="concluding-remarks" class="level2">
-<h2 class="anchored" data-anchor-id="concluding-remarks">Concluding Remarks</h2>
-<p>The above exercise demonstrated how to perform in-region direct S3 bucket access for HLS cloud data assets. HLS cloud data assets are stored as <a href="https://www.cogeo.org/">Cloud Optimized GeoTIFFs</a>, a format that has been the benifactor of data discovery and access advancements within the Python ecosystem. Knowing what the data storage format is (e.g., COG, netcdf4, or zarr store) and/or what data access protocol you’re using is critical in determining what Python data access method you will use. For COG data, <code>rioxarray</code> package is often prefered due to is ability to bring the geospatial data format into an <code>xarray</code> object. For netcdf4 files, the standard <code>xarray</code> package incombination with <code>s3fs</code> allow users to perform in-region direct access reads into an xarray object. Finally, if you are using OPeNDAP to connect to data, specialized packages like <code>pydap</code> have been integrated into <code>xarray</code> for streamline access directly to an <code>xarray</code> object.</p>
+<section id="update-from-main" class="level3">
+<h3 class="anchored" data-anchor-id="update-from-main">Update from main</h3>
 </section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<ul>
-<li><a href="https://stackoverflow.com/questions/46899337/convert-raster-time-series-of-multiple-geotiff-images-to-netcdf">Build time series from multiple GeoTIFF files</a></li>
-<li><a href="https://holoviews.org/user_guide/Colormaps.html">Hvplot/Holoview Colormap</a></li>
-<li><a href="https://git.earthdata.nasa.gov/projects/LPDUR/repos/lpdaac_cloud_data_access/browse" class="uri">https://git.earthdata.nasa.gov/projects/LPDUR/repos/lpdaac_cloud_data_access/browse</a></li>
-<li><a href="https://git.earthdata.nasa.gov/projects/LPDUR/repos/hls-tutorial/browse" class="uri">https://git.earthdata.nasa.gov/projects/LPDUR/repos/hls-tutorial/browse</a></li>
-<li><a href="https://github.com/NASA-Openscapes/2021-Cloud-Hackathon/blob/main/tutorials/Additional_Resources__Data_Access__Direct_S3_Access__PODAAC_ECCO_SSH.ipynb">Direct S3 Data Access - Rough PODAAC ECCO SSH Example</a></li>
-<li><a href="https://github.com/podaac/ECCO/blob/main/Data_Access/cloud_direct_access_s3.ipynb">Direct access to ECCO data in S3 (from us-west-2)</a></li>
-<li><a href="https://github.com/NASA-Openscapes/2021-Cloud-Hackathon/blob/main/tutorials/Additional_Resources__Direct_S3_Access__gdalvrt.ipynb">Direct S3 Data Access with GDAL Virtual Raster Format (VRT)</a></li>
-<li><a href="https://github.com/NASA-Openscapes/2021-Cloud-Hackathon/blob/main/tutorials/Additional_Resources__Direct_S3_Access__rioxarray_clipping.ipynb">Direct S3 Data Access with rioxarray - Clipping Example</a></li>
-</ul>
+</section>
+<section id="project-hacktime-setup" class="level2">
+<h2 class="anchored" data-anchor-id="project-hacktime-setup">Project Hacktime Setup</h2>
+<p>Here are some suggestions for collaborating with your project groups (and beyond!) using GitHub.</p>
+<p>This means a combination of creating a place to collaborate (a github repository) and a shared workflow to contribute.</p>
+<section id="create-a-repository-on-github.com" class="level3">
+<h3 class="anchored" data-anchor-id="create-a-repository-on-github.com">Create a repository on GitHub.com</h3>
+<p>Just one person does this.</p>
+<p>You can do this in one of your user/organization accounts, or ask someone from the Cloud Hackathon Team to create one for you in the NASA-Openscapes organization.</p>
+<p>Here are instructions for <a href="https://rstudio-conf-2020.github.io/r-for-excel/github.html#create-a-repository-on-github.com">creating a repo on GitHub.com</a> — remember to make it public so that other hackathon folks can see and help!</p>
+</section>
+<section id="discuss-edit-access-vs-branches" class="level3">
+<h3 class="anchored" data-anchor-id="discuss-edit-access-vs-branches">Discuss edit access vs branches</h3>
+<p>The person who created the repo will manage the permission.</p>
+<p>The simplest way to collaborate on GitHub is if everyone has permission to edit the repository directly through the main branch. Talk to your team — folks that have experience using branches can do so but others can push changes directly to the main branch.</p>
+<p>Here are instructions for <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository#inviting-a-team-or-person">updating github repo permissions</a>.</p>
+</section>
+<section id="clone-repo-into-2i2c" class="level3">
+<h3 class="anchored" data-anchor-id="clone-repo-into-2i2c">Clone repo into 2i2c</h3>
+<p>Everybody does this.</p>
+<p>To to the JupyterHub, go to your Terminal, then:</p>
+<p><code>git clone https://github.com/USERNAME/REPOSITORY-NAME</code>.</p>
+</section>
+<section id="check-in-as-you-push-changes" class="level3">
+<h3 class="anchored" data-anchor-id="check-in-as-you-push-changes">Check in as you push changes</h3>
+<p>Whether you’re using branches or not, check in with each other as you push updates to avoid merge conflicts and have the latest progress.</p>
+<p>Here are instructions for a <a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/workflow.html#github-workflow">workflow with branches</a> (optional).</p>
+</section>
+<section id="uploading-files-from-your-local-computer-to-2i2c" class="level3">
+<h3 class="anchored" data-anchor-id="uploading-files-from-your-local-computer-to-2i2c">Uploading files from your local computer to 2i2c</h3>
+<p>Do this using the “Upload Files” button in JupyterHub in 2i2c, the UP arrow two over from the big blue + button.</p>
+</section>
+</section>
+<section id="github-qa" class="level2">
+<h2 class="anchored" data-anchor-id="github-qa">GitHub Q&amp;A</h2>
+<section id="when-should-i-forkclone-instead-of-just-clone" class="level3">
+<h3 class="anchored" data-anchor-id="when-should-i-forkclone-instead-of-just-clone">When should I fork+clone instead of just clone?</h3>
+<p>From Mike Gangl:</p>
+<p>A fork becomes ‘independent’ of the repository you’re forking. So you control if/when you pull in changes. a clone on the other hand, will be linked to the original repository- so if you do “pull” you’ll get the changes from the parent repository as well.</p>
+<p>If you plan on contributing to a project, a fork is usually the best way to do that, if you plan on simply consuming the project (e.g.&nbsp;run a tutorial) then cloning is fine. A fork can always be appropriate.</p>
+<p>Or, if you plan on updating and making changes that you’d want to preserve, a fork allows you to do that in your own repository, whereas cloning would need you to have permissions to write (push) to the repository.</p>
+</section>
+</section>
+<section id="jupyter-qa" class="level2">
+<h2 class="anchored" data-anchor-id="jupyter-qa">Jupyter Q&amp;A</h2>
+<section id="jupyter-notebook-question-is-there-a-way-to-copy-multiple-cells-at-once-and-paste-in-a-new-notebook" class="level3">
+<h3 class="anchored" data-anchor-id="jupyter-notebook-question-is-there-a-way-to-copy-multiple-cells-at-once-and-paste-in-a-new-notebook">Jupyter notebook question: is there a way to copy multiple cells at once and paste in a new notebook?</h3>
+<p>(rather than having to go into each cell individually to copy that snippet of code)</p>
+<p>Answer: while pressing shift, with the mouse or the arrow keys select the cells you want then you can press ‘C’ or right click and copy the cells and then go to a different notebook and paste them. To make this work you need to focus on the notebook not in a cell (press ESC if so)</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -905,6 +863,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../logistics/prerequisites.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Prerequisites &amp; help</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../tutorials/index.html" class="pagination-link">
+        <span class="nav-page-text">Tutorials Overview</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2023 일상속의 AI 헤커톤 with HuggingFace - 04. Authentication for NASA Earthdata</title>
+<title>2023 Everyday AI Hackathon – earthdata</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -108,7 +74,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">04. Authentication for NASA Earthdata</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -126,8 +92,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <img src="https://github.com/Pseudo-Lab/huggingface_krew/assets/29195190/78f067c4-99e0-42bc-8d9f-06155c4ee9be" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
-    <a href="https://pseudolab.github.io" rel="" title="PseudoLab website" class="quarto-navigation-tool px-1" aria-label="PseudoLab website"><i class="bi bi-globe"></i></a>
-    <a href="https://github.com/Pseudo-Lab/huggingface_krew/tree/23hackathon" rel="" title="2023 Everyday AI Hackathon repo." class="quarto-navigation-tool px-1" aria-label="2023 Everyday AI Hackathon repo."><i class="bi bi-github"></i></a>
+    <a href="https://pseudo-lab.github.io/huggingface-hackathon23/" rel="" title="PseudoLab website" class="quarto-navigation-tool px-1" aria-label="PseudoLab website"><i class="bi bi-globe"></i></a>
+    <a href="https://github.com/Pseudo-Lab/huggingface-hackathon23" rel="" title="2023 Everyday AI Hackathon repo" class="quarto-navigation-tool px-1" aria-label="2023 Everyday AI Hackathon repo"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div>
@@ -141,7 +107,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">환영합니다.</span></a>
+ <span class="menu-text">Welcome</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -177,17 +143,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
- <span class="menu-text">logistics/index.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Logistics overview</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">logistics/schedule.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/schedule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Schedule</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">logistics/prerequisites.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/prerequisites.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prerequisites &amp; help</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">logistics/github-workflows.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/github-workflows.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">GitHub/Hugging Face workflows</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -203,12 +181,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <div class="sidebar-item-container"> 
   <a href="../tutorials/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tutorials Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tutorials/00_Setup.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">00. Setup for tutorials</span></a>
   </div>
 </li>
       </ul>
@@ -286,11 +258,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../clinic/jupyterhub.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NASA Openscapes Cloud Environment</span></a>
-  </div>
-</li>
+ <span class="menu-text">clinic/huggingfacehub.md</span>
+  </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../clinic/notebooks.html" class="sidebar-item-text sidebar-link">
@@ -315,74 +284,47 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a>
+  <li><a href="#earthdata-login" id="toc-earthdata-login" class="nav-link active" data-scroll-target="#earthdata-login">Earthdata Login</a>
   <ul class="collapse">
-  <li><a href="#earthdata-login" id="toc-earthdata-login" class="nav-link" data-scroll-target="#earthdata-login">Earthdata Login</a></li>
-  <li><a href="#authentication-via-netrc-file" id="toc-authentication-via-netrc-file" class="nav-link" data-scroll-target="#authentication-via-netrc-file">Authentication via netrc File</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#why-do-i-need-an-earthdata-login" id="toc-why-do-i-need-an-earthdata-login" class="nav-link" data-scroll-target="#why-do-i-need-an-earthdata-login">Why do I need an Earthdata login?</a></li>
+  <li><a href="#getting-an-earthdata-login" id="toc-getting-an-earthdata-login" class="nav-link" data-scroll-target="#getting-an-earthdata-login">Getting an Earthdata login</a></li>
+  <li><a href="#configure-programmatic-access-to-nasa-servers" id="toc-configure-programmatic-access-to-nasa-servers" class="nav-link" data-scroll-target="#configure-programmatic-access-to-nasa-servers">Configure programmatic access to NASA servers</a></li>
   </ul></li>
-  <li><a href="#import-required-packages" id="toc-import-required-packages" class="nav-link" data-scroll-target="#import-required-packages">Import Required Packages</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Pseudo-Lab/huggingface-hackathon23/edit/main/clinic/earthdata.md" class="toc-action">Edit this page</a></p><p><a href="https://github.com/Pseudo-Lab/huggingface-hackathon23/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">04. Authentication for NASA Earthdata</h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>This notebook creates a hidden <code>.netrc</code> file (<code>_netrc</code> for Window OS) with Earthdata login credentials in your home directory. This file is needed to access NASA Earthdata assets from a scripting environment like Python.</p>
-<section id="earthdata-login" class="level3">
-<h3 class="anchored" data-anchor-id="earthdata-login">Earthdata Login</h3>
-<p>An Earthdata Login account is required to access data, as well as discover restricted data, from the NASA Earthdata system. Thus, to access NASA data, you need Earthdata Login. Please visit <a href="https://urs.earthdata.nasa.gov" class="uri">https://urs.earthdata.nasa.gov</a> to register and manage your Earthdata Login account. This account is free to create and only takes a moment to set up.</p>
+<section id="earthdata-login" class="level1">
+<h1>Earthdata Login</h1>
+<p><em>The following was borrowed from the excellent <a href="https://snowex-hackweek.github.io/website/projects/index.html">SnowEx Hackathon 2021</a></em></p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>NASA data are stored at one of several Distributed Active Archive Centers (DAACs). If you’re interested in available data for a given area and time of interest, the <a href="https://earthdata.nasa.gov/">Earthdata Search</a> portal provides a convenient web interface.</p>
 </section>
-<section id="authentication-via-netrc-file" class="level3">
-<h3 class="anchored" data-anchor-id="authentication-via-netrc-file">Authentication via netrc File</h3>
-<p>You will need a netrc file containing your NASA Earthdata Login credentials in order to execute the notebooks. A netrc file can be created manually within text editor and saved to your home directory. An example of the required content is below.</p>
-<pre class="text"><code>machine urs.earthdata.nasa.gov
-login &lt;USERNAME&gt;
-password &lt;PASSWORD&gt;</code></pre>
-<p><code>&lt;USERNAME&gt;</code> and <code>&lt;PASSWORD&gt;</code> would be replaced by your actual Earthdata Login username and password respectively.</p>
+<section id="why-do-i-need-an-earthdata-login" class="level2">
+<h2 class="anchored" data-anchor-id="why-do-i-need-an-earthdata-login">Why do I need an Earthdata login?</h2>
+<p>Each participant will need a login. We will be teaching you ways to programmatically access NASA data from within your Python scripts. You will need to enter your Earthdata username and password in order for this to work.</p>
 </section>
+<section id="getting-an-earthdata-login" class="level2">
+<h2 class="anchored" data-anchor-id="getting-an-earthdata-login">Getting an Earthdata login</h2>
+<p>If you do not already have an Earthdata login, then navigate to the <a href="https://urs.earthdata.nasa.gov/">Earthdata Login</a> page, a username and password, and then record this somewhere for use during the tutorials:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://snowex-hackweek.github.io/website/_images/earthdata-login.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">earthdata-login</figcaption>
+</figure>
+</div>
 </section>
-<section id="import-required-packages" class="level2">
-<h2 class="anchored" data-anchor-id="import-required-packages">Import Required Packages</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>The code below will:</p>
-<ol type="1">
-<li>check what operating system (OS) is being used to determine which netrc file to check for/create (.netrc or _netrc)</li>
-<li>check if you have an netrc file, and if so, varify if those credentials are for the Earthdata endpoint</li>
-<li>create a netrc file if a netrc file is not present.</li>
-</ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<section id="see-if-the-file-was-created" class="level4">
-<h4 class="anchored" data-anchor-id="see-if-the-file-was-created">See if the file was created</h4>
-<p>If the file was created, we’ll see a <code>.netrc</code> file (<code>_netrc</code> for Window OS) in the list printed below. To view the contents from a Jupyter environment, click <strong>File</strong> on the top toolbar, select <strong>Open from Path…</strong>, type <strong>.netrc</strong>, and click <strong>Open</strong>. The <code>.netrc</code> file will open within the text editor.</p>
-<blockquote class="blockquote">
-<p><strong>!!! Beware,</strong> your password will be visible if the <code>.netrc</code> file is opened in the text editor.</p>
-</blockquote>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="configure-programmatic-access-to-nasa-servers" class="level2">
+<h2 class="anchored" data-anchor-id="configure-programmatic-access-to-nasa-servers">Configure programmatic access to NASA servers</h2>
+<p>If you use web interfaces to retrieve nasa data such as <a href="https://earthdata.nasa.gov/">Earthdata Search</a> you are prompted to login. We will be using software to retrieve data from NASA Servers during the hackweek, so you must store your credentials on the JupyterHub as explained in <a href="https://wiki.earthdata.nasa.gov/display/EL/How+To+Access+Data+With+cURL+And+Wget">this documentation</a>. Run the following commands on the JupyterHub in a terminal replacing your Earthdata login username and password:</p>
+<pre class="shell"><code>echo "machine urs.earthdata.nasa.gov login EARTHDATA_LOGIN password EARTHDATA_PASSWORD" &gt; ~/.netrc
+chmod 0600 .netrc</code></pre>
 
 
 </section>

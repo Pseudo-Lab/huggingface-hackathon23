@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2023 일상속의 AI 헤커톤 with HuggingFace - 01. Data discovery with CMR</title>
+<title>2023 Everyday AI Hackathon - Prerequisites &amp; help</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -63,6 +29,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../logistics/github-workflows.html" rel="next">
+<link href="../logistics/schedule.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -108,7 +76,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">01. Data discovery with CMR</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../logistics/index.html">Logistics</a></li><li class="breadcrumb-item"><a href="../logistics/prerequisites.html">Prerequisites &amp; help</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -126,8 +94,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <img src="https://github.com/Pseudo-Lab/huggingface_krew/assets/29195190/78f067c4-99e0-42bc-8d9f-06155c4ee9be" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
-    <a href="https://pseudolab.github.io" rel="" title="PseudoLab website" class="quarto-navigation-tool px-1" aria-label="PseudoLab website"><i class="bi bi-globe"></i></a>
-    <a href="https://github.com/Pseudo-Lab/huggingface_krew/tree/23hackathon" rel="" title="2023 Everyday AI Hackathon repo." class="quarto-navigation-tool px-1" aria-label="2023 Everyday AI Hackathon repo."><i class="bi bi-github"></i></a>
+    <a href="https://pseudo-lab.github.io/huggingface-hackathon23/" rel="" title="PseudoLab website" class="quarto-navigation-tool px-1" aria-label="PseudoLab website"><i class="bi bi-globe"></i></a>
+    <a href="https://github.com/Pseudo-Lab/huggingface-hackathon23" rel="" title="2023 Everyday AI Hackathon repo" class="quarto-navigation-tool px-1" aria-label="2023 Everyday AI Hackathon repo"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div>
@@ -141,7 +109,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">환영합니다.</span></a>
+ <span class="menu-text">Welcome</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -177,17 +145,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
- <span class="menu-text">logistics/index.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Logistics overview</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">logistics/schedule.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/schedule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Schedule</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">logistics/prerequisites.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/prerequisites.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Prerequisites &amp; help</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">logistics/github-workflows.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/github-workflows.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">GitHub/Hugging Face workflows</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -203,12 +183,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <div class="sidebar-item-container"> 
   <a href="../tutorials/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tutorials Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tutorials/00_Setup.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">00. Setup for tutorials</span></a>
   </div>
 </li>
       </ul>
@@ -286,11 +260,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../clinic/jupyterhub.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NASA Openscapes Cloud Environment</span></a>
-  </div>
-</li>
+ <span class="menu-text">clinic/huggingfacehub.md</span>
+  </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../clinic/notebooks.html" class="sidebar-item-text sidebar-link">
@@ -315,19 +286,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-is-cmr" id="toc-what-is-cmr" class="nav-link active" data-scroll-target="#what-is-cmr">What is CMR</a></li>
-  <li><a href="#what-is-the-cmr-api" id="toc-what-is-the-cmr-api" class="nav-link" data-scroll-target="#what-is-the-cmr-api">What is the CMR API</a></li>
-  <li><a href="#how-to-search-cmr-from-python" id="toc-how-to-search-cmr-from-python" class="nav-link" data-scroll-target="#how-to-search-cmr-from-python">How to search CMR from Python</a></li>
-  <li><a href="#granule-search" id="toc-granule-search" class="nav-link" data-scroll-target="#granule-search">Granule Search</a></li>
+  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link active" data-scroll-target="#prerequisites">Prerequisites</a></li>
+  <li><a href="#getting-help" id="toc-getting-help" class="nav-link" data-scroll-target="#getting-help">Getting help</a>
+  <ul class="collapse">
+  <li><a href="#discord" id="toc-discord" class="nav-link" data-scroll-target="#discord">Discord</a></li>
+  <li><a href="#google-meet-breakout-rooms" id="toc-google-meet-breakout-rooms" class="nav-link" data-scroll-target="#google-meet-breakout-rooms">Google Meet Breakout Rooms</a></li>
+  </ul></li>
   </ul>
-</nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Pseudo-Lab/huggingface-hackathon23/edit/main/logistics/prerequisites.md" class="toc-action">Edit this page</a></p><p><a href="https://github.com/Pseudo-Lab/huggingface-hackathon23/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">01. Data discovery with CMR</h1>
+<h1 class="title">Prerequisites &amp; help</h1>
 </div>
 
 
@@ -342,204 +315,64 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>In this tutorial you will learn: - what CMR is;<br>
-- how to use the <code>requests</code> package to search data collections and granules;<br>
-- how to parse the results of these searches.</p>
-<p>We will focus on datasets in the cloud. Currently, DAACs with data in the cloud are ‘ASF’, ‘GES_DISC’, ‘GHRC_DAAC’, ‘LPCLOUD’, ‘ORNL_CLOUD’, ‘POCLOUD’</p>
-<section id="what-is-cmr" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-cmr">What is CMR</h2>
-<p>CMR is the Common Metadata Repository. It catalogs all data for NASA’s Earth Observing System Data and Information System (EOSDIS). It is the backend of <a href="https://search.earthdata.nasa.gov/search">Earthdata Search</a>, the GUI search interface you are probably familiar with. More information about CMR can be found <a href="https://earthdata.nasa.gov/eosdis/science-system-description/eosdis-components/cmr">here</a>.</p>
-<p>Unfortunately, the GUI for Earthdata Search is not accessible from a cloud instance - at least not without some work. Earthdata Search is also not immediately reproducible. What I mean by that is if you create a search using the GUI you would have to note the search criteria (date range, search area, collection name, etc), take a screenshot, copy the search url, or save the list of data granules returned by the search, in order to recreate the search. This information would have to be re-entered each time you or someone else wanted to do the search. You could make typos or other mistakes. A cleaner, reproducible solution is to search CMR programmatically using the CMR API.</p>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
+<p>Before the Hackathon, please do the following (20 minutes). All software is free. If you are attending the Clinic, please do this in advance of the Clinic.</p>
+<ol type="1">
+<li><strong>GitHub username</strong>
+<ul>
+<li>Create a GitHub account (if you don’t already have one) at <a href="https://github.com" class="uri">https://github.com</a>. Follow optional <a href="https://happygitwithr.com/github-acct.html">advice on choosing your username</a></li>
+<li>Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOd0RhzEo5sFq_NgjZJa0C6cmaicTOjPS290iCbHbFTI-8zg/viewform?usp=sf_link">provide your GitHub username here</a>; this will allow us to add you to the cloud hackathon workspace.</li>
+<li>Remember your username and password; you will need to be logged in during the workshop!</li>
+</ul></li>
+<li><strong>Hugging Face account</strong>
+<ul>
+<li>Create a Hugging Face account (if you don’t already have one) at <a href="https://hf.co/join" class="uri">https://hf.co/join</a></li>
+<li>Remember your username and password; you will need to be logged in during the workshop!</li>
+</ul></li>
+<li><strong>Discord</strong>
+<ul>
+<li>Join our Discord workspace (invite sent via email). In the <code>2023-everydayaihack-projects</code> channel, suggest a hackathon project idea/use case, and mention if you are looking for teammates to join. Read through other entries and comment on those of interest to you. On Day one of the hackathon we will hold a project pitchfest and finalize teams for the week.</li>
+<li>Learn more about <a href="#discord">how we’ll use Discord during the workshop</a></li>
+</ul></li>
+<li><strong>Google Meet</strong>
+<ul>
+<li>Be prepared to call into Google Meet using the link provided in the Discord <code>2023-everydayaihack-general</code> Channel.</li>
+</ul></li>
+<li><strong>Get comfortable</strong>
+<ul>
+<li>Consider your computer set-up in advance, including an external monitor if possible. You will be following along on your own computer while also watching an instructor live-code over Google Meet (or equivalent), and will also want quick-access to Discord to ask for help and follow links.</li>
+</ul></li>
+</ol>
 </section>
-<section id="what-is-the-cmr-api" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-the-cmr-api">What is the CMR API</h2>
-<p>API stands for Application Programming Interface. It allows applications (software, services, etc) to send information to each other. A helpful analogy is a waiter in a restaurant. The waiter takes your drink or food order that you select from the menu, often translated into short-hand, to the bar or kitchen, and then returns (hopefully) with what you ordered when it is ready.</p>
-<p>The CMR API accepts search terms such as collection name, keywords, datetime range, and location, queries the CMR database and returns the results.</p>
+<section id="getting-help" class="level2">
+<h2 class="anchored" data-anchor-id="getting-help">Getting help</h2>
+<p>We will use Discord rather than Google Meet Chat as our main channel for help, since the conversations are preserved beyond a single call and since it’s easier to reply and have threaded conversations and post screenshots.</p>
+<section id="discord" class="level3">
+<h3 class="anchored" data-anchor-id="discord">Discord</h3>
+<p>You will be invited to the PseudoLab Discord organization, where there is a growing community of <a href="https://pseudo-lab.github.io/spotlight">ML experts</a>. (New to Discord? See this <a href="https://zenodo.org/record/3763730#.YYkoL3mIZpQ">Quick Start Guide</a>). We have three private Discord channels for the Hackathon:</p>
+<p><strong>2023-everydayaihack-general</strong>: General channel is for announcements and general questions and communications.</p>
+<p><strong>2023-everydayaihack-projects</strong>: Projects channel is for for participants to pitch project ideas and discuss projects with the whole hackathon group. As teams form you can have direct messages with your team (and we can create new channels as needed).</p>
+<p><strong>2023-everydayaihack-help</strong>: Help channel is the place to get troubleshooting help: please paste error messages and post screenshots and we will help you by replying to your post.</p>
+<p>To create a screenshot:</p>
+<ul>
+<li><a href="https://support.apple.com/en-us/HT201361">On your Mac - Screenshot</a></li>
+<li><a href="https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b">On your PC - Snipping Tool</a></li>
+</ul>
 </section>
-<section id="how-to-search-cmr-from-python" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-search-cmr-from-python">How to search CMR from Python</h2>
-<p>The first step is to import python packages. We will use:<br>
-- <code>requests</code> This package does most of the work for us accessing the CMR API using HTTP methods. - <code>pprint</code> to <em>pretty print</em> the results of the search.</p>
-<p>A more in depth tutorial on <code>requests</code> is <a href="https://realpython.com/python-requests/">here</a></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Then we need to authenticate with EarthData Login. Since we’ve already set this up in the previous lesson, here you need to enter your username before executing the cell.</p>
-<p>To conduct a search using the CMR API, <code>requests</code> needs the url for the root CMR search endpoint. We’ll build this url as a python variable.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>CMR allows search by <strong>collections</strong>, which are datasets, and <strong>granules</strong>, which are files that contain data. Many of the same search parameters can be used for colections and granules but the type of results returned differ. Search parameters can be found in the <a href="https://cmr.earthdata.nasa.gov/search/site/docs/search/api.html">API Documentation</a>.</p>
-<p>Whether we search <strong>collections</strong> or <strong>granules</strong> is distinguished by adding <code>"collections"</code> or <code>"granules"</code> to the url for the root CMR endpoint.</p>
-<p>We are going to search collections first, so we add collections to the url. I’m using a <code>python</code> format string here.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>In this first example, I want to retrieve a list of collections that are hosted in the cloud. Each collection has a <code>cloud_hosted</code> parameter that is either True if that collection is in the cloud and False if it is not. The migration of NASA data to the cloud is a work in progress. Not all collections tagged as <code>cloud_hosted</code> have granules. To search for only <code>cloud_hosted</code> datasets with granules, I also set <code>has_granules</code> to <code>True</code>.</p>
-<p>I also want to get the content in <code>json</code> (pronounced “jason”) format, so I pass a dictionary to the header keyword argument to say that I want results returned as <code>json</code>.</p>
-<p>The <code>.get()</code> method is used to send this information to the CMR API. <code>get()</code> calls the HTTP method <strong>GET</strong>.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p><code>requests</code> returns a <code>Response</code> object.</p>
-<p>Often, we want to check that our request was successful. In a notebook or someother interactive environment, we can just type the name of the variable we have saved our <code>requests</code> Response to, in this case the <code>response</code> variable.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>A cleaner and more understandable method is to check the <code>status_code</code> attribute. Both methods return a HTTP status code. You’ve probably seen a 404 error when you have tried to access a website that doesn’t exist.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Try changing <code>CMR_OPS</code> to <code>https://cmr.earthdata.nasa.gov/searches</code> and run <code>requests.get</code> again. <strong>Don’t forget to rerun the cell that assigns the <code>url</code> variable</strong></p>
-<p>The response from <code>requests.get</code> returns the results of the search and metadata about those results in the <code>headers</code>.</p>
-<p>More information about the <code>response</code> object can be found by typing <code>help(response)</code>.</p>
-<p><code>headers</code> contains useful information in a case-insensitive dictionary. This information is printed below. <em>TODO: maybe some context for where the 2 elements k, v, come from?</em></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>We can see that the content returned is in <code>json</code> format in the UTF-8 character set. We can also see from <code>CMR-Hits</code> that 919 collections were found.</p>
-<p>Each item in the dictionary can be accessed in the normal way you access a <code>python</code> dictionary but because it is case-insensitive, both</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>and</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>work.</p>
-<p>This is a large number of data sets. I’m going to restrict the search to cloud-hosted datasets from ASF (Alaska SAR Facility) because I’m interested in SAR images of sea ice. To do this, I set the <code>provider</code> parameter to <code>ASF</code>.</p>
-<p>You can modify the code below to explore all of the cloud-hosted datasets or cloud-hosted datasets from other providers. A partial list of providers is given below.</p>
-<table class="table">
-<colgroup>
-<col style="width: 11%">
-<col style="width: 46%">
-<col style="width: 17%">
-<col style="width: 24%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>DAAC</th>
-<th>Short Name</th>
-<th>Cloud Provider</th>
-<th>On-Premises Provider</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>NSIDC</td>
-<td>National Snow and Ice Data Center</td>
-<td>NSIDC_CPRD</td>
-<td>NSIDC_ECS</td>
-</tr>
-<tr class="even">
-<td>GHRC DAAC</td>
-<td>Global Hydrometeorology Resource Center</td>
-<td>GHRC_DAAC</td>
-<td>GHRC_DAAC</td>
-</tr>
-<tr class="odd">
-<td>PO DAAC</td>
-<td>Physical Oceanography Distributed Active Archive Center</td>
-<td>POCLOUD</td>
-<td>PODAAC</td>
-</tr>
-<tr class="even">
-<td>ASF</td>
-<td>Alaska Satellite Facility</td>
-<td>ASF</td>
-<td>ASF</td>
-</tr>
-<tr class="odd">
-<td>ORNL DAAC</td>
-<td>Oak Ridge National Laboratory</td>
-<td>ORNL_CLOUD</td>
-<td>ORNL_DAAC</td>
-</tr>
-<tr class="even">
-<td>LP DAAC</td>
-<td>Land Processes Distributed Active Archive Center</td>
-<td>LPCLOUD</td>
-<td>LPDAAC_ECS</td>
-</tr>
-<tr class="odd">
-<td>GES DISC</td>
-<td>NASA Goddard Earth Sciences (GES) Data and Information Services Center (DISC)</td>
-<td>GES_DISC</td>
-<td>GES_DISC</td>
-</tr>
-<tr class="even">
-<td>OB DAAC</td>
-<td>NASA’s Ocean Biology Distributed Active Archive Center</td>
-<td></td>
-<td>OB_DAAC</td>
-</tr>
-<tr class="odd">
-<td>SEDAC</td>
-<td>NASA’s Socioeconomic Data and Applications Center</td>
-<td></td>
-<td>SEDAC</td>
-</tr>
-</tbody>
-</table>
-<p>When search by provider, use <em>Cloud Provider</em> to search for cloud-hosted datasets and <em>On-Premises Provider</em> to search for datasets archived at the DAACs.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Search results are contained in the content part of the Response object. However, <code>response.content</code> returns information in bytes.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>It is more convenient to work with <code>json</code> formatted data. I’m using pretty print <code>pprint</code> to print the data in an easy to read way.</p>
-<p><strong>Step through <code>response.json()</code>, then to <code>response.json()['feed']['entry'][0]</code></strong>. A reminder that python starts indexing at 0, not 1!</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>The first response is not the result I am looking for <em>TODO: because xyz…but it does show a few variables that we can use to further refine the search</em>. So I want to print the name of the dataset (<code>dataset_id</code>) and the concept id (<code>id</code>). We can build this variable and print statement like we did above with the <code>url</code> variable. <em>TODO: is it worth saying something about what “feed” and “entry” are?</em></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>But there is a problem. We know from <code>CMR-Hits</code> that there are 49 datasets but only 10 are printed. This is because CMR restricts the number of results returned by a query. The default is 10 but it can be set to a maximum of 2000. Knowing that there were 49 ‘hits’, I’ll set <code>page_size</code> to 49. Then, we can re-run our for loop for the collections.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="google-meet-breakout-rooms" class="level3">
+<h3 class="anchored" data-anchor-id="google-meet-breakout-rooms">Google Meet Breakout Rooms</h3>
+<section id="during-tutorials-session" class="level4">
+<h4 class="anchored" data-anchor-id="during-tutorials-session">During Tutorials Session</h4>
+<p>If you’d like to talk to someone and live-screenshare about your issue, please write in Google Meet Chat that you need help and we will move you into a breakout room with a helper.</p>
 </section>
-<section id="granule-search" class="level2">
-<h2 class="anchored" data-anchor-id="granule-search">Granule Search</h2>
-<p>In NASA speak, Granules are files. In this example, we will search for recent Sentinel-1 Ground Range Detected (GRD) Medium Resolution Synthetic Aperture Radar images over the east coast of Greenland. The data in these files are most useful for sea ice mapping.</p>
-<p>I’ll use the data range 2021-10-17 00:00 to 2021-10-18 23:59:59.</p>
-<p>I’ll use a simple bounding box to search. - SW: 76.08166,-67.1746 - NW: 88.19689,21.04862</p>
-<p>From the collections search, I know the concept ids for Sentinel-1A and Sentinel-1B GRD medium resolution are - C1214472336-ASF - C1327985578-ASF</p>
-<p>We need to change the resource url to look for granules instead of collections</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>We will search by <code>concept_id</code>, <code>temporal</code>, and <code>bounding_box</code>. Details about these search parameters can be found in the CMR API Documentation.</p>
-<p>The formatting of the values for each parameter is quite specific.<br>
-Temporal parameters are in ISO 8061 format <code>yyyy-MM-ddTHH:mm:ssZ</code>.<br>
-Bounding box coordinates are lower left longitude, lower left latitude, upper right longitude, upper right latitude.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="during-team-hacktime" class="level4">
+<h4 class="anchored" data-anchor-id="during-team-hacktime">During Team Hacktime</h4>
+<p>During the team project time, you will be placed in a Google Meet breakout room with your respective teammates to collaborate more easily. If you have questions as you work, post your question(s) in the Discord <code>2023-everydayaihack-help</code> Channel and a helper will respond in that thread. If needed, a helper can also join your team’s Google Meet breakour room for easy screensharing, troubleshooting or to further discuss a question.</p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -891,6 +724,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../logistics/schedule.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Schedule</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../logistics/github-workflows.html" class="pagination-link">
+        <span class="nav-page-text">GitHub/Hugging Face workflows</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2023 일상속의 AI 헤커톤 with HuggingFace - 03. Introduction to xarray</title>
+<title>2023 Everyday AI Hackathon - Schedule</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -63,6 +29,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../logistics/prerequisites.html" rel="next">
+<link href="../logistics/index.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -108,7 +76,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">03. Introduction to <code>xarray</code></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../logistics/index.html">Logistics</a></li><li class="breadcrumb-item"><a href="../logistics/schedule.html">Schedule</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -126,8 +94,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <img src="https://github.com/Pseudo-Lab/huggingface_krew/assets/29195190/78f067c4-99e0-42bc-8d9f-06155c4ee9be" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
-    <a href="https://pseudolab.github.io" rel="" title="PseudoLab website" class="quarto-navigation-tool px-1" aria-label="PseudoLab website"><i class="bi bi-globe"></i></a>
-    <a href="https://github.com/Pseudo-Lab/huggingface_krew/tree/23hackathon" rel="" title="2023 Everyday AI Hackathon repo." class="quarto-navigation-tool px-1" aria-label="2023 Everyday AI Hackathon repo."><i class="bi bi-github"></i></a>
+    <a href="https://pseudo-lab.github.io/huggingface-hackathon23/" rel="" title="PseudoLab website" class="quarto-navigation-tool px-1" aria-label="PseudoLab website"><i class="bi bi-globe"></i></a>
+    <a href="https://github.com/Pseudo-Lab/huggingface-hackathon23" rel="" title="2023 Everyday AI Hackathon repo" class="quarto-navigation-tool px-1" aria-label="2023 Everyday AI Hackathon repo"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div>
@@ -141,7 +109,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">환영합니다.</span></a>
+ <span class="menu-text">Welcome</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -177,17 +145,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
- <span class="menu-text">logistics/index.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Logistics overview</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">logistics/schedule.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/schedule.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Schedule</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">logistics/prerequisites.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/prerequisites.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prerequisites &amp; help</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">logistics/github-workflows.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/github-workflows.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">GitHub/Hugging Face workflows</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -203,12 +183,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <div class="sidebar-item-container"> 
   <a href="../tutorials/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tutorials Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tutorials/00_Setup.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">00. Setup for tutorials</span></a>
   </div>
 </li>
       </ul>
@@ -286,11 +260,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../clinic/jupyterhub.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NASA Openscapes Cloud Environment</span></a>
-  </div>
-</li>
+ <span class="menu-text">clinic/huggingfacehub.md</span>
+  </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../clinic/notebooks.html" class="sidebar-item-text sidebar-link">
@@ -315,21 +286,42 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-do-we-need-xarray" id="toc-why-do-we-need-xarray" class="nav-link active" data-scroll-target="#why-do-we-need-xarray">Why do we need <code>xarray</code>?</a></li>
-  <li><a href="#what-is-xarray" id="toc-what-is-xarray" class="nav-link" data-scroll-target="#what-is-xarray">What is <code>xarray</code></a></li>
-  <li><a href="#what-you-will-learn-from-this-tutorial" id="toc-what-you-will-learn-from-this-tutorial" class="nav-link" data-scroll-target="#what-you-will-learn-from-this-tutorial">What you will learn from this tutorial</a></li>
-  <li><a href="#subsetting-and-indexing" id="toc-subsetting-and-indexing" class="nav-link" data-scroll-target="#subsetting-and-indexing">Subsetting and Indexing</a></li>
-  <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">Analysis</a></li>
-  <li><a href="#plot-results" id="toc-plot-results" class="nav-link" data-scroll-target="#plot-results">Plot results</a></li>
+  <li><a href="#hackathon-day-1-october-20" id="toc-hackathon-day-1-october-20" class="nav-link active" data-scroll-target="#hackathon-day-1-october-20">Hackathon Day 1: October 20</a>
+  <ul class="collapse">
+  <li><a href="#welcome-day-1" id="toc-welcome-day-1" class="nav-link" data-scroll-target="#welcome-day-1">Welcome Day 1</a></li>
+  <li><a href="#closing-day-1" id="toc-closing-day-1" class="nav-link" data-scroll-target="#closing-day-1">Closing Day 1</a></li>
+  </ul></li>
+  <li><a href="#hackathon-day-2-november-16" id="toc-hackathon-day-2-november-16" class="nav-link" data-scroll-target="#hackathon-day-2-november-16">Hackathon Day 2: November 16</a>
+  <ul class="collapse">
+  <li><a href="#welcome-day-2" id="toc-welcome-day-2" class="nav-link" data-scroll-target="#welcome-day-2">Welcome Day 2</a></li>
+  <li><a href="#closing-day-2" id="toc-closing-day-2" class="nav-link" data-scroll-target="#closing-day-2">Closing Day 2</a></li>
+  </ul></li>
+  <li><a href="#hackathon-day-3-november-17" id="toc-hackathon-day-3-november-17" class="nav-link" data-scroll-target="#hackathon-day-3-november-17">Hackathon Day 3: November 17</a>
+  <ul class="collapse">
+  <li><a href="#welcome-day-3" id="toc-welcome-day-3" class="nav-link" data-scroll-target="#welcome-day-3">Welcome Day 3</a></li>
+  <li><a href="#closing-day-3" id="toc-closing-day-3" class="nav-link" data-scroll-target="#closing-day-3">Closing Day 3</a></li>
+  </ul></li>
+  <li><a href="#hackathon-day-4-november-18" id="toc-hackathon-day-4-november-18" class="nav-link" data-scroll-target="#hackathon-day-4-november-18">Hackathon Day 4: November 18</a>
+  <ul class="collapse">
+  <li><a href="#welcome-day-4" id="toc-welcome-day-4" class="nav-link" data-scroll-target="#welcome-day-4">Welcome Day 4</a></li>
+  <li><a href="#closing-day-4" id="toc-closing-day-4" class="nav-link" data-scroll-target="#closing-day-4">Closing Day 4</a></li>
+  </ul></li>
+  <li><a href="#hackathon-day-5-november-19" id="toc-hackathon-day-5-november-19" class="nav-link" data-scroll-target="#hackathon-day-5-november-19">Hackathon Day 5: November 19</a>
+  <ul class="collapse">
+  <li><a href="#welcome-day-5" id="toc-welcome-day-5" class="nav-link" data-scroll-target="#welcome-day-5">Welcome Day 5</a></li>
+  <li><a href="#whats-next" id="toc-whats-next" class="nav-link" data-scroll-target="#whats-next">What’s next</a></li>
+  <li><a href="#closing-day-5" id="toc-closing-day-5" class="nav-link" data-scroll-target="#closing-day-5">Closing Day 5</a></li>
+  </ul></li>
+  <li><a href="#pre-hackathon-clinic-november-9" id="toc-pre-hackathon-clinic-november-9" class="nav-link" data-scroll-target="#pre-hackathon-clinic-november-9">Pre-Hackathon Clinic: November 9</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Pseudo-Lab/huggingface-hackathon23/edit/main/logistics/schedule.md" class="toc-action">Edit this page</a></p><p><a href="https://github.com/Pseudo-Lab/huggingface-hackathon23/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">03. Introduction to <code>xarray</code></h1>
+<h1 class="title">Schedule</h1>
 </div>
 
 
@@ -344,145 +336,469 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="why-do-we-need-xarray" class="level2">
-<h2 class="anchored" data-anchor-id="why-do-we-need-xarray">Why do we need <code>xarray</code>?</h2>
-<p>As Geoscientists, we often work with time series of data with two or more dimensions: a time series of calibrated, orthorectified satellite images; two-dimensional grids of surface air temperature from an atmospheric reanalysis; or three-dimensional (level, x, y) cubes of ocean salinity from an ocean model. These data are often provided in GeoTIFF, NetCDF or HDF format with rich and useful metadata that we want to retain, or even use in our analysis. Common analyses include calculating means, standard deviations and anomalies over time or one or more spatial dimensions (e.g.&nbsp;zonal means). Model output often includes multiple variables that you want to apply similar analyses to.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../assets/images/dataset-diagram.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">A schematic of multi-dimensional data</figcaption>
-</figure>
-</div>
-<p>The schematic above shows a typical data structure for multi-dimensional data. There are two data cubes, one for temperature and one for precipitation. Common coordinate variables, in this case latitude, longitude and time are associated with each variable. Each variable, including coordinate variables, will have a set of attributes: name, units, missing value, etc. The file containing the data may also have attributes: source of the data, model name coordinate reference system if the data are projected. Writing code using low-level packages such as <code>netcdf4</code> and <code>numpy</code> to read the data, then perform analysis, and write the results to file is time consuming and prone to errors.</p>
-</section>
-<section id="what-is-xarray" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-xarray">What is <code>xarray</code></h2>
-<p><code>xarray</code> is an open-source project and <code>python</code> package to work with labelled multi-dimensional arrays. It is leverages <code>numpy</code>, <code>pandas</code>, <code>matplotlib</code> and <code>dask</code> to build <code>Dataset</code> and <code>DataArray</code> objects with built-in methods to subset, analyze, interpolate, and plot multi-dimensional data. It makes working with multi-dimensional data cubes efficient and fun. <strong>It will change your life for the better. You’ll be more attractive, more interesting, and better equiped to take on lifes challenges.</strong></p>
-</section>
-<section id="what-you-will-learn-from-this-tutorial" class="level2">
-<h2 class="anchored" data-anchor-id="what-you-will-learn-from-this-tutorial">What you will learn from this tutorial</h2>
-<p>In this tutorial you will learn how to:</p>
+<p><strong>The 2023 Everday AI Hackathon will take place October 20 - November 10th</strong>.</p>
+<p>An optional pre-hackathon clinic will be held on October 15th from 8-10am KST, and the recording will be made available to all hackathon participants to review on their own.</p>
+<p>Most Everyday AI Hackathon activities are <strong>virtual</strong>. We will engage primarily with this group and schedule via Google Meet and Discord; see <a href="https://pseudo-lab.github.io/2023-EverdayAI-Hackathon/logistics/prerequisites.html">prerequisites &amp; getting help</a>.</p>
+<p><strong>Google Meet links</strong> will be posted on the <code>2023-everydayaihack-general</code> Discord channel</p>
+<section id="hackathon-day-1-october-20" class="level2">
+<h2 class="anchored" data-anchor-id="hackathon-day-1-october-20">Hackathon Day 1: October 20</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Time, PST <a href="https://www.timeanddate.com/time/zones/pst">(UTC-8)</a></th>
+<th>Event</th>
+<th>Leads/Instructors</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>9:00 am</td>
+<td>Welcome</td>
+<td>Erin Robinson &amp; Julie Lowndes, Openscapes</td>
+</tr>
+<tr class="even">
+<td>9:25 am</td>
+<td>Cloud Paradigm Overview</td>
+<td>Catalina Oaida, PO.DAAC</td>
+</tr>
+<tr class="odd">
+<td>9:45 am</td>
+<td>Tutorial 0: Getting set up and connected</td>
+<td>Luis Lopez, NSIDC and Makhan Virdi, ASDC</td>
+</tr>
+<tr class="even">
+<td>10:45 am</td>
+<td>Q&amp;A and Break</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>11:00 am</td>
+<td>Tutorial 1: Data discovery with CMR</td>
+<td>Andy Barrett and Luis Lopez, NSIDC</td>
+</tr>
+<tr class="even">
+<td>11:30 am</td>
+<td>Tutorial 2: Data discovery with CMR-STAC API</td>
+<td>Aaron Friesz, LP DAAC</td>
+</tr>
+<tr class="odd">
+<td>12:00 pm</td>
+<td>Q&amp;A and Break</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>12:15 pm</td>
+<td>Projects Pitchfest</td>
+<td>Catalina Oaida, PO.DAAC</td>
+</tr>
+<tr class="odd">
+<td>12:55 pm</td>
+<td>Closing</td>
+<td>Erin Robinson, Openscapes</td>
+</tr>
+</tbody>
+</table>
+<section id="welcome-day-1" class="level3">
+<h3 class="anchored" data-anchor-id="welcome-day-1">Welcome Day 1</h3>
+<p>Please see the <code>CloudHackathon_Notes</code> Google Doc:</p>
 <ul>
-<li>load a netcdf file into <code>xarray</code></li>
-<li>interrogate the <code>Dataset</code> and understand the difference between <code>DataArray</code> and <code>Dataset</code></li>
-<li>subset a <code>Dataset</code></li>
-<li>calculate annual and monthly mean fields</li>
-<li>calculate a time series of zonal means</li>
-<li>plot these results</li>
+<li>Welcome and Code of Conduct</li>
+<li>Logistics</li>
+<li>Meet your neighbors</li>
 </ul>
-<p>As always, we’ll start by importing <code>xarray</code>. We’ll follow convention by giving the module the shortname <code>xr</code></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>I’m going to use one of <code>xarray</code>’s tutorial datasets. In this case, air temperature from the NCEP reanalysis. I’ll assign the result of the <code>open_dataset</code> to <code>ds</code>. <em>I may change this to access a dataset directly</em></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>As we are in an interactive environment, we can just type <code>ds</code> to see what we have.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>First thing to notice is that <code>ds</code> is an <code>xarray.Dataset</code> object. It has dimensions, <code>lat</code>, <code>lon</code>, and <code>time</code>. It also has coordinate variables with the same names as these dimensions. These coordinate variables are 1-dimensional. This is a NetCDF convention. The <code>Dataset</code> contains one data variable, <code>air</code>. This has dimensions <code>(time, lat, lon)</code>.</p>
-<p>Clicking on the document icon reveals attributes for each variable. Clicking on the disk icon reveals a representation of the data.</p>
-<p>Each of the data and coordinate variables can be accessed and examined using the variable name as a key.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>These are <code>xarray.DataArray</code> objects. This is the basic building block for <code>xarray</code>.</p>
-<p>Variables can also be accessed as attributes of <code>ds</code>.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>A major difference between accessing a variable as an attribute versus using a key is that the attribute is read-only but the key method can be used to update the variable. For example, if I want to convert the units of <code>air</code> from Kelvin to degrees Celsius.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>This approach can also be used to add new variables</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>It is helpful to update attributes such as units, this saves time, confusion and mistakes, especially when you save the dataset.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 </section>
-<section id="subsetting-and-indexing" class="level2">
-<h2 class="anchored" data-anchor-id="subsetting-and-indexing">Subsetting and Indexing</h2>
-<p>Subsetting and indexing methods depend on whether you are working with a <code>Dataset</code> or <code>DataArray</code>. A <code>DataArray</code> can be accessed using positional indexing just like a <code>numpy</code> array. To access the temperature field for the first time step, you do the following.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Note this returns a <code>DataArray</code> with coordinates but not attributes.</p>
-<p>However, the real power is being able to access variables using coordinate variables. I can get the same subset using the following. (It’s also more explicit about what is being selected and robust in case I modify the <code>DataArray</code> and expect the same output.)</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>I can also do slices. I’ll extract temperatures for the state of Colorado. The bounding box for the state is [-109 E, -102 E, 37 N, 41 N].</p>
-<p>In the code below, pay attention to both the order of the coordinates and the range of values. The first value of the <code>lat</code> coordinate variable is 41 N, the second value is 37 N. Unfortunately, <code>xarray</code> expects slices of coordinates to be in the same order as the coordinates. Note <code>lon</code> is 0 to 360 not -180 to 180, and I let python calculate it for me within the slice.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>What if we want temperature for a point, for example Denver, CO (39.72510678889283 N, -104.98785545855408 E). <code>xarray</code> can handle this! If we just want data from the nearest grid point, we can use <code>sel</code> and specify the method as “nearest”.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>If we want to interpolate, we can use <code>interp()</code>. In this case I use <code>linear</code> or bilinear interpolation.</p>
-<p><code>interp()</code> <em>can also be used to resample data to a new grid and even reproject data</em></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p><code>sel()</code> and <code>interp()</code> can also be used on <code>Dataset</code> objects.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="closing-day-1" class="level3">
+<h3 class="anchored" data-anchor-id="closing-day-1">Closing Day 1</h3>
+<ul>
+<li>Thank you!</li>
+<li>JupyterHub: close out.
+<ul>
+<li>close out your JupyterHub instance if you are finished for the day, following <a href="https://nasa-openscapes.github.io/2021-Cloud-Hackathon/clinic/jupyterhub.html#how-do-i-end-my-openscapes-session">these instructions</a>.</li>
+</ul></li>
+<li>Continued work.
+<ul>
+<li>You’re welcome to continue working beyond the hackathon daily scheduled session, using JupyterHub and Slack. Note that questions in Slack, including <code>2021-nasacloudhack-help</code> might have delayed Helper response outside of the daily scheduled cloud hackathon times.</li>
+</ul></li>
+<li>Agenda for tomorrow: what’s coming next.</li>
+</ul>
 </section>
-<section id="analysis" class="level2">
-<h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
-<p>As a simple example, let’s try to calculate a mean field for the whole time range.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>We can also calculate a zonal mean (averaging over longitude)</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Other aggregation methods include <code>min()</code>, <code>max()</code>, <code>std()</code>, along with others.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>The data we have are in 6h timesteps. This can be resampled to daily or monthly. If you are familiar with <code>pandas</code>, <code>xarray</code> uses the same methods.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>This is a really short time series but as an example, let’s calculate a monthly climatology (at least for 2 months). For this we can use <code>groupby()</code></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 </section>
-<section id="plot-results" class="level2">
-<h2 class="anchored" data-anchor-id="plot-results">Plot results</h2>
-<p>Finally, let’s plot the results! This will plot the lat/lon axes of the original <code>ds</code> DataArray.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="hackathon-day-2-november-16" class="level2">
+<h2 class="anchored" data-anchor-id="hackathon-day-2-november-16">Hackathon Day 2: November 16</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Time, PST <a href="https://www.timeanddate.com/time/zones/pst">(UTC-8)</a></th>
+<th>Event</th>
+<th>Leads/Instructors</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>8:00 am</td>
+<td>Optional Catch-up/help</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>9:00 am</td>
+<td>Welcome</td>
+<td>Julie Lowndes, Openscapes</td>
+</tr>
+<tr class="odd">
+<td>9:15 am</td>
+<td>Demo: the power of Earthdata Cloud and Q&amp;A</td>
+<td>Marisol Garcia Reyes, Farallon Institute</td>
+</tr>
+<tr class="even">
+<td>9:35 am</td>
+<td>Tutorial 3: Introduction to Xarray</td>
+<td>Andy Barrett, NSIDC, Aaron Friesz, LP DAAC</td>
+</tr>
+<tr class="odd">
+<td>10:30 am</td>
+<td>Q&amp;A and Break</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>10:50 am</td>
+<td>Tutorial 4: Authentication for NASA Earthdata</td>
+<td>Aaron Friesz, LP DAAC</td>
+</tr>
+<tr class="odd">
+<td>11:05 am</td>
+<td>Tutorial 5: Direct S3 Access</td>
+<td>Aaron Friesz, LP DAAC</td>
+</tr>
+<tr class="even">
+<td>11:35 am</td>
+<td>Team Hack Time</td>
+<td>All</td>
+</tr>
+<tr class="odd">
+<td>12:55 pm</td>
+<td>Closing</td>
+<td>Julie Lowndes, Openscapes</td>
+</tr>
+</tbody>
+</table>
+<section id="welcome-day-2" class="level3">
+<h3 class="anchored" data-anchor-id="welcome-day-2">Welcome Day 2</h3>
+<ul>
+<li>JupyterHub: Log in.
+<ul>
+<li>Log into 2i2c. This takes a few minutes so please start this as soon we reconvene each day</li>
+</ul></li>
+<li>GitHub: Get the latest.
+<ul>
+<li>You’ll need to git fetch, merge, and pull: follow the github workflows <a href="https://nasa-openscapes.github.io/2021-Cloud-Hackathon/logistics/github-workflows.html#daily-setup">daily setup</a>.</li>
+</ul></li>
+</ul>
+</section>
+<section id="closing-day-2" class="level3">
+<h3 class="anchored" data-anchor-id="closing-day-2">Closing Day 2</h3>
+<ul>
+<li>Thank you!</li>
+<li>JupyterHub: close out.
+<ul>
+<li>close out your JupyterHub instance if you are finished for the day, following <a href="https://nasa-openscapes.github.io/2021-Cloud-Hackathon/clinic/jupyterhub.html#how-do-i-end-my-openscapes-session">these instructions</a>.</li>
+</ul></li>
+<li>Continued work.
+<ul>
+<li>You’re welcome to continue working beyond the hackathon daily scheduled session, using JupyterHub and Slack. Note that questions in Slack, including <code>2021-nasacloudhack-help</code> might have delayed Helper response outside of the daily scheduled cloud hackathon times.</li>
+</ul></li>
+<li>Agenda for tomorrow: what’s coming next.</li>
+</ul>
+</section>
+</section>
+<section id="hackathon-day-3-november-17" class="level2">
+<h2 class="anchored" data-anchor-id="hackathon-day-3-november-17">Hackathon Day 3: November 17</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Time, PST <a href="https://www.timeanddate.com/time/zones/pst">(UTC-8)</a></th>
+<th>Event</th>
+<th>Leads/Instructors</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>8:00 am</td>
+<td>Optional Catch-up/help</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>9:00 am</td>
+<td>Welcome</td>
+<td>Catalina Oaida, PO.DAAC</td>
+</tr>
+<tr class="odd">
+<td>9:15 am</td>
+<td>Tutorial 6: Sentinel-6 MF L2 Altimetry Data Access (OPeNDAP) &amp; Gridding</td>
+<td>Jack McNelis, PO.DAAC</td>
+</tr>
+<tr class="even">
+<td>9:45 am</td>
+<td>Q&amp;A and Break</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>10:00 am</td>
+<td>Tutorial 7: Data Subsetting and Transformation Services in the Cloud</td>
+<td>Amy Steiker, NSIDC</td>
+</tr>
+<tr class="even">
+<td>10:40 am</td>
+<td>Q&amp;A and Break</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>11:00 am</td>
+<td>Team Hack Time</td>
+<td>All</td>
+</tr>
+<tr class="even">
+<td>12:55 pm</td>
+<td>Closing</td>
+<td>Catalina Oaida, PO.DAAC</td>
+</tr>
+</tbody>
+</table>
+<section id="welcome-day-3" class="level3">
+<h3 class="anchored" data-anchor-id="welcome-day-3">Welcome Day 3</h3>
+<ul>
+<li>JupyterHub: Log in.
+<ul>
+<li>Log into 2i2c. This takes a few minutes so please start this as soon we reconvene each day</li>
+</ul></li>
+<li>GitHub: Get the latest.
+<ul>
+<li>You’ll need to git fetch, merge, and pull: follow the github workflows <a href="https://nasa-openscapes.github.io/2021-Cloud-Hackathon/logistics/github-workflows.html#daily-setup">daily setup</a>.</li>
+</ul></li>
+</ul>
+</section>
+<section id="closing-day-3" class="level3">
+<h3 class="anchored" data-anchor-id="closing-day-3">Closing Day 3</h3>
+<ul>
+<li>Thank you!</li>
+<li>JupyterHub: close out.
+<ul>
+<li>close out your JupyterHub instance if you are finished for the day, following <a href="https://nasa-openscapes.github.io/2021-Cloud-Hackathon/clinic/jupyterhub.html#how-do-i-end-my-openscapes-session">these instructions</a>.</li>
+</ul></li>
+<li>Continued work.
+<ul>
+<li>You’re welcome to continue working beyond the hackathon daily scheduled session, using JupyterHub and Slack. Note that questions in Slack, including <code>2021-nasacloudhack-help</code> might have delayed Helper response outside of the daily scheduled cloud hackathon times.</li>
+</ul></li>
+<li>Agenda for tomorrow: what’s coming next.</li>
+</ul>
+</section>
+</section>
+<section id="hackathon-day-4-november-18" class="level2">
+<h2 class="anchored" data-anchor-id="hackathon-day-4-november-18">Hackathon Day 4: November 18</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Time, PST <a href="https://www.timeanddate.com/time/zones/pst">(UTC-8)</a></th>
+<th>Event</th>
+<th>Leads/Instructors</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>8:00 am</td>
+<td>Optional Catch-up/help</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>9:00 am</td>
+<td>Welcome</td>
+<td>Erin Robinson, Openscapes</td>
+</tr>
+<tr class="odd">
+<td>9:15 am</td>
+<td>Tutorial 9: Access COF data vis Zarr EOSDIS Store</td>
+<td>Patrick Quinn, Element84</td>
+</tr>
+<tr class="even">
+<td>10:00 am</td>
+<td>Q&amp;A and Break</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>10:15 am</td>
+<td>Tutorial 8: EDC and on-prem DAAC hybrid use case</td>
+<td>Amy Steiker, NSIDC</td>
+</tr>
+<tr class="even">
+<td>11:00 am</td>
+<td>Q&amp;A and Break</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>11:20 am</td>
+<td>Team Hack Time</td>
+<td>All</td>
+</tr>
+<tr class="even">
+<td>12:55 pm</td>
+<td>Closing</td>
+<td>Erin Robinson, Openscapes</td>
+</tr>
+</tbody>
+</table>
+<section id="welcome-day-4" class="level3">
+<h3 class="anchored" data-anchor-id="welcome-day-4">Welcome Day 4</h3>
+<ul>
+<li>JupyterHub: Log in.
+<ul>
+<li>Log into 2i2c. This takes a few minutes so please start this as soon we reconvene each day</li>
+</ul></li>
+<li>GitHub: Get the latest.
+<ul>
+<li>You’ll need to git fetch, merge, and pull: follow the github workflows <a href="https://nasa-openscapes.github.io/2021-Cloud-Hackathon/logistics/github-workflows.html#daily-setup">daily setup</a>.</li>
+</ul></li>
+</ul>
+</section>
+<section id="closing-day-4" class="level3">
+<h3 class="anchored" data-anchor-id="closing-day-4">Closing Day 4</h3>
+<ul>
+<li>Thank you!</li>
+<li>JupyterHub: close out.
+<ul>
+<li>close out your JupyterHub instance if you are finished for the day, following <a href="https://nasa-openscapes.github.io/2021-Cloud-Hackathon/clinic/jupyterhub.html#how-do-i-end-my-openscapes-session">these instructions</a>.</li>
+</ul></li>
+<li>Continued work.
+<ul>
+<li>You’re welcome to continue working beyond the hackathon daily scheduled session, using JupyterHub and Slack. Note that questions in Slack, including <code>2021-nasacloudhack-help</code> might have delayed Helper response outside of the daily scheduled cloud hackathon times.</li>
+</ul></li>
+<li>Agenda for tomorrow: what’s coming next.</li>
+</ul>
+</section>
+</section>
+<section id="hackathon-day-5-november-19" class="level2">
+<h2 class="anchored" data-anchor-id="hackathon-day-5-november-19">Hackathon Day 5: November 19</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Time, PST <a href="https://www.timeanddate.com/time/zones/pst">(UTC-8)</a></th>
+<th>Event</th>
+<th>Leads/Instructors</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>8:00 am</td>
+<td>Optional Catch-up/help</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>9:00 am</td>
+<td>Welcome</td>
+<td>Catalina Oaida, PO.DAAC</td>
+</tr>
+<tr class="odd">
+<td>9:05 am</td>
+<td>Team Hack Time</td>
+<td>All</td>
+</tr>
+<tr class="even">
+<td>10:00 am</td>
+<td>Team Report-outs Part 1</td>
+<td>Teams 1-6</td>
+</tr>
+<tr class="odd">
+<td>11:00 am</td>
+<td>Break</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>11:15 am</td>
+<td>Team Report-outs Part 2</td>
+<td>Teams 7-12</td>
+</tr>
+<tr class="odd">
+<td>12:15 pm</td>
+<td>Survey</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>12:30 pm</td>
+<td>What’s next</td>
+<td>Julie Lowndes, Openscapes</td>
+</tr>
+<tr class="odd">
+<td>12:55 pm</td>
+<td>Closing</td>
+<td>Catalina Oaida, PO.DAAC</td>
+</tr>
+</tbody>
+</table>
+<section id="welcome-day-5" class="level3">
+<h3 class="anchored" data-anchor-id="welcome-day-5">Welcome Day 5</h3>
+<ul>
+<li>JupyterHub: Log in.
+<ul>
+<li>Log into 2i2c. This takes a few minutes so please start this as soon we reconvene each day</li>
+</ul></li>
+<li>Group Photo!</li>
+</ul>
+</section>
+<section id="whats-next" class="level3">
+<h3 class="anchored" data-anchor-id="whats-next">What’s next</h3>
+<p><a href="https://docs.google.com/presentation/d/1LKpdrssV97BFN3yh0LJEmj64wU0kaZp42in_SlsHFmc/edit#slide=id.gfbd87e8abc_0_0">Slides</a> sharing about upcoming opportunities with the <a href="https://nasa-openscapes.github.io/">NASA Openscapes</a> project.</p>
+</section>
+<section id="closing-day-5" class="level3">
+<h3 class="anchored" data-anchor-id="closing-day-5">Closing Day 5</h3>
+<ul>
+<li><strong>Thank you</strong></li>
+<li><strong>Continued hacking on the cloud - next 3 months</strong>. You will continue to have access to the 2i2c JupyterHub in AWS for three months following the Cloud Hackathon so you can continue to work and we all learn more about what is involved with migrating data access and science workflows to the Cloud. This cloud compute environment is supported by the <a href="https://nasa-openscapes.github.io/">NASA Openscapes</a> project.</li>
+<li><strong>Upcoming events - all virtual</strong>
+<ul>
+<li><strong><a href="https://agu.confex.com/agu/fm21/meetingapp.cgi/Session/124026">AGU Fall Meeting Workshop</a></strong> - December 12 2021. The DAAC mentors will hold a short, half-day, virtual workshop at AGU on Sunday, Dec 12.</li>
+<li><strong><a href="https://agu.confex.com/agu/fm21/meetingapp.cgi/Session/122142">AGU Open science in action session</a></strong> - December 17, 2021. Talks and tutorials by Hackathon Mentors, among other leaders in open science.</li>
+<li><strong><a href="https://nasa-openscapes.github.io/champions.html">NASA Openscapes Champions Cohort</a></strong> - March-April 2022. Openscapes will lead a NASA Champions Cohort for 7 research teams. This is a professional development and leadership opportunity for scientists that use data from NASA DAACs and are interested in collaborative open data science practices and migrating their workflows to the cloud. Nominate your team by February 1.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="pre-hackathon-clinic-november-9" class="level2">
+<h2 class="anchored" data-anchor-id="pre-hackathon-clinic-november-9">Pre-Hackathon Clinic: November 9</h2>
+<p>This Clinic is optional and we will share a recording that participants can review ahead of time.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Time, PST <a href="https://www.timeanddate.com/time/zones/pst">(UTC-8)</a></th>
+<th>Event</th>
+<th>Leads/Instructors</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>8:00 am</td>
+<td>Welcome</td>
+<td>Julie Lowndes, Openscapes</td>
+</tr>
+<tr class="even">
+<td>8:05 am</td>
+<td>JupyterHub, repos, environments</td>
+<td>Luis Lopez, NSIDC</td>
+</tr>
+<tr class="odd">
+<td>9:00 am</td>
+<td>Break</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>9:05 am</td>
+<td>Notebooks, python, syncing</td>
+<td>Makhan Virdi, ASDC</td>
+</tr>
+<tr class="odd">
+<td>10:00 am</td>
+<td>Closing</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
@@ -836,6 +1152,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../logistics/index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Logistics overview</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../logistics/prerequisites.html" class="pagination-link">
+        <span class="nav-page-text">Prerequisites &amp; help</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

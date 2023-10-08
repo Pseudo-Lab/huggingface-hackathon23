@@ -1,91 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/index.html</loc>
-    <lastmod>2023-10-06T16:49:25.604Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/logistics/schedule.html</loc>
+    <lastmod>2023-10-08T04:57:06.266Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials-templates/08_On-Prem_Cloud.html</loc>
-    <lastmod>2023-10-06T16:49:24.304Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html</loc>
+    <lastmod>2023-10-08T04:57:04.434Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials-templates/09_Zarr_Access.html</loc>
-    <lastmod>2023-10-06T16:49:22.672Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/index.html</loc>
+    <lastmod>2023-10-08T04:57:03.062Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials-templates/07_Harmony_Subsetting.html</loc>
-    <lastmod>2023-10-06T16:49:21.736Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/projects/index.html</loc>
+    <lastmod>2023-10-08T04:57:01.918Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials-templates/03_Xarray.html</loc>
-    <lastmod>2023-10-06T16:49:20.220Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/team.html</loc>
+    <lastmod>2023-10-08T04:57:00.890Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials-templates/04_NASA_Earthdata_Authentication.html</loc>
-    <lastmod>2023-10-06T16:49:18.996Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/tutorials/index.html</loc>
+    <lastmod>2023-10-08T04:56:59.958Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/projects/hackathon-projects.html</loc>
-    <lastmod>2023-10-06T16:49:17.916Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/clinic/notebooks.html</loc>
+    <lastmod>2023-10-08T04:56:58.578Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/further-resources.html</loc>
-    <lastmod>2023-10-06T16:49:17.056Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/clinic/earthdata.html</loc>
+    <lastmod>2023-10-08T04:56:56.958Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials/00_Setup.html</loc>
-    <lastmod>2023-10-06T16:49:16.308Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/clinic/jupyterhub.html</loc>
+    <lastmod>2023-10-08T04:56:55.774Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/clinic/index.html</loc>
-    <lastmod>2023-10-06T16:49:14.772Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/huggingface.html</loc>
+    <lastmod>2023-10-08T04:56:53.298Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/clinic/jupyterhub.html</loc>
-    <lastmod>2023-10-06T16:49:14.004Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/clinic/github.html</loc>
+    <lastmod>2023-10-08T04:56:56.202Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/huggingface.html</loc>
-    <lastmod>2023-10-06T16:49:11.724Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/clinic/index.html</loc>
+    <lastmod>2023-10-08T04:56:57.486Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/clinic/github.html</loc>
-    <lastmod>2023-10-06T16:49:14.384Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/tutorials/00_Setup.html</loc>
+    <lastmod>2023-10-08T04:56:59.538Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/clinic/notebooks.html</loc>
-    <lastmod>2023-10-06T16:49:15.540Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/further-resources.html</loc>
+    <lastmod>2023-10-08T04:57:00.410Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials/index.html</loc>
-    <lastmod>2023-10-06T16:49:16.664Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/projects/hackathon-projects.html</loc>
+    <lastmod>2023-10-08T04:57:01.394Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/team.html</loc>
-    <lastmod>2023-10-06T16:49:17.448Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/tutorials-templates/index.html</loc>
+    <lastmod>2023-10-08T04:57:02.326Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/projects/index.html</loc>
-    <lastmod>2023-10-06T16:49:18.364Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/logistics/github-workflows.html</loc>
+    <lastmod>2023-10-08T04:57:03.870Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials-templates/01_Data_Discovery_CMR.html</loc>
-    <lastmod>2023-10-06T16:49:19.656Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials-templates/02_Data_Discovery_CMR-STAC_API.html</loc>
-    <lastmod>2023-10-06T16:49:20.920Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials-templates/index.html</loc>
-    <lastmod>2023-10-06T16:49:22.072Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials-templates/06_S6_OPeNDAP_Access_Gridding_template.html</loc>
-    <lastmod>2023-10-06T16:49:23.612Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials-templates/05_Data_Access_Direct_S3.html</loc>
-    <lastmod>2023-10-06T16:49:25.004Z</lastmod>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/logistics/index.html</loc>
+    <lastmod>2023-10-08T04:57:05.210Z</lastmod>
   </url>
 </urlset>

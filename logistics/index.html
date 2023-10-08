@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2023 일상속의 AI 헤커톤 with HuggingFace - 09. Zarr Access for NetCDF4 files</title>
+<title>2023 Everyday AI Hackathon - Logistics overview</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -63,6 +29,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../logistics/schedule.html" rel="next">
+<link href="../team.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -108,7 +76,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">09. Zarr Access for NetCDF4 files</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../logistics/index.html">Logistics</a></li><li class="breadcrumb-item"><a href="../logistics/index.html">Logistics overview</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -126,8 +94,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <img src="https://github.com/Pseudo-Lab/huggingface_krew/assets/29195190/78f067c4-99e0-42bc-8d9f-06155c4ee9be" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
-    <a href="https://pseudolab.github.io" rel="" title="PseudoLab website" class="quarto-navigation-tool px-1" aria-label="PseudoLab website"><i class="bi bi-globe"></i></a>
-    <a href="https://github.com/Pseudo-Lab/huggingface_krew/tree/23hackathon" rel="" title="2023 Everyday AI Hackathon repo." class="quarto-navigation-tool px-1" aria-label="2023 Everyday AI Hackathon repo."><i class="bi bi-github"></i></a>
+    <a href="https://pseudo-lab.github.io/huggingface-hackathon23/" rel="" title="PseudoLab website" class="quarto-navigation-tool px-1" aria-label="PseudoLab website"><i class="bi bi-globe"></i></a>
+    <a href="https://github.com/Pseudo-Lab/huggingface-hackathon23" rel="" title="2023 Everyday AI Hackathon repo" class="quarto-navigation-tool px-1" aria-label="2023 Everyday AI Hackathon repo"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div>
@@ -141,7 +109,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">환영합니다.</span></a>
+ <span class="menu-text">Welcome</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -177,17 +145,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
- <span class="menu-text">logistics/index.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Logistics overview</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">logistics/schedule.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/schedule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Schedule</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">logistics/prerequisites.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/prerequisites.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prerequisites &amp; help</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
- <span class="menu-text">logistics/github-workflows.md</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../logistics/github-workflows.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">GitHub/Hugging Face workflows</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -203,12 +183,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <div class="sidebar-item-container"> 
   <a href="../tutorials/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tutorials Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tutorials/00_Setup.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">00. Setup for tutorials</span></a>
   </div>
 </li>
       </ul>
@@ -286,11 +260,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../clinic/jupyterhub.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NASA Openscapes Cloud Environment</span></a>
-  </div>
-</li>
+ <span class="menu-text">clinic/huggingfacehub.md</span>
+  </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../clinic/notebooks.html" class="sidebar-item-text sidebar-link">
@@ -315,28 +286,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#timing" id="toc-timing" class="nav-link active" data-scroll-target="#timing">Timing:</a></li>
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a>
+  <li><a href="#for-hackathon-participants" id="toc-for-hackathon-participants" class="nav-link active" data-scroll-target="#for-hackathon-participants">For Hackathon Participants</a></li>
+  <li><a href="#for-hackathon-helpers---a-mentors-guide" id="toc-for-hackathon-helpers---a-mentors-guide" class="nav-link" data-scroll-target="#for-hackathon-helpers---a-mentors-guide">For Hackathon Helpers - A Mentor’s Guide</a>
   <ul class="collapse">
-  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
-  </ul></li>
-  <li><a href="#exercise" id="toc-exercise" class="nav-link" data-scroll-target="#exercise">Exercise</a>
-  <ul class="collapse">
-  <li><a href="#set-up" id="toc-set-up" class="nav-link" data-scroll-target="#set-up">Set up</a></li>
-  <li><a href="#find-urls-for-the-dataset-and-aoi" id="toc-find-urls-for-the-dataset-and-aoi" class="nav-link" data-scroll-target="#find-urls-for-the-dataset-and-aoi">Find URLs for the dataset and AOI</a></li>
-  <li><a href="#open-and-view-our-aoi-without-downloading-a-whole-file" id="toc-open-and-view-our-aoi-without-downloading-a-whole-file" class="nav-link" data-scroll-target="#open-and-view-our-aoi-without-downloading-a-whole-file">Open and view our AOI without downloading a whole file</a></li>
-  <li><a href="#aggregate-and-analyze-30-files" id="toc-aggregate-and-analyze-30-files" class="nav-link" data-scroll-target="#aggregate-and-analyze-30-files">Aggregate and analyze 30 files</a></li>
-  <li><a href="#supplemental-whats-happening-here" id="toc-supplemental-whats-happening-here" class="nav-link" data-scroll-target="#supplemental-whats-happening-here">Supplemental: What’s happening here?</a></li>
+  <li><a href="#discord" id="toc-discord" class="nav-link" data-scroll-target="#discord">Discord</a></li>
+  <li><a href="#github" id="toc-github" class="nav-link" data-scroll-target="#github">Github</a></li>
+  <li><a href="#google-meet-teleconference" id="toc-google-meet-teleconference" class="nav-link" data-scroll-target="#google-meet-teleconference">Google Meet teleconference</a></li>
+  <li><a href="#tutorials-workflow" id="toc-tutorials-workflow" class="nav-link" data-scroll-target="#tutorials-workflow">Tutorials workflow</a></li>
+  <li><a href="#helpers-support-during-live-coding-tutorials-demos" id="toc-helpers-support-during-live-coding-tutorials-demos" class="nav-link" data-scroll-target="#helpers-support-during-live-coding-tutorials-demos">Helpers support during “live coding” Tutorials Demos</a></li>
+  <li><a href="#helper-support-during-team-hack-time" id="toc-helper-support-during-team-hack-time" class="nav-link" data-scroll-target="#helper-support-during-team-hack-time">Helper support during Team Hack Time</a></li>
+  <li><a href="#cloud-instance" id="toc-cloud-instance" class="nav-link" data-scroll-target="#cloud-instance">Cloud Instance</a></li>
   </ul></li>
   </ul>
-</nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/Pseudo-Lab/huggingface-hackathon23/edit/main/logistics/index.md" class="toc-action">Edit this page</a></p><p><a href="https://github.com/Pseudo-Lab/huggingface-hackathon23/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">09. Zarr Access for NetCDF4 files</h1>
+<h1 class="title">Logistics overview</h1>
 </div>
 
 
@@ -351,154 +320,126 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<hr>
-<section id="timing" class="level2">
-<h2 class="anchored" data-anchor-id="timing">Timing:</h2>
+<section id="for-hackathon-participants" class="level2">
+<h2 class="anchored" data-anchor-id="for-hackathon-participants">For Hackathon Participants</h2>
+<p>Before the hackathon, please complete the <a href="https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#prerequisites">prerequisites</a> and be prepared for the <a href="https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#daily-setup">daily setup</a> and be familiar with the ways of <a href="https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#getting-help">getting help</a>.</p>
+</section>
+<section id="for-hackathon-helpers---a-mentors-guide" class="level2">
+<h2 class="anchored" data-anchor-id="for-hackathon-helpers---a-mentors-guide">For Hackathon Helpers - A Mentor’s Guide</h2>
+<p><em>Mentor = trainer = helper = any Hugging Face KREW or PseudoLab volunteer</em></p>
+<section id="discord" class="level3">
+<h3 class="anchored" data-anchor-id="discord">Discord</h3>
+<p><strong>Channels in PseudoLab workspace</strong></p>
+<p>Update your Discord name temporarily to include “helper”, e.g.&nbsp;Wonhyeong Seo (Helper)</p>
 <ul>
-<li>Exercise: 45 minutes</li>
-</ul>
-<hr>
-</section>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>Zarr is an open source library for storing N-dimensional array data. It supports multidimensional arrays with attributes and dimensions similar to NetCDF4, and it can be read by XArray. Zarr is often used for data held in cloud object storage (like Amazon S3), because it is better optimized for these situations than NetCDF4.</p>
-<p>The <a href="https://github.com/nasa/zarr-eosdis-store">zarr-eosdis-store library</a> allows NASA EOSDIS NetCDF4 files to be read more efficiently by transferring only file metadata and data needed for computation in a small number of requests, rather than moving the whole file or making many small requests. It works by making the files directly readable by the <a href="https://zarr.readthedocs.io">Zarr Python library</a> and XArray across a network. To use it, files must have a corresponding metadata file ending in <code>.dmrpp</code>, which increasingly true for cloud-accessible EOSDIS data. https://github.com/nasa/zarr-eosdis-store</p>
-<p>The zarr-eosdis-store library provides several benefits over downloading EOSDIS data files and accessing them using XArray, NetCDF4, or HDF5 Python libraries:</p>
+<li><strong>Mentors’/Helper channel</strong> - <strong><em>#r-huggingface-krew</em></strong>
 <ul>
-<li>It only downloads the chunks of data you actually read, so if you don’t read all variables or the full spatiotemporal extent of a file, you usually won’t spend time downloading those portions of the file</li>
-<li>It parallelizes and optimizes downloads for the portions of files you do read, so download speeds can be faster in general</li>
-<li>It automatically interoperates with Earthdata Login if you have a .netrc file set up</li>
-<li>It is aware of some EOSDIS cloud implementation quirks and provides caching that can save time for repeated requests to individual files</li>
+<li>Our back channel to coordinate amongst ourselves</li>
+</ul></li>
+<li><strong>General channel</strong> - <strong><em>#2023-everdayaihack-general</em></strong>
+<ul>
+<li>Announcements, general questions and communications</li>
+</ul></li>
+<li><strong>Pitchfest channel -</strong> <strong><em>#2023-everdayaihack-projects</em></strong>
+<ul>
+<li>Participants discuss project ideas</li>
+<li>Use discord direct message (DM) for team/project work</li>
+</ul></li>
+<li><strong>Help channel</strong> - <strong><em>#2023-everdayaihack-help</em></strong>
+<ul>
+<li>Troubleshooting, share screenshots, etc</li>
+<li>When you see a question you will reply to, please add the “eyes” emoji below so other helpers know that you are looking into it. Then please reply in-thread in Discord to help. Can tag additional helpers if you need further support.</li>
+</ul></li>
 </ul>
-<p>It can also be faster than using XArray pointing NetCDF4 files with s3:// URLs, depending on the file’s internal structure, and is often more convenient.</p>
-<p>Consider using this library when: 1. The portion of the data file you need to use is much smaller than the full file, e.g.&nbsp;in cases of spatial subsets or reading a single variable from a file containing several 1. s3:// URLs are not readily available 1. Code need to run outside of the AWS cloud or us-west-2 region or in a hybrid cloud / non-cloud manner 1. s3:// access using XArray seems slower than you would expect (possibly due to unoptimized internal file structure) 1. No readily-available, public, cloud-optimized version of the data exists already. The example we show <em>is</em> also available as an AWS Public Dataset: https://registry.opendata.aws/mur/ 1. Adding “.dmrpp” to the end of a data URL returns a file</p>
-<section id="objectives" class="level3">
-<h3 class="anchored" data-anchor-id="objectives">Objectives</h3>
-<ol type="1">
-<li>Build on prior knowledge from CMR and Earthdata Login tutorials</li>
-<li>Work through an example of using the EOSDIS Zarr Store to access data using XArray</li>
-<li>Learn about the Zarr format and library for accessing data in the cloud ___</li>
-</ol>
 </section>
+<section id="github" class="level3">
+<h3 class="anchored" data-anchor-id="github">Github</h3>
+<p>Hackathon repo: <strong><a href="https://github.com/Pseudo-Lab/huggingface-hackathon23" class="uri">https://github.com/Pseudo-Lab/huggingface-hackathon23</a></strong>; any updates to the main branch will be updated in this book (via GitHub Action).</p>
+<ul>
+<li><a href="https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials">tutorials</a> folder</li>
+<li><a href="https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials-templates">tutorials-templates</a> folder for live coding - same as tutorials but the code is removed and only markdown remains</li>
+<li>Participants will create their own repos, we can link to their projects in the cloud hackathon repo to capture the hackathon projects artifacts</li>
+<li>Working with the CH repo
+<ul>
+<li>Participants are instructed to fork the CH repo to their own github, then clone the CH repo. This way they can push any updates or changes to the CH repo within their own version of the repo without impacting the original CH repo</li>
+<li>This should be covered in Tutorial 0.</li>
+</ul></li>
+<li>What happens to my work on <cloud provider=""> after the 3 months?
+<ul>
+<li>Code: push to your own Github repo</li>
+<li>Data and analysis outputs - working on S3 solution</li>
+</ul></cloud></li>
+<li>From Clinic chapter: “This section is a step-by-step guide to set up git on your <a href="https://pseudo-lab.github.io/2023-EverdayAI-Hackathon/clinic/cloud">cloud instance</a> and configure git to use your <a href="https://github.com/">github.com</a> account for managing your repositories hosted on <a href="https://github.com/">github.com</a>.” We are also looking into using Git Extension.</li>
+</ul>
 </section>
-<section id="exercise" class="level2">
-<h2 class="anchored" data-anchor-id="exercise">Exercise</h2>
-<p>In this exercise, we will be using the eosdis-zarr-store library to aggregate and analyze a month of sea surface temperature for the Great Lakes region</p>
-<section id="set-up" class="level3">
-<h3 class="anchored" data-anchor-id="set-up">Set up</h3>
-<section id="import-required-packages" class="level4">
-<h4 class="anchored" data-anchor-id="import-required-packages">Import Required Packages</h4>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Also set the width / height for plots we show</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="google-meet-teleconference" class="level3">
+<h3 class="anchored" data-anchor-id="google-meet-teleconference">Google Meet teleconference</h3>
+<ul>
+<li><strong>Host</strong>: Wonhyeong and …</li>
+<li><strong>Break-out rooms</strong>
+<ul>
+<li>We will set up Breakout rooms ahead of time, and have helpers ready to meet with participants. If there are many people in breakout rooms/lots of same issues, we’ll pause the tutorial and address things together</li>
+<li>If a participant is stuck and needs 1:1 help, ping one of the Google Meet hosts in the mentor/general channel to place you in a breakout room with participant X</li>
+</ul></li>
+<li><strong>Chat</strong> - Encourage participants to use the Discord <em>general</em> or <em>help</em> channel for questions, not the Google Meet chat
+<ul>
+<li>Wonhyeong will mention this in the Welcome (logistics) session beginning of Day 1</li>
+</ul></li>
+</ul>
 </section>
-<section id="set-dataset-time-and-region-of-interest" class="level4">
-<h4 class="anchored" data-anchor-id="set-dataset-time-and-region-of-interest">Set Dataset, Time, and Region of Interest</h4>
-<p>Look in PO.DAAC’s cloud archive for Group for High Resolution Sea Surface Temperature (GHRSST) Level 4 Multiscale Ultrahigh Resolution (MUR) data</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Looking for data from the month of September over the Great Lakes</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="tutorials-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="tutorials-workflow">Tutorials workflow</h3>
+<ul>
+<li>Welcome mentor share link to CH Book during Welcome each day</li>
+<li>Welcome mentor to instruct participant to spin up cloud instance if they haven’t done so that morning already</li>
+<li>Tutorial presenters can also role-model having the CH Book open as a tab when they teach if they want to refer to it.</li>
+<li>Tutorial presenter will be using <a href="https://github.com/Pseudo-Lab/huggingface-hackathon23/tutorials-templates">template</a> notebooks based on each tutorial</li>
+<li>Tutorial presenter will live code, and participants will follow along in their instance</li>
+<li>Tutorial presenter screen Google Meet level should be 130%</li>
+</ul>
 </section>
+<section id="helpers-support-during-live-coding-tutorials-demos" class="level3">
+<h3 class="anchored" data-anchor-id="helpers-support-during-live-coding-tutorials-demos">Helpers support during “live coding” Tutorials Demos</h3>
+<ul>
+<li>Tutorial mentor live codes, participants follow along</li>
+<li>All other helpers monitor Discord <em>help (<em>and</em> general)</em> channel for questions, people being stuck
+<ul>
+<li>When you see a question you will reply to, please add the “eyes” emoji below so other helpers know that you are looking into it. Then please reply in-thread in Discord to help. Can tag additional helpers if you need further support.</li>
+<li>If needed, ask host to place you and participant in breakout room temporarily for easier help/support</li>
+</ul></li>
+<li>Reminder: Update your Discord name temporarily to include “helper”, e.g.&nbsp;“Wonhyeong Seo (Helper)”</li>
+</ul>
 </section>
-<section id="find-urls-for-the-dataset-and-aoi" class="level3">
-<h3 class="anchored" data-anchor-id="find-urls-for-the-dataset-and-aoi">Find URLs for the dataset and AOI</h3>
-<p>Set up a CMR granules search for our area of interest, as we saw in prior tutorials</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Search for granules in our area of interest, expecting one granule per day of September</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="helper-support-during-team-hack-time" class="level3">
+<h3 class="anchored" data-anchor-id="helper-support-during-team-hack-time">Helper support during Team Hack Time</h3>
+<ul>
+<li><strong>Google Meet host</strong> - Place participants in breakout rooms based on their team
+<ul>
+<li>Can collaborate in Google Meet breakout rooms and in their discord team DM (direct messaging)</li>
+</ul></li>
+<li><strong>Participants</strong> should post any team project questions in the <em>help</em> discord channel; screenshot are helpful
+<ul>
+<li>Participants can create a DM thread with their teammates for team work discussions</li>
+</ul></li>
+<li><strong>Mentors</strong> monitor the <em>help</em> discord channel for questions
+<ul>
+<li>When you see a question you will reply to, please add the “eyes” emoji below so other helpers know that you are looking into it. Then please reply in-thread in discord to help. Can tag additional helpers if you need further support.</li>
+<li>and/or ask host to be added to the team Google Meet breakout room</li>
+</ul></li>
+<li><strong>Mentors</strong> use the <em>mentor</em> discord channel if you need additional help from a colleague
+<ul>
+<li>They can then also be added to Google Meet breakout room, as needed</li>
+</ul></li>
+<li>Beyond the scheduled time for Team Hack Time, the Google Meet meeting will close out, but participants are welcome to continue to discuss via their DM in discord
+<ul>
+<li>No on-call mentor support beyond the scheduled team hack time session</li>
+<li>Additional help from mentors available 8-9am Tue-Fri during optional office hours</li>
+</ul></li>
+</ul>
 </section>
-<section id="open-and-view-our-aoi-without-downloading-a-whole-file" class="level3">
-<h3 class="anchored" data-anchor-id="open-and-view-our-aoi-without-downloading-a-whole-file">Open and view our AOI without downloading a whole file</h3>
-<section id="check-to-see-if-we-can-use-an-efficient-partial-access-technique" class="level4">
-<h4 class="anchored" data-anchor-id="check-to-see-if-we-can-use-an-efficient-partial-access-technique">Check to see if we can use an efficient partial-access technique</h4>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Open our first URL using the Zarr library</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>That’s it! No downloads, temporary credentials, or S3 filesystems. Hereafter, we interact with the <code>ds</code> variable as with any XArray dataset. We need not worry about the EosdisStore anymore.</p>
-<p>View the file’s variable structure</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-</section>
-<section id="aggregate-and-analyze-30-files" class="level3">
-<h3 class="anchored" data-anchor-id="aggregate-and-analyze-30-files">Aggregate and analyze 30 files</h3>
-<p>Set up a function to open all of our URLs as XArrays in parallel</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Combine the individual file-based datasets into a single xarray dataset with a time axis</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Look at the Analysed SST variable metadata</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Create a dataset / variable that is only our area of interest and view its metadata</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>XArray reads data lazily, i.e.&nbsp;only when our code actually needs it. Up to this point, we haven’t read any data values, only metadata. The next line will force XArray to read the portions of the source files containing our area of interest. Behind the scenes, the eosdis-zarr-store library is ensuring data is fetched as efficiently as possible.</p>
-<p>Note: This line isn’t strictly necessary, since XArray will automatically read the data we need the first time our code tries to use it, but calling this will make sure that we can read the data multiple times later on without re-fetching anything from the source files.</p>
-<p>This line will take several seconds to complete, but since it is retrieving only about 50 MB of data from 22 GB of source files, several seconds constitutes a significant time, bandwidth, and disk space savings.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Now we can start looking at aggregations across the time dimension. In this case, plot the standard deviation of the temperature at each point to get a visual sense of how much temperatures fluctuate over the course of the month.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<section id="interactive-animation-of-a-month-of-data" class="level4">
-<h4 class="anchored" data-anchor-id="interactive-animation-of-a-month-of-data">Interactive animation of a month of data</h4>
-<p>This section isn’t as important to fully understand. It shows us a way to get an interactive animation to see what we have retrieved so far</p>
-<p>Define an animation function to plot the <code>i</code>th time step. We need to make sure each plot is using the same color scale, set by <code>vmin</code> and <code>vmax</code> so the animation is consistent</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Render each time slice once and show it as an HTML animation with interactive controls</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-</section>
-<section id="supplemental-whats-happening-here" class="level3">
-<h3 class="anchored" data-anchor-id="supplemental-whats-happening-here">Supplemental: What’s happening here?</h3>
-<p>For EOSDIS data in the cloud, we have begun producing a metadata sidecar file in a format called DMR++ that extracts all of the information about arrays, variables, and dimensions from data files, as well as the byte offsets in the NetCDF4 file where data can be found. This information is sufficient to let the Zarr library read data from our NetCDF4 files, but it’s in the wrong format. zarr-eosdis-store knows how to fetch the sidecar file and transform it into something the Zarr library understands. Passing it when reading Zarr using XArray or the Zarr library lets these libraries interact with EOSDIS data exactly as if they were Zarr stores in a way that’s more optimal for reading data in the cloud. Beyond this, the zarr-eosdis-store library makes some optimizations in the way it reads data to help make up for situations where the NetCDF4 file is not internally arranged well for cloud-based access patterns.</p>
+<section id="cloud-instance" class="level3">
+<h3 class="anchored" data-anchor-id="cloud-instance">Cloud Instance</h3>
+<p>Log-in before we start each day to our cloud instance.</p>
 
 
 </section>
@@ -853,6 +794,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../team.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Our Team</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../logistics/schedule.html" class="pagination-link">
+        <span class="nav-page-text">Schedule</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
