@@ -16,15 +16,12 @@ website:
     left:
       - text: 소개
         file: about.qmd
-      - text: 참여하기
-        file: apply.qmd
-        icon: box-arrow-up-right
       - text: 운영안내
         file: logistics/index.qmd
       - text: 튜토리얼
         file: tutorials/index.qmd
-      - text: 프로젝트
-        file: projects/index.qmd
+      - text: 제출하기
+        file: submit.qmd
     tools:
       - icon: twitter
         href: https://twitter.com
@@ -32,17 +29,8 @@ website:
         href: https://github.com
 
   sidebar:
-    - title: 소개
-      style: floating
-      contents:
-        - text: 해커톤 소개
-          file: about.qmd
-        - text: 운영진
-          file: intro/organizers.qmd
-        - text: 행동 강령
-          file: intro/code-of-conduct.qmd
-
     - title: 운영 안내
+      style: floating
       contents:
         - text: 주요 안내사항
           file: logistics/index.qmd
@@ -54,18 +42,7 @@ website:
     - title: 튜토리얼
       contents:
         - text: 개요
-          file: tutorials/index.qmd
-        - text: 개발환경 설정
-          file: tutorials/00_Setup.qmd
-
-    - title: 프로젝트
-      contents:
-        - text: 제출 방법 안내
-          file: projects/index.qmd
-        - text: 완료된 프로젝트
-          file: projects/hackathon-projects.qmd
-        - text: 7th PseudoCon (오프라인)
-          file: projects/offline.qmd
+          file: tutorials/index.qmd 
       
 format:
   html:
