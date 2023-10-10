@@ -1,6 +1,19 @@
 ::: {.content-visible when-profile="english"}
 Before the hackathon, please complete the [prerequisites](https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#prerequisites) and be prepared for the [daily setup](https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#daily-setup) and be familiar with the ways of [getting help](https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#getting-help).
 
+## Schedule
+**The 2023 Everday AI Hackathon will take place October 20 - November 10th**.   
+
+An optional pre-hackathon clinic will be held on October 15th from 8-10am KST, and the recording will be made available to all hackathon participants to review on their own.
+
+Most Everyday AI Hackathon activities are **virtual**. We will engage primarily with this group and schedule via Google Meet and Discord; see [prerequisites & getting help](https://pseudo-lab.github.io/2023-EverdayAI-Hackathon/logistics/prerequisites.html).
+
+**Google Meet links** will be posted on the `2023-everydayaihack-general` Discord channel
+
+```{.include}
+_schedule.md
+```
+
 ## For Hackathon Helpers - A Mentor’s Guide
 
 *Mentor = trainer = helper = any Hugging Face KREW or PseudoLab volunteer*
@@ -58,8 +71,6 @@ Hackathon repo: **<https://github.com/Pseudo-Lab/huggingface-hackathon23>**; any
 
 
 ### Helpers support during “live coding” Tutorials Demos
-
-
 
 * Tutorial mentor live codes, participants follow along
 * All other helpers monitor Discord _help (_and_ general)_ channel for questions, people being stuck
