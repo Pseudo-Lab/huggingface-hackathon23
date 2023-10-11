@@ -1,6 +1,5 @@
 ::: {.content-visible when-profile="english"}
-# 디스코드에서 팀원을 찾아보세요!
-TODO: 디스코드에서 팀을 구성할 수 있는 방법 작성
+
 
 :::
 
@@ -11,5 +10,6 @@ TODO: 디스코드에서 팀을 구성할 수 있는 방법 작성
 
 
 ::: {.content-visible when-profile="korean"}
-
+# 디스코드에서 팀원을 찾아보세요!
+TODO: 디스코드에서 팀을 구성할 수 있는 방법 작성
 :::
