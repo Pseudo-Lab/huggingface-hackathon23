@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
 </style>
@@ -58,10 +58,12 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-submit-button-title": "Submit"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -78,92 +80,66 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">2023 일상에서의 AI 해커톤</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html" rel="" target="">
+    <a class="nav-link" href="../about.html">
  <span class="menu-text">소개</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../logistics/index.html" rel="" target="" aria-current="page">
+    <a class="nav-link active" href="../logistics/index.html" aria-current="page">
  <span class="menu-text">운영안내</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../tutorials/index.html" rel="" target="">
+    <a class="nav-link" href="../tutorials/index.html">
  <span class="menu-text">튜토리얼</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../submit.html" rel="" target="">
+    <a class="nav-link" href="../submit.html">
  <span class="menu-text">제출하기</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto tools-wide">
-    <a href="https://twitter.com" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
-    <a href="https://github.com" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../logistics/index.html">주요 안내사항</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../logistics/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">주요 안내사항</span></a>
+  <a href="../logistics/index.html" class="sidebar-item-text sidebar-link active">주요 안내사항</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../logistics/how-to-form-teams.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">팀 결성 방법</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../logistics/prerequisites.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">사전준비 사항</span></a>
+  <a href="../logistics/how-to-form-teams.html" class="sidebar-item-text sidebar-link">팀 결성 방법</a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#전체-일정" id="toc-전체-일정" class="nav-link active" data-scroll-target="#전체-일정">전체 일정</a></li>
-  <li><a href="#참가-규칙" id="toc-참가-규칙" class="nav-link" data-scroll-target="#참가-규칙">참가 규칙</a>
-  <ul class="collapse">
-  <li><a href="#수료증-발급-조건" id="toc-수료증-발급-조건" class="nav-link" data-scroll-target="#수료증-발급-조건">수료증 발급 조건</a></li>
-  <li><a href="#발표자-선정-기준" id="toc-발표자-선정-기준" class="nav-link" data-scroll-target="#발표자-선정-기준">발표자 선정 기준</a></li>
-  </ul></li>
-  <li><a href="#디스코드-채널-안내" id="toc-디스코드-채널-안내" class="nav-link" data-scroll-target="#디스코드-채널-안내">디스코드 채널 안내</a></li>
-  <li><a href="#hugging-face-hub" id="toc-hugging-face-hub" class="nav-link" data-scroll-target="#hugging-face-hub">Hugging Face Hub</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><button onclick="window.location = location.href.replace('/ko/','/en/');" class="btn btn-translate">
@@ -172,66 +148,113 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>::: {.content-visible when-profile=“korean”} Before the hackathon, please complete the <a href="https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#prerequisites">prerequisites</a> and be prepared for the <a href="https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#daily-setup">daily setup</a> and be familiar with the ways of <a href="https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#getting-help">getting help</a>.</p>
-<section id="전체-일정" class="level2">
-<h2 class="anchored" data-anchor-id="전체-일정">전체 일정</h2>
+<div>
+<section id="주요-일정" class="level2">
+<h2 class="anchored" data-anchor-id="주요-일정">주요 일정</h2>
+<p>행사 주요일정 소개</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<p>
+</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-1">gantt
+      title 전체일정
+      dateFormat MM-DD
+      axisFormat %m-%d
+      excludes    weekends
+      section 준비기간
+         대회준비                :active, 10-11, 10-22
+      section 대회시작
+         10월 23일            :crit, milestone,  10-23, 10-23
+      section 제출마감
+         11월 04일            :crit, milestone,  11-04, 11-04
+      section 발표자모집
+         11월 06일~09일  :11-06, 11-09
+      section 헤커톤행사
+         11월 11일 오후2시  :crit, milestone, 11-11, 11-11
+</pre>
+<div id="mermaid-tooltip-1" class="mermaidTooltip">
+
+</div>
+<p></p>
+</div>
+</div>
+</div>
 <table class="table">
 <thead>
 <tr class="header">
-<th>일정명</th>
-<th>시작</th>
-<th>끝</th>
+<th>내용</th>
+<th>일정</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td></td>
-<td></td>
+<td>대회 시작</td>
+<td>10월 23일(월)</td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
+<td>프로젝트 제출마감</td>
+<td>11월 4일(토) 24시</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td></td>
-<td></td>
+<td>오프라인 발표자 모집</td>
+<td>11월 6일(월) ~ 11월 9일(목)</td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
+<td>허깅페이스 헤커톤</td>
+<td>11월 11일 오후 2시~ 5시</td>
 </tr>
 </tbody>
 </table>
-<p>TODO: 전체일정 테이블 작성</p>
+</section>
+<section id="참가-대상" class="level2">
+<h2 class="anchored" data-anchor-id="참가-대상">1. 참가 대상</h2>
+<p>허깅페이스로 배우고 함께 나누고 싶은 누구나</p>
+</section>
+<section id="모집-기간" class="level2">
+<h2 class="anchored" data-anchor-id="모집-기간">2. 모집 기간</h2>
+<p>2023년 10월 23일 ~ 11월 4일(토) 24시</p>
 </section>
 <section id="참가-규칙" class="level2">
-<h2 class="anchored" data-anchor-id="참가-규칙">참가 규칙</h2>
-<section id="수료증-발급-조건" class="level3">
-<h3 class="anchored" data-anchor-id="수료증-발급-조건">수료증 발급 조건</h3>
+<h2 class="anchored" data-anchor-id="참가-규칙">3. 참가 규칙</h2>
+<ul>
+<li>팀은 3명이하로 구성합니다.</li>
+<li>프로젝트는 허깅페이스 스페이스에 생성하고 홈페이지 제출하기를 눌러서 프로젝트 및 팀 정보를 제출하여 완료합니다.</li>
+<li>타인의 프로젝트를 복사하여 제출하지 마세요!</li>
+</ul>
 </section>
-<section id="발표자-선정-기준" class="level3">
-<h3 class="anchored" data-anchor-id="발표자-선정-기준">발표자 선정 기준</h3>
+<section id="참가-상품-및-행사-정보" class="level2">
+<h2 class="anchored" data-anchor-id="참가-상품-및-행사-정보">4. 참가 상품 및 행사 정보</h2>
+<ul>
+<li>허깅페이스에서 제공하는 수료증</li>
+<li>행사 당일 발표자로 선정되신 분들에게는 작은 선물을 드립니다.</li>
+<li>슈도콘과 함께 진행되는 헤커톤에 참가하여 네트워깅을 해보세요.</li>
+</ul>
+<section id="ㄱ.-발표자-선정방법" class="level4">
+<h4 class="anchored" data-anchor-id="ㄱ.-발표자-선정방법">ㄱ. 발표자 선정방법</h4>
+<ul>
+<li>Like를 많이 받은 분들 중 발표를 원하시는 팀 (3팀)</li>
+<li>헤커톤 운영팀 및 멘토단 투표가 많은 팀 (2팀)</li>
+</ul>
+<section id="ㄴ-수료증-발급-조건" class="level5">
+<h5 class="anchored" data-anchor-id="ㄴ-수료증-발급-조건">ㄴ 수료증 발급 조건</h5>
+<ol type="1">
+<li>허깅페이스 스페이스에 동작하는 데모 등록</li>
+<li>ReadMe.md 또는 데모 페이지에 프로젝트 소개 작성</li>
+<li>홈페이지의 [제출하기]를 눌러 팀, 프로젝트 정보 등록</li>
+</ol>
 </section>
 </section>
-<section id="디스코드-채널-안내" class="level2">
-<h2 class="anchored" data-anchor-id="디스코드-채널-안내">디스코드 채널 안내</h2>
-<p><strong>Hugging Face 디스코드</strong></p>
 </section>
-<section id="hugging-face-hub" class="level2">
-<h2 class="anchored" data-anchor-id="hugging-face-hub">Hugging Face Hub</h2>
-<p>Hackathon organization: <a href="http://huggingface.co/huggingface-hackathon-korea" class="uri"><strong>http://huggingface.co/huggingface-hackathon-korea</strong></a></p>
+<section id="링크" class="level2">
+<h2 class="anchored" data-anchor-id="링크">5. 링크</h2>
+<ul>
+<li><strong>Hugging Face 디스코드</strong></li>
+<li><a href="http://huggingface.co/huggingface-hackathon-korea" class="uri">헤커톤 스페이스</a></li>
+</ul>
+</section>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -376,23 +399,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
+    target: function(trigger) {
+      return trigger.previousElementSibling;
     }
   });
   clipboard.on('success', function(e) {
@@ -457,92 +466,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -594,13 +517,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">Pseudo Lab (2023). 2023 Everyday AI Hackathon</div>
-    <div class="nav-footer-right">
-      &nbsp;
-    </div>
+      <div class="nav-footer-center">Pseudo Lab (2023). 2023 Everyday AI Hackathon</div>
   </div>
 </footer>
 
