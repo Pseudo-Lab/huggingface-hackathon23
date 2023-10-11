@@ -1,17 +1,35 @@
-::: {.content-visible when-profile="korean"}
-Before the hackathon, please complete the [prerequisites](https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#prerequisites) and be prepared for the [daily setup](https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#daily-setup) and be familiar with the ways of [getting help](https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#getting-help).
+::: {.content-visible when-profile="korean"} Before the hackathon, please complete the [prerequisites](https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#prerequisites) and be prepared for the [daily setup](https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#daily-setup) and be familiar with the ways of [getting help](https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html#getting-help).
 
-## 전체 일정
+## 주요 일정
 
-| 일정명 | 시작 | 끝  |
-|--------|------|-----|
-|        |      |     |
-|        |      |     |
-|        |      |     |
-|        |      |     |
-|        |      |     |
+행사 주요일정 소개
 
-TODO: 전체일정 테이블 작성
+
+
+| 내용                 | 일정                          |
+|----------------------|-------------------------------|
+| 대회 시작            | 10월 23일(월)                 |
+| 프로젝트 제출마감    | 11월 4일(토) 24시             |
+| 오프라인 발표자 모집 | 11월 6일(월) \~ 11월 9일(목)  |
+| 허깅페이스 헤커톤    | 11월 11일 오후 2시\~ 5시      |
+```{mermaid}
+gantt
+      title 전체일정
+      dateFormat MM-DD
+      axisFormat %m-%d
+      excludes    weekends
+      section 준비기간
+         대회준비                : 10-11, 10-22
+      section 대회시작
+         10월 23일            :milestone,  10-23, 10-23
+      section 제출마감
+         11월 04일            :milestone,  11-04, 11-04
+      section 발표자모집
+         11월 06일~09일  :11-06, 11-09
+      section 헤커톤행사
+         11월 11일 오후2시  :milestone, 11-11, 11-11
+```
+
 
 ## 참가 규칙
 
