@@ -15,7 +15,7 @@ website:
     search: true
     left:
       - text: 소개
-        file: about.qmd
+        file: index.qmd
       - text: 운영안내
         file: logistics/index.qmd
       - text: 튜토리얼
