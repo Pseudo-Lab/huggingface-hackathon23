@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pseudo-lab.github.io/huggingface-hackathon23/tutorials/00_Setup.html</loc>
-    <lastmod>2023-10-11T15:47:08.196Z</lastmod>
+    <lastmod>2023-10-11T15:57:58.836Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/huggingface-hackathon23/tutorials/index.html</loc>
-    <lastmod>2023-10-11T15:47:08.436Z</lastmod>
+    <lastmod>2023-10-11T15:57:59.086Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/index.html</loc>
+    <lastmod>2023-10-11T15:57:59.336Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/huggingface-hackathon23/tutorials-templates/index.html</loc>
-    <lastmod>2023-10-11T15:47:08.666Z</lastmod>
+    <lastmod>2023-10-11T15:57:59.556Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/huggingface-hackathon23/submit.html</loc>
-    <lastmod>2023-10-11T15:47:08.906Z</lastmod>
+    <lastmod>2023-10-11T15:57:59.786Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/huggingface-hackathon23/intro/code-of-conduct.html</loc>
-    <lastmod>2023-10-11T15:47:09.136Z</lastmod>
+    <lastmod>2023-10-11T15:58:00.006Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/huggingface-hackathon23/intro/organizers.html</loc>
-    <lastmod>2023-10-11T15:47:09.396Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pseudo-lab.github.io/huggingface-hackathon23/about.html</loc>
-    <lastmod>2023-10-11T15:47:09.656Z</lastmod>
+    <lastmod>2023-10-11T15:58:00.256Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/huggingface-hackathon23/logistics/how-to-form-teams.html</loc>
-    <lastmod>2023-10-11T15:47:09.896Z</lastmod>
+    <lastmod>2023-10-11T15:58:00.476Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/huggingface-hackathon23/logistics/index.html</loc>
-    <lastmod>2023-10-11T15:47:10.126Z</lastmod>
+    <lastmod>2023-10-11T15:58:00.736Z</lastmod>
   </url>
   <url>
     <loc>https://pseudo-lab.github.io/huggingface-hackathon23/logistics/prerequisites.html</loc>
-    <lastmod>2023-10-11T15:47:10.396Z</lastmod>
+    <lastmod>2023-10-11T15:58:01.006Z</lastmod>
   </url>
 </urlset>
