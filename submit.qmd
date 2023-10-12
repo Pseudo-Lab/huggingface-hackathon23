@@ -1,12 +1,83 @@
 ::: {.content-visible when-profile="korean"}
+열심히 일하고 팀과 협력하여 놀라운 무언가를 개발했습니다. 이제 전 세계에 보여줄 시간입니다! 일상에서의 AI 해커톤에 프로젝트를 제출하려면 아래 단계를 따르세요.
 
-### TODO: 제출 방법 안내
+#### **제출 가이드라인:**
 
-<button onclick='window.open("https://example.com", "_blank");' class="btn">
+1. **제출 기간:** 
+   - **10월 20일**부터 **11월 4일 24:00**까지 프로젝트를 제출할 수 있습니다. 마감일 이후에는 접수되지 않습니다.
+
+2. **프로젝트 형식:**  
+   - 모든 프로젝트는 [Hugging Face Spaces](https://huggingface.co/huggingface-hackathon-korea)에 올라와 있어야 합니다.
+   - 프로젝트의 `README.md`에는 문제 설명, 솔루션, 사용된 기술 및 기타 관련 정보를 설명하는 포괄적인 개요가 포함되어야 합니다.
+
+3. **팀 정보:**  
+   - 모든 팀원의 이름과 역할을 명확하게 언급하세요.
+   - 연락을 받을 수 있는 팀 리더를 지정하세요.
+
+#### **제출 방법:**
+1. **제출 양식 작성하기 :** 
+   - **프로젝트 이름:** 프로젝트를 대표하는 이름을 선택하세요.
+   - **프로젝트 URL:** 프로젝트의 Hugging Face Spaces 링크를 입력하세요.
+   - **간단한 설명:** 프로젝트에 대한 간략한 개요(최대 200자)를 작성하세요.
+   - **팀원:** 모든 팀원과 역할을 나열하세요.
+   - **연락처 이메일:** 팀 리더의 이메일을 입력하세요.
+
+2. **추가 파일 업로드(선택 사항):**  
+   - 프로젝트를 보완하는 추가 리소스, 문서 또는 슬라이드가 있는 경우 제공된 인터페이스를 사용하여 업로드하세요.
+
+3. **검토 및 제출:**  
+   - 모든 정보가 정확한지 확인하세요. URL이 제대로 작동하는지 다시 확인하세요.
+   - "제출"을 클릭하여 프로젝트 제출을 완료합니다.
+
+#### **제출 후:**
+
+제출이 완료되면 확인 이메일을 받게 됩니다. 프로젝트는 검토를 거치게 되며, 최종 후보에 오른 팀에게는 다음 단계에 대한 알림이 발송됩니다.
+ 
+일상에서의 AI 해커톤에 참여해 주셔서 감사합니다! 여러분의 혁신적인 솔루션을 기대하며 모든 참가자에게 행운이 함께하기를 기원합니다. 제출하는 동안 문제가 발생하면 Discord `#support` 채널을 통해 문의해 주시기 바랍니다.
+
+<button onclick='window.open("https://event-us.kr/huggingfacekrew/event/72612", "_blank");' class="btn btn-submit">
       <i class="bi bi-box-arrow-up-right"></i> 제출하기
 </button>
 :::
 
 ::: {.content-visible when-profile="english"}
+You've worked hard, collaborated with your team, and developed something incredible. Now it's time to show it to the world! Follow the steps below to submit your project for the Everyday AI Hackathon.
 
+### **Submission Guidelines:**
+
+1. **Submission Period:**  
+   - Projects can be submitted from **October 20th** to **November 4th, 24:00**. No submissions will be accepted after the deadline.
+
+2. **Project Format:**  
+   - All projects must be hosted on [Hugging Face Spaces](https://huggingface.co/huggingface-hackathon-korea).
+   - Your project's `README.md` should include a comprehensive overview, explaining the problem statement, solution, technologies used, and any other relevant information.
+
+3. **Team Information:**  
+   - Clearly mention all team members' names and roles.
+   - Designate a team leader who'll act as the primary contact point.
+
+### **How to Submit:**
+1. **Fill Out the Submission Form:**  
+   - **Project Name:** Choose a name that represents your project.
+   - **Project URL:** Provide the link to your project hosted on Hugging Face Spaces.
+   - **Short Description:** A brief overview of your project (max 200 words).
+   - **Team Members:** List all members and their roles.
+   - **Contact Email:** Provide the team leader's email for correspondence.
+
+2. **Upload Additional Files (Optional):**  
+   - If you have additional resources, documents, or slides that complement your project, upload them using the provided interface.
+
+3. **Review & Submit:**  
+   - Ensure all information is accurate. Double-check URLs to ensure they're working.
+   - Click "Submit" to finalize your project submission.
+
+### **Post-Submission:**
+
+Once submitted, you'll receive a confirmation email. Projects will undergo a review, and shortlisted teams will be notified regarding the next steps.
+ 
+Thank you for being a part of the Everyday AI Hackathon! We're excited to see your innovations and wish all participants the best of luck. If you face any issues during submission, please contact us through the Discord `#support` channel.
+
+<button onclick='window.open("https://event-us.kr/huggingfacekrew/event/72612", "_blank");' class="btn">
+      <i class="bi bi-box-arrow-up-right"></i> 제출하기
+</button>
 :::
