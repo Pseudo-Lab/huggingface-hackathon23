@@ -15,7 +15,7 @@ website:
     search: true
     left:
       - text: 소개
-        file: about.qmd
+        file: index.qmd
       - text: 운영안내
         file: logistics/index.qmd
       - text: 튜토리얼
@@ -36,14 +36,14 @@ website:
           file: logistics/index.qmd
         - text: 팀 결성 방법
           file: logistics/how-to-form-teams.qmd
-        - text: 사전준비 사항
-          file: logistics/prerequisites.qmd
+        # - text: 사전준비 사항
+        #   file: logistics/prerequisites.qmd
 
     - title: 튜토리얼
       contents:
         - text: 개요
-          file: tutorials/index.qmd 
-      
+          file: tutorials/index.qmd
+
 format:
   html:
     theme:
