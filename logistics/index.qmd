@@ -48,8 +48,14 @@ gantt
 
 ### 발표자 선정
 
-- "Like" 수가 많은 팀 (최대 3팀)
-- 운영진 투표로 선정된 팀 (2팀)
+발표를 지원한 팀 중 "Like" 수가 많은 팀 (7~10팀)을 선정합니다.
+
+::: {.callout-note appearance="simple"}
+발표 장소의 상황에 따라서 선정되는 최대 팀원 수는 변경될 수 있습니다.
+:::
+
+
+
 
 ### 참고 링크
 
@@ -57,6 +63,8 @@ gantt
 - Hugging Face 공식 디스코드
 
 :::
+
+
 ::: {.content-visible when-profile="english"}
 ### Schedule
 ```{mermaid}
