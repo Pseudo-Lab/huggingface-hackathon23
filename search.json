@@ -2,23 +2,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "2023 Everyday AI Hackathon",
     "section": "",
-    "text": "See in English\n\n\n\n\n\n대회 목표\n’일상에서의 AI 해커톤’은 국내 Hugging Face 사용자들이 모인 교류의 장으로써 기획되었습니다. 창의적인 아이디어를 바탕으로 Hugging Face에 모델을 배포하도록 장려하며, 누구나 환영합니다!\n경쟁보다는 협업에 중점을 두어 기술 숙련도에 관계없이 프로젝트 경험과 인증 배지를 얻을 수 있습니다. 이번 해커톤을 통해 Hugging Face에 대한 열정을 가진 분들의 커뮤니티를 육성하고 상호 성장과 학습을 촉진할 수 있기를 바랍니다.\n\n\n어떻게 진행하나요?\n해커톤 참가자는\n\n최대 3명으로 팀을 구성하여\nHub에서 프로젝트를 생성 및 배포하고,\n각자 Spaces의 ’README.md’에 설명을 추가하는 간단한 프로세스를 따릅니다.\n\nHugging Face가 처음이거나 익숙하지 않더라도 함께 공부할 수 있는 Discord 채널을 통해서 함께 발전합니다. 대회 기간동안 쉽고 빠르게 배울 수 있도록 다양한 자료를 튜토리얼에 공유할 예정이니 배우면서 진행해도 좋습니다.\n대회에 대한 자세한 내용은 운영안내에서 확인할 수 있으며 궁금하신점은 언제라도 문의해주세요."
+    "text": "한국어 버전\n\n\n\n\n\nAbout the Hackathon\nThe Everyday AI Hackathon, in collaboration with Hugging Face and PseudoLab, is designed to introduce participants to Hugging Face technology. This event encourages the completion of a project where participants deploy a Hugging Face model based on their creative ideas. All kinds of projects are welcome!\nThe main emphasis is on collaboration over competition, enabling participants regardless of their technical proficiency to present a working demo and get a special badge. Through this hackathon we hope to foster a community of individuals passionate about Hugging Face, promoting mutual growth and learning.\n\n\nHow do I start?\nThe hackathon follows a straightforward process:\n\nparticipants join in teams of up to three members,\ncreate and deploy their projects on the Hub,\nand describe their project in the README.md on Spaces.\n\nRegardless of familiarity with Hugging Face, there’s a supportive environment, with tutorials and a dedicated Discord channel for communal learning and interaction. Dive in, learn, and collaborate!\nFor more information, please refer to the logistics guide and feel free to leave us a message."
   },
   {
     "objectID": "intro/code-of-conduct.html",
     "href": "intro/code-of-conduct.html",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "2023 Everyday AI Hackathon",
     "section": "",
-    "text": "See in English"
+    "text": "한국어 버전"
   },
   {
     "objectID": "intro/organizers.html",
     "href": "intro/organizers.html",
     "title": "Our Team",
     "section": "",
-    "text": "See in English"
+    "text": "한국어 버전"
   },
   {
     "objectID": "intro/organizers.html#main-instructors-and-support",
@@ -37,30 +37,30 @@
   {
     "objectID": "logistics/how-to-form-teams.html",
     "href": "logistics/how-to-form-teams.html",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "2023 Everyday AI Hackathon",
     "section": "",
-    "text": "See in English"
+    "text": "한국어 버전"
   },
   {
-    "objectID": "logistics/how-to-form-teams.html#디스코드에서-팀을-구성하는-방법",
-    "href": "logistics/how-to-form-teams.html#디스코드에서-팀을-구성하는-방법",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "디스코드에서 팀을 구성하는 방법",
-    "text": "디스코드에서 팀을 구성하는 방법\nDiscord는 참가자들이 서로 연결하고 아이디어를 논의하며 해커톤을 위한 팀을 구성할 수 있는 이상적인 플랫폼을 제공합니다. 다음은 Discord에서 팀 구성 과정을 탐색하는 데 도움이 되는 단계별 가이드입니다.\n\n1. 공식 해커톤 Discord 서버에 가입하기\n가장 먼저 공식 해커톤 Discord 서버에 가입했는지 확인하세요.\n\n\n2. 채널에 익숙해지기\n가입한 후에는 잠시 시간을 내어 다양한 채널에 익숙해지세요. 팀 구성 전용 채널은 #team-formation이라는 이름의 특정 채널이 있을 것입니다.\n\n\n3. 자기 소개하기\n\n#team-formation 채널에 자신에 대한 간단한 소개를 올려보세요:\n\n본인의 기술 및 전문 지식\n해커톤 목표\n팀원에게 바라는 점\n\n\n\n예시: “안녕하세요, 저는 Alex입니다! 저는 자연어 처리(NLP)를 전문으로 하며 Hugging Face에 대한 경험이 있습니다. 팀을 구성할 프론트엔드 개발자와 데이터 과학자를 찾고 있습니다. 함께 놀라운 무언가를 만들어 봅시다!”\n\n\n\n4. 다른 사람들과 연결하기\n다른 참가자의 소개 게시물에 참여하세요. 팀에 적합한 사람으로 보이는 사람이 있다면, 함께 대화해보세요:\n\n:thumsup: 이모티콘으로 반응하고,\n더 자세히 논의하기 위해 쪽지를 보내세요.\n\n\n\n5. 음성 채널을 사용하여 심도 있는 토론하기\n팀워크를 더 다지고 싶다면, 음성 채널 중 하나에 들어가 실시간으로 채팅하세요. 목표가 잘 맞는지 확인하고 서로를 보장하는 데 도움이 됩니다.\n\n\n6. 팀 확인\n팀을 구성하고 나면:\n\n#team-formation 채널에서 팀원을 알리세요.\n\n팀 [팀명]: @알렉스, @메리, @테일러\n\n해커톤 기간 동안 공식 커뮤니케이션을 담당할 팀 리더를 지정하세요.\n\n\n\n7. Discord 그룹 만들기(선택 사항)\nDiscord 그룹을 통해 팀을 위한 비공개 채널을 만들 수 있습니다. 이렇게 전략을 논의하고 리소스를 공유하며 협업할 수 있는 전용 공간을 만들어 보세요.\n\n\n8. 최신 소식 받기\n#announcements 또는 기타 중요한 채널을 항상 주시하세요. 관리자 또는 주최자가 팀 구성 또는 해커톤과 관련된 중요한 업데이트를 게시할 것입니다.\n\nDiscord는 참가자들이 연결하고 팀을 구성할 수 있는 원활한 플랫폼을 제공합니다. 서로 잘 맞는 팀원을 찾아 재미있는 해커톤의 초석을 마련할 수 있습니다. 행운을 빌며 행복한 팀 구성을 기원합니다!"
+    "objectID": "logistics/how-to-form-teams.html#how-to-form-teams-in-discord",
+    "href": "logistics/how-to-form-teams.html#how-to-form-teams-in-discord",
+    "title": "2023 Everyday AI Hackathon",
+    "section": "How to Form Teams in Discord",
+    "text": "How to Form Teams in Discord\nDiscord offers an ideal platform for participants to connect, discuss ideas, and form teams for our hackathon. Below is a step-by-step guide to help you navigate the team formation process on Discord.\n\n1. Join the Official Hackathon Discord Server\nFirst and foremost, ensure you’ve joined the official hackathon Discord server.\n\n\n2. Familiarize Yourself with the Channels\nOnce you’ve joined, take a moment to familiarize yourself with the various channels. There should be a specific channel dedicated to team formation, named #team-formation.\n\n\n3. Introduce Yourself\n\nIn the #team-formation channel, post a brief introduction about yourself. Include:\n\nYour skills and expertise\nYour hackathon goals\nWhat you’re looking for in team members\n\n\nFor example:\n\n“Hi, I’m Alex! I specialize in NLP and have experience with Hugging Face. Looking for a frontend developer and a data scientist to form a team. Let’s create something amazing together!”\n\n\n\n4. Connect with Others\nEngage with other participants’ introduction posts. If someone seems like a potential fit for your team, you can:\n\nReact to their message with a thumbs-up emoji.\nSend them a direct message to discuss in more detail.\n\n\n\n5. Use Voice Channels for Deeper Discussion\nIf you’re getting serious about teaming up, hop into one of the available voice channels to chat in real-time. This will help ensure compatibility and alignment of goals.\n\n\n6. Confirm Your Team\nOnce you’ve formed a team:\n\nAnnounce your team members in the #team-formation channel: “_Team [YourTeamName]: @Alex, @Jordan, @Taylor_”\nDesignate a team leader who’ll be responsible for official communications during the hackathon.\n\n\n\n7. Create a Discord Group (Optional)\nYou can make a private channel for your team via Discord Groups. This will give you a dedicated space to discuss strategies, share resources, and collaborate.\n\n\n8. Stay Updated\nAlways keep an eye on #announcements or any other important channels. Admins or organizers will post important updates related to team formation or other hackathon processes.\n\nDiscord offers a seamless platform for participants to connect and form teams. By following the steps above, you’ll find compatible team members and set the stage for a successful hackathon experience. Best of luck, and happy team forming!"
   },
   {
     "objectID": "logistics/index.html",
     "href": "logistics/index.html",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "2023 Everyday AI Hackathon",
     "section": "",
-    "text": "See in English\n\n\n\n\n\n주요 일정\n\n\n\n\ngantt\n      title 전체일정\n      dateFormat MM-DD\n      axisFormat %m-%d\n      excludes    weekends\n      section 준비기간\n         대회준비                :active, 10-11, 10-19\n      section 대회시작\n         10월 20일            :crit, milestone,  10-20, 10-20\n      section 제출마감\n         11월 04일            :crit, milestone,  11-04, 11-04\n      section 발표자모집\n         11월 06일~09일  :11-06, 11-09\n      section 해커톤행사\n         11월 11일 오후2시  :crit, milestone, 11-11, 11-11\n\n\n\n\n\n\n\n\n\n\n\n\n일정\n날짜\n\n\n\n\n데모 접수\n10월 20일(금) ~ 11월 4일(토) 24시\n\n\n오프라인 발표자 모집\n11월 6일(월) ~ 11월 9일(목)\n\n\n데모데이\n11월 11일 오후 2시 ~ 5시\n\n\n\n캘린더에 추가하기\n\nGoogle Calendar\nApple Calendar\n\n\n\n참가 안내\n\n대상: Hugging Face에 관심 있는 모든 분\n모집 기간: 2023년 10월 20일 ~ 11월 4일 24시\n팀 규모: 최대 3명\n보상:\n\nHugging Face 수료증\n발표팀에게 제공되는 굿즈\n네트워킹 기회\n\n\n\n\n참가 요건\n\n동작하는 데모 제출 (Hugging Face Spaces에 업로드)\nREADME.md에 프로젝트 소개 작성\n제출하기를 통해 팀 정보 및 프로젝트 url 제출\n\n타인의 작업을 무단으로 복사한 제출은 무효처리\n\n\n\n\n발표자 선정\n\n“Like” 수가 많은 팀 (최대 3팀)\n운영진 투표로 선정된 팀 (2팀)\n\n\n\n참고 링크\n\n해커톤 공식 페이지\nHugging Face 공식 디스코드"
+    "text": "한국어 버전\n\n\n\n\n\nSchedule\n\n\n\n\ngantt\n      title Schedule\n      dateFormat MM-DD\n      axisFormat %m-%d\n      excludes    weekends\n      section Hackathon Prep\n         Getting Ready                :active, 10-11, 10-19\n      section Application Start\n         10월 20일            :crit, milestone,  10-20, 10-20\n      section Application Deadline\n         11월 04일            :crit, milestone,  11-04, 11-04\n      section Call for Presenters\n         11월 06일~09일  :11-06, 11-09\n      section Hackathon Event\n         11월 11일 오후2시  :crit, milestone, 11-11, 11-11\n\n\n\n\n\n\n\n\nEvent\nDates\n\n\n\n\nDemo Submission\nOctober 20th ~ November 4th, 24:00\n\n\nPresenter Recruitment\nNovember 6th ~ November 9th\n\n\nDemo Day\nNovember 11th, 2 PM ~ 5 PM\n\n\n\n\n\nParticipation Guide\n\nEligibility: Everyone interested in Hugging Face\nRecruitment Period: October 20, 2023 ~ November 4, 2023, 24:00\nTeam Size: Up to 3 members\nRewards:\n\nHugging Face Certificate of Completion\nSwags provided to presenting teams\nNetworking opportunities\n\n\n\n\nCompletion Requirements\n\nSubmit a working demo (uploaded on Hugging Face Spaces)\nWrite a project introduction in README.md\nSubmit team information and project URL via [Submit]\n\nUnauthorized copying of others’ work is prohibited\n\n\n\n\nPresenter Selection Criteria\n\nTeams with a high number of “Likes” (up to 3 teams)\nTeams selected through organizer voting (2 teams)\n\n\n\nReference Links\n\nOfficial Hackathon Page\nHugging Face Official Discord"
   },
   {
     "objectID": "logistics/prerequisites.html",
     "href": "logistics/prerequisites.html",
     "title": "Prerequisites & help",
     "section": "",
-    "text": "See in English"
+    "text": "한국어 버전"
   },
   {
     "objectID": "logistics/prerequisites.html#prerequisites",
@@ -79,16 +79,16 @@
   {
     "objectID": "submit.html",
     "href": "submit.html",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "2023 Everyday AI Hackathon",
     "section": "",
-    "text": "See in English\n\n\n\n\n열심히 일하고 팀과 협력하여 놀라운 무언가를 개발했습니다. 이제 전 세계에 보여줄 시간입니다! 일상에서의 AI 해커톤에 프로젝트를 제출하려면 아래 단계를 따르세요.\n\n제출 가이드라인\n\n제출 기간:\n\n10월 20일부터 11월 4일 24:00까지 프로젝트를 제출할 수 있습니다. 마감일 이후에는 접수되지 않습니다.\n\n프로젝트 형식:\n\n모든 프로젝트는 Hugging Face Spaces에 올라와 있어야 합니다.\n프로젝트의 README.md에는 문제 설명, 솔루션, 사용된 기술 및 기타 관련 정보를 설명하는 포괄적인 개요가 포함되어야 합니다.\n\n팀 정보:\n\n모든 팀원의 이름과 역할을 명확하게 언급하세요.\n연락을 받을 수 있는 팀 리더를 지정하세요.\n\n\n\n\n제출 방법\n\n제출 양식 작성하기 :\n\n프로젝트 이름: 프로젝트를 대표하는 이름을 선택하세요.\n프로젝트 URL: 프로젝트의 Hugging Face Spaces 링크를 입력하세요.\n간단한 설명: 프로젝트에 대한 간략한 개요(최대 200자)를 작성하세요.\n팀원: 모든 팀원과 역할을 나열하세요.\n연락처 이메일: 팀 리더의 이메일을 입력하세요.\n\n추가 파일 업로드(선택 사항):\n\n프로젝트를 보완하는 추가 리소스, 문서 또는 슬라이드가 있는 경우 제공된 인터페이스를 사용하여 업로드하세요.\n\n검토 및 제출:\n\n모든 정보가 정확한지 확인하세요. URL이 제대로 작동하는지 다시 확인하세요.\n“제출”을 클릭하여 프로젝트 제출을 완료합니다.\n\n\n\n\n제출 후\n제출이 완료되면 확인 이메일을 받게 됩니다. 프로젝트는 검토를 거치게 되며, 최종 후보에 오른 팀에게는 다음 단계에 대한 알림이 발송됩니다.\n일상에서의 AI 해커톤에 참여해 주셔서 감사합니다! 여러분의 혁신적인 솔루션을 기대하며 모든 참가자에게 행운이 함께하기를 기원합니다. 제출하는 동안 문제가 발생하면 Discord #support 채널을 통해 문의해 주시기 바랍니다.\n\n 제출하기"
+    "text": "한국어 버전\n\n\n\n\nYou’ve worked hard, collaborated with your team, and developed something incredible. Now it’s time to show it to the world! Follow the steps below to submit your project for the Everyday AI Hackathon.\n\nSubmission Guidelines\n\nSubmission Period:\n\nProjects can be submitted from October 20th to November 4th, 24:00. No submissions will be accepted after the deadline.\n\nProject Format:\n\nAll projects must be hosted on Hugging Face Spaces.\nYour project’s README.md should include a comprehensive overview, explaining the problem statement, solution, technologies used, and any other relevant information.\n\nTeam Information:\n\nClearly mention all team members’ names and roles.\nDesignate a team leader who’ll act as the primary contact point.\n\n\n\n\nHow to Submit\n\nFill Out the Submission Form:\n\nProject Name: Choose a name that represents your project.\nProject URL: Provide the link to your project hosted on Hugging Face Spaces.\nShort Description: A brief overview of your project (max 200 words).\nTeam Members: List all members and their roles.\nContact Email: Provide the team leader’s email for correspondence.\n\nUpload Additional Files (Optional):\n\nIf you have additional resources, documents, or slides that complement your project, upload them using the provided interface.\n\nReview & Submit:\n\nEnsure all information is accurate. Double-check URLs to ensure they’re working.\nClick “Submit” to finalize your project submission.\n\n\n\n\nPost-Submission\nOnce submitted, you’ll receive a confirmation email. Projects will undergo a review, and shortlisted teams will be notified regarding the next steps.\nThank you for being a part of the Everyday AI Hackathon! We’re excited to see your innovations and wish all participants the best of luck. If you face any issues during submission, please contact us through the Discord #support channel.\n\n 제출하기"
   },
   {
     "objectID": "tutorials/00_Setup.html",
     "href": "tutorials/00_Setup.html",
     "title": "00. Setup for tutorials",
     "section": "",
-    "text": "See in English\nThis tutorial will help you set up your JupyterHub (or Hub) with tutorials and other materials from our Cloud Hackathon github repository and connect your github account."
+    "text": "한국어 버전\nThis tutorial will help you set up your JupyterHub (or Hub) with tutorials and other materials from our Cloud Hackathon github repository and connect your github account."
   },
   {
     "objectID": "tutorials/00_Setup.html#step-1.-login-to-the-hub",
@@ -163,15 +163,15 @@
   {
     "objectID": "tutorials/index.html",
     "href": "tutorials/index.html",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "2023 Everyday AI Hackathon",
     "section": "",
-    "text": "See in English\n\n\n\n\n\n튜토리얼 개요\n저희는 해커톤 참가자들의 성공을 가장 중요하게 생각합니다. 모든 참가자가 혁신적인 프로젝트를 만드는 데 필요한 도구와 지식을 갖출 수 있도록 해커톤의 다양한 측면에 맞춘 튜토리얼 시리즈를 준비 중입니다. 이제 막 시작하는 초보자부터 고급 기술을 찾고 있는 숙련된 개발자까지 모든 수준의 숙련도를 충족할 수 있도록 설계하고 있습니다.\n\n\n커리큘럼\n\n시작하기\n\n플랫폼 오리엔테이션: 해커톤에서 사용하는 도구와 플랫폼의 기본 사항을 이해합니다.\n환경 설정하기: 해커톤을 위한 개발 환경을 준비하기 위한 단계별 가이드를 제공합니다.\n\nHugging Face 101\n\nHugging Face 소개: Hugging Face 생태계를 이해하기 위한 초보자 가이드입니다.\n첫 번째 모델 배포하기: Hugging Face로 모델을 가동하고 실행하는 방법을 알아봅니다.\n\n고급 기술\n\n모델 성능 최적화하기 : 모델을 최대한 활용하기 위한 팁과 노하우입니다.\n다른 플랫폼과의 통합 : 다른 인기 도구 및 플랫폼과 Hugging Face를 통합하는 방법에 대한 가이드입니다.\n\n협업 및 Git\n\n팀 협업을 위한 모범 사례 : 해커톤을 진행하는 동안 원활한 팀워크와 효율적인 협업을 보장합니다.\nGit을 통한 버전 관리 및 협업 : 팀 프로젝트에 Git을 사용하는 방법에 대한 가이드입니다.\n\n\n\n이 튜토리얼을 제작하기 위해 적극적으로 노력하고 있으며 몇 주 내에 공개할 예정입니다. 참가자들은 이 섹션에서 정기적으로 업데이트를 확인하시기 바랍니다. 더 다루었으면 하는 특정 주제가 있다면 Discord의 #support 채널에서 알려주세요."
+    "text": "한국어 버전\n\n\n\n\n\nTutorials Overview\nThe success of our hackathon participants is of utmost importance to us. To ensure everyone has the tools and knowledge needed to create innovative projects, we are in the process of curating a series of tutorials tailored to various aspects of the hackathon. Whether you’re a beginner getting your feet wet or an experienced developer looking for advanced techniques, our tutorials will be designed to cater to all proficiency levels.\n\n\nWhat to Expect\n\nGetting Started\n\nPlatform Orientation: Understand the basics of the tools and platforms we’re using in the hackathon.\nSetting Up Your Environment: Step-by-step guides to ensure your development environment is hackathon-ready.\n\nHugging Face 101\n\nIntroduction to Hugging Face: A beginner’s guide to understanding the Hugging Face ecosystem.\nDeploying Your First Model: Learn how to get your model up and running with Hugging Face.\n\nAdvanced Techniques\n\nOptimizing Model Performance: Tips and tricks to get the most out of your models.\nIntegration with Other Platforms: Guides on how to integrate Hugging Face with other popular tools and platforms.\n\nCollaboration and Teamwork\n\nBest Practices for Team Collaboration: Ensure smooth teamwork and efficient collaboration during the hackathon.\nVersion Control and Collaboration with Git: A guide on how to use Git for team projects.\n\n\n\nWe’re actively working on producing these tutorials and will be releasing them in the coming weeks. We encourage participants to regularly check this section for updates. If there are specific topics you’d like to see covered, please let us know in the #support channel on Discord."
   },
   {
     "objectID": "tutorials-templates/index.html",
     "href": "tutorials-templates/index.html",
     "title": "Notebooks for live-coding",
     "section": "",
-    "text": "See in English\nTemplates of all tutorials — .ipynb notebooks with code removed — are available at:\nhttps://github.com/NASA-Openscapes/2021-Cloud-Hackathon/tree/main/tutorials-templates.\nPlease open these tutorial templates in our JupyterHub to follow along and live-code with the tutorial lead."
+    "text": "한국어 버전\nTemplates of all tutorials — .ipynb notebooks with code removed — are available at:\nhttps://github.com/NASA-Openscapes/2021-Cloud-Hackathon/tree/main/tutorials-templates.\nPlease open these tutorial templates in our JupyterHub to follow along and live-code with the tutorial lead."
   }
 ]
