@@ -62,6 +62,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -153,8 +156,32 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="해커톤-정보" class="level4">
-<h4 class="anchored" data-anchor-id="해커톤-정보">해커톤 정보</h4>
+<section id="주요-일정" class="level4">
+<h4 class="anchored" data-anchor-id="주요-일정">주요 일정</h4>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">gantt
+      title 전체일정
+      dateFormat MM-DD
+      axisFormat %m-%d
+      excludes    weekends
+      section 준비기간
+         대회준비                :active, 10-11, 10-19
+      section 대회시작
+         10월 20일            :crit, milestone,  10-20, 10-20
+      section 제출마감
+         11월 04일            :crit, milestone,  11-04, 11-04
+      section 발표자모집
+         11월 06일~09일  :11-06, 11-09
+      section 해커톤행사
+         11월 11일 오후2시  :crit, milestone, 11-11, 11-11
+</pre>
+</div>
+</div>
+</div>
+</div>
 <table class="table">
 <colgroup>
 <col style="width: 41%">
