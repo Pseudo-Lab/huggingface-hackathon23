@@ -11,70 +11,91 @@
     "href": "index.html#대회-목표",
     "title": "2023 일상에서의 AI 해커톤",
     "section": "대회 목표",
-    "text": "대회 목표\n일상에서의 AI해커톤은 참가자들이 허깅페이스를 경험하도록 돕기 위해 진행됩니다. 최종 목표는 자신이 생각한 기능을 허깅페이스 모델로 배포하는 과정을 완료하는 것입니다.\n어떤 프로젝트라도 좋습니다!\n참가자들은 동작하는 데모를 등록하는 것으로 수료중을 받을 수 있으며 기술의 난이도를 측정하지 않습니다.\n일상에서의 AI헤커톤을 통해서 허깅페이스에 관심이 있는 사람을 만나고 경쟁이 아닌 협업을 통해서 함께 발전하길 바라는 대회입니다."
+    "text": "대회 목표\n’일상에서의 AI 해커톤’은 국내 Hugging Face 사용자들이 모인 교류의 장으로써 기획되었습니다. 창의적인 아이디어를 바탕으로 Hugging Face에 모델을 배포하도록 장려하며, 누구나 환영합니다!\n경쟁보다는 협업에 중점을 두어 기술 숙련도에 관계없이 프로젝트 경험과 인증 배지를 얻을 수 있습니다. 이번 해커톤을 통해 Hugging Face에 대한 열정을 가진 분들의 커뮤니티를 육성하고 상호 성장과 학습을 촉진할 수 있기를 바랍니다."
   },
   {
     "objectID": "index.html#어떻게-진행하나요",
     "href": "index.html#어떻게-진행하나요",
     "title": "2023 일상에서의 AI 해커톤",
     "section": "어떻게 진행하나요?",
-    "text": "어떻게 진행하나요?\n대회 진행 순서를 간략하게 정리합니다.\n\n참가자들은 3명이하의 팀원으로 참가합니다.\n각 팀은 기능을 구현하고 [허깅페이스 스페이스]에 프로젝트를 배포합니다.\n프로젝트에 대한 소개를 허깅페이스 space readme.md에 작성하고 [제출하기]를 눌러 프로젝트를 제출하세요.\n\n허깅페이스에 처음이거나 익숙하지 않더라도 함께 공부한 참가들과 이야기할 Discord채널을 통해서 함께 발전합니다. 대회 기간동안 허깅페이스를 배울 수 있는 다양한 자료를 튜토리얼에 공유할 예정이니 배우면서 진행해도 좋습니다.\n아래 디스코드 버튼을 눌러 허깅페이스와 AI에 대한 열정을 공유하는 동료들을 만나보세요.\n\n\n\n\n\n\n디스코드 입장\n\n\n\n\n\n\n디스코드에는 운영진도 함께하고 있습니다. 대회에 대한 자세한 내용은 운영안내에서 확인할 수 있으며 궁금하신점은 언제라도 디스코드에서 문의해주세요."
+    "text": "어떻게 진행하나요?\n해커톤 참가자는\n\n최대 3명으로 팀을 구성하여\nHub에서 프로젝트를 생성 및 배포하고,\n각자 Spaces의 ’README.md’에 설명을 추가하는 간단한 프로세스를 따릅니다.\n\nHugging Face가 처음이거나 익숙하지 않더라도 함께 공부할 수 있는 Discord 채널을 통해서 함께 발전합니다. 대회 기간동안 쉽고 빠르게 배울 수 있도록 다양한 자료를 튜토리얼에 공유할 예정이니 배우면서 진행해도 좋습니다.\n대회에 대한 자세한 내용은 운영안내에서 확인할 수 있으며 궁금하신점은 언제라도 문의해주세요."
+  },
+  {
+    "objectID": "intro/code-of-conduct.html",
+    "href": "intro/code-of-conduct.html",
+    "title": "2023 일상에서의 AI 해커톤",
+    "section": "",
+    "text": "See in English"
+  },
+  {
+    "objectID": "intro/organizers.html",
+    "href": "intro/organizers.html",
+    "title": "Our Team",
+    "section": "",
+    "text": "See in English"
+  },
+  {
+    "objectID": "intro/organizers.html#main-instructors-and-support",
+    "href": "intro/organizers.html#main-instructors-and-support",
+    "title": "Our Team",
+    "section": "Main Instructors and Support",
+    "text": "Main Instructors and Support\nThis effort was supported by the whole Hugging Face KREW team, with the following main folks listed alphabetically.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChanran Kim\nGabriel Yang\nHyunseo Yun\nKihoon Son\nNayeon Han\nSohyun Sim\nWonhyeong Seo\nWoojun Jung\n\n\n\n\nImage\n\n\n\n\n\n\n\n\n\n\nLinks"
+  },
+  {
+    "objectID": "intro/organizers.html#hackathon-helpers",
+    "href": "intro/organizers.html#hackathon-helpers",
+    "title": "Our Team",
+    "section": "Hackathon Helpers",
+    "text": "Hackathon Helpers\n\nArthur Zucker, Hugging Face\nLysandre Debut, Hugging Face"
+  },
+  {
+    "objectID": "logistics/how-to-form-teams.html",
+    "href": "logistics/how-to-form-teams.html",
+    "title": "2023 일상에서의 AI 해커톤",
+    "section": "",
+    "text": "See in English"
+  },
+  {
+    "objectID": "logistics/how-to-form-teams.html#디스코드에서-팀을-구성하는-방법",
+    "href": "logistics/how-to-form-teams.html#디스코드에서-팀을-구성하는-방법",
+    "title": "2023 일상에서의 AI 해커톤",
+    "section": "디스코드에서 팀을 구성하는 방법",
+    "text": "디스코드에서 팀을 구성하는 방법\nDiscord는 참가자들이 서로 연결하고 아이디어를 논의하며 해커톤을 위한 팀을 구성할 수 있는 이상적인 플랫폼을 제공합니다. 다음은 Discord에서 팀 구성 과정을 탐색하는 데 도움이 되는 단계별 가이드입니다.\n\n1. 공식 해커톤 Discord 서버에 가입하기:\n가장 먼저 공식 해커톤 Discord 서버에 가입했는지 확인하세요.\n\n\n2. 채널에 익숙해지기 :\n가입한 후에는 잠시 시간을 내어 다양한 채널에 익숙해지세요. 팀 구성 전용 채널은 #team-formation이라는 이름의 특정 채널이 있을 것입니다.\n\n\n3. 자기 소개하기:\n\n#team-formation 채널에 자신에 대한 간단한 소개를 게시합니다. 포함하세요:\n\n본인의 기술 및 전문 지식\n해커톤 목표\n팀원에게 바라는 점\n\n\n\n예시: “안녕하세요, 저는 Alex입니다! 저는 자연어 처리(NLP)를 전문으로 하며 Hugging Face에 대한 경험이 있습니다. 팀을 구성할 프론트엔드 개발자와 데이터 과학자를 찾고 있습니다. 함께 놀라운 무언가를 만들어 봅시다!”\n\n\n\n4. 다른 사람들과 연결하기 :\n다른 참가자의 소개 게시물에 참여하세요. 팀에 적합한 사람으로 보이는 사람이 있다면, 함께 대화해보세요:\n\n:thumsup: 이모티콘으로 반응하고,\n더 자세히 논의하기 위해 쪽지를 보내세요.\n\n\n\n5. 음성 채널을 사용하여 심도 있는 토론하기:\n팀워크를 더 다지고 싶다면, 음성 채널 중 하나에 들어가 실시간으로 채팅하세요. 목표가 잘 맞는지 확인하고 서로를 보장하는 데 도움이 됩니다.\n\n\n6. 팀 확인: \n팀을 구성하고 나면:\n\n팀 구성` 채널에서 팀원을 발표합니다: “_팀 [팀명]: 알렉스, @메리, @테일러_”\n해커톤 기간 동안 공식 커뮤니케이션을 담당할 팀 리더를 지정하세요.\n\n\n\n7. Discord 그룹 만들기(선택 사항):\nDiscord 그룹을 통해 팀을 위한 비공개 채널을 만들 수 있습니다. 이렇게 전략을 논의하고 리소스를 공유하며 협업할 수 있는 전용 공간을 만들어 보세요.\n\n\n8. 최신 소식 받기:\n‘#announcements’ 또는 기타 중요한 채널을 항상 주시하세요. 관리자 또는 주최자가 팀 구성 또는 해커톤과 관련된 중요한 업데이트를 게시할 것입니다.\n\n결론:\nDiscord는 참가자들이 연결하고 팀을 구성할 수 있는 원활한 플랫폼을 제공합니다. 서로 잘 맞는 팀원을 찾아 재미있는 해커톤의 초석을 마련할 수 있습니다. 행운을 빌며 행복한 팀 구성을 기원합니다!"
   },
   {
     "objectID": "logistics/index.html",
     "href": "logistics/index.html",
     "title": "2023 일상에서의 AI 해커톤",
     "section": "",
+    "text": "See in English\n\n\n\n\n\n해커톤 정보\n\n\n\n\n\n\n\n일정\n날짜\n\n\n\n\n데모 접수\n10월 20일(금) ~ 11월 4일(토) 24시\n\n\n오프라인 발표자 모집\n11월 6일(월) ~ 11월 9일(목)\n\n\n데모데이\n11월 11일 오후 2시 ~ 5시\n\n\n\n캘린더에 추가하기\n\nGoogle Calendar\nApple Calendar\n\n\n\n참가 안내\n\n대상: Hugging Face에 관심 있는 모든 분\n모집 기간: 2023년 10월 20일 ~ 11월 4일 24시\n팀 규모: 최대 3명\n보상:\n\nHugging Face 수료증\n발표팀에게 제공되는 굿즈\n네트워킹 기회\n\n\n\n\n참가 요건\n\n동작하는 데모 제출 (Hugging Face Spaces에 업로드)\nREADME.md에 프로젝트 소개 작성\n제출하기를 통해 팀 정보 및 프로젝트 url 제출\n\n타인의 작업을 무단으로 복사한 제출은 무효처리\n\n\n\n\n발표자 선정\n\n“Like” 수가 많은 팀 (최대 3팀)\n운영진 투표로 선정된 팀 (2팀)\n\n\n\n참고 링크\n\n해커톤 공식 페이지\nHugging Face 공식 디스코드"
+  },
+  {
+    "objectID": "logistics/prerequisites.html",
+    "href": "logistics/prerequisites.html",
+    "title": "Prerequisites & help",
+    "section": "",
     "text": "See in English"
   },
   {
-    "objectID": "logistics/index.html#주요-일정",
-    "href": "logistics/index.html#주요-일정",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "주요 일정",
-    "text": "주요 일정\n행사 주요일정 소개\n\n\n\n\ngantt\n      title 전체일정\n      dateFormat MM-DD\n      axisFormat %m-%d\n      excludes    weekends\n      section 준비기간\n         대회준비                :active, 10-11, 10-22\n      section 대회시작\n         10월 23일            :crit, milestone,  10-23, 10-23\n      section 제출마감\n         11월 04일            :crit, milestone,  11-04, 11-04\n      section 발표자모집\n         11월 06일~09일  :11-06, 11-09\n      section 헤커톤행사\n         11월 11일 오후2시  :crit, milestone, 11-11, 11-11\n\n\n\n\n\n\n\n\n내용\n일정\n\n\n\n\n대회 시작\n10월 23일(월)\n\n\n프로젝트 제출마감\n11월 4일(토) 24시\n\n\n오프라인 발표자 모집\n11월 6일(월) ~ 11월 9일(목)\n\n\n허깅페이스 헤커톤\n11월 11일 오후 2시~ 5시"
+    "objectID": "logistics/prerequisites.html#prerequisites",
+    "href": "logistics/prerequisites.html#prerequisites",
+    "title": "Prerequisites & help",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nBefore the Hackathon, please do the following (20 minutes). All software is free. If you are attending the Clinic, please do this in advance of the Clinic.\n\nGitHub username\n\nCreate a GitHub account (if you don’t already have one) at https://github.com. Follow optional advice on choosing your username\nPlease provide your GitHub username here; this will allow us to add you to the cloud hackathon workspace.\nRemember your username and password; you will need to be logged in during the workshop!\n\nHugging Face account\n\nCreate a Hugging Face account (if you don’t already have one) at https://hf.co/join\nRemember your username and password; you will need to be logged in during the workshop!\n\nDiscord\n\nJoin our Discord workspace (invite sent via email). In the 2023-everydayaihack-projects channel, suggest a hackathon project idea/use case, and mention if you are looking for teammates to join. Read through other entries and comment on those of interest to you. On Day one of the hackathon we will hold a project pitchfest and finalize teams for the week.\nLearn more about how we’ll use Discord during the workshop\n\nGoogle Meet\n\nBe prepared to call into Google Meet using the link provided in the Discord 2023-everydayaihack-general Channel.\n\nGet comfortable\n\nConsider your computer set-up in advance, including an external monitor if possible. You will be following along on your own computer while also watching an instructor live-code over Google Meet (or equivalent), and will also want quick-access to Discord to ask for help and follow links."
   },
   {
-    "objectID": "logistics/index.html#참가-대상",
-    "href": "logistics/index.html#참가-대상",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "1. 참가 대상",
-    "text": "1. 참가 대상\n허깅페이스로 배우고 함께 나누고 싶은 누구나"
+    "objectID": "logistics/prerequisites.html#getting-help",
+    "href": "logistics/prerequisites.html#getting-help",
+    "title": "Prerequisites & help",
+    "section": "Getting help",
+    "text": "Getting help\nWe will use Discord rather than Google Meet Chat as our main channel for help, since the conversations are preserved beyond a single call and since it’s easier to reply and have threaded conversations and post screenshots.\n\nDiscord\nYou will be invited to the PseudoLab Discord organization, where there is a growing community of ML experts. (New to Discord? See this Quick Start Guide). We have three private Discord channels for the Hackathon:\n2023-everydayaihack-general: General channel is for announcements and general questions and communications.\n2023-everydayaihack-projects: Projects channel is for for participants to pitch project ideas and discuss projects with the whole hackathon group. As teams form you can have direct messages with your team (and we can create new channels as needed).\n2023-everydayaihack-help: Help channel is the place to get troubleshooting help: please paste error messages and post screenshots and we will help you by replying to your post.\nTo create a screenshot:\n\nOn your Mac - Screenshot\nOn your PC - Snipping Tool\n\n\n\nGoogle Meet Breakout Rooms\n\nDuring Tutorials Session\nIf you’d like to talk to someone and live-screenshare about your issue, please write in Google Meet Chat that you need help and we will move you into a breakout room with a helper.\n\n\nDuring Team Hacktime\nDuring the team project time, you will be placed in a Google Meet breakout room with your respective teammates to collaborate more easily. If you have questions as you work, post your question(s) in the Discord 2023-everydayaihack-help Channel and a helper will respond in that thread. If needed, a helper can also join your team’s Google Meet breakour room for easy screensharing, troubleshooting or to further discuss a question."
   },
   {
-    "objectID": "logistics/index.html#모집-기간",
-    "href": "logistics/index.html#모집-기간",
+    "objectID": "submit.html",
+    "href": "submit.html",
     "title": "2023 일상에서의 AI 해커톤",
-    "section": "2. 모집 기간",
-    "text": "2. 모집 기간\n2023년 10월 23일 ~ 11월 4일(토) 24시"
-  },
-  {
-    "objectID": "logistics/index.html#참가-규칙",
-    "href": "logistics/index.html#참가-규칙",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "3. 참가 규칙",
-    "text": "3. 참가 규칙\n\n팀은 3명이하로 구성합니다.\n프로젝트는 허깅페이스 스페이스에 생성하고 홈페이지 제출하기를 눌러서 프로젝트 및 팀 정보를 제출하여 완료합니다.\n타인의 프로젝트를 복사하여 제출하지 마세요!"
-  },
-  {
-    "objectID": "logistics/index.html#참가-상품-및-행사-정보",
-    "href": "logistics/index.html#참가-상품-및-행사-정보",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "4. 참가 상품 및 행사 정보",
-    "text": "4. 참가 상품 및 행사 정보\n\n허깅페이스에서 제공하는 수료증\n행사 당일 발표자로 선정되신 분들에게는 작은 선물을 드립니다.\n슈도콘과 함께 진행되는 헤커톤에 참가하여 네트워깅을 해보세요.\n\n\nㄱ. 발표자 선정방법\n\nLike를 많이 받은 분들 중 발표를 원하시는 팀 (3팀)\n헤커톤 운영팀 및 멘토단 투표가 많은 팀 (2팀)\n\n\nㄴ 수료증 발급 조건\n\n허깅페이스 스페이스에 동작하는 데모 등록\nReadMe.md 또는 데모 페이지에 프로젝트 소개 작성\n홈페이지의 [제출하기]를 눌러 팀, 프로젝트 정보 등록"
-  },
-  {
-    "objectID": "logistics/index.html#링크",
-    "href": "logistics/index.html#링크",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "5. 링크",
-    "text": "5. 링크\n\nHugging Face 디스코드\n헤커톤 스페이스"
-  },
-  {
-    "objectID": "tutorials-templates/index.html",
-    "href": "tutorials-templates/index.html",
-    "title": "Notebooks for live-coding",
     "section": "",
-    "text": "See in English\nTemplates of all tutorials — .ipynb notebooks with code removed — are available at:\nhttps://github.com/NASA-Openscapes/2021-Cloud-Hackathon/tree/main/tutorials-templates.\nPlease open these tutorial templates in our JupyterHub to follow along and live-code with the tutorial lead."
+    "text": "See in English\n\n\n\n\n열심히 일하고 팀과 협력하여 놀라운 무언가를 개발했습니다. 이제 전 세계에 보여줄 시간입니다! 일상에서의 AI 해커톤에 프로젝트를 제출하려면 아래 단계를 따르세요.\n\n제출 가이드라인:\n\n제출 기간:\n\n10월 20일부터 11월 4일 24:00까지 프로젝트를 제출할 수 있습니다. 마감일 이후에는 접수되지 않습니다.\n\n프로젝트 형식:\n\n모든 프로젝트는 Hugging Face Spaces에 올라와 있어야 합니다.\n프로젝트의 README.md에는 문제 설명, 솔루션, 사용된 기술 및 기타 관련 정보를 설명하는 포괄적인 개요가 포함되어야 합니다.\n\n팀 정보:\n\n모든 팀원의 이름과 역할을 명확하게 언급하세요.\n연락을 받을 수 있는 팀 리더를 지정하세요.\n\n\n\n\n제출 방법:\n\n제출 양식 작성하기 :\n\n프로젝트 이름: 프로젝트를 대표하는 이름을 선택하세요.\n프로젝트 URL: 프로젝트의 Hugging Face Spaces 링크를 입력하세요.\n간단한 설명: 프로젝트에 대한 간략한 개요(최대 200자)를 작성하세요.\n팀원: 모든 팀원과 역할을 나열하세요.\n연락처 이메일: 팀 리더의 이메일을 입력하세요.\n\n추가 파일 업로드(선택 사항):\n\n프로젝트를 보완하는 추가 리소스, 문서 또는 슬라이드가 있는 경우 제공된 인터페이스를 사용하여 업로드하세요.\n\n검토 및 제출:\n\n모든 정보가 정확한지 확인하세요. URL이 제대로 작동하는지 다시 확인하세요.\n“제출”을 클릭하여 프로젝트 제출을 완료합니다.\n\n\n\n\n제출 후:\n제출이 완료되면 확인 이메일을 받게 됩니다. 프로젝트는 검토를 거치게 되며, 최종 후보에 오른 팀에게는 다음 단계에 대한 알림이 발송됩니다.\n일상에서의 AI 해커톤에 참여해 주셔서 감사합니다! 여러분의 혁신적인 솔루션을 기대하며 모든 참가자에게 행운이 함께하기를 기원합니다. 제출하는 동안 문제가 발생하면 Discord #support 채널을 통해 문의해 주시기 바랍니다.\n\n 제출하기"
   },
   {
     "objectID": "tutorials/00_Setup.html",
@@ -154,80 +175,17 @@
     "text": "Step 5. Tracking changes (Optional)\nNow that you have forked and cloned the repository in your Hub, you can make changes (edit, add, and/or delete content) and track these files using git. In this step, we will provide an overview of how to use git using the graphical interface (the JupyterLab git extension).\n\nStep 5.1. Configure Git (git config)\nConfigure git with your name and email address as shown here.\ngit config --global user.name \"Makhan Virdi\"\ngit config --global user.email \"Makhan.Virdi@gmail.com\"\nOpen a new terminal: File &gt;&gt; New &gt;&gt; Terminal\n\nConfigure git to store your github credentials to avoid having to enter your github username and token each time you push changes to your repository(in Step 5.5, we will describe how to use github token instead of a password)\ngit config --global credential.helper store\n\n\nStep 5.2. Create a new file\nLet’s create a new file: In the left panel on your Hub, click on the “directory” icon and then double click on “2021-Cloud-Hackathon” directory. Then, create a new file using the text editor in your 2i2c JupyterHub (File &gt;&gt; New &gt;&gt; Text File). Add some text to this file, for example: A test file. Save this file and rename it to test.txt.\n\n\n\nStep 5.3. Track the changes to the new file (git add)\nClick the git icon in the left panel. You can see that the newly added file is in the “Untracked” section. You can click the + icon next to the file name to let git track this file for changes.\n\n\n\nStep 5.4. Commit the changes to the new file (git commit)\nNow, you will see that the file is Staged, which means that git is ready to take a snapshot of this file (and the repository) with the changes that you made. This snapshot is called a commit. To commit the changes, add a note (called a commit message) by typing in the text box that say “Summary”.\nNow, click the blue “COMMIT” button to commit this change.\n\nNote: A short message indicating the type of change to this file is a good practice. Optionally, a longer description may be added to the “Description” field.\n\n\n\n\nStep 5.5. Transmit committed changes to your github (git push)\nAt this stage, you have committed the changes to your git repository on your Hub. However, these changes are still on your Hub and needs to be transmitted to your repository on github (so that both the local copy on the JupyterHub and the remote copy on github are in sync).\nAs seen in the picture below, the git extension indicates (with an orange dot on the cloud icon) that it is ready to push your changes to the remote (remote = your repository on github.com). To push to github, click the cloud button with an up arrow (circled in red in the picture).\n\nWhen you push for the first time, it will ask that you input your credentials. You will need to set this up with your Personal Access Token (PAT), explained next.\n\n\nStep 5.6. Setup your Personal Access Token (PAT)\nWhen you see the following screenshot, GitHub is asking for you to input your credentials. (Note: you see this screenshot when you have committed work to push to GitHub.com, as detailed above).\n\nThe git extension in the Hub is prompting you to enter your github.com credentials. Enter you github.com username and a Personal Access Token (PAT); DO NOT use your password.\nTo create a PAT, visit https://github.com/settings/tokens/new and create a new token with the permission as per the image below and specify its validity for 90 days.\n\nIMPORTANT: You will see this token only once, so be sure to copy this. If you do not copy your token at this stage, you will need to generate a new token.\n\nOnce you generate the token, copy it and paste in the Hub window that prompted you to enter the “Personal Access Token”.\n\nGit will show a message at the bottom right telling that the changes were “Successfully pushed”. Also, you will see that the “cloud icon with an up arrow” no longer has an orange dot, indicating that there are no more committed changes to push to the remote (github.com).\n\nNote: You have configured git extension to store your credentials. You will not be prompted for your login/token again!\n\n\nThat’s all. You can use the same workflow (add &gt; commit &gt; push) for any other new or modified files!\n\n\nNote: If you are comfortable with the command line, you can use the Terminal (In Hub, New &gt; Terminal) and follow the steps outlined in the Clinic section."
   },
   {
-    "objectID": "intro/organizers.html",
-    "href": "intro/organizers.html",
-    "title": "Our Team",
-    "section": "",
-    "text": "See in English"
-  },
-  {
-    "objectID": "intro/organizers.html#main-instructors-and-support",
-    "href": "intro/organizers.html#main-instructors-and-support",
-    "title": "Our Team",
-    "section": "Main Instructors and Support",
-    "text": "Main Instructors and Support\nThis effort was supported by the whole Hugging Face KREW team, with the following main folks listed alphabetically.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChanran Kim\nGabriel Yang\nHyunseo Yun\nKihoon Son\nNayeon Han\nSohyun Sim\nWonhyeong Seo\nWoojun Jung\n\n\n\n\nImage\n\n\n\n\n\n\n\n\n\n\nLinks"
-  },
-  {
-    "objectID": "intro/organizers.html#hackathon-helpers",
-    "href": "intro/organizers.html#hackathon-helpers",
-    "title": "Our Team",
-    "section": "Hackathon Helpers",
-    "text": "Hackathon Helpers\n\nArthur Zucker, Hugging Face\nLysandre Debut, Hugging Face"
-  },
-  {
-    "objectID": "intro/code-of-conduct.html",
-    "href": "intro/code-of-conduct.html",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "",
-    "text": "See in English"
-  },
-  {
-    "objectID": "submit.html",
-    "href": "submit.html",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "",
-    "text": "See in English\n\n\n\n\n\nTODO: 제출 방법 안내\n\n 제출하기"
-  },
-  {
     "objectID": "tutorials/index.html",
     "href": "tutorials/index.html",
     "title": "2023 일상에서의 AI 해커톤",
     "section": "",
-    "text": "See in English"
+    "text": "See in English\n\n\n\n\n\n튜토리얼 개요\n저희는 해커톤 참가자들의 성공을 가장 중요하게 생각합니다. 모든 참가자가 혁신적인 프로젝트를 만드는 데 필요한 도구와 지식을 갖출 수 있도록 해커톤의 다양한 측면에 맞춘 튜토리얼 시리즈를 준비 중입니다. 이제 막 시작하는 초보자부터 고급 기술을 찾고 있는 숙련된 개발자까지 모든 수준의 숙련도를 충족할 수 있도록 설계하고 있습니다.\n\n\n커리큘럼 :\n\n시작하기 :\n\n플랫폼 오리엔테이션: 해커톤에서 사용하는 도구와 플랫폼의 기본 사항을 이해합니다.\n환경 설정하기: 해커톤을 위한 개발 환경을 준비하기 위한 단계별 가이드를 제공합니다.\n\nHugging Face 101:\n\nHugging Face 소개: Hugging Face 생태계를 이해하기 위한 초보자 가이드입니다.\n첫 번째 모델 배포하기: Hugging Face로 모델을 가동하고 실행하는 방법을 알아봅니다.\n\n고급 기술 :\n\n모델 성능 최적화하기 : 모델을 최대한 활용하기 위한 팁과 노하우입니다.\n다른 플랫폼과의 통합 : 다른 인기 도구 및 플랫폼과 Hugging Face를 통합하는 방법에 대한 가이드입니다.\n\n협업 및 팀워크 :\n\n팀 협업을 위한 모범 사례 : 해커톤을 진행하는 동안 원활한 팀워크와 효율적인 협업을 보장합니다.\nGit을 통한 버전 관리 및 협업 : 팀 프로젝트에 Git을 사용하는 방법에 대한 가이드입니다.\n\n\n\n이 튜토리얼을 제작하기 위해 적극적으로 노력하고 있으며 몇 주 내에 공개할 예정입니다. 참가자들은 이 섹션에서 정기적으로 업데이트를 확인하시기 바랍니다. 더 다루었으면 하는 특정 주제가 있다면 Discord의 #support 채널에서 알려주세요."
   },
   {
-    "objectID": "tutorials/index.html#todo-튜토리얼-개요-작성",
-    "href": "tutorials/index.html#todo-튜토리얼-개요-작성",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "TODO: 튜토리얼 개요 작성",
-    "text": "TODO: 튜토리얼 개요 작성"
-  },
-  {
-    "objectID": "logistics/how-to-form-teams.html",
-    "href": "logistics/how-to-form-teams.html",
-    "title": "디스코드에서 팀원을 찾아보세요!",
+    "objectID": "tutorials-templates/index.html",
+    "href": "tutorials-templates/index.html",
+    "title": "Notebooks for live-coding",
     "section": "",
-    "text": "See in English\n\n\n\n\n\n디스코드에서 팀원을 찾아보세요!\nTODO: 디스코드에서 팀을 구성할 수 있는 방법 작성"
-  },
-  {
-    "objectID": "logistics/prerequisites.html",
-    "href": "logistics/prerequisites.html",
-    "title": "Prerequisites & help",
-    "section": "",
-    "text": "See in English"
-  },
-  {
-    "objectID": "logistics/prerequisites.html#prerequisites",
-    "href": "logistics/prerequisites.html#prerequisites",
-    "title": "Prerequisites & help",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nBefore the Hackathon, please do the following (20 minutes). All software is free. If you are attending the Clinic, please do this in advance of the Clinic.\n\nGitHub username\n\nCreate a GitHub account (if you don’t already have one) at https://github.com. Follow optional advice on choosing your username\nPlease provide your GitHub username here; this will allow us to add you to the cloud hackathon workspace.\nRemember your username and password; you will need to be logged in during the workshop!\n\nHugging Face account\n\nCreate a Hugging Face account (if you don’t already have one) at https://hf.co/join\nRemember your username and password; you will need to be logged in during the workshop!\n\nDiscord\n\nJoin our Discord workspace (invite sent via email). In the 2023-everydayaihack-projects channel, suggest a hackathon project idea/use case, and mention if you are looking for teammates to join. Read through other entries and comment on those of interest to you. On Day one of the hackathon we will hold a project pitchfest and finalize teams for the week.\nLearn more about how we’ll use Discord during the workshop\n\nGoogle Meet\n\nBe prepared to call into Google Meet using the link provided in the Discord 2023-everydayaihack-general Channel.\n\nGet comfortable\n\nConsider your computer set-up in advance, including an external monitor if possible. You will be following along on your own computer while also watching an instructor live-code over Google Meet (or equivalent), and will also want quick-access to Discord to ask for help and follow links."
-  },
-  {
-    "objectID": "logistics/prerequisites.html#getting-help",
-    "href": "logistics/prerequisites.html#getting-help",
-    "title": "Prerequisites & help",
-    "section": "Getting help",
-    "text": "Getting help\nWe will use Discord rather than Google Meet Chat as our main channel for help, since the conversations are preserved beyond a single call and since it’s easier to reply and have threaded conversations and post screenshots.\n\nDiscord\nYou will be invited to the PseudoLab Discord organization, where there is a growing community of ML experts. (New to Discord? See this Quick Start Guide). We have three private Discord channels for the Hackathon:\n2023-everydayaihack-general: General channel is for announcements and general questions and communications.\n2023-everydayaihack-projects: Projects channel is for for participants to pitch project ideas and discuss projects with the whole hackathon group. As teams form you can have direct messages with your team (and we can create new channels as needed).\n2023-everydayaihack-help: Help channel is the place to get troubleshooting help: please paste error messages and post screenshots and we will help you by replying to your post.\nTo create a screenshot:\n\nOn your Mac - Screenshot\nOn your PC - Snipping Tool\n\n\n\nGoogle Meet Breakout Rooms\n\nDuring Tutorials Session\nIf you’d like to talk to someone and live-screenshare about your issue, please write in Google Meet Chat that you need help and we will move you into a breakout room with a helper.\n\n\nDuring Team Hacktime\nDuring the team project time, you will be placed in a Google Meet breakout room with your respective teammates to collaborate more easily. If you have questions as you work, post your question(s) in the Discord 2023-everydayaihack-help Channel and a helper will respond in that thread. If needed, a helper can also join your team’s Google Meet breakour room for easy screensharing, troubleshooting or to further discuss a question."
+    "text": "See in English\nTemplates of all tutorials — .ipynb notebooks with code removed — are available at:\nhttps://github.com/NASA-Openscapes/2021-Cloud-Hackathon/tree/main/tutorials-templates.\nPlease open these tutorial templates in our JupyterHub to follow along and live-code with the tutorial lead."
   }
 ]
