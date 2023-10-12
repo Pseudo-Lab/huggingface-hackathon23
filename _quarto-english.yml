@@ -1,6 +1,6 @@
 project:
   title: "2023 Everyday AI Hackathon"
-  output-dir: ./_site/ko
+  output-dir: ./_site/en
 
 website:
   page-navigation: true
@@ -15,15 +15,13 @@ website:
     search: true
     left:
       - text: About
-        file: about.qmd
-      - text: Apply
-        file: apply.qmd
+        file: index.qmd
       - text: Logistics
         file: logistics/index.qmd
-      - text: Tutorial
+      - text: Tutorials
         file: tutorials/index.qmd
-      - text: Projects
-        file: projects/index.qmd
+      - text: Submit
+        file: submit.qmd
     tools:
       - icon: twitter
         href: https://twitter.com
@@ -31,40 +29,20 @@ website:
         href: https://github.com
 
   sidebar:
-    - title: About
-      style: floating
-      contents:
-        - text: About the hackathon
-          file: about.qmd
-        - text: Organizers
-          file: organizers.qmd
-        - text: Code of conduct
-          file: code-of-conduct.qmd
-
     - title: Logistics
+      style: floating
       contents:
         - text: Main Guidelines
           file: logistics/index.qmd
-        - text: How to Form teams
+        - text: How to Form a Team
           file: logistics/how-to-form-teams.qmd
-        - text: Pre-requisites
-          file: logistics/prerequisites.qmd
+        # - text: 사전준비 사항
+        #   file: logistics/prerequisites.qmd
 
-    - title: Tutorial
+    - title: Tutorials
       contents:
-        - text: Begin
+        - text: Overview
           file: tutorials/index.qmd
-        - text: Setup your environment
-          file: tutorials/00_Setup.md
-
-    - title: Projects
-      contents:
-        - text: How to submit
-          file: projects/index.qmd
-        - text: 7th PseudoCon (Offline)
-          file: projects/offline.qmd
-        - text: Completed Projects
-          file: projects/hackathon-projects.md
       
 format:
   html:

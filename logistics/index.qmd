@@ -1,8 +1,6 @@
 ::: {.content-visible when-profile="korean"}
+### 주요 일정
 
-## 주요 일정
-
-행사 주요일정 소개
 ```{mermaid}
 gantt
       title 전체일정
@@ -10,51 +8,107 @@ gantt
       axisFormat %m-%d
       excludes    weekends
       section 준비기간
-         대회준비                :active, 10-11, 10-22
+         대회준비                :active, 10-11, 10-19
       section 대회시작
-         10월 23일            :crit, milestone,  10-23, 10-23
+         10월 20일            :crit, milestone,  10-20, 10-20
       section 제출마감
          11월 04일            :crit, milestone,  11-04, 11-04
       section 발표자모집
          11월 06일~09일  :11-06, 11-09
-      section 헤커톤행사
+      section 해커톤행사
          11월 11일 오후2시  :crit, milestone, 11-11, 11-11
 ```
 
-| 내용                 | 일정                         |
-|----------------------|------------------------------|
-| 대회 시작            | 10월 23일(월)                |
-| 프로젝트 제출마감    | 11월 4일(토) 24시            |
-| 오프라인 발표자 모집 | 11월 6일(월) \~ 11월 9일(목) |
-| 허깅페이스 헤커톤    | 11월 11일 오후 2시\~ 5시     |s
+| 일정                         | 날짜                                     |
+|-----------------------------|-----------------------------------------|
+| 데모 접수                  | 10월 20일(금) ~ 11월 4일(토) 24시                  |
+| 오프라인 발표자 모집            | 11월 6일(월) ~ 11월 9일(목) |
+| 데모데이                    | 11월 11일 오후 2시 ~ 5시           |
 
-## 1. 참가 대상
-허깅페이스로 배우고 함께 나누고 싶은 누구나
+캘린더에 추가하기
 
-## 2. 모집 기간
-2023년 10월 23일 ~ 11월 4일(토) 24시
+- Google Calendar
+- Apple Calendar
 
-## 3. 참가 규칙
-- 팀은 3명이하로 구성합니다.
-- 프로젝트는 허깅페이스 스페이스에 생성하고 홈페이지 제출하기를 눌러서 프로젝트 및 팀 정보를 제출하여 완료합니다.
-- 타인의 프로젝트를 복사하여 제출하지 마세요!
+### 참가 안내
 
-## 4. 참가 상품 및 행사 정보
-- 허깅페이스에서 제공하는 수료증
-- 행사 당일 발표자로 선정되신 분들에게는 작은 선물을 드립니다.
-- 슈도콘과 함께 진행되는 헤커톤에 참가하여 네트워깅을 해보세요.
+1. **대상**: Hugging Face에 관심 있는 모든 분
+2. **모집 기간**: 2023년 10월 20일 ~ 11월 4일 24시
+3. **팀 규모**: 최대 3명
+4. **보상**: 
+   - Hugging Face 수료증
+   - 발표팀에게 제공되는 굿즈
+   - 네트워킹 기회
 
-#### ㄱ. 발표자 선정방법
-- Like를 많이 받은 분들 중 발표를 원하시는 팀 (3팀)
-- 헤커톤 운영팀 및 멘토단 투표가 많은 팀 (2팀)
+### 참가 요건
 
-##### ㄴ 수료증 발급 조건
-1. 허깅페이스 스페이스에 동작하는 데모 등록
-2. ReadMe.md 또는 데모 페이지에 프로젝트 소개 작성
-3. 홈페이지의 [제출하기]를 눌러 팀, 프로젝트 정보 등록
+1. 동작하는 데모 제출 (Hugging Face Spaces에 업로드)
+2. `README.md`에 프로젝트 소개 작성
+3. [제출하기](../submit.qmd)를 통해 팀 정보 및 프로젝트 url 제출
+   - 타인의 작업을 무단으로 복사한 제출은 무효처리
 
-## 5. 링크
-- **Hugging Face 디스코드**
-- [헤커톤 스페이스](http://huggingface.co/huggingface-hackathon-korea){.uri}
+### 발표자 선정
+
+- "Like" 수가 많은 팀 (최대 3팀)
+- 운영진 투표로 선정된 팀 (2팀)
+
+### 참고 링크
+
+- [해커톤 공식 페이지](http://huggingface.co/huggingface-hackathon-korea)
+- Hugging Face 공식 디스코드
+
+:::
+::: {.content-visible when-profile="english"}
+### Schedule
+```{mermaid}
+gantt
+      title Schedule
+      dateFormat MM-DD
+      axisFormat %m-%d
+      excludes    weekends
+      section Hackathon Prep
+         Getting Ready                :active, 10-11, 10-19
+      section Application Start
+         10월 20일            :crit, milestone,  10-20, 10-20
+      section Application Deadline
+         11월 04일            :crit, milestone,  11-04, 11-04
+      section Call for Presenters
+         11월 06일~09일  :11-06, 11-09
+      section Hackathon Event
+         11월 11일 오후2시  :crit, milestone, 11-11, 11-11
+```
+
+| Event | Dates |
+| --- | --- |
+| **Demo Submission** | October 20th ~ November 4th, 24:00 |
+| **Presenter Recruitment** | November 6th ~ November 9th |
+| **Demo Day** | November 11th, 2 PM ~ 5 PM |
+
+### Participation Guide
+
+1. **Eligibility**: Everyone interested in Hugging Face
+2. **Recruitment Period**: October 20, 2023 ~ November 4, 2023, 24:00
+3. **Team Size**: Up to 3 members
+4. **Rewards**: 
+   - Hugging Face Certificate of Completion
+   - Swags provided to presenting teams
+   - Networking opportunities
+
+### Completion Requirements
+
+1. Submit a working demo (uploaded on Hugging Face Spaces)
+2. Write a project introduction in `README.md`
+3. Submit team information and project URL via [Submit]
+   - Unauthorized copying of others' work is prohibited
+
+### Presenter Selection Criteria
+
+- Teams with a high number of "Likes" (up to 3 teams)
+- Teams selected through organizer voting (2 teams)
+
+### Reference Links
+
+- [Official Hackathon Page](http://huggingface.co/huggingface-hackathon-korea)
+- Hugging Face Official Discord
 
 :::
