@@ -1,7 +1,7 @@
 ::: {.content-visible when-profile="korean"}
 열심히 일하고 팀과 협력하여 놀라운 무언가를 개발했습니다. 이제 전 세계에 보여줄 시간입니다! 일상에서의 AI 해커톤에 프로젝트를 제출하려면 아래 단계를 따르세요.
 
-#### **제출 가이드라인:**
+### 제출 가이드라인
 
 1. **제출 기간:** 
    - **10월 20일**부터 **11월 4일 24:00**까지 프로젝트를 제출할 수 있습니다. 마감일 이후에는 접수되지 않습니다.
@@ -14,7 +14,7 @@
    - 모든 팀원의 이름과 역할을 명확하게 언급하세요.
    - 연락을 받을 수 있는 팀 리더를 지정하세요.
 
-#### **제출 방법:**
+### 제출 방법
 1. **제출 양식 작성하기 :** 
    - **프로젝트 이름:** 프로젝트를 대표하는 이름을 선택하세요.
    - **프로젝트 URL:** 프로젝트의 Hugging Face Spaces 링크를 입력하세요.
@@ -29,7 +29,7 @@
    - 모든 정보가 정확한지 확인하세요. URL이 제대로 작동하는지 다시 확인하세요.
    - "제출"을 클릭하여 프로젝트 제출을 완료합니다.
 
-#### **제출 후:**
+### 제출 후
 
 제출이 완료되면 확인 이메일을 받게 됩니다. 프로젝트는 검토를 거치게 되며, 최종 후보에 오른 팀에게는 다음 단계에 대한 알림이 발송됩니다.
  
@@ -43,7 +43,7 @@
 ::: {.content-visible when-profile="english"}
 You've worked hard, collaborated with your team, and developed something incredible. Now it's time to show it to the world! Follow the steps below to submit your project for the Everyday AI Hackathon.
 
-### **Submission Guidelines:**
+### Submission Guidelines
 
 1. **Submission Period:**  
    - Projects can be submitted from **October 20th** to **November 4th, 24:00**. No submissions will be accepted after the deadline.
@@ -56,7 +56,7 @@ You've worked hard, collaborated with your team, and developed something incredi
    - Clearly mention all team members' names and roles.
    - Designate a team leader who'll act as the primary contact point.
 
-### **How to Submit:**
+### How to Submit
 1. **Fill Out the Submission Form:**  
    - **Project Name:** Choose a name that represents your project.
    - **Project URL:** Provide the link to your project hosted on Hugging Face Spaces.
@@ -71,7 +71,7 @@ You've worked hard, collaborated with your team, and developed something incredi
    - Ensure all information is accurate. Double-check URLs to ensure they're working.
    - Click "Submit" to finalize your project submission.
 
-### **Post-Submission:**
+### Post-Submission
 
 Once submitted, you'll receive a confirmation email. Projects will undergo a review, and shortlisted teams will be notified regarding the next steps.
  

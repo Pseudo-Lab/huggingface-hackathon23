@@ -1,22 +1,22 @@
 ::: {.content-visible when-profile="korean"}
-#### 튜토리얼 개요
+### 튜토리얼 개요
 저희는 해커톤 참가자들의 성공을 가장 중요하게 생각합니다. 모든 참가자가 혁신적인 프로젝트를 만드는 데 필요한 도구와 지식을 갖출 수 있도록 해커톤의 다양한 측면에 맞춘 튜토리얼 시리즈를 준비 중입니다. 이제 막 시작하는 초보자부터 고급 기술을 찾고 있는 숙련된 개발자까지 모든 수준의 숙련도를 충족할 수 있도록 설계하고 있습니다.
 
-#### 커리큘럼 :
+### 커리큘럼
 
-1. 시작하기 : 
+1. 시작하기
    - 플랫폼 오리엔테이션: 해커톤에서 사용하는 도구와 플랫폼의 기본 사항을 이해합니다.
    - 환경 설정하기: 해커톤을 위한 개발 환경을 준비하기 위한 단계별 가이드를 제공합니다.
 
-2. Hugging Face 101:
+2. Hugging Face 101
    - Hugging Face 소개: Hugging Face 생태계를 이해하기 위한 초보자 가이드입니다.
    - 첫 번째 모델 배포하기: Hugging Face로 모델을 가동하고 실행하는 방법을 알아봅니다.
 
-3. 고급 기술 : 
+3. 고급 기술 
    - 모델 성능 최적화하기 : 모델을 최대한 활용하기 위한 팁과 노하우입니다.
    - 다른 플랫폼과의 통합 : 다른 인기 도구 및 플랫폼과 Hugging Face를 통합하는 방법에 대한 가이드입니다.
 
-4. 협업 및 팀워크 : 
+4. 협업 및 Git
    - 팀 협업을 위한 모범 사례 : 해커톤을 진행하는 동안 원활한 팀워크와 효율적인 협업을 보장합니다.
    - Git을 통한 버전 관리 및 협업 : 팀 프로젝트에 Git을 사용하는 방법에 대한 가이드입니다.
 
@@ -26,25 +26,25 @@
 :::
 
 ::: {.content-visible when-profile="english"}
-#### **Tutorials Overview**
+### Tutorials Overview
   
 The success of our hackathon participants is of utmost importance to us. To ensure everyone has the tools and knowledge needed to create innovative projects, we are in the process of curating a series of tutorials tailored to various aspects of the hackathon. Whether you're a beginner getting your feet wet or an experienced developer looking for advanced techniques, our tutorials will be designed to cater to all proficiency levels.
 
-#### **What to Expect:**
+### What to Expect
 
-1. **Getting Started:**  
+1. Getting Started
    - **Platform Orientation:** Understand the basics of the tools and platforms we're using in the hackathon.
    - **Setting Up Your Environment:** Step-by-step guides to ensure your development environment is hackathon-ready.
 
-2. **Hugging Face 101:**  
+2. Hugging Face 101
    - **Introduction to Hugging Face:** A beginner's guide to understanding the Hugging Face ecosystem.
    - **Deploying Your First Model:** Learn how to get your model up and running with Hugging Face.
 
-3. **Advanced Techniques:**  
+3. Advanced Techniques
    - **Optimizing Model Performance:** Tips and tricks to get the most out of your models.
    - **Integration with Other Platforms:** Guides on how to integrate Hugging Face with other popular tools and platforms.
 
-4. **Collaboration and Teamwork:**  
+4. Collaboration and Teamwork 
    - **Best Practices for Team Collaboration:** Ensure smooth teamwork and efficient collaboration during the hackathon.
    - **Version Control and Collaboration with Git:** A guide on how to use Git for team projects.
 
