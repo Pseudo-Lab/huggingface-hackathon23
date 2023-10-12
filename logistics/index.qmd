@@ -6,17 +6,16 @@ gantt
       title 전체일정
       dateFormat MM-DD
       axisFormat %m-%d
-      excludes    weekends
-      section 준비기간
-         대회준비                :active, 10-11, 10-19
-      section 대회시작
-         10월 20일            :crit, milestone,  10-20, 10-20
-      section 제출마감
-         11월 04일            :crit, milestone,  11-04, 11-04
-      section 발표자모집
-         11월 06일~09일  :11-06, 11-09
-      section 해커톤행사
-         11월 11일 오후2시  :crit, milestone, 11-11, 11-11
+      section 준비 기간
+         ~10월 20일          :active, ,10-20
+      section 대회 기간
+         10월20일~11월4일    :10-20, 11-04
+      section 제출 마감
+         11월 4일            :crit, milestone,  11-04, 11-04
+      section 발표자 모집
+         11월 6~9일          :11-06, 11-09
+      section 해커톤 행사
+         11월 11일           :crit, milestone, 11-11, 11-11
 ```
 
 | 일정                         | 날짜                                     |
@@ -35,7 +34,7 @@ gantt
 1. **대상**: Hugging Face에 관심 있는 모든 분
 2. **모집 기간**: 2023년 10월 20일 ~ 11월 4일 24시
 3. **팀 규모**: 최대 3명
-4. **보상**: 
+4. **보상**:
    - Hugging Face 수료증
    - 발표팀에게 제공되는 굿즈
    - 네트워킹 기회
@@ -89,7 +88,7 @@ gantt
 1. **Eligibility**: Everyone interested in Hugging Face
 2. **Recruitment Period**: October 20, 2023 ~ November 4, 2023, 24:00
 3. **Team Size**: Up to 3 members
-4. **Rewards**: 
+4. **Rewards**:
    - Hugging Face Certificate of Completion
    - Swags provided to presenting teams
    - Networking opportunities
