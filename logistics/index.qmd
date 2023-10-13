@@ -1,73 +1,85 @@
-::: {.content-visible when-profile="korean"}
-### 주요 일정
+# 주요 안내사항
+
+대회 진행을 위해 필요한 중요 안내사항을 전달하기 위한 문서입니다. 프로젝트를 위해 필요한 전체일정, 참가 방법, 발표자 선정 등 참가에 필요한 내용들을 정리합니다.
+
+## 1. 주요 일정
 
 ```{mermaid}
 gantt
-      title 전체일정
-      dateFormat MM-DD
-      axisFormat %m-%d
-      section 준비 기간
-         ~10월 20일          :active, ,10-20
-      section 대회 기간
-         10월20일~11월4일    :10-20, 11-04
-      section 제출 마감
-         11월 4일            :crit, milestone,  11-04, 11-04
-      section 발표자 모집
-         11월 6~9일          :11-06, 11-09
-      section 해커톤 행사
-         11월 11일           :crit, milestone, 11-11, 11-11
+title 전체일정
+dateFormat MM-DD
+axisFormat %m-%d
+section 준비 기간
+   ~10월 20일 :  ,10-23
+section 대모 접수
+   10월23일~11월4일 : 10-23, 11-04
+section 제출 마감
+   11월 4일 : crit, milestone,  11-04, 11-04
+section 발표자 모집
+   11월 6~9일 : 11-06, 11-09
+section 해커톤 행사
+   11월 11일 : crit, milestone, 11-11, 11-11
 ```
 
-| 일정                         | 날짜                                     |
-|------------------------------|-----------------------------------------|
-| 데모 접수                     | 10월 20일(금) ~ 11월 4일(토) 24시            |
-| 데모 제출 마감                | 11월 4일(토) 24시            |
-| 오프라인 발표자 모집           | 11월 6일(월) ~ 11월 9일(목) |
-| 해커톤 행사 (데모데이)         | 11월 11일 오후 2시 ~ 5시           |
+| 일정                   | 날짜                               |
+|------------------------|------------------------------------|
+| 데모 접수              | 10월 23일(월) \~ 11월 4일(토) 24시 |
+| 데모 제출 마감         | 11월 4일(토) 24시                  |
+| 오프라인 발표자 모집   | 11월 6일(월) \~ 11월 9일(목)       |
+| 해커톤 행사 (데모데이) | 11월 11일                          |
 
-캘린더에 추가하기
+**캘린더에 추가하기**
 
-- Google Calendar
-- Apple Calendar
+-   Google Calendar
+-   Apple Calendar
 
-### 참가 안내
+<br>
 
-1. **대상**: Hugging Face에 관심 있는 모든 분
-2. **모집 기간**: 2023년 10월 20일 ~ 11월 4일 24시
-3. **팀 규모**: 최대 3명
-4. **보상**:
-   - Hugging Face 수료증
-   - 발표팀에게 제공되는 굿즈
-   - 네트워킹 기회
+## 2. 참가 안내
 
-### 참가 요건
+1. 모집 대상 : Hugging Face에 관심 있는 모든 분
+2. 모집 기간 : 2023년 10월 23일 \~ 11월 4일 24시
+3. 팀 최대인원 : 최대 3명
+4. 대회 보상
+    -   Hugging Face 수료증
+    -   발표팀에게 제공되는 굿즈
+    -   네트워킹 기회
 
-1. 동작하는 데모 제출 (Hugging Face Spaces에 업로드)
-2. `README.md`에 프로젝트 소개 작성
-3. [제출하기](../submit.qmd)를 통해 팀 정보 및 프로젝트 url 제출
-   - 타인의 작업을 무단으로 복사한 제출은 무효처리
+<br>
 
-### 발표자 선정
+## 3. 참가 방법
 
-발표를 지원한 팀 중 "Like" 수가 많은 팀 (7~10팀)을 선정합니다.
+1.  동작하는 데모를 [허깅페이스 스페이스](https://huggingface.co/huggingface-hackathon-korea)에 업로드
+2.  `README.md`에 프로젝트 소개 작성
+3.  홈페이지 [제출하기](../submit.qmd)를 통해 팀 정보 및 프로젝트 url 제출
 
 ::: {.callout-note appearance="simple"}
-발표 장소의 상황에 따라서 선정되는 최대 팀원 수는 변경될 수 있습니다.
+-   타인의 작업을 무단으로 복사한 제출은 무효처리됩니다.
+-   `데모`와 `프로젝트 소개`를 업로드하고 `제출하기`완료한 모든 팀에게 수료증을 제공합니다.
+-   수료증 발급을 위해 `제출하기`에 정확한 `허깅페이스 ID`가 필요합니다.
 :::
 
+<br>
 
+## 4. 발표자 선정 방식
 
+-   발표를 지원한 팀 중 "Like" 수가 많은 팀 (7\~10팀)을 선정합니다.
 
-### 참고 링크
-
-- [해커톤 공식 페이지](http://huggingface.co/huggingface-hackathon-korea)
-- Hugging Face 공식 디스코드
-
+::: {.callout-note appearance="simple"}
+-   발표 장소의 상황에 따라서 선정되는 최대 팀원 수는 변경될 수 있습니다.
+-   발표자는 행사당일 자신의 프로젝트를 소개할 수 있습니다.
 :::
 
+<br>
+
+## 5. 참고 링크
+
+-   [해커톤 공식 페이지](http://huggingface.co/huggingface-hackathon-korea)
+-   Hugging Face 공식 디스코드
 
 ::: {.content-visible when-profile="english"}
 ### Schedule
+
 ```{mermaid}
 gantt
       title Schedule
@@ -86,37 +98,36 @@ gantt
          11월 11일 오후2시  :crit, milestone, 11-11, 11-11
 ```
 
-| Event | Dates |
-| --- | --- |
-| **Demo Submission** | October 20th ~ November 4th, 24:00 |
-| **Presenter Recruitment** | November 6th ~ November 9th |
-| **Demo Day** | November 11th, 2 PM ~ 5 PM |
+| Event                     | Dates                               |
+|---------------------------|-------------------------------------|
+| **Demo Submission**       | October 20th \~ November 4th, 24:00 |
+| **Presenter Recruitment** | November 6th \~ November 9th        |
+| **Demo Day**              | November 11th, 2 PM \~ 5 PM         |
 
 ### Participation Guide
 
-1. **Eligibility**: Everyone interested in Hugging Face
-2. **Recruitment Period**: October 20, 2023 ~ November 4, 2023, 24:00
-3. **Team Size**: Up to 3 members
-4. **Rewards**:
-   - Hugging Face Certificate of Completion
-   - Swags provided to presenting teams
-   - Networking opportunities
+1.  **Eligibility**: Everyone interested in Hugging Face
+2.  **Recruitment Period**: October 20, 2023 \~ November 4, 2023, 24:00
+3.  **Team Size**: Up to 3 members
+4.  **Rewards**:
+    -   Hugging Face Certificate of Completion
+    -   Swags provided to presenting teams
+    -   Networking opportunities
 
 ### Completion Requirements
 
-1. Submit a working demo (uploaded on Hugging Face Spaces)
-2. Write a project introduction in `README.md`
-3. Submit team information and project URL via [Submit]
-   - Unauthorized copying of others' work is prohibited
+1.  Submit a working demo (uploaded on Hugging Face Spaces)
+2.  Write a project introduction in `README.md`
+3.  Submit team information and project URL via \[Submit\]
+    -   Unauthorized copying of others' work is prohibited
 
 ### Presenter Selection Criteria
 
-- Teams with a high number of "Likes" (up to 3 teams)
-- Teams selected through organizer voting (2 teams)
+-   Teams with a high number of "Likes" (up to 3 teams)
+-   Teams selected through organizer voting (2 teams)
 
 ### Reference Links
 
-- [Official Hackathon Page](http://huggingface.co/huggingface-hackathon-korea)
-- Hugging Face Official Discord
-
+-   [Official Hackathon Page](http://huggingface.co/huggingface-hackathon-korea)
+-   Hugging Face Official Discord
 :::
