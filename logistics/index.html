@@ -151,11 +151,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#주요-일정" id="toc-주요-일정" class="nav-link active" data-scroll-target="#주요-일정">주요 일정</a></li>
-  <li><a href="#참가-안내" id="toc-참가-안내" class="nav-link" data-scroll-target="#참가-안내">참가 안내</a></li>
-  <li><a href="#참가-요건" id="toc-참가-요건" class="nav-link" data-scroll-target="#참가-요건">참가 요건</a></li>
-  <li><a href="#발표자-선정" id="toc-발표자-선정" class="nav-link" data-scroll-target="#발표자-선정">발표자 선정</a></li>
-  <li><a href="#참고-링크" id="toc-참고-링크" class="nav-link" data-scroll-target="#참고-링크">참고 링크</a></li>
+  <li><a href="#주요-안내사항" id="toc-주요-안내사항" class="nav-link active" data-scroll-target="#주요-안내사항">주요 안내사항</a>
+  <ul class="collapse">
+  <li><a href="#주요-일정" id="toc-주요-일정" class="nav-link" data-scroll-target="#주요-일정">1. 주요 일정</a></li>
+  <li><a href="#참가-안내" id="toc-참가-안내" class="nav-link" data-scroll-target="#참가-안내">2. 참가 안내</a></li>
+  <li><a href="#참가-방법" id="toc-참가-방법" class="nav-link" data-scroll-target="#참가-방법">3. 참가 방법</a></li>
+  <li><a href="#발표자-선정-방식" id="toc-발표자-선정-방식" class="nav-link" data-scroll-target="#발표자-선정-방식">4. 발표자 선정 방식</a></li>
+  <li><a href="#참고-링크" id="toc-참고-링크" class="nav-link" data-scroll-target="#참고-링크">5. 참고 링크</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -166,36 +169,35 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="주요-일정" class="level3">
-<h3 class="anchored" data-anchor-id="주요-일정">주요 일정</h3>
+<section id="주요-안내사항" class="level1">
+<h1>주요 안내사항</h1>
+<p>대회 진행을 위해 필요한 중요 안내사항을 전달하기 위한 문서입니다. 프로젝트를 위해 필요한 전체일정, 참가 방법, 발표자 선정 등 참가에 필요한 내용들을 정리합니다.</p>
+<section id="주요-일정" class="level2">
+<h2 class="anchored" data-anchor-id="주요-일정">1. 주요 일정</h2>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <div>
 <pre class="mermaid mermaid-js">gantt
-      title 전체일정
-      dateFormat MM-DD
-      axisFormat %m-%d
-      section 준비 기간
-         ~10월 20일          :active, ,10-20
-      section 대회 기간
-         10월20일~11월4일    :10-20, 11-04
-      section 제출 마감
-         11월 4일            :crit, milestone,  11-04, 11-04
-      section 발표자 모집
-         11월 6~9일          :11-06, 11-09
-      section 해커톤 행사
-         11월 11일           :crit, milestone, 11-11, 11-11
+title 전체일정
+dateFormat MM-DD
+axisFormat %m-%d
+section 준비 기간
+   ~10월 20일 :  ,10-23
+section 대모 접수
+   10월23일~11월4일 : 10-23, 11-04
+section 제출 마감
+   11월 4일 : crit, milestone,  11-04, 11-04
+section 발표자 모집
+   11월 6~9일 : 11-06, 11-09
+section 해커톤 행사
+   11월 11일 : crit, milestone, 11-11, 11-11
 </pre>
 </div>
 </div>
 </div>
 </div>
 <table class="table">
-<colgroup>
-<col style="width: 42%">
-<col style="width: 57%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>일정</th>
@@ -205,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>데모 접수</td>
-<td>10월 20일(금) ~ 11월 4일(토) 24시</td>
+<td>10월 23일(월) ~ 11월 4일(토) 24시</td>
 </tr>
 <tr class="even">
 <td>데모 제출 마감</td>
@@ -217,63 +219,84 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>해커톤 행사 (데모데이)</td>
-<td>11월 11일 오후 2시 ~ 5시</td>
+<td>11월 11일</td>
 </tr>
 </tbody>
 </table>
-<p>캘린더에 추가하기</p>
+<p><strong>캘린더에 추가하기</strong></p>
 <ul>
 <li>Google Calendar</li>
 <li>Apple Calendar</li>
 </ul>
+<p><br></p>
 </section>
-<section id="참가-안내" class="level3">
-<h3 class="anchored" data-anchor-id="참가-안내">참가 안내</h3>
+<section id="참가-안내" class="level2">
+<h2 class="anchored" data-anchor-id="참가-안내">2. 참가 안내</h2>
 <ol type="1">
-<li><strong>대상</strong>: Hugging Face에 관심 있는 모든 분</li>
-<li><strong>모집 기간</strong>: 2023년 10월 20일 ~ 11월 4일 24시</li>
-<li><strong>팀 규모</strong>: 최대 3명</li>
-<li><strong>보상</strong>:
+<li>모집 대상 : Hugging Face에 관심 있는 모든 분</li>
+<li>모집 기간 : 2023년 10월 23일 ~ 11월 4일 24시</li>
+<li>팀 최대인원 : 최대 3명</li>
+<li>대회 보상
 <ul>
 <li>Hugging Face 수료증</li>
 <li>발표팀에게 제공되는 굿즈</li>
 <li>네트워킹 기회</li>
 </ul></li>
 </ol>
+<p><br></p>
 </section>
-<section id="참가-요건" class="level3">
-<h3 class="anchored" data-anchor-id="참가-요건">참가 요건</h3>
+<section id="참가-방법" class="level2">
+<h2 class="anchored" data-anchor-id="참가-방법">3. 참가 방법</h2>
 <ol type="1">
-<li>동작하는 데모 제출 (Hugging Face Spaces에 업로드)</li>
+<li>동작하는 데모를 <a href="https://huggingface.co/huggingface-hackathon-korea">허깅페이스 스페이스</a>에 업로드</li>
 <li><code>README.md</code>에 프로젝트 소개 작성</li>
-<li><a href="../submit.html">제출하기</a>를 통해 팀 정보 및 프로젝트 url 제출
-<ul>
-<li>타인의 작업을 무단으로 복사한 제출은 무효처리</li>
-</ul></li>
+<li>홈페이지 <a href="../submit.html">제출하기</a>를 통해 팀 정보 및 프로젝트 url 제출</li>
 </ol>
-</section>
-<section id="발표자-선정" class="level3">
-<h3 class="anchored" data-anchor-id="발표자-선정">발표자 선정</h3>
-<p>발표를 지원한 팀 중 “Like” 수가 많은 팀 (7~10팀)을 선정합니다.</p>
 <div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>발표 장소의 상황에 따라서 선정되는 최대 팀원 수는 변경될 수 있습니다.</p>
+<ul>
+<li>타인의 작업을 무단으로 복사한 제출은 무효처리됩니다.</li>
+<li><code>데모</code>와 <code>프로젝트 소개</code>를 업로드하고 <code>제출하기</code>완료한 모든 팀에게 수료증을 제공합니다.</li>
+<li>수료증 발급을 위해 <code>제출하기</code>에 정확한 <code>허깅페이스 ID</code>가 필요합니다.</li>
+</ul>
 </div>
 </div>
 </div>
+<p><br></p>
 </section>
-<section id="참고-링크" class="level3">
-<h3 class="anchored" data-anchor-id="참고-링크">참고 링크</h3>
+<section id="발표자-선정-방식" class="level2">
+<h2 class="anchored" data-anchor-id="발표자-선정-방식">4. 발표자 선정 방식</h2>
+<ul>
+<li>발표를 지원한 팀 중 “Like” 수가 많은 팀 (7~10팀)을 선정합니다.</li>
+</ul>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<ul>
+<li>발표 장소의 상황에 따라서 선정되는 최대 팀원 수는 변경될 수 있습니다.</li>
+<li>발표자는 행사당일 자신의 프로젝트를 소개할 수 있습니다.</li>
+</ul>
+</div>
+</div>
+</div>
+<p><br></p>
+</section>
+<section id="참고-링크" class="level2">
+<h2 class="anchored" data-anchor-id="참고-링크">5. 참고 링크</h2>
 <ul>
 <li><a href="http://huggingface.co/huggingface-hackathon-korea">해커톤 공식 페이지</a></li>
 <li>Hugging Face 공식 디스코드</li>
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
