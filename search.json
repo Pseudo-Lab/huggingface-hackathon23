@@ -1,5 +1,75 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "일상에서의 AI 해커톤",
+    "section": "",
+    "text": "See in English"
+  },
+  {
+    "objectID": "index.html#대회-목표",
+    "href": "index.html#대회-목표",
+    "title": "일상에서의 AI 해커톤",
+    "section": "대회 목표",
+    "text": "대회 목표\n일상에서의 AI 해커톤은 국내 허깅페이스 사용자들이 모인 교류의 장으로써 기획되었습니다. 창의적인 아이디어를 바탕으로 허깅페이스에 모델을 배포하도록 장려하며, 누구나 환영합니다!\n경쟁보다는 협업에 중점을 두어 기술 숙련도에 관계없이 프로젝트 경험과 인증 배지를 얻을 수 있습니다. 이번 해커톤을 통해 허깅페이스에 대한 열정을 가진 분들의 커뮤니티를 육성하고 상호 성장과 학습을 촉진할 수 있기를 바랍니다."
+  },
+  {
+    "objectID": "index.html#어떻게-진행하나요",
+    "href": "index.html#어떻게-진행하나요",
+    "title": "일상에서의 AI 해커톤",
+    "section": "어떻게 진행하나요?",
+    "text": "어떻게 진행하나요?\n해커톤 참가자는\n\n최대 3명으로 팀을 구성하여\n허깅페이스 스페이스에서 프로젝트를 생성 및 배포하고,\n각자 Spaces의 README.md에 설명을 추가하는 간단한 프로세스를 따릅니다.\n마지막으로 제출하기로 수료증 발급을 위한 팀원과 프로젝트 정보를 등록합니다.\n\n허깅페이스가 처음이거나 익숙하지 않더라도 함께 공부할 수 있는 Discord 채널을 통해서 함께 발전합니다. 대회 기간동안 쉽고 빠르게 배울 수 있도록 다양한 자료를 튜토리얼에 공유할 예정이니 배우면서 진행해도 좋습니다.\n대회에 대한 자세한 내용은 운영안내에서 확인할 수 있으며 궁금하신점은 디스코드를 통해서 언제라도 문의해주세요."
+  },
+  {
+    "objectID": "logistics/index.html",
+    "href": "logistics/index.html",
+    "title": "주요 안내사항",
+    "section": "",
+    "text": "See in English"
+  },
+  {
+    "objectID": "logistics/index.html#주요-일정",
+    "href": "logistics/index.html#주요-일정",
+    "title": "주요 안내사항",
+    "section": "1. 주요 일정",
+    "text": "1. 주요 일정\n\n\n\n\ngantt\ntitle 전체일정\ndateFormat MM-DD\naxisFormat %m-%d\nsection 준비 기간\n   ~10월 20일 :  ,10-23\nsection 대모 접수\n   10월23일~11월4일 : 10-23, 11-04\nsection 제출 마감\n   11월 4일 : crit, milestone,  11-04, 11-04\nsection 발표자 모집\n   11월 6~9일 : 11-06, 11-09\nsection 해커톤 행사\n   11월 11일 : crit, milestone, 11-11, 11-11\n\n\n\n\n\n\n\n\n일정\n날짜\n\n\n\n\n데모 접수\n10월 23일(월) ~ 11월 4일(토) 24시\n\n\n데모 제출 마감\n11월 4일(토) 24시\n\n\n오프라인 발표자 모집\n11월 6일(월) ~ 11월 9일(목)\n\n\n해커톤 행사 (데모데이)\n11월 11일\n\n\n\n캘린더에 추가하기\n\nGoogle Calendar\nApple Calendar"
+  },
+  {
+    "objectID": "logistics/index.html#참가-안내",
+    "href": "logistics/index.html#참가-안내",
+    "title": "주요 안내사항",
+    "section": "2. 참가 안내",
+    "text": "2. 참가 안내\n\n모집 대상 : Hugging Face에 관심 있는 모든 분\n모집 기간 : 2023년 10월 23일 ~ 11월 4일 24시\n팀 최대인원 : 최대 3명\n대회 보상\n\nHugging Face 수료증\n발표팀에게 제공되는 굿즈\n네트워킹 기회"
+  },
+  {
+    "objectID": "logistics/index.html#참가-방법",
+    "href": "logistics/index.html#참가-방법",
+    "title": "주요 안내사항",
+    "section": "3. 참가 방법",
+    "text": "3. 참가 방법\n\n동작하는 데모를 허깅페이스 스페이스에 업로드\nREADME.md에 프로젝트 소개 작성\n홈페이지 제출하기를 통해 팀 정보 및 프로젝트 url 제출\n\n\n\n\n\n\n\n\n타인의 작업을 무단으로 복사한 제출은 무효처리됩니다.\n데모와 프로젝트 소개를 업로드하고 제출하기완료한 모든 팀에게 수료증을 제공합니다.\n수료증 발급을 위해 제출하기에 정확한 허깅페이스 ID가 필요합니다."
+  },
+  {
+    "objectID": "logistics/index.html#발표자-선정-방식",
+    "href": "logistics/index.html#발표자-선정-방식",
+    "title": "주요 안내사항",
+    "section": "4. 발표자 선정 방식",
+    "text": "4. 발표자 선정 방식\n\n발표를 지원한 팀 중 “Like” 수가 많은 팀 (7~10팀)을 선정합니다.\n\n\n\n\n\n\n\n\n발표 장소의 상황에 따라서 선정되는 최대 팀원 수는 변경될 수 있습니다.\n발표자는 행사당일 자신의 프로젝트를 소개할 수 있습니다."
+  },
+  {
+    "objectID": "logistics/index.html#참고-링크",
+    "href": "logistics/index.html#참고-링크",
+    "title": "주요 안내사항",
+    "section": "5. 참고 링크",
+    "text": "5. 참고 링크\n\n해커톤 공식 페이지\nHugging Face 공식 디스코드"
+  },
+  {
+    "objectID": "tutorials-templates/index.html",
+    "href": "tutorials-templates/index.html",
+    "title": "Notebooks for live-coding",
+    "section": "",
+    "text": "See in English\nTemplates of all tutorials — .ipynb notebooks with code removed — are available at:\nhttps://github.com/NASA-Openscapes/2021-Cloud-Hackathon/tree/main/tutorials-templates.\nPlease open these tutorial templates in our JupyterHub to follow along and live-code with the tutorial lead."
+  },
+  {
     "objectID": "tutorials/00_Setup.html",
     "href": "tutorials/00_Setup.html",
     "title": "00. Setup for tutorials",
@@ -25,7 +95,7 @@
     "href": "tutorials/00_Setup.html#discussion-my-desktop-setup",
     "title": "00. Setup for tutorials",
     "section": "Discussion: My desktop setup",
-    "text": "Discussion: My desktop setup\nI’ll screenshare to show and/or talk through how I have oriented the following software we’re using:\n\n2i2c Jupyterhub (our main workspace)\nHackathon Repo <> Hackathon Book (my teaching notes, your reference material)\nZoom Chat\nSlack"
+    "text": "Discussion: My desktop setup\nI’ll screenshare to show and/or talk through how I have oriented the following software we’re using:\n\n2i2c Jupyterhub (our main workspace)\nHackathon Repo &lt;&gt; Hackathon Book (my teaching notes, your reference material)\nZoom Chat\nSlack"
   },
   {
     "objectID": "tutorials/00_Setup.html#step-2.-fork-the-hackathon-github-repository",
@@ -67,84 +137,14 @@
     "href": "tutorials/00_Setup.html#how-do-i-end-my-session",
     "title": "00. Setup for tutorials",
     "section": "How do I end my session?",
-    "text": "How do I end my session?\n(Also see How do I end my Openscapes session? Will I lose all of my work?)\nWhen you are finished working for the day it is important to explicitly log out of your Openscapes session. The reason for this is it will save us a bit of money! When you keep a session active it uses up AWS resources and keeps a series of virtual machines deployed.\nStopping the server happens automatically when you log out, so navigate to “File -> Log Out” and just click “Log Out”!\n!!! NOTE “logging out” - Logging out will NOT cause any of your work to be lost or deleted. It simply shuts down some resources. It would be equivalent to turning off your desktop computer at the end of the day."
+    "text": "How do I end my session?\n(Also see How do I end my Openscapes session? Will I lose all of my work?)\nWhen you are finished working for the day it is important to explicitly log out of your Openscapes session. The reason for this is it will save us a bit of money! When you keep a session active it uses up AWS resources and keeps a series of virtual machines deployed.\nStopping the server happens automatically when you log out, so navigate to “File -&gt; Log Out” and just click “Log Out”!\n!!! NOTE “logging out” - Logging out will NOT cause any of your work to be lost or deleted. It simply shuts down some resources. It would be equivalent to turning off your desktop computer at the end of the day."
   },
   {
     "objectID": "tutorials/00_Setup.html#step-5.-tracking-changes-optional",
     "href": "tutorials/00_Setup.html#step-5.-tracking-changes-optional",
     "title": "00. Setup for tutorials",
     "section": "Step 5. Tracking changes (Optional)",
-    "text": "Step 5. Tracking changes (Optional)\nNow that you have forked and cloned the repository in your Hub, you can make changes (edit, add, and/or delete content) and track these files using git. In this step, we will provide an overview of how to use git using the graphical interface (the JupyterLab git extension).\n\nStep 5.1. Configure Git (git config)\nConfigure git with your name and email address as shown here.\ngit config --global user.name \"Makhan Virdi\"\ngit config --global user.email \"Makhan.Virdi@gmail.com\"\nOpen a new terminal: File >> New >> Terminal\n\nConfigure git to store your github credentials to avoid having to enter your github username and token each time you push changes to your repository(in Step 5.5, we will describe how to use github token instead of a password)\ngit config --global credential.helper store\n\n\nStep 5.2. Create a new file\nLet’s create a new file: In the left panel on your Hub, click on the “directory” icon and then double click on “2021-Cloud-Hackathon” directory. Then, create a new file using the text editor in your 2i2c JupyterHub (File >> New >> Text File). Add some text to this file, for example: A test file. Save this file and rename it to test.txt.\n\n\n\nStep 5.3. Track the changes to the new file (git add)\nClick the git icon in the left panel. You can see that the newly added file is in the “Untracked” section. You can click the + icon next to the file name to let git track this file for changes.\n\n\n\nStep 5.4. Commit the changes to the new file (git commit)\nNow, you will see that the file is Staged, which means that git is ready to take a snapshot of this file (and the repository) with the changes that you made. This snapshot is called a commit. To commit the changes, add a note (called a commit message) by typing in the text box that say “Summary”.\nNow, click the blue “COMMIT” button to commit this change.\n\nNote: A short message indicating the type of change to this file is a good practice. Optionally, a longer description may be added to the “Description” field.\n\n\n\n\nStep 5.5. Transmit committed changes to your github (git push)\nAt this stage, you have committed the changes to your git repository on your Hub. However, these changes are still on your Hub and needs to be transmitted to your repository on github (so that both the local copy on the JupyterHub and the remote copy on github are in sync).\nAs seen in the picture below, the git extension indicates (with an orange dot on the cloud icon) that it is ready to push your changes to the remote (remote = your repository on github.com). To push to github, click the cloud button with an up arrow (circled in red in the picture).\n\nWhen you push for the first time, it will ask that you input your credentials. You will need to set this up with your Personal Access Token (PAT), explained next.\n\n\nStep 5.6. Setup your Personal Access Token (PAT)\nWhen you see the following screenshot, GitHub is asking for you to input your credentials. (Note: you see this screenshot when you have committed work to push to GitHub.com, as detailed above).\n\nThe git extension in the Hub is prompting you to enter your github.com credentials. Enter you github.com username and a Personal Access Token (PAT); DO NOT use your password.\nTo create a PAT, visit https://github.com/settings/tokens/new and create a new token with the permission as per the image below and specify its validity for 90 days.\n\nIMPORTANT: You will see this token only once, so be sure to copy this. If you do not copy your token at this stage, you will need to generate a new token.\n\nOnce you generate the token, copy it and paste in the Hub window that prompted you to enter the “Personal Access Token”.\n\nGit will show a message at the bottom right telling that the changes were “Successfully pushed”. Also, you will see that the “cloud icon with an up arrow” no longer has an orange dot, indicating that there are no more committed changes to push to the remote (github.com).\n\nNote: You have configured git extension to store your credentials. You will not be prompted for your login/token again!\n\n\nThat’s all. You can use the same workflow (add > commit > push) for any other new or modified files!\n\n\nNote: If you are comfortable with the command line, you can use the Terminal (In Hub, New > Terminal) and follow the steps outlined in the Clinic section."
-  },
-  {
-    "objectID": "tutorials/index.html",
-    "href": "tutorials/index.html",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "",
-    "text": "See in English"
-  },
-  {
-    "objectID": "tutorials/index.html#커리큘럼",
-    "href": "tutorials/index.html#커리큘럼",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "커리큘럼",
-    "text": "커리큘럼\n\n시작하기\n\n플랫폼 오리엔테이션: 해커톤에서 사용하는 도구와 플랫폼의 기본 사항을 이해합니다.\n환경 설정하기: 해커톤을 위한 개발 환경을 준비하기 위한 단계별 가이드를 제공합니다.\n\nHugging Face 101\n\nHugging Face 소개: Hugging Face 생태계를 이해하기 위한 초보자 가이드입니다.\n첫 번째 모델 배포하기: Hugging Face로 모델을 가동하고 실행하는 방법을 알아봅니다.\n\n고급 기술\n\n모델 성능 최적화하기 : 모델을 최대한 활용하기 위한 팁과 노하우입니다.\n다른 플랫폼과의 통합 : 다른 인기 도구 및 플랫폼과 Hugging Face를 통합하는 방법에 대한 가이드입니다.\n\n협업 및 Git\n\n팀 협업을 위한 모범 사례 : 해커톤을 진행하는 동안 원활한 팀워크와 효율적인 협업을 보장합니다.\nGit을 통한 버전 관리 및 협업 : 팀 프로젝트에 Git을 사용하는 방법에 대한 가이드입니다.\n\n\n\n이 튜토리얼을 제작하기 위해 적극적으로 노력하고 있으며 몇 주 내에 공개할 예정입니다. 참가자들은 이 섹션에서 정기적으로 업데이트를 확인하시기 바랍니다. 더 다루었으면 하는 특정 주제가 있다면 Discord의 #support 채널에서 알려주세요."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "",
-    "text": "See in English"
-  },
-  {
-    "objectID": "index.html#대회-목표",
-    "href": "index.html#대회-목표",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "대회 목표",
-    "text": "대회 목표\n일상에서의 AI 해커톤은 국내 허깅페이스 사용자들이 모인 교류의 장으로써 기획되었습니다. 창의적인 아이디어를 바탕으로 허깅페이스에 모델을 배포하도록 장려하며, 누구나 환영합니다!\n경쟁보다는 협업에 중점을 두어 기술 숙련도에 관계없이 프로젝트 경험과 인증 배지를 얻을 수 있습니다. 이번 해커톤을 통해 허깅페이스에 대한 열정을 가진 분들의 커뮤니티를 육성하고 상호 성장과 학습을 촉진할 수 있기를 바랍니다."
-  },
-  {
-    "objectID": "index.html#어떻게-진행하나요",
-    "href": "index.html#어떻게-진행하나요",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "어떻게 진행하나요?",
-    "text": "어떻게 진행하나요?\n해커톤 참가자는\n\n최대 3명으로 팀을 구성하여\n허깅페이스 스페이스에서 프로젝트를 생성 및 배포하고,\n각자 Spaces의 README.md에 설명을 추가하는 간단한 프로세스를 따릅니다.\n마지막으로 제출하기로 수료증 발급을 위한 팀원과 프로젝트 정보를 등록합니다.\n\n허깅페이스가 처음이거나 익숙하지 않더라도 함께 공부할 수 있는 Discord 채널을 통해서 함께 발전합니다. 대회 기간동안 쉽고 빠르게 배울 수 있도록 다양한 자료를 튜토리얼에 공유할 예정이니 배우면서 진행해도 좋습니다.\n대회에 대한 자세한 내용은 운영안내에서 확인할 수 있으며 궁금하신점은 디스코드를 통해서 언제라도 문의해주세요."
-  },
-  {
-    "objectID": "tutorials-templates/index.html",
-    "href": "tutorials-templates/index.html",
-    "title": "Notebooks for live-coding",
-    "section": "",
-    "text": "See in English\nTemplates of all tutorials — .ipynb notebooks with code removed — are available at:\nhttps://github.com/NASA-Openscapes/2021-Cloud-Hackathon/tree/main/tutorials-templates.\nPlease open these tutorial templates in our JupyterHub to follow along and live-code with the tutorial lead."
-  },
-  {
-    "objectID": "submit.html",
-    "href": "submit.html",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "",
-    "text": "See in English"
-  },
-  {
-    "objectID": "submit.html#제출-가이드라인",
-    "href": "submit.html#제출-가이드라인",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "제출 가이드라인",
-    "text": "제출 가이드라인\n\n1. 제출 기간\n\n10월 20일부터 11월 4일 24:00까지 프로젝트를 제출할 수 있습니다. 마감일 이후에는 접수되지 않습니다.\n\n\n\n2. 프로젝트 형식\n\n모든 프로젝트는 Hugging Face Spaces에 올라와 있어야 합니다.\n프로젝트의 README.md에는 문제 설명, 솔루션, 사용된 기술 및 기타 관련 정보를 설명하는 포괄적인 개요가 포함되어야 합니다.\n\n\n\n3. 팀 정보\n\n모든 팀원의 이름과 역할을 명확하게 언급하세요.\n연락을 받을 수 있는 팀 리더를 지정하세요.\n\n\n\n4. 제출 방법\n\n제출 양식 작성하기\n\n프로젝트 이름: 프로젝트를 대표하는 이름을 선택하세요.\n프로젝트 URL: 프로젝트의 Hugging Face Space 링크를 입력하세요.\n간단한 설명: 프로젝트에 대한 간략한 개요(최대 200자)를 작성하세요.\n팀원: 모든 팀원과 역할을 나열하세요.\n연락처 이메일: 팀 리더의 이메일을 입력하세요.\n\n추가 파일 업로드(선택 사항)\n\n프로젝트를 보완하는 추가 리소스, 문서 또는 슬라이드가 있는 경우 제공된 인터페이스를 사용하여 업로드하세요.\n\n검토 및 제출\n\n모든 정보가 정확한지 확인하세요. URL이 제대로 작동하는지 다시 확인하세요.\n제출을 클릭하여 프로젝트 제출을 완료합니다."
-  },
-  {
-    "objectID": "submit.html#제출-후",
-    "href": "submit.html#제출-후",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "제출 후",
-    "text": "제출 후\n제출이 완료되면 확인 이메일을 받게 됩니다. 프로젝트는 검토를 거치게 되며, 최종 후보에 오른 팀에게는 다음 단계에 대한 알림이 발송됩니다.\n일상에서의 AI 해커톤에 참여해 주셔서 감사합니다! 여러분의 혁신적인 솔루션을 기대하며 모든 참가자에게 행운이 함께하기를 기원합니다. 제출하는 동안 문제가 발생하면 Discord #support 채널을 통해 문의해 주시기 바랍니다.\n\n 제출하기"
-  },
-  {
-    "objectID": "intro/code-of-conduct.html",
-    "href": "intro/code-of-conduct.html",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "",
-    "text": "See in English"
+    "text": "Step 5. Tracking changes (Optional)\nNow that you have forked and cloned the repository in your Hub, you can make changes (edit, add, and/or delete content) and track these files using git. In this step, we will provide an overview of how to use git using the graphical interface (the JupyterLab git extension).\n\nStep 5.1. Configure Git (git config)\nConfigure git with your name and email address as shown here.\ngit config --global user.name \"Makhan Virdi\"\ngit config --global user.email \"Makhan.Virdi@gmail.com\"\nOpen a new terminal: File &gt;&gt; New &gt;&gt; Terminal\n\nConfigure git to store your github credentials to avoid having to enter your github username and token each time you push changes to your repository(in Step 5.5, we will describe how to use github token instead of a password)\ngit config --global credential.helper store\n\n\nStep 5.2. Create a new file\nLet’s create a new file: In the left panel on your Hub, click on the “directory” icon and then double click on “2021-Cloud-Hackathon” directory. Then, create a new file using the text editor in your 2i2c JupyterHub (File &gt;&gt; New &gt;&gt; Text File). Add some text to this file, for example: A test file. Save this file and rename it to test.txt.\n\n\n\nStep 5.3. Track the changes to the new file (git add)\nClick the git icon in the left panel. You can see that the newly added file is in the “Untracked” section. You can click the + icon next to the file name to let git track this file for changes.\n\n\n\nStep 5.4. Commit the changes to the new file (git commit)\nNow, you will see that the file is Staged, which means that git is ready to take a snapshot of this file (and the repository) with the changes that you made. This snapshot is called a commit. To commit the changes, add a note (called a commit message) by typing in the text box that say “Summary”.\nNow, click the blue “COMMIT” button to commit this change.\n\nNote: A short message indicating the type of change to this file is a good practice. Optionally, a longer description may be added to the “Description” field.\n\n\n\n\nStep 5.5. Transmit committed changes to your github (git push)\nAt this stage, you have committed the changes to your git repository on your Hub. However, these changes are still on your Hub and needs to be transmitted to your repository on github (so that both the local copy on the JupyterHub and the remote copy on github are in sync).\nAs seen in the picture below, the git extension indicates (with an orange dot on the cloud icon) that it is ready to push your changes to the remote (remote = your repository on github.com). To push to github, click the cloud button with an up arrow (circled in red in the picture).\n\nWhen you push for the first time, it will ask that you input your credentials. You will need to set this up with your Personal Access Token (PAT), explained next.\n\n\nStep 5.6. Setup your Personal Access Token (PAT)\nWhen you see the following screenshot, GitHub is asking for you to input your credentials. (Note: you see this screenshot when you have committed work to push to GitHub.com, as detailed above).\n\nThe git extension in the Hub is prompting you to enter your github.com credentials. Enter you github.com username and a Personal Access Token (PAT); DO NOT use your password.\nTo create a PAT, visit https://github.com/settings/tokens/new and create a new token with the permission as per the image below and specify its validity for 90 days.\n\nIMPORTANT: You will see this token only once, so be sure to copy this. If you do not copy your token at this stage, you will need to generate a new token.\n\nOnce you generate the token, copy it and paste in the Hub window that prompted you to enter the “Personal Access Token”.\n\nGit will show a message at the bottom right telling that the changes were “Successfully pushed”. Also, you will see that the “cloud icon with an up arrow” no longer has an orange dot, indicating that there are no more committed changes to push to the remote (github.com).\n\nNote: You have configured git extension to store your credentials. You will not be prompted for your login/token again!\n\n\nThat’s all. You can use the same workflow (add &gt; commit &gt; push) for any other new or modified files!\n\n\nNote: If you are comfortable with the command line, you can use the Terminal (In Hub, New &gt; Terminal) and follow the steps outlined in the Clinic section."
   },
   {
     "objectID": "intro/organizers.html",
@@ -168,109 +168,109 @@
     "text": "Hackathon Helpers\n\nArthur Zucker, Hugging Face\nLysandre Debut, Hugging Face"
   },
   {
+    "objectID": "intro/code-of-conduct.html",
+    "href": "intro/code-of-conduct.html",
+    "title": "2023 일상에서의 AI 해커톤",
+    "section": "",
+    "text": "See in English"
+  },
+  {
+    "objectID": "submit.html",
+    "href": "submit.html",
+    "title": "제출하기",
+    "section": "",
+    "text": "See in English"
+  },
+  {
+    "objectID": "submit.html#제출-가이드라인",
+    "href": "submit.html#제출-가이드라인",
+    "title": "제출하기",
+    "section": "제출 가이드라인",
+    "text": "제출 가이드라인\n\n1. 제출 기간\n\n10월 20일부터 11월 4일 24:00까지 프로젝트를 제출할 수 있습니다. 마감일 이후에는 접수되지 않습니다.\n\n\n\n2. 프로젝트 형식\n\n모든 프로젝트는 Hugging Face Spaces에 올라와 있어야 합니다.\n프로젝트의 README.md에는 문제 설명, 솔루션, 사용된 기술 및 기타 관련 정보를 설명하는 포괄적인 개요가 포함되어야 합니다.\n\n\n\n3. 팀 정보\n\n모든 팀원의 이름과 역할을 명확하게 언급하세요.\n연락을 받을 수 있는 팀 리더를 지정하세요.\n\n\n\n4. 제출 방법\n\n제출 양식 작성하기\n\n프로젝트 이름: 프로젝트를 대표하는 이름을 선택하세요.\n프로젝트 URL: 프로젝트의 Hugging Face Space 링크를 입력하세요.\n간단한 설명: 프로젝트에 대한 간략한 개요(최대 200자)를 작성하세요.\n팀원: 모든 팀원과 역할을 나열하세요.\n연락처 이메일: 팀 리더의 이메일을 입력하세요.\n\n추가 파일 업로드(선택 사항)\n\n프로젝트를 보완하는 추가 리소스, 문서 또는 슬라이드가 있는 경우 제공된 인터페이스를 사용하여 업로드하세요.\n\n검토 및 제출\n\n모든 정보가 정확한지 확인하세요. URL이 제대로 작동하는지 다시 확인하세요.\n제출을 클릭하여 프로젝트 제출을 완료합니다."
+  },
+  {
+    "objectID": "submit.html#제출-후",
+    "href": "submit.html#제출-후",
+    "title": "제출하기",
+    "section": "제출 후",
+    "text": "제출 후\n제출이 완료되면 확인 이메일을 받게 됩니다. 프로젝트는 검토를 거치게 되며, 최종 후보에 오른 팀에게는 다음 단계에 대한 알림이 발송됩니다.\n일상에서의 AI 해커톤에 참여해 주셔서 감사합니다! 여러분의 혁신적인 솔루션을 기대하며 모든 참가자에게 행운이 함께하기를 기원합니다. 제출하는 동안 문제가 발생하면 Discord #support 채널을 통해 문의해 주시기 바랍니다.\n\n 제출하기"
+  },
+  {
+    "objectID": "tutorials/index.html",
+    "href": "tutorials/index.html",
+    "title": "튜토리얼",
+    "section": "",
+    "text": "See in English"
+  },
+  {
+    "objectID": "tutorials/index.html#커리큘럼",
+    "href": "tutorials/index.html#커리큘럼",
+    "title": "튜토리얼",
+    "section": "커리큘럼",
+    "text": "커리큘럼\n\n시작하기\n\n플랫폼 오리엔테이션: 해커톤에서 사용하는 도구와 플랫폼의 기본 사항을 이해합니다.\n환경 설정하기: 해커톤을 위한 개발 환경을 준비하기 위한 단계별 가이드를 제공합니다.\n\nHugging Face 101\n\nHugging Face 소개: Hugging Face 생태계를 이해하기 위한 초보자 가이드입니다.\n첫 번째 모델 배포하기: Hugging Face로 모델을 가동하고 실행하는 방법을 알아봅니다.\n\n고급 기술\n\n모델 성능 최적화하기 : 모델을 최대한 활용하기 위한 팁과 노하우입니다.\n다른 플랫폼과의 통합 : 다른 인기 도구 및 플랫폼과 Hugging Face를 통합하는 방법에 대한 가이드입니다.\n\n협업 및 Git\n\n팀 협업을 위한 모범 사례 : 해커톤을 진행하는 동안 원활한 팀워크와 효율적인 협업을 보장합니다.\nGit을 통한 버전 관리 및 협업 : 팀 프로젝트에 Git을 사용하는 방법에 대한 가이드입니다.\n\n\n\n이 튜토리얼을 제작하기 위해 적극적으로 노력하고 있으며 몇 주 내에 공개할 예정입니다. 참가자들은 이 섹션에서 정기적으로 업데이트를 확인하시기 바랍니다. 더 다루었으면 하는 특정 주제가 있다면 Discord의 #support 채널에서 알려주세요."
+  },
+  {
     "objectID": "logistics/how-to-form-teams.html",
     "href": "logistics/how-to-form-teams.html",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "디스코드에서 팀을 구성하는 방법",
     "section": "",
     "text": "See in English"
   },
   {
     "objectID": "logistics/how-to-form-teams.html#공식-해커톤-discord-서버에-가입하기",
     "href": "logistics/how-to-form-teams.html#공식-해커톤-discord-서버에-가입하기",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "디스코드에서 팀을 구성하는 방법",
     "section": "1. 공식 해커톤 Discord 서버에 가입하기",
     "text": "1. 공식 해커톤 Discord 서버에 가입하기\n가장 먼저 공식 해커톤 Discord 서버에 가입했는지 확인하세요."
   },
   {
     "objectID": "logistics/how-to-form-teams.html#채널에-익숙해지기",
     "href": "logistics/how-to-form-teams.html#채널에-익숙해지기",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "디스코드에서 팀을 구성하는 방법",
     "section": "2. 채널에 익숙해지기",
     "text": "2. 채널에 익숙해지기\n가입한 후에는 잠시 시간을 내어 다양한 채널에 익숙해지세요. 팀 구성 전용 채널은 #team-formation이라는 이름의 특정 채널이 있을 것입니다."
   },
   {
     "objectID": "logistics/how-to-form-teams.html#자기-소개하기",
     "href": "logistics/how-to-form-teams.html#자기-소개하기",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "디스코드에서 팀을 구성하는 방법",
     "section": "3. 자기 소개하기",
     "text": "3. 자기 소개하기\n\n#team-formation 채널에 자신에 대한 간단한 소개를 올려보세요:\n\n본인의 기술 및 전문 지식\n해커톤 목표\n팀원에게 바라는 점\n\n\n\n예시: “안녕하세요, 저는 Alex입니다! 저는 자연어 처리(NLP)를 전문으로 하며 Hugging Face에 대한 경험이 있습니다. 팀을 구성할 프론트엔드 개발자와 데이터 과학자를 찾고 있습니다. 함께 놀라운 무언가를 만들어 봅시다!”"
   },
   {
     "objectID": "logistics/how-to-form-teams.html#다른-사람들과-연결하기",
     "href": "logistics/how-to-form-teams.html#다른-사람들과-연결하기",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "디스코드에서 팀을 구성하는 방법",
     "section": "4. 다른 사람들과 연결하기",
     "text": "4. 다른 사람들과 연결하기\n다른 참가자의 소개 게시물에 참여하세요. 팀에 적합한 사람으로 보이는 사람이 있다면, 함께 대화해보세요:\n\n👍이모티콘으로 반응하고,\n더 자세히 논의하기 위해 쪽지를 보내세요."
   },
   {
     "objectID": "logistics/how-to-form-teams.html#음성-채널을-사용하여-심도-있는-토론하기",
     "href": "logistics/how-to-form-teams.html#음성-채널을-사용하여-심도-있는-토론하기",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "디스코드에서 팀을 구성하는 방법",
     "section": "5. 음성 채널을 사용하여 심도 있는 토론하기",
     "text": "5. 음성 채널을 사용하여 심도 있는 토론하기\n팀워크를 더 다지고 싶다면, 음성 채널 중 하나에 들어가 실시간으로 채팅하세요. 목표가 잘 맞는지 확인하고 서로를 보장하는 데 도움이 됩니다."
   },
   {
     "objectID": "logistics/how-to-form-teams.html#팀-확인",
     "href": "logistics/how-to-form-teams.html#팀-확인",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "디스코드에서 팀을 구성하는 방법",
     "section": "6. 팀 확인",
     "text": "6. 팀 확인\n팀을 구성하고 나면:\n\n#team-formation 채널에서 팀원을 알리세요.\n\n팀 [팀명]: @알렉스, @메리, @테일러\n\n해커톤 기간 동안 공식 커뮤니케이션을 담당할 팀 리더를 지정하세요."
   },
   {
     "objectID": "logistics/how-to-form-teams.html#discord-그룹-만들기선택-사항",
     "href": "logistics/how-to-form-teams.html#discord-그룹-만들기선택-사항",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "디스코드에서 팀을 구성하는 방법",
     "section": "7. Discord 그룹 만들기(선택 사항)",
     "text": "7. Discord 그룹 만들기(선택 사항)\nDiscord 그룹을 통해 팀을 위한 비공개 채널을 만들 수 있습니다. 이렇게 전략을 논의하고 리소스를 공유하며 협업할 수 있는 전용 공간을 만들어 보세요."
   },
   {
     "objectID": "logistics/how-to-form-teams.html#최신-소식-받기",
     "href": "logistics/how-to-form-teams.html#최신-소식-받기",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "디스코드에서 팀을 구성하는 방법",
     "section": "8. 최신 소식 받기",
     "text": "8. 최신 소식 받기\n#announcements 또는 기타 중요한 채널을 항상 주시하세요. 관리자 또는 주최자가 팀 구성 또는 해커톤과 관련된 중요한 업데이트를 게시할 것입니다.\nDiscord는 참가자들이 연결하고 팀을 구성할 수 있는 원활한 플랫폼을 제공합니다. 서로 잘 맞는 팀원을 찾아 재미있는 해커톤의 초석을 마련할 수 있습니다. 행운을 빌며 행복한 팀 구성을 기원합니다!"
-  },
-  {
-    "objectID": "logistics/index.html",
-    "href": "logistics/index.html",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "",
-    "text": "See in English"
-  },
-  {
-    "objectID": "logistics/index.html#주요-일정",
-    "href": "logistics/index.html#주요-일정",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "1. 주요 일정",
-    "text": "1. 주요 일정\n\n\n\n\ngantt\ntitle 전체일정\ndateFormat MM-DD\naxisFormat %m-%d\nsection 준비 기간\n   ~10월 20일 :  ,10-23\nsection 대모 접수\n   10월23일~11월4일 : 10-23, 11-04\nsection 제출 마감\n   11월 4일 : crit, milestone,  11-04, 11-04\nsection 발표자 모집\n   11월 6~9일 : 11-06, 11-09\nsection 해커톤 행사\n   11월 11일 : crit, milestone, 11-11, 11-11\n\n\n\n\n\n\n\n\n\n\n\n일정\n날짜\n\n\n\n\n데모 접수\n10월 23일(월) ~ 11월 4일(토) 24시\n\n\n데모 제출 마감\n11월 4일(토) 24시\n\n\n오프라인 발표자 모집\n11월 6일(월) ~ 11월 9일(목)\n\n\n해커톤 행사 (데모데이)\n11월 11일\n\n\n\n캘린더에 추가하기\n\nGoogle Calendar\nApple Calendar"
-  },
-  {
-    "objectID": "logistics/index.html#참가-안내",
-    "href": "logistics/index.html#참가-안내",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "2. 참가 안내",
-    "text": "2. 참가 안내\n\n모집 대상 : Hugging Face에 관심 있는 모든 분\n모집 기간 : 2023년 10월 23일 ~ 11월 4일 24시\n팀 최대인원 : 최대 3명\n대회 보상\n\nHugging Face 수료증\n발표팀에게 제공되는 굿즈\n네트워킹 기회"
-  },
-  {
-    "objectID": "logistics/index.html#참가-방법",
-    "href": "logistics/index.html#참가-방법",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "3. 참가 방법",
-    "text": "3. 참가 방법\n\n동작하는 데모를 허깅페이스 스페이스에 업로드\nREADME.md에 프로젝트 소개 작성\n홈페이지 제출하기를 통해 팀 정보 및 프로젝트 url 제출\n\n\n\n\n\n\n\n\n타인의 작업을 무단으로 복사한 제출은 무효처리됩니다.\n데모와 프로젝트 소개를 업로드하고 제출하기완료한 모든 팀에게 수료증을 제공합니다.\n수료증 발급을 위해 제출하기에 정확한 허깅페이스 ID가 필요합니다."
-  },
-  {
-    "objectID": "logistics/index.html#발표자-선정-방식",
-    "href": "logistics/index.html#발표자-선정-방식",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "4. 발표자 선정 방식",
-    "text": "4. 발표자 선정 방식\n\n발표를 지원한 팀 중 “Like” 수가 많은 팀 (7~10팀)을 선정합니다.\n\n\n\n\n\n\n\n\n발표 장소의 상황에 따라서 선정되는 최대 팀원 수는 변경될 수 있습니다.\n발표자는 행사당일 자신의 프로젝트를 소개할 수 있습니다."
-  },
-  {
-    "objectID": "logistics/index.html#참고-링크",
-    "href": "logistics/index.html#참고-링크",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "5. 참고 링크",
-    "text": "5. 참고 링크\n\n해커톤 공식 페이지\nHugging Face 공식 디스코드"
   },
   {
     "objectID": "logistics/prerequisites.html",
