@@ -3,6 +3,15 @@ project:
   output-dir: ./_site/ko
 
 website:
+  favicon: favicon.ico
+  open-graph: 
+    title: "2023 일상에서의 AI 해커톤"
+    description: "일상에서의 AI 해커톤은 국내 Hugging Face 사용자들이 모인 교류의 장으로써 기획되었습니다."
+    image: assets/images/hackathon-960x540.png
+  twitter-card: 
+    title: "2023 일상에서의 AI 해커톤"
+    description: "일상에서의 AI 해커톤은 국내 Hugging Face 사용자들이 모인 교류의 장으로써 기획되었습니다."
+    image: assets/images/hackathon-960x540.png
   page-navigation: true
   site-url: https://pseudo-lab.github.io/huggingface-hackathon23
   page-footer: "Pseudo Lab (2023). 2023 Everyday AI Hackathon"
