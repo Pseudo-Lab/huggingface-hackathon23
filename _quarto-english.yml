@@ -3,6 +3,15 @@ project:
   output-dir: ./_site/en
 
 website:
+  favicon: favicon.ico
+  open-graph: 
+    title: "2023 Everyday AI Hackathon"
+    description: "The Everyday AI Hackathon is where Hugging Face enthusiasts in Korea meet."
+    image: assets/images/hackathon-960x540.png
+  twitter-card: 
+    title: "2023 Everyday AI Hackathon"
+    description: "The Everyday AI Hackathon is where Hugging Face enthusiasts in Korea meet."
+    image: assets/images/hackathon-960x540.png
   page-navigation: true
   site-url: https://pseudo-lab.github.io/huggingface-hackathon23/
   page-footer: "Pseudo Lab (2023). 2023 Everyday AI Hackathon"
