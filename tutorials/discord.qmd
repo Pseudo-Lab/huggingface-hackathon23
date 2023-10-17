@@ -1,64 +1,66 @@
-open-source ml 역할 받고,
-쓰레드에 참가해 팀 구성하는 방법,
-도움을 요청할 admin id들을 알려주기
-
 ::: {.content-visible when-profile="korean"}
 # 디스코드 채널
+
 Discord는 참가자들이 서로 연결하고 아이디어를 논의하며 해커톤을 위한 팀을 구성할 수 있는 이상적인 플랫폼을 제공합니다. 다음은 Discord에서 팀 구성 과정을 탐색하는 데 도움이 되는 단계별 가이드입니다.
 
 ## 1. 공식 해커톤 Discord 서버에 가입하기
+
 가장 먼저 공식 해커톤 Discord 서버에 가입했는지 확인하세요.
 
-## 2. 채널에 익숙해지기
-가입한 후에는 잠시 시간을 내어 다양한 채널에 익숙해지세요. 팀 구성 전용 채널은 `#team-formation`이라는 이름의 특정 채널이 있을 것입니다.
+## 2. 채널 등록하기
+
+헤커톤을 위한 채널은 `krew23-hackathon`입니다. 채널을 등록하기 위해서 아래와 같이 디스코드 좌측 상단의 `채널 및 역할`로 이동합니다.
+
+![](images/paste-12.png){fig-align="center"}
+
+![](images/paste-13.png){fig-align="center"}
+
+이제 헤커톤 채널을 등록하기 위해서 위와 같이 `Open Source ML`을 선택하세요. 이제 디스코드의 `OPEN SOURCE ML`하위에 `krew23-hackathon` 채널을 확인할 수 있습니다.
+
+![](images/paste-14.png){fig-align="center"}
+
+::: {.callout-note appearance="simple"}
+# `krew23-hackathon`을 즐겨찾기로 추가하면 찾아가기 쉽습니다. :-)
+:::
 
 </br>
 
 ## 3. 자기 소개하기
-- `#team-formation` 채널에 자신에 대한 간단한 소개를 올려보세요:
-   - 본인의 기술 및 전문 지식
-   - 해커톤 목표
-   - 팀원에게 바라는 점
 
->예시: "_안녕하세요, 저는 Alex입니다! 저는 자연어 처리(NLP)를 전문으로 하며 Hugging Face에 대한 경험이 있습니다. 팀을 구성할 프론트엔드 개발자와 데이터 과학자를 찾고 있습니다. 함께 놀라운 무언가를 만들어 봅시다!_"
+-   채널에 자신에 대한 간단한 소개를 올려보세요:
+    -   본인의 기술 및 전문 지식
+    -   해커톤 목표
+    -   팀원에게 바라는 점
+
+> 예시: "*안녕하세요, 저는 Alex입니다! 저는 자연어 처리(NLP)를 전문으로 하며 Hugging Face에 대한 경험이 있습니다. 팀을 구성할 프론트엔드 개발자와 데이터 과학자를 찾고 있습니다. 함께 놀라운 무언가를 만들어 봅시다!*"
 
 </br>
 
 ## 4. 다른 사람들과 연결하기
-다른 참가자의 소개 게시물에 참여하세요. 팀에 적합한 사람으로 보이는 사람이 있다면, 함께 대화해보세요:
 
-- 👍이모티콘으로 반응하고,
-- 더 자세히 논의하기 위해 쪽지를 보내세요.
+팀원 모집을 위한 `Thread`를 만들어 보세요. Discord에서는 `Thread`기능을 통해서 자신이 작성한 글을 중심으로 대화할 수 있는 기능을 제공합니다. 자신이 작성한 글에서 마우스 우클릭을 하면 관심있는 사람이 들어와 대화를 진행할 수 있습니다. 팀원을 모집할 때 사용하세요.
 
-</br>
+![](images/paste-11.png){fig-align="center"}
 
-## 5. 음성 채널을 사용하여 심도 있는 토론하기
-팀워크를 더 다지고 싶다면, 음성 채널 중 하나에 들어가 실시간으로 채팅하세요. 목표가 잘 맞는지 확인하고 서로를 보장하는 데 도움이 됩니다.
+다른 참가자의 소개 게시물에 참여하세요. 먼저 팀에 적합한 사람으로 보이는 사람이 있다면, 함께 대화해보세요:
 
-</br>
-
-## 6. 팀 확인
-팀을 구성하고 나면:
-
-- `#team-formation` 채널에서 팀원을 알리세요.
-
-  > 팀 [팀명]: @알렉스, @메리, @테일러
-- 해커톤 기간 동안 공식 커뮤니케이션을 담당할 팀 리더를 지정하세요.
+-   👍이모티콘으로 반응하고,
+-   더 자세히 논의하기 위해 쪽지를 보내세요.
 
 </br>
 
-## 7. Discord 그룹 만들기(선택 사항)
-[Discord 그룹](https://www.alphr.com/create-groups-discord/)을 통해 팀을 위한 비공개 채널을 만들 수 있습니다. 이렇게 전략을 논의하고 리소스를 공유하며 협업할 수 있는 전용 공간을 만들어 보세요.
+## 5. 최신 소식 받기
 
-</br>
+채널을 해커톤과 관련된 중요한 업데이트가 공유됩니다. 채널에 자주 참가해서 중요한 정보를 놓치지 마세요. 또한 서로 잘 맞는 팀원을 찾아 재미있는 해커톤의 초석을 마련할 수 있습니다.
 
-## 8. 최신 소식 받기
-`#announcements` 또는 기타 중요한 채널을 항상 주시하세요. 관리자 또는 주최자가 팀 구성 또는 해커톤과 관련된 중요한 업데이트를 게시할 것입니다.
+헤커톤 참여 과정에서 궁금한 것이 있다면 아래의 운영진 ID로 DM 또는 mention으로 문의 부탁드립니다.
 
-Discord는 참가자들이 연결하고 팀을 구성할 수 있는 원활한 플랫폼을 제공합니다. 서로 잘 맞는 팀원을 찾아 재미있는 해커톤의 초석을 마련할 수 있습니다. 행운을 빌며 행복한 팀 구성을 기원합니다!
+| 운영진 ID    |
+|--------------|
+| wonhseo      |
+| gabriely1004 |
+| jungnerd     |
 :::
-
-
 
 ::: {.content-visible when-profile="english"}
 ## **How to Form Teams in Discord**
@@ -66,43 +68,51 @@ Discord는 참가자들이 연결하고 팀을 구성할 수 있는 원활한 �
 Discord offers an ideal platform for participants to connect, discuss ideas, and form teams for our hackathon. Below is a step-by-step guide to help you navigate the team formation process on Discord.
 
 ### 1. Join the Official Hackathon Discord Server
+
 First and foremost, ensure you've joined the official hackathon Discord server.
 
 ### 2. Familiarize Yourself with the Channels
+
 Once you've joined, take a moment to familiarize yourself with the various channels. There should be a specific channel dedicated to team formation, named `#team-formation`.
 
 ### 3. Introduce Yourself
-- In the `#team-formation` channel, post a brief introduction about yourself. Include:
-   - Your skills and expertise
-   - Your hackathon goals
-   - What you're looking for in team members
+
+-   In the `#team-formation` channel, post a brief introduction about yourself. Include:
+    -   Your skills and expertise
+    -   Your hackathon goals
+    -   What you're looking for in team members
 
 For example:
 
-> "_Hi, I'm Alex! I specialize in NLP and have experience with Hugging Face. Looking for a frontend developer and a data scientist to form a team. Let's create something amazing together!_"
+> "*Hi, I'm Alex! I specialize in NLP and have experience with Hugging Face. Looking for a frontend developer and a data scientist to form a team. Let's create something amazing together!*"
 
 ### 4. Connect with Others
+
 Engage with other participants' introduction posts. If someone seems like a potential fit for your team, you can:
 
-- React to their message with a thumbs-up emoji.
-- Send them a direct message to discuss in more detail.
+-   React to their message with a thumbs-up emoji.
+-   Send them a direct message to discuss in more detail.
 
 ### 5. Use Voice Channels for Deeper Discussion
+
 If you're getting serious about teaming up, hop into one of the available voice channels to chat in real-time. This will help ensure compatibility and alignment of goals.
 
 ### 6. Confirm Your Team
+
 Once you've formed a team:
 
-- Announce your team members in the `#team-formation` channel: "_Team [YourTeamName]: @Alex, @Jordan, @Taylor_"
-- Designate a team leader who'll be responsible for official communications during the hackathon.
+-   Announce your team members in the `#team-formation` channel: "\_Team \[YourTeamName\]: @Alex, @Jordan, @Taylor_"
+-   Designate a team leader who'll be responsible for official communications during the hackathon.
 
 ### 7. Create a Discord Group (Optional)
+
 You can make a private channel for your team via [Discord Groups](https://www.alphr.com/create-groups-discord/). This will give you a dedicated space to discuss strategies, share resources, and collaborate.
 
 ### 8. Stay Updated
+
 Always keep an eye on `#announcements` or any other important channels. Admins or organizers will post important updates related to team formation or other hackathon processes.
 
----
+------------------------------------------------------------------------
 
 Discord offers a seamless platform for participants to connect and form teams. By following the steps above, you'll find compatible team members and set the stage for a successful hackathon experience. Best of luck, and happy team forming!
 :::
