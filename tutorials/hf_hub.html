@@ -184,9 +184,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#허깅페이스-스페이스-생성" id="toc-허깅페이스-스페이스-생성" class="nav-link active" data-scroll-target="#허깅페이스-스페이스-생성">허깅페이스 스페이스 생성</a></li>
-  <li><a href="#헤커톤-캘렉션과-연결" id="toc-헤커톤-캘렉션과-연결" class="nav-link" data-scroll-target="#헤커톤-캘렉션과-연결">헤커톤 캘렉션과 연결</a></li>
-  <li><a href="#수료증-발급" id="toc-수료증-발급" class="nav-link" data-scroll-target="#수료증-발급">수료증 발급</a></li>
+  <li><a href="#허깅페이스-스페이스-생성" id="toc-허깅페이스-스페이스-생성" class="nav-link active" data-scroll-target="#허깅페이스-스페이스-생성">1. 허깅페이스 스페이스 생성</a>
+  <ul class="collapse">
+  <li><a href="#space-name-과-license" id="toc-space-name-과-license" class="nav-link" data-scroll-target="#space-name-과-license">Space Name 과 License</a></li>
+  <li><a href="#sdk-와-space-hardware" id="toc-sdk-와-space-hardware" class="nav-link" data-scroll-target="#sdk-와-space-hardware">SDK 와 Space hardware</a></li>
+  </ul></li>
+  <li><a href="#헤커톤-캘렉션과-연결" id="toc-헤커톤-캘렉션과-연결" class="nav-link" data-scroll-target="#헤커톤-캘렉션과-연결">2. 헤커톤 캘렉션과 연결</a></li>
+  <li><a href="#수료증-발급" id="toc-수료증-발급" class="nav-link" data-scroll-target="#수료증-발급">3. 수료증 발급</a></li>
   </ul>
 </nav>
     </div>
@@ -218,7 +222,7 @@ ul.task-list li input[type="checkbox"] {
     ├── ...
     └── 참가자프로젝트(n) (space)</code></pre>
 <section id="허깅페이스-스페이스-생성" class="level2">
-<h2 class="anchored" data-anchor-id="허깅페이스-스페이스-생성">허깅페이스 스페이스 생성</h2>
+<h2 class="anchored" data-anchor-id="허깅페이스-스페이스-생성">1. 허깅페이스 스페이스 생성</h2>
 <p>참가자는 <code>Pseudo Lab</code> 컬랙션 우측 상단의 <code>New</code> 버튼을 누르고 <code>Space</code>를 선택해서 자신의 프로젝트 스페이스를 생성합니다.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -231,12 +235,19 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <p>스페이스 생성 페이지에서는 프로젝트 스페이스 생성을 위해서 필요한 정보를 작성합니다. 하나씩 확인해보겠습니다.</p>
+<section id="space-name-과-license" class="level3">
+<h3 class="anchored" data-anchor-id="space-name-과-license">Space Name 과 License</h3>
+<p>스페이스 생성 초기 화면에서 <code>Space name</code>과 <code>License</code>를 입력합니다.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/paste-5.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
-<p>스페이스 생성 초기 화면에서 <code>Space name</code>과 <code>License</code>를 입력합니다. <code>Space name</code>은 헤커톤 컬랙션에 카드 이름으로 표시됩니다.</p>
+<p><code>Space name</code>은 헤커톤 컬랙션에 카드 이름으로 표시됩니다. <code>Licsnse</code>는 <a href="https://www.olis.or.kr/license/Detailselect.do?lId=1002">아파치 라이선스</a>를 사용하기 위해서 “Apache License”를 선택합니다.</p>
+</section>
+<section id="sdk-와-space-hardware" class="level3">
+<h3 class="anchored" data-anchor-id="sdk-와-space-hardware">SDK 와 Space hardware</h3>
+<p>이제 <code>SDK</code>와 <code>Space hardware</code>를 항목에서 프로젝트 스페이스의 실행을 위한 설정을 진행합니다.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/paste-6.png" class="img-fluid figure-img"></p>
@@ -256,8 +267,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
+</section>
 <section id="헤커톤-캘렉션과-연결" class="level2">
-<h2 class="anchored" data-anchor-id="헤커톤-캘렉션과-연결">헤커톤 캘렉션과 연결</h2>
+<h2 class="anchored" data-anchor-id="헤커톤-캘렉션과-연결">2. 헤커톤 캘렉션과 연결</h2>
 <p>멋집니다! 이제 여러분은 자신의 프로젝트를 실행할 스페이스를 생성했고 다른 참가자들에게 빨리 소개하고 싶습니다. 프로젝트를 헤커톤 컬랙션에 연결하는 방법을 알아 봅시다.</p>
 <p><img src="images/paste-7.png" class="img-fluid"></p>
 <p>자신의 스페이스 우측 상단의 <code>...</code> 버튼을 누르고 <code>Add to collection</code>을 선택합니다.</p>
@@ -265,7 +277,8 @@ ul.task-list li input[type="checkbox"] {
 <p><code>Hugging Face KREW Hackathon 2023 (pseudolab)</code>을 선택하여 자신의 스페이스를 헤커톤 컬렉션에 추가합니다.</p>
 </section>
 <section id="수료증-발급" class="level2">
-<h2 class="anchored" data-anchor-id="수료증-발급">수료증 발급</h2>
+<h2 class="anchored" data-anchor-id="수료증-발급">3. 수료증 발급</h2>
+<p><strong>TODO: 수료증 발급방법 업데이트</strong></p>
 
 
 </section>
