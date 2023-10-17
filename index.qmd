@@ -15,9 +15,9 @@ format:
 
 아래 4가지 단계만 따라주시면 됩니다:
 
-0. [디스코드](https://hf.co/join/discord)에서 [팀을 구성](./tutorials/discord#how-to-form-teams)하거나 개인 자격으로 참가
+0. 팀,개인으로 참가 또는 [디스코드](https://hf.co/join/discord)에서 [팀을 구성](./tutorials/discord#how-to-form-teams)해서 참가
 1. [해커톤 콜렉션](https://huggingface.co/pseudolab)에 동작하는 데모 업로드
-2. `README.md`에 프로젝트 소개 작성 및 [판정 Space](https://huggingface.co/spaces/pseudolab/2023-Hackathon-Certification)를 통한 수료증 발급 절차 이행
+2. `README.md`에 프로젝트 소개 작성 및 [수료증 발급 스페이스](https://huggingface.co/spaces/pseudolab/2023-Hackathon-Certification)로 수료증 발급 진행
 3. 오프라인 참가를 희망하시는 경우, [이벤터스](https://event-us.kr/huggingfacekrew/event/72612)를 통해 팀 정보 및 프로젝트 URL 제출
 
 ::: {.callout-note appearance="simple"}
@@ -45,6 +45,7 @@ format:
 | 개별 오프라인 초대 | 11월 6일(월) ~ 11월 9일(목)       |
 | Hugging Face 로컬 밋업 w/ PseudoCon | 11월 11일 (토)    |
 
+```{=html}
 <add-to-calendar-button
   name="Hugging Face KREW 2023 Hackathon: Everyday AI"
   location="Online"
@@ -78,6 +79,7 @@ format:
   hideBackground="True"
   buttonStyle="flat"
 ></add-to-calendar-button>
+```
 
 ### 5. 대회 목표
 
