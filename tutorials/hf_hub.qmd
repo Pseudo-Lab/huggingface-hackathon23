@@ -3,7 +3,7 @@
 허깅페이스 헤커톤은 `컬랙션(collection)`과 `스페이스(space)`로 구성됩니다. `컬랙션`은 `스페이스`, `모델` 등 다양한 허깅페이스 리소스가 모인 집합입니다. 참가자의 허깅페이스 `스페이스`는 아래과 같이 `Hugging Face KREW Hackathon 2023`이라는 이름의 `컬랙션`에 포함됩니다.
 
 ```{shell}
-"Pseudo Lab" (collection)
+"Hugging Face KREW Hackathon 2023" (collection)
     ├── 참가자프로젝트(1) (space)
     ├── ...
     └── 참가자프로젝트(n) (space)
