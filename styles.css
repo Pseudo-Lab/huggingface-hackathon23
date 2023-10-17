@@ -25,6 +25,10 @@
   float: right;
 }
 
+.navbar-logo {
+  max-height: 45px;
+}
+
 @media (min-width: 1420px) {
   .navbar-expand-lg {
     margin: 0 17.75em;

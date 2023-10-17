@@ -21,6 +21,8 @@ website:
     </button>
 
   navbar:
+    logo: assets/images/navbar-logo.png
+    title: " "
     search: true
     left:
       - text: 소개
@@ -39,6 +41,10 @@ website:
         target: blank
 
   sidebar:
+    logo: assets/images/poster.png
+    pinned: true
+    align: center
+
     style: floating
     contents:
       - index.qmd
