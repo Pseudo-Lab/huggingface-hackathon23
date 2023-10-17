@@ -25,7 +25,7 @@
   float: right;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1420px) {
   .navbar-expand-lg {
     margin: 0 17.75em;
   }
