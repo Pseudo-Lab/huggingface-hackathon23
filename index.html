@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./tutorials/index.html" rel="next">
 <link href="./favicon.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -62,6 +63,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async="" defer=""></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -79,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -101,40 +103,86 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">소개</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./logistics/index.html" rel="" target="">
- <span class="menu-text">운영안내</span></a>
+    <a class="nav-link" href="https://huggingface.co/pseudolab" rel="" target="blank"><i class="bi bi-bookmark-star" role="img">
+</i> 
+ <span class="menu-text">데모 제출</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tutorials/index.html" rel="" target="">
- <span class="menu-text">튜토리얼</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./submit.html" rel="" target="">
- <span class="menu-text">제출하기</span></a>
+    <a class="nav-link" href="https://event-us.kr/huggingfacekrew/event/72612" rel="" target="blank"><i class="bi bi-building-check" role="img">
+</i> 
+ <span class="menu-text">오프라인 참가</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto tools-wide">
-    <a href="https://twitter.com" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
-    <a href="https://github.com" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+            <div class="quarto-navbar-tools ms-auto">
+    <a href="https://hf.co/join/discord" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-discord"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">소개</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">소개</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./tutorials/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">튜토리얼</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tutorials/discord.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">디스코드 채널</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tutorials/hf_hub.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hugging Face Hub</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#일상에서의-ai-해커톤" id="toc-일상에서의-ai-해커톤" class="nav-link active" data-scroll-target="#일상에서의-ai-해커톤">일상에서의 AI 해커톤</a>
+  <li><a href="#소개" id="toc-소개" class="nav-link active" data-scroll-target="#소개">소개</a>
   <ul class="collapse">
-  <li><a href="#대회-목표" id="toc-대회-목표" class="nav-link" data-scroll-target="#대회-목표">대회 목표</a></li>
-  <li><a href="#어떻게-진행하나요" id="toc-어떻게-진행하나요" class="nav-link" data-scroll-target="#어떻게-진행하나요">어떻게 진행하나요?</a></li>
+  <li><a href="#대회-목표" id="toc-대회-목표" class="nav-link" data-scroll-target="#대회-목표">1. 대회 목표</a></li>
+  <li><a href="#주요-일정" id="toc-주요-일정" class="nav-link" data-scroll-target="#주요-일정">2. 주요 일정</a></li>
+  <li><a href="#어떻게-진행하나요" id="toc-어떻게-진행하나요" class="nav-link" data-scroll-target="#어떻게-진행하나요">3. 어떻게 진행하나요?</a></li>
+  <li><a href="#오프라인-행사" id="toc-오프라인-행사" class="nav-link" data-scroll-target="#오프라인-행사">4. 오프라인 행사</a></li>
+  <li><a href="#보상-및-혜택" id="toc-보상-및-혜택" class="nav-link" data-scroll-target="#보상-및-혜택">5. 보상 및 혜택</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -146,26 +194,106 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="일상에서의-ai-해커톤" class="level1">
-<h1>일상에서의 AI 해커톤</h1>
-<p><br></p>
-<section id="대회-목표" class="level2">
-<h2 class="anchored" data-anchor-id="대회-목표">대회 목표</h2>
-<p><code>일상에서의 AI 해커톤</code>은 국내 허깅페이스 사용자들이 모인 교류의 장으로써 기획되었습니다. 창의적인 아이디어를 바탕으로 허깅페이스에 모델을 배포하도록 장려하며, 누구나 환영합니다!</p>
-<p>경쟁보다는 협업에 중점을 두어 기술 숙련도에 관계없이 프로젝트 경험과 인증 배지를 얻을 수 있습니다. 이번 해커톤을 통해 허깅페이스에 대한 열정을 가진 분들의 커뮤니티를 육성하고 상호 성장과 학습을 촉진할 수 있기를 바랍니다.</p>
-<p><br></p>
-</section>
-<section id="어떻게-진행하나요" class="level2">
-<h2 class="anchored" data-anchor-id="어떻게-진행하나요">어떻게 진행하나요?</h2>
-<p>해커톤 참가자는</p>
+<section id="소개" class="level2">
+<h2 class="anchored" data-anchor-id="소개">소개</h2>
+<p>안녕하세요!</p>
+<p>본 해커톤은 Hugging Face를 사랑하는 모든 분들을 위한 행사로 여러분의 열정과 창의력을 마음껏 펼칠 수 있는 자리입니다. 아래 안내사항을 주의 깊게 읽어보시고, 이번 행사를 통해 함께 성장하는 시간을 가져보시기 바랍니다.</p>
+<section id="대회-목표" class="level3">
+<h3 class="anchored" data-anchor-id="대회-목표">1. 대회 목표</h3>
+<p><code>일상에서의 AI 해커톤</code>은</p>
 <ul>
-<li>최대 3명으로 팀을 구성하여</li>
-<li><a href="https://huggingface.co/huggingface-hackathon-korea">허깅페이스 스페이스</a>에서 프로젝트를 생성 및 배포하고,</li>
-<li>각자 Spaces의 <code>README.md</code>에 설명을 추가하는 간단한 프로세스를 따릅니다.</li>
-<li>마지막으로 <code>제출하기</code>로 수료증 발급을 위한 팀원과 프로젝트 정보를 등록합니다.</li>
+<li>사전 경험과 관계없이 모든 분들이 참여할 수 있고,</li>
+<li>서로 배우며 성장할 수 있는 커뮤니티를 만드는 것에</li>
 </ul>
-<p>허깅페이스가 처음이거나 익숙하지 않더라도 함께 공부할 수 있는 <a href="">Discord 채널</a>을 통해서 함께 발전합니다. 대회 기간동안 쉽고 빠르게 배울 수 있도록 다양한 자료를 튜토리얼에 공유할 예정이니 배우면서 진행해도 좋습니다.</p>
-<p>대회에 대한 자세한 내용은 <a href="./logistics/index.html">운영안내</a>에서 확인할 수 있으며 궁금하신점은 디스코드를 통해서 언제라도 문의해주세요.</p>
+<p>큰 중점을 두고 있습니다. 함께 해커톤을 통해 창의적인 아이디어를 공유하고 실력을 향상시켜봅시다.</p>
+</section>
+<section id="주요-일정" class="level3">
+<h3 class="anchored" data-anchor-id="주요-일정">2. 주요 일정</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th>일정</th>
+<th>날짜</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>해커톤 시작</td>
+<td>10월 20일(금)</td>
+</tr>
+<tr class="even">
+<td>수료증 발급 마감</td>
+<td>11월 10일(금) 24시</td>
+</tr>
+<tr class="odd">
+<td>개별 오프라인 초대</td>
+<td>11월 6일(월) ~ 11월 9일(목)</td>
+</tr>
+<tr class="even">
+<td>Hugging Face 로컬 밋업 w/ PseudoCon</td>
+<td>11월 11일 (토)</td>
+</tr>
+</tbody>
+</table>
+<p><add-to-calendar-button name="Hugging Face KREW 2023 Hackathon: Everyday AI" location="Online" timezone="Asia/Seoul" dates="[
+    {
+      &quot;name&quot;:&quot;KREW 2023 해커톤 시작&quot;,
+      &quot;description&quot;:&quot;온라인으로 진행되는 해커톤의 시작입니다&quot;,
+      &quot;startDate&quot;:&quot;2023-10-20&quot;
+    },
+    {
+      &quot;name&quot;:&quot;수료증 발급 마감&quot;,
+      &quot;description&quot;:&quot;11월 10일까지 수료증을 다음 링크에서 꼭 받으세요! [url]https://huggingface.co/spaces/pseudolab/2023-Hackathon-Certification[/url]&quot;,
+      &quot;startDate&quot;:&quot;2023-11-10&quot;
+    },
+    {
+      &quot;name&quot;:&quot;개별 오프라인 초대 시작&quot;,
+      &quot;description&quot;:&quot;수료증 url, 팀 정보와 연락처를 다음 이벤터스 링크에 등록해주시면 개별적으로 연락 드리겠습니다! [url]https://event-us.kr/huggingfacekrew/event/72612[/url]&quot;,
+      &quot;startDate&quot;:&quot;2023-11-06&quot;
+    },
+    {
+      &quot;name&quot;:&quot;Hugging Face 로컬 밋업 w/ PseudoCon&quot;,
+      &quot;description&quot;:&quot;모두 워커힐에서 만나요!&quot;,
+      &quot;startDate&quot;:&quot;2023-11-11&quot;,
+      &quot;startTime&quot;:&quot;14:00&quot;,
+      &quot;endTime&quot;:&quot;18:00&quot;,
+      &quot;location&quot;:&quot;워커힐 컨벤션 센터&quot;
+    }
+  ]" options="'Apple','Google'" hidebackground="True" buttonstyle="flat"></add-to-calendar-button></p>
+</section>
+<section id="어떻게-진행하나요" class="level3">
+<h3 class="anchored" data-anchor-id="어떻게-진행하나요">3. 어떻게 진행하나요?</h3>
+<p>아래 4가지 단계만 따라주시면 됩니다:</p>
+<ol start="0" type="1">
+<li><a href="https://hf.co/join/discord">디스코드</a>에서 <a href="./tutorials/discord#how-to-form-teams">팀을 구성</a>하거나 개인 자격으로 참가</li>
+<li><a href="https://huggingface.co/pseudolab">해커톤 콜렉션</a>에 동작하는 데모 업로드</li>
+<li><code>README.md</code>에 프로젝트 소개 작성 및 <a href="https://huggingface.co/spaces/pseudolab/2023-Hackathon-Certification">판정 Space</a>를 통한 수료증 발급 절차 이행</li>
+<li>오프라인 참가를 희망하시는 경우, <a href="https://event-us.kr/huggingfacekrew/event/72612">이벤터스</a>를 통해 팀 정보 및 프로젝트 URL 제출</li>
+</ol>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<pre><code>- 타인의 작업을 무단으로 사용하는 경우 제출 작품은 무효 처리되며,
+- 프로젝트에 대한 설명과 데모는 성의 있게 작성해주셔야 합니다.</code></pre>
+</div>
+</div>
+</div>
+</section>
+<section id="오프라인-행사" class="level3">
+<h3 class="anchored" data-anchor-id="오프라인-행사">4. 오프라인 행사</h3>
+<p>신청자 중 “Like”를 많이 받은 프로젝트 기여자들을 PseudoCon에 초대하여 데모를 서로 공유하고 네트워킹할 수 있는 시간을 가집니다. 상세한 내용은 <a href="https://event-us.kr/huggingfacekrew/event/72612">오프라인 행사 신청 페이지</a>에서 확인하실 수 있습니다.</p>
+</section>
+<section id="보상-및-혜택" class="level3">
+<h3 class="anchored" data-anchor-id="보상-및-혜택">5. 보상 및 혜택</h3>
+<ul>
+<li>Hugging Face 수료증</li>
+<li>다양한 네트워킹 기회</li>
+<li>오프라인 행사 초청자에게 제공되는 특별한 혜택 (상세 내용은 추후 공개 예정)</li>
+</ul>
+<p>참가자 여러분의 많은 관심과 참여를 부탁드립니다. 함께 성장하고, 서로를 격려하는 커뮤니티를 만들어가요. 감사합니다.</p>
 <!-- END OF KOREAN -->
 
 
@@ -521,6 +649,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./tutorials/index.html" class="pagination-link">
+        <span class="nav-page-text">튜토리얼</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2023 일상에서의 AI 해커톤 - Prerequisites &amp; help</title>
+<title>2023 일상에서의 AI 해커톤 – hf_hub</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../tutorials/discord.html" rel="prev">
 <link href="../favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -67,15 +68,15 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="2023 일상에서의 AI 해커톤">
 <meta property="og:description" content="일상에서의 AI 해커톤은 국내 Hugging Face 사용자들이 모인 교류의 장으로써 기획되었습니다.">
-<meta property="og:image" content="https://pseudo-lab.github.io/huggingface-hackathon23/logistics/assets/images/hackathon-960x540.png">
+<meta property="og:image" content="https://pseudo-lab.github.io/huggingface-hackathon23/tutorials/assets/images/hackathon-960x540.png">
 <meta property="og:site-name" content="2023 일상에서의 AI 해커톤">
 <meta name="twitter:title" content="2023 일상에서의 AI 해커톤">
 <meta name="twitter:description" content="일상에서의 AI 해커톤은 국내 Hugging Face 사용자들이 모인 교류의 장으로써 기획되었습니다.">
-<meta name="twitter:image" content="https://pseudo-lab.github.io/huggingface-hackathon23/logistics/assets/images/hackathon-960x540.png">
+<meta name="twitter:image" content="https://pseudo-lab.github.io/huggingface-hackathon23/tutorials/assets/images/hackathon-960x540.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -93,129 +94,105 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
+    <a class="nav-link active" href="../index.html" rel="" target="" aria-current="page">
  <span class="menu-text">소개</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../logistics/index.html" rel="" target="">
- <span class="menu-text">운영안내</span></a>
+    <a class="nav-link" href="https://huggingface.co/pseudolab" rel="" target="blank"><i class="bi bi-bookmark-star" role="img">
+</i> 
+ <span class="menu-text">데모 제출</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../tutorials/index.html" rel="" target="">
- <span class="menu-text">튜토리얼</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../submit.html" rel="" target="">
- <span class="menu-text">제출하기</span></a>
+    <a class="nav-link" href="https://event-us.kr/huggingfacekrew/event/72612" rel="" target="blank"><i class="bi bi-building-check" role="img">
+</i> 
+ <span class="menu-text">오프라인 참가</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto tools-wide">
-    <a href="https://twitter.com" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
-    <a href="https://github.com" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+            <div class="quarto-navbar-tools ms-auto">
+    <a href="https://hf.co/join/discord" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-discord"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tutorials/index.html">튜토리얼</a></li><li class="breadcrumb-item"><a href="../tutorials/hf_hub.html">Hugging Face Hub</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">소개</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../tutorials/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">튜토리얼</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/discord.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">디스코드 채널</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/hf_hub.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Hugging Face Hub</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link active" data-scroll-target="#prerequisites">Prerequisites</a></li>
-  <li><a href="#getting-help" id="toc-getting-help" class="nav-link" data-scroll-target="#getting-help">Getting help</a>
-  <ul class="collapse">
-  <li><a href="#discord" id="toc-discord" class="nav-link" data-scroll-target="#discord">Discord</a></li>
-  <li><a href="#google-meet-breakout-rooms" id="toc-google-meet-breakout-rooms" class="nav-link" data-scroll-target="#google-meet-breakout-rooms">Google Meet Breakout Rooms</a></li>
-  </ul></li>
+  <li><a href="#hugging-face-hub" id="toc-hugging-face-hub" class="nav-link active" data-scroll-target="#hugging-face-hub">Hugging Face Hub</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Prerequisites &amp; help</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-<button onclick="window.location = location.href.replace('/ko/','/en/');" class="btn btn-translate">
+<main class="content" id="quarto-document-content"><button onclick="window.location = location.href.replace('/ko/','/en/');" class="btn btn-translate">
 <i class="bi bi-translate"></i> See in English
 </button>
-<section id="prerequisites" class="level2">
-<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
-<p>Before the Hackathon, please do the following (20 minutes). All software is free. If you are attending the Clinic, please do this in advance of the Clinic.</p>
-<ol type="1">
-<li><strong>GitHub username</strong>
+
+
+
+<section id="hugging-face-hub" class="level1">
+<h1>Hugging Face Hub</h1>
 <ul>
-<li>Create a GitHub account (if you don’t already have one) at <a href="https://github.com" class="uri">https://github.com</a>. Follow optional <a href="https://happygitwithr.com/github-acct.html">advice on choosing your username</a></li>
-<li>Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOd0RhzEo5sFq_NgjZJa0C6cmaicTOjPS290iCbHbFTI-8zg/viewform?usp=sf_link">provide your GitHub username here</a>; this will allow us to add you to the cloud hackathon workspace.</li>
-<li>Remember your username and password; you will need to be logged in during the workshop!</li>
-</ul></li>
-<li><strong>Hugging Face account</strong>
-<ul>
-<li>Create a Hugging Face account (if you don’t already have one) at <a href="https://hf.co/join" class="uri">https://hf.co/join</a></li>
-<li>Remember your username and password; you will need to be logged in during the workshop!</li>
-</ul></li>
-<li><strong>Discord</strong>
-<ul>
-<li>Join our Discord workspace (invite sent via email). In the <code>2023-everydayaihack-projects</code> channel, suggest a hackathon project idea/use case, and mention if you are looking for teammates to join. Read through other entries and comment on those of interest to you. On Day one of the hackathon we will hold a project pitchfest and finalize teams for the week.</li>
-<li>Learn more about <a href="#discord">how we’ll use Discord during the workshop</a></li>
-</ul></li>
-<li><strong>Google Meet</strong>
-<ul>
-<li>Be prepared to call into Google Meet using the link provided in the Discord <code>2023-everydayaihack-general</code> Channel.</li>
-</ul></li>
-<li><strong>Get comfortable</strong>
-<ul>
-<li>Consider your computer set-up in advance, including an external monitor if possible. You will be following along on your own computer while also watching an instructor live-code over Google Meet (or equivalent), and will also want quick-access to Discord to ask for help and follow links.</li>
-</ul></li>
-</ol>
-</section>
-<section id="getting-help" class="level2">
-<h2 class="anchored" data-anchor-id="getting-help">Getting help</h2>
-<p>We will use Discord rather than Google Meet Chat as our main channel for help, since the conversations are preserved beyond a single call and since it’s easier to reply and have threaded conversations and post screenshots.</p>
-<section id="discord" class="level3">
-<h3 class="anchored" data-anchor-id="discord">Discord</h3>
-<p>You will be invited to the PseudoLab Discord organization, where there is a growing community of <a href="https://pseudo-lab.github.io/spotlight">ML experts</a>. (New to Discord? See this <a href="https://zenodo.org/record/3763730#.YYkoL3mIZpQ">Quick Start Guide</a>). We have three private Discord channels for the Hackathon:</p>
-<p><strong>2023-everydayaihack-general</strong>: General channel is for announcements and general questions and communications.</p>
-<p><strong>2023-everydayaihack-projects</strong>: Projects channel is for for participants to pitch project ideas and discuss projects with the whole hackathon group. As teams form you can have direct messages with your team (and we can create new channels as needed).</p>
-<p><strong>2023-everydayaihack-help</strong>: Help channel is the place to get troubleshooting help: please paste error messages and post screenshots and we will help you by replying to your post.</p>
-<p>To create a screenshot:</p>
-<ul>
-<li><a href="https://support.apple.com/en-us/HT201361">On your Mac - Screenshot</a></li>
-<li><a href="https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b">On your PC - Snipping Tool</a></li>
+<li>Pseudolab Org 멤버 신청</li>
+<li>프로젝트 생성 - 과용 방지 글도 포함,</li>
+<li>Hugging Face KREW Hackathon 2023 콜렉션 아래에 넣기</li>
+<li>수료증 space 활용 -&gt; 발급 확인</li>
 </ul>
-</section>
-<section id="google-meet-breakout-rooms" class="level3">
-<h3 class="anchored" data-anchor-id="google-meet-breakout-rooms">Google Meet Breakout Rooms</h3>
-<section id="during-tutorials-session" class="level4">
-<h4 class="anchored" data-anchor-id="during-tutorials-session">During Tutorials Session</h4>
-<p>If you’d like to talk to someone and live-screenshare about your issue, please write in Google Meet Chat that you need help and we will move you into a breakout room with a helper.</p>
-</section>
-<section id="during-team-hacktime" class="level4">
-<h4 class="anchored" data-anchor-id="during-team-hacktime">During Team Hacktime</h4>
-<p>During the team project time, you will be placed in a Google Meet breakout room with your respective teammates to collaborate more easily. If you have questions as you work, post your question(s) in the Discord <code>2023-everydayaihack-help</code> Channel and a helper will respond in that thread. If needed, a helper can also join your team’s Google Meet breakour room for easy screensharing, troubleshooting or to further discuss a question.</p>
+<p>(수료증 체크할때 README 글자수(간단) 또는 말이 되는지 체크를 llama2로 구현(어려움))</p>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -567,6 +544,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../tutorials/discord.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">디스코드 채널</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

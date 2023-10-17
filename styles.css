@@ -24,3 +24,9 @@
 .btn-submit {
   float: right;
 }
+
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    margin: 0 17.75em;
+  }
+}
