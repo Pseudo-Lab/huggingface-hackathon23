@@ -184,26 +184,88 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#hugging-face-hub" id="toc-hugging-face-hub" class="nav-link active" data-scroll-target="#hugging-face-hub">Hugging Face Hub</a></li>
+  <li><a href="#허깅페이스-스페이스-생성" id="toc-허깅페이스-스페이스-생성" class="nav-link active" data-scroll-target="#허깅페이스-스페이스-생성">허깅페이스 스페이스 생성</a></li>
+  <li><a href="#헤커톤-캘렉션과-연결" id="toc-헤커톤-캘렉션과-연결" class="nav-link" data-scroll-target="#헤커톤-캘렉션과-연결">헤커톤 캘렉션과 연결</a></li>
+  <li><a href="#수료증-발급" id="toc-수료증-발급" class="nav-link" data-scroll-target="#수료증-발급">수료증 발급</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><button onclick="window.location = location.href.replace('/ko/','/en/');" class="btn btn-translate">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Hugging Face Hub</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+<button onclick="window.location = location.href.replace('/ko/','/en/');" class="btn btn-translate">
 <i class="bi bi-translate"></i> See in English
 </button>
-
-
-
-<section id="hugging-face-hub" class="level1">
-<h1>Hugging Face Hub</h1>
-<ul>
-<li>Pseudolab Org 멤버 신청</li>
-<li>프로젝트 생성 - 과용 방지 글도 포함,</li>
-<li>Hugging Face KREW Hackathon 2023 콜렉션 아래에 넣기</li>
-<li>수료증 space 활용 -&gt; 발급 확인</li>
-</ul>
-<p>(수료증 체크할때 README 글자수(간단) 또는 말이 되는지 체크를 llama2로 구현(어려움))</p>
+<p>허깅페이스 헤커톤은 <code>컬랙션(collection)</code>과 <code>스페이스(space)</code>로 구성됩니다. <code>컬랙션</code>은 <code>스페이스</code>, <code>모델</code> 등 다양한 허깅페이스 리소스가 모인 집합입니다. 참가자의 허깅페이스 <code>스페이스</code>는 아래과 같이 <code>Hugging Face KREW Hackathon 2023</code>이라는 이름의 <code>컬랙션</code>에 포함됩니다.</p>
+<pre class="{shell}"><code>"Pseudo Lab" (collection)
+    ├── 참가자프로젝트(1) (space)
+    ├── ...
+    └── 참가자프로젝트(n) (space)</code></pre>
+<section id="허깅페이스-스페이스-생성" class="level2">
+<h2 class="anchored" data-anchor-id="허깅페이스-스페이스-생성">허깅페이스 스페이스 생성</h2>
+<p>참가자는 <code>Pseudo Lab</code> 컬랙션 우측 상단의 <code>New</code> 버튼을 누르고 <code>Space</code>를 선택해서 자신의 프로젝트 스페이스를 생성합니다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/paste-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/paste-4.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>스페이스 생성 페이지에서는 프로젝트 스페이스 생성을 위해서 필요한 정보를 작성합니다. 하나씩 확인해보겠습니다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/paste-5.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>스페이스 생성 초기 화면에서 <code>Space name</code>과 <code>License</code>를 입력합니다. <code>Space name</code>은 헤커톤 컬랙션에 카드 이름으로 표시됩니다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/paste-6.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p><code>SDK</code> 는 스페이스 데모 구성을 위해 어떤 기능을 사용할 지 결정합니다. 자신이 스페이스를 구성할 때 사용할 <code>SDK</code>를 선택합니다. 모든 <code>SDK</code>가 생소하신가요? 그렇다면 쉽게 배울 수 있고 다양한 예제가 있으니 허깅페이스에서 제공하는 UI 인터페이스 <code>Gradio</code>를 선택하길 추천드립니다. 튜토리얼에 <code>Gradio</code>에 대한 가이드 링크를 확인할 수 있습니다.</p>
+<p><code>Space hardware</code>는 프로젝트 스페이스를 실행할 하드웨어 자원을 기본 <code>Free</code> 항목으로 선택합니다. 헤커톤에서는 <code>Credit</code> 이 지원하는 범위에서 하드웨어 자원을 지원합니다. 프로젝트 개발 중 <code>GPU</code> 자원이 필요하다면 스페이스에서 변경이 가능합니다. 헤커톤에서는 <code>Credit</code>이 지원되는 범위에서 고급 하드웨어 자원을 지원합니다.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<pre><code>- 고급 GPU 하드웨어 자원을 사용하면 헤커톤 전체 Credit이 소모됩니다.
+- 모든 헤커톤 참가자가 하드웨어 자원을 사용할 수 있도록 효율적으로 사용부탁드립니다.</code></pre>
+</div>
+</div>
+</div>
+</section>
+<section id="헤커톤-캘렉션과-연결" class="level2">
+<h2 class="anchored" data-anchor-id="헤커톤-캘렉션과-연결">헤커톤 캘렉션과 연결</h2>
+<p>멋집니다! 이제 여러분은 자신의 프로젝트를 실행할 스페이스를 생성했고 다른 참가자들에게 빨리 소개하고 싶습니다. 프로젝트를 헤커톤 컬랙션에 연결하는 방법을 알아 봅시다.</p>
+<p><img src="images/paste-7.png" class="img-fluid"></p>
+<p>자신의 스페이스 우측 상단의 <code>...</code> 버튼을 누르고 <code>Add to collection</code>을 선택합니다.</p>
+<p><img src="images/paste-8.png" class="img-fluid"></p>
+<p><code>Hugging Face KREW Hackathon 2023 (pseudolab)</code>을 선택하여 자신의 스페이스를 헤커톤 컬렉션에 추가합니다.</p>
+</section>
+<section id="수료증-발급" class="level2">
+<h2 class="anchored" data-anchor-id="수료증-발급">수료증 발급</h2>
 
 
 </section>
