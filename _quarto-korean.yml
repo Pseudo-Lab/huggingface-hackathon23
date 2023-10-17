@@ -25,33 +25,25 @@ website:
     left:
       - text: 소개
         file: index.qmd
-      - text: 운영안내
-        file: logistics/index.qmd
-      - text: 튜토리얼
-        file: tutorials/index.qmd
-      - text: 제출하기
-        file: submit.qmd
+      - icon: bookmark-star
+        text: 데모 제출
+        href: https://huggingface.co/pseudolab
+        target: blank
+      - icon: building-check
+        text: 오프라인 참가
+        href: https://event-us.kr/huggingfacekrew/event/72612
+        target: blank
     tools:
-      - icon: twitter
-        href: https://twitter.com
-      - icon: github
-        href: https://github.com
+      - icon: discord
+        href: https://hf.co/join/discord
+        target: blank
 
   sidebar:
-    - title: 운영 안내
-      style: floating
-      contents:
-        - text: 주요 안내사항
-          file: logistics/index.qmd
-        - text: 팀 결성 방법
-          file: logistics/how-to-form-teams.qmd
-        # - text: 사전준비 사항
-        #   file: logistics/prerequisites.qmd
-
-    - title: 튜토리얼
-      contents:
-        - text: 개요
-          file: tutorials/index.qmd
+    style: floating
+    contents:
+      - index.qmd
+      - section: 튜토리얼
+        contents: tutorials/*
 
 format:
   html:

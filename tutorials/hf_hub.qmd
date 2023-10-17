@@ -1,0 +1,8 @@
+# Hugging Face Hub
+
+- Pseudolab Org 멤버 신청
+- 프로젝트 생성 - 과용 방지 글도 포함,
+- Hugging Face KREW Hackathon 2023 콜렉션 아래에 넣기
+- 수료증 space 활용 -> 발급 확인
+
+(수료증 체크할때 README 글자수(간단) 또는 말이 되는지 체크를 llama2로 구현(어려움))
