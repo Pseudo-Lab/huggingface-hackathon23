@@ -4,11 +4,11 @@ project:
 
 website:
   favicon: favicon.ico
-  open-graph: 
+  open-graph:
     title: "2023 일상에서의 AI 해커톤"
     description: "일상에서의 AI 해커톤은 국내 Hugging Face 사용자들이 모인 교류의 장으로써 기획되었습니다."
     image: assets/images/hackathon-960x540.png
-  twitter-card: 
+  twitter-card:
     title: "2023 일상에서의 AI 해커톤"
     description: "일상에서의 AI 해커톤은 국내 Hugging Face 사용자들이 모인 교류의 장으로써 기획되었습니다."
     image: assets/images/hackathon-960x540.png
@@ -41,7 +41,7 @@ website:
         target: blank
 
   sidebar:
-    logo: assets/images/poster.png
+    # logo: assets/images/poster.png
     pinned: true
     align: center
 
