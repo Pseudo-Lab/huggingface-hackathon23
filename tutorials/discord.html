@@ -29,7 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../tutorials/eventus.html" rel="next">
+<link href="../tutorials/hf_hub.html" rel="next">
 <link href="../tutorials/index.html" rel="prev">
 <link href="../favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
@@ -123,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tutorials/index.html">튜토리얼</a></li><li class="breadcrumb-item"><a href="../tutorials/discord.html">디스코드 채널</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tutorials/index.html">튜토리얼</a></li><li class="breadcrumb-item"><a href="../tutorials/discord.html">01_소통 채널 참여</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -153,19 +153,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../tutorials/discord.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">디스코드 채널</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tutorials/eventus.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Eventus</span></a>
+ <span class="menu-text">01_소통 채널 참여</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../tutorials/hf_hub.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Hugging Face Hub</span></a>
+ <span class="menu-text">02_프로젝트 생성</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/pr_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">03_프로젝트 제출 및 평가</span></a>
   </div>
 </li>
       </ul>
@@ -180,13 +180,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#디스코드-채널" id="toc-디스코드-채널" class="nav-link active" data-scroll-target="#디스코드-채널">디스코드 채널</a>
+  <li><a href="#소통-채널-참여" id="toc-소통-채널-참여" class="nav-link active" data-scroll-target="#소통-채널-참여">01_소통 채널 참여</a>
   <ul class="collapse">
-  <li><a href="#공식-해커톤-discord-서버에-가입하기" id="toc-공식-해커톤-discord-서버에-가입하기" class="nav-link" data-scroll-target="#공식-해커톤-discord-서버에-가입하기">1. 공식 해커톤 Discord 서버에 가입하기</a></li>
-  <li><a href="#채널-등록하기" id="toc-채널-등록하기" class="nav-link" data-scroll-target="#채널-등록하기">2. 채널 등록하기</a></li>
-  <li><a href="#자기-소개하기" id="toc-자기-소개하기" class="nav-link" data-scroll-target="#자기-소개하기">3. 자기 소개하기</a></li>
-  <li><a href="#다른-사람들과-연결하기" id="toc-다른-사람들과-연결하기" class="nav-link" data-scroll-target="#다른-사람들과-연결하기">4. 다른 사람들과 연결하기</a></li>
-  <li><a href="#최신-소식-받기" id="toc-최신-소식-받기" class="nav-link" data-scroll-target="#최신-소식-받기">5. 최신 소식 받기</a></li>
+  <li><a href="#해커톤-채널이-안-보여요" id="toc-해커톤-채널이-안-보여요" class="nav-link" data-scroll-target="#해커톤-채널이-안-보여요">해커톤 채널이 안 보여요!</a></li>
+  <li><a href="#첫-메시지는-무엇이-좋을까요" id="toc-첫-메시지는-무엇이-좋을까요" class="nav-link" data-scroll-target="#첫-메시지는-무엇이-좋을까요">첫 메시지는 무엇이 좋을까요?</a></li>
+  <li><a href="#더-궁금하신-점이-있으신가요" id="toc-더-궁금하신-점이-있으신가요" class="nav-link" data-scroll-target="#더-궁금하신-점이-있으신가요">더 궁금하신 점이 있으신가요?</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -198,99 +196,38 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="디스코드-채널" class="level1">
-<h1>디스코드 채널</h1>
-<p>Discord는 참가자들이 서로 연결하고 아이디어를 논의하며 해커톤을 위한 팀을 구성할 수 있는 이상적인 플랫폼을 제공합니다. 다음은 Discord에서 팀 구성 과정을 탐색하는 데 도움이 되는 단계별 가이드입니다.</p>
-<section id="공식-해커톤-discord-서버에-가입하기" class="level2">
-<h2 class="anchored" data-anchor-id="공식-해커톤-discord-서버에-가입하기">1. 공식 해커톤 Discord 서버에 가입하기</h2>
-<p>가장 먼저 공식 해커톤 <a href="https://discord.gg/hugging-face-879548962464493619">Discord서버</a>에 가입했는지 확인하세요.</p>
-</section>
-<section id="채널-등록하기" class="level2">
-<h2 class="anchored" data-anchor-id="채널-등록하기">2. 채널 등록하기</h2>
-<p>헤커톤을 위한 채널은 <code>krew23-hackathon</code>입니다. 채널을 등록하기 위해서 아래와 같이 디스코드 좌측 상단의 <code>채널 및 역할</code>로 이동합니다.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/paste-12.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/paste-13.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-<p>이제 헤커톤 채널을 등록하기 위해서 위와 같이 <code>Open Source ML</code>을 선택하세요. 이제 디스코드의 <code>OPEN SOURCE ML</code>하위에 <code>krew23-hackathon</code> 채널을 확인할 수 있습니다.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/paste-14.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-<div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
+<section id="소통-채널-참여" class="level2">
+<h2 class="anchored" data-anchor-id="소통-채널-참여">01_소통 채널 참여</h2>
+<p>해커톤에 오신 것을 환영합니다! 먼저 아래 링크를 통해 커뮤니티 서버에 오셔서 인사를 남겨주세요!</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-title-container flex-fill">
-<code>krew23-hackathon</code>을 즐겨찾기로 추가하면 찾아가기 쉽습니다. :-)
+<div class="callout-body-container">
+<p><a href="https://hf.co/join/discord">https://hf.co/join/discord</a></p>
 </div>
 </div>
-<div class="callout-body-container callout-body">
-
 </div>
-</div>
-<p><br></p>
+<p><img src="images/hf-server-first-steps.png" class="img-fluid"></p>
+<section id="해커톤-채널이-안-보여요" class="level3">
+<h3 class="anchored" data-anchor-id="해커톤-채널이-안-보여요">해커톤 채널이 안 보여요!</h3>
+<p>서버에 처음 들어오셨다면, <code>Open Source ML</code> 역할을 추가하고 <code>krew23-hackathon</code> 채널에 참여하여 해커톤과 관련된 다양한 대화에 뛰어들 수 있습니다. 여러분의 참여가 이곳의 에너지와 창의성을 한층 더 끌어올릴 것입니다. <img src="images/get-roles.png" class="img-fluid"></p>
 </section>
-<section id="자기-소개하기" class="level2">
-<h2 class="anchored" data-anchor-id="자기-소개하기">3. 자기 소개하기</h2>
+<section id="첫-메시지는-무엇이-좋을까요" class="level3">
+<h3 class="anchored" data-anchor-id="첫-메시지는-무엇이-좋을까요">첫 메시지는 무엇이 좋을까요?</h3>
+<p>커뮤니티와의 첫 인사는 깊은 인상을 남기기에 충분합니다. <code>krew23-hackathon</code> 채널에서 자신을 소개하며 시작해보세요. 본인의 전문 분야, 해커톤에서 이루고자 하는 목표, 그리고 함께하고 싶은 팀원의 조건 등을 말해주시면 다른 참가자들이 여러분을 더 잘 이해할 수 있습니다. <img src="images/introduce-yourself.png" class="img-fluid"></p>
+<p>또한, 다른 참가자들의 스레드에 적극적으로 참여하세요. 아이디어에 당신의 피드백을 공유하고, 함께 프로젝트를 만들어나가는 과정에서 서로의 생각을 충분히 교환하세요.</p>
+</section>
+<section id="더-궁금하신-점이-있으신가요" class="level3">
+<h3 class="anchored" data-anchor-id="더-궁금하신-점이-있으신가요">더 궁금하신 점이 있으신가요?</h3>
+<p>언제든지 궁금한 점이 생기면 아래 운영진에게 문의하여 즉각적인 도움을 받을 수 있습니다.</p>
 <ul>
-<li>채널에 자신에 대한 간단한 소개를 올려보세요:
-<ul>
-<li>본인의 기술 및 전문 지식</li>
-<li>해커톤 목표</li>
-<li>팀원에게 바라는 점</li>
-</ul></li>
+<li><span class="citation" data-cites="wonhseo">@wonhseo</span></li>
+<li><span class="citation" data-cites="gabriely1004">@gabriely1004</span></li>
+<li><span class="citation" data-cites="jungnerd">@jungnerd</span></li>
 </ul>
-<blockquote class="blockquote">
-<p>예시: “<em>안녕하세요, 저는 Alex입니다! 저는 자연어 처리(NLP)를 전문으로 하며 Hugging Face에 대한 경험이 있습니다. 팀을 구성할 프론트엔드 개발자와 데이터 과학자를 찾고 있습니다. 함께 놀라운 무언가를 만들어 봅시다!</em>”</p>
-</blockquote>
-<p><br></p>
-</section>
-<section id="다른-사람들과-연결하기" class="level2">
-<h2 class="anchored" data-anchor-id="다른-사람들과-연결하기">4. 다른 사람들과 연결하기</h2>
-<p>팀원 모집을 위한 <code>Thread</code>를 만들어 보세요. Discord에서는 <code>Thread</code>기능을 통해서 자신이 작성한 글을 중심으로 대화할 수 있는 기능을 제공합니다. 자신이 작성한 글에서 마우스 우클릭을 하여 <code>스레드 만들기</code>를 선택하면 스레드가 생성되고 관심있는 사람이 들어와 대화를 진행할 수 있습니다. 팀원을 모집할 때 사용하세요.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/paste-11.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-<p>다른 참가자의 소개 게시물에 참여하세요. 먼저 팀에 적합한 사람으로 보이는 사람이 있다면, 함께 대화해보세요:</p>
-<ul>
-<li>👍이모티콘으로 반응하고,</li>
-<li>더 자세히 논의하기 위해 쪽지를 보내세요.</li>
-</ul>
-<p><br></p>
-</section>
-<section id="최신-소식-받기" class="level2">
-<h2 class="anchored" data-anchor-id="최신-소식-받기">5. 최신 소식 받기</h2>
-<p>채널을 해커톤과 관련된 중요한 업데이트가 공유됩니다. 채널에 자주 참가해서 중요한 정보를 놓치지 마세요. 또한 서로 잘 맞는 팀원을 찾아 재미있는 해커톤의 초석을 마련할 수 있습니다.</p>
-<p>헤커톤 참여 과정에서 궁금한 것이 있다면 아래의 운영진 ID로 DM 또는 mention으로 문의 부탁드립니다.</p>
-<table class="table">
-<thead>
-<tr class="header">
-<th>운영진 ID</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>wonhseo</td>
-</tr>
-<tr class="even">
-<td>gabriely1004</td>
-</tr>
-<tr class="odd">
-<td>jungnerd</td>
-</tr>
-</tbody>
-</table>
+<p>이제, 여러분은 해커톤의 중심지인 이 커뮤니티의 일원입니다. 여러분의 참여와 소통이 이 커뮤니티를 더욱 풍요롭게 만든다는 점, 잊지 말아주세요. 여러분의 새로운 도전을 응원합니다!</p>
 
 
 </section>
@@ -652,8 +589,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../tutorials/eventus.html" class="pagination-link">
-        <span class="nav-page-text">Eventus</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../tutorials/hf_hub.html" class="pagination-link">
+        <span class="nav-page-text">02_프로젝트 생성</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

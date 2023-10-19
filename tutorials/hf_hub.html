@@ -29,7 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../tutorials/eventus.html" rel="prev">
+<link href="../tutorials/pr_guide.html" rel="next">
+<link href="../tutorials/discord.html" rel="prev">
 <link href="../favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -122,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tutorials/index.html">튜토리얼</a></li><li class="breadcrumb-item"><a href="../tutorials/hf_hub.html">Hugging Face Hub</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tutorials/index.html">튜토리얼</a></li><li class="breadcrumb-item"><a href="../tutorials/hf_hub.html">02_프로젝트 생성</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -152,19 +153,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../tutorials/discord.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">디스코드 채널</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tutorials/eventus.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Eventus</span></a>
+ <span class="menu-text">01_소통 채널 참여</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../tutorials/hf_hub.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Hugging Face Hub</span></a>
+ <span class="menu-text">02_프로젝트 생성</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/pr_guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">03_프로젝트 제출 및 평가</span></a>
   </div>
 </li>
       </ul>
@@ -179,13 +180,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#허깅페이스-스페이스-생성" id="toc-허깅페이스-스페이스-생성" class="nav-link active" data-scroll-target="#허깅페이스-스페이스-생성">1. 허깅페이스 스페이스 생성</a>
-  <ul class="collapse">
-  <li><a href="#space-name-과-license" id="toc-space-name-과-license" class="nav-link" data-scroll-target="#space-name-과-license">Space Name 과 License</a></li>
-  <li><a href="#sdk-와-space-hardware" id="toc-sdk-와-space-hardware" class="nav-link" data-scroll-target="#sdk-와-space-hardware">SDK 와 Space hardware</a></li>
-  </ul></li>
-  <li><a href="#헤커톤-컬렉션과-연결" id="toc-헤커톤-컬렉션과-연결" class="nav-link" data-scroll-target="#헤커톤-컬렉션과-연결">2. 헤커톤 컬렉션과 연결</a></li>
-  <li><a href="#스페이스-복사해서-추가하기" id="toc-스페이스-복사해서-추가하기" class="nav-link" data-scroll-target="#스페이스-복사해서-추가하기">3. 스페이스 복사해서 추가하기</a></li>
+  <li><a href="#hugging-face-가입" id="toc-hugging-face-가입" class="nav-link active" data-scroll-target="#hugging-face-가입">Hugging Face 가입</a></li>
+  <li><a href="#pseudo-lab-기여자-등록" id="toc-pseudo-lab-기여자-등록" class="nav-link" data-scroll-target="#pseudo-lab-기여자-등록">Pseudo Lab 기여자 등록</a></li>
+  <li><a href="#바로-프로젝트-생성해보기" id="toc-바로-프로젝트-생성해보기" class="nav-link" data-scroll-target="#바로-프로젝트-생성해보기">바로 프로젝트 생성해보기</a></li>
+  <li><a href="#콜렉션에-공유하기" id="toc-콜렉션에-공유하기" class="nav-link" data-scroll-target="#콜렉션에-공유하기">콜렉션에 공유하기</a></li>
+  <li><a href="#기존-프로젝트-가져오기" id="toc-기존-프로젝트-가져오기" class="nav-link" data-scroll-target="#기존-프로젝트-가져오기">기존 프로젝트 가져오기</a></li>
   </ul>
 </nav>
     </div>
@@ -194,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Hugging Face Hub</h1>
+<h1 class="title">02_프로젝트 생성</h1>
 </div>
 
 
@@ -211,14 +210,33 @@ ul.task-list li input[type="checkbox"] {
 <button onclick="window.location = location.href.replace('/ko/','/en/');" class="btn btn-translate">
 <i class="bi bi-translate"></i> See in English
 </button>
-<p>허깅페이스 헤커톤은 <code>컬랙션(collection)</code>과 <code>스페이스(space)</code>로 구성됩니다. <code>컬랙션</code>은 <code>스페이스</code>, <code>모델</code> 등 다양한 허깅페이스 리소스가 모인 집합입니다. 참가자의 허깅페이스 <code>스페이스</code>는 아래과 같이 <code>Hugging Face KREW Hackathon 2023</code>이라는 이름의 <code>컬랙션</code>에 포함됩니다.</p>
+<p>이제 본격적으로 해커톤 여정을 시작해봅시다! 이번 해커톤에서는 각자의 뛰어난 아이디어와 프로젝트를 <code>Hugging Face KREW Hackathon 2023</code> 컬렉션에 등록하여 전 세계 사람들과 공유하는 기회를 갖게 됩니다.</p>
 <pre class="{shell}"><code>"Hugging Face KREW Hackathon 2023" (collection)
     ├── 참가자프로젝트(1) (space)
     ├── ...
-    └── 참가자프로젝트(n) (space)</code></pre>
-<section id="허깅페이스-스페이스-생성" class="level2">
-<h2 class="anchored" data-anchor-id="허깅페이스-스페이스-생성">1. 허깅페이스 스페이스 생성</h2>
-<p>참가자는 <code>Pseudo Lab</code> 컬랙션 우측 상단의 <code>New</code> 버튼을 누르고 <code>Space</code>를 선택해서 자신의 프로젝트 스페이스를 생성합니다.</p>
+    ├── 참가자프로젝트(n-1) (model)
+    └── 참가자프로젝트(n) (dataset)</code></pre>
+<section id="hugging-face-가입" class="level3">
+<h3 class="anchored" data-anchor-id="hugging-face-가입">Hugging Face 가입</h3>
+<p>시작하기 전에, <a href="https://hf.co/join">hf.co/join</a> 링크를 통해 Hugging Face에 가입하시고, 전 세계적인 커뮤니티의 일원이 되어 주세요. 간단한 회원 가입 과정을 거치면 됩니다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/join-huggingface.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="pseudo-lab-기여자-등록" class="level3">
+<h3 class="anchored" data-anchor-id="pseudo-lab-기여자-등록">Pseudo Lab 기여자 등록</h3>
+<p>회원 가입을 마친 후, <a href="https://huggingface.co/organizations/pseudolab/share/UYPZnwyOTadGJDReehItrwtbWKSxHYmAku">기여자 등록</a> 페이지로 이동하여 ’Pseudo Lab’의 프로젝트에 기여할 수 있는 권한을 얻으세요. 여러분의 아이디어가 빛을 발할 수 있는 공간을 제공합니다.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/join-pseudolab.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="바로-프로젝트-생성해보기" class="level3">
+<h3 class="anchored" data-anchor-id="바로-프로젝트-생성해보기">바로 프로젝트 생성해보기</h3>
+<p><code>Pseudo Lab</code> 조직 내에서 <code>New</code> 버튼을 눌러 새로운 <code>Space</code>를 시험삼아 만들어보세요. 여기서 <code>Space name</code>은 여러분의 프로젝트를 대표할 이름을 사용해 주세요. 라이선스 선택 부분에서는 “<a href="https://www.olis.or.kr/license/Detailselect.do?lId=1002">Apache 2.0 License</a>”를 추천합니다.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/paste-2.png" class="img-fluid figure-img"></p>
@@ -229,71 +247,46 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/paste-4.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
-<p>스페이스 생성 페이지에서는 프로젝트 스페이스 생성을 위해서 필요한 정보를 작성합니다. 하나씩 확인해보겠습니다.</p>
-<section id="space-name-과-license" class="level3">
-<h3 class="anchored" data-anchor-id="space-name-과-license">Space Name 과 License</h3>
-<p>스페이스 생성 초기 화면에서 <code>Space name</code>과 <code>License</code>를 입력합니다.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/paste-5.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-<p><code>Space name</code>은 헤커톤 컬랙션에 카드 이름으로 표시됩니다. <code>Licsnse</code>는 <a href="https://www.olis.or.kr/license/Detailselect.do?lId=1002">아파치 라이선스</a>를 사용하기 위해서 “Apache License”를 선택합니다.</p>
-</section>
-<section id="sdk-와-space-hardware" class="level3">
-<h3 class="anchored" data-anchor-id="sdk-와-space-hardware">SDK 와 Space hardware</h3>
-<p>이제 <code>SDK</code>와 <code>Space hardware</code>를 항목에서 프로젝트 스페이스의 실행을 위한 설정을 진행합니다.</p>
+<p>프로젝트를 실제로 작동시킬 설정도 중요합니다. <code>SDK</code> 옵션에서는 특히 초보자분들께 <code>Gradio</code>를 추천드려요. 사용하기 쉽고, 다양한 예제를 통해 빠르게 배울 수 있습니다. 그리고 하드웨어는 기본적으로 제공되는 무료 CPU 자원을 사용하되, 필요에 따라 추가적인 <code>GPU</code> 자원을 요청할 수도 있어요. 하지만, 모든 참가자가 자원을 공유해야 하니 꼭 필요한 경우에만 요청해 주세요!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/paste-6.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
-<p><code>SDK</code> 는 스페이스 데모 구성을 위해 어떤 기능을 사용할 지 결정합니다. 자신이 스페이스를 구성할 때 사용할 <code>SDK</code>를 선택합니다. 모든 <code>SDK</code>가 생소하신가요? 그렇다면 쉽게 배울 수 있고 다양한 예제가 있으니 허깅페이스에서 제공하는 UI 인터페이스 <code>Gradio</code>를 선택하길 추천드립니다. 튜토리얼에 <code>Gradio</code>에 대한 가이드 링크를 확인할 수 있습니다.</p>
-<p><code>Space hardware</code>는 프로젝트 스페이스를 실행할 하드웨어 자원을 기본 <code>Free</code> 항목으로 선택합니다. 헤커톤에서는 <code>Credit</code> 이 지원하는 범위에서 하드웨어 자원을 지원합니다. 프로젝트 개발 중 <code>GPU</code> 자원이 필요하다면 스페이스에서 변경이 가능합니다. 헤커톤에서는 <code>Credit</code>이 지원되는 범위에서 고급 하드웨어 자원을 지원합니다.</p>
 <div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<pre><code>- 고급 GPU 하드웨어 자원을 사용하면 헤커톤 전체 Credit이 소모됩니다.
-- 모든 헤커톤 참가자가 하드웨어 자원을 사용할 수 있도록 효율적으로 사용부탁드립니다.</code></pre>
+<ul>
+<li>고급 GPU 하드웨어 자원을 사용하면 해커톤 전체 Credit이 소모됩니다.</li>
+<li>다른 참가자를 배려한 효율적인 사용 부탁드립니다.</li>
+</ul>
 </div>
 </div>
 </div>
 </section>
-</section>
-<section id="헤커톤-컬렉션과-연결" class="level2">
-<h2 class="anchored" data-anchor-id="헤커톤-컬렉션과-연결">2. 헤커톤 컬렉션과 연결</h2>
+<section id="콜렉션에-공유하기" class="level3">
+<h3 class="anchored" data-anchor-id="콜렉션에-공유하기">콜렉션에 공유하기</h3>
 <p>멋집니다! 이제 여러분은 자신의 프로젝트를 실행할 스페이스를 생성했고 다른 참가자들에게 빨리 소개하고 싶습니다. 프로젝트를 헤커톤 컬랙션에 연결하는 방법을 알아 봅시다.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/paste-7.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
-<p>자신의 스페이스 우측 상단의 <code>...</code> 버튼을 누르고 <code>Add to collection</code>을 선택합니다.</p>
+<p>우측 상단의 <code>...</code> 버튼을 누르고 <code>Add to collection</code>을 선택하세요.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/paste-8.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
-<p><code>Hugging Face KREW Hackathon 2023 (pseudolab)</code>을 선택하여 자신의 스페이스를 헤커톤 컬렉션에 추가합니다.</p>
+<p><code>Hugging Face KREW Hackathon 2023 (pseudolab)</code>을 선택하여 자신의 프로젝트를 헤커톤 컬렉션에 추가할 수 있습니다.</p>
 </section>
-<section id="스페이스-복사해서-추가하기" class="level2">
-<h2 class="anchored" data-anchor-id="스페이스-복사해서-추가하기">3. 스페이스 복사해서 추가하기</h2>
-<p>자신의 Profile 상에서 생성한 스페이스를 헤커톤 컬랙션에 연결할 수 있습니다.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/paste-15.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-<p>스페이스 우측 상단의 <code>…</code> 버튼 &gt; <code>Duplicate this Space</code>를 선택합니다. 스페이스의 <code>Owner</code>를 <code>pseudolab</code>으로 변경하면 스페이스가 복제됩니다. 복제가 완료되면 스페이스의 조작이 <code>pseudolab</code>으로 변경됩니다.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/paste-17.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-<p>이제 스페이스가 <code>pseudolab</code> 에 생성되었기 때문에 컬렉션에 추가 할 수 있습니다. <code>2. 헤커톤 컬렉션과 연결</code> 을 참고해서 컬랙션에 추가하세요.</p>
+<section id="기존-프로젝트-가져오기" class="level3">
+<h3 class="anchored" data-anchor-id="기존-프로젝트-가져오기">기존 프로젝트 가져오기</h3>
+<p>개인 스페이스에서 프로젝트를 먼저 시작한 경우에도 걱정하지 마세요. 스페이스를 복제한 후, 소유권을 <code>pseudolab</code>으로 변경하면 동일한 방법으로 컬렉션에 추가할 수 있습니다.</p>
+<p><img src="images/paste-15.png" class="img-fluid"> <img src="images/paste-17.png" class="img-fluid"></p>
 
 
 </section>
@@ -649,11 +642,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../tutorials/eventus.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Eventus</span>
+      <a href="../tutorials/discord.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">01_소통 채널 참여</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../tutorials/pr_guide.html" class="pagination-link">
+        <span class="nav-page-text">03_프로젝트 제출 및 평가</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
