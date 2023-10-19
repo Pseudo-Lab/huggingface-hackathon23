@@ -1,6 +1,6 @@
 project:
   title: "2023 Everyday AI Hackathon"
-  output-dir: ./_site/en
+  output-dir: ./docs/en
 
 website:
   favicon: favicon.ico

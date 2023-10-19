@@ -1,6 +1,6 @@
 project:
   title: "2023 일상에서의 AI 해커톤"
-  output-dir: ./_site/ko
+  output-dir: ./docs/ko
 
 website:
   favicon: favicon.ico
