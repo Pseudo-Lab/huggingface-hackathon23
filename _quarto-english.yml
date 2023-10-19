@@ -29,7 +29,7 @@ website:
         file: index.qmd
       - icon: bookmark-star
         text: Submit your Project
-        href: https://huggingface.co/pseudolab
+        href: https://huggingface.co/organizations/pseudolab/share/UYPZnwyOTadGJDReehItrwtbWKSxHYmAku
         target: blank
       - icon: building-check
         text: Offline event

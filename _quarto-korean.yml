@@ -29,7 +29,7 @@ website:
         file: index.qmd
       - icon: bookmark-star
         text: 데모 제출
-        href: https://huggingface.co/pseudolab
+        href: https://huggingface.co/organizations/pseudolab/share/UYPZnwyOTadGJDReehItrwtbWKSxHYmAku
         target: blank
       - icon: building-check
         text: 오프라인 참가
