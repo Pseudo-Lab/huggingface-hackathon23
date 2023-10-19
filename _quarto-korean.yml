@@ -60,7 +60,10 @@ format:
     code-copy: true
     css: styles.css
     toc: true
-    mainfont: Pretendard
+    header-includes: |
+      <link rel="stylesheet" media="screen" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" type="text/css"/>
+
+mainfont: Pretendard
 
 filters:
   - include-files.lua
