@@ -28,7 +28,7 @@ format:
 ### 2. 보상 및 혜택
 
 - 해커톤 기간 동안 HF 크레딧 지원
-- 헤커톤 완주 수료증
+- 해커톤 완주 수료증 ([예시](https://huggingface.co/datasets/pseudolab/huggingface-krew-hackathon2023/resolve/main/certificates/wseo.pdf))
 - 다양한 네트워킹 기회
 - 오프라인 행사 초청자에게 제공되는 특별한 혜택 (상세 내용은 추후 공개 예정)
 
@@ -77,7 +77,7 @@ format:
   ]'
   options="'Apple','Google'"
   hideBackground="True"
-  buttonStyle="flat"
+  buttonStyle="round"
 ></add-to-calendar-button>
 ```
 
