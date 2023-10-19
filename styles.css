@@ -39,3 +39,59 @@ body {
     margin: 0 17.75em;
   }
 }
+
+/* Our Grid Code */
+.app-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 20vh;
+}
+
+/* try to resize the screen */
+@media screen and (max-width: 1024px) {
+  .app-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20vh 20vh;
+  }
+}
+
+a.box {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  padding: 40px 0;
+
+  text-decoration: none;
+  text-align: center;
+  margin: 20px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-weight: bolder;
+}
+
+.box i {
+  font-size: 2rem;
+}
+
+/* Gradient 1 */
+#g1 {
+  background: linear-gradient(0deg, #69b7eb, #88ccfa);
+}
+
+/* Gradient 2 */
+#g2 {
+  background: linear-gradient(0deg, #b3dbd3, #cfecd0);
+}
+
+/* Gradient 3 */
+#g3 {
+  background: linear-gradient(0deg, #f598a8, #ffc5ca);
+}
+
+/* Gradient 4 */
+#g4 {
+  background: linear-gradient(0deg, #f6edb2, #fff1c8);
+  color: grey;
+}
