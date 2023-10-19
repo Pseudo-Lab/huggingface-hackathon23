@@ -60,6 +60,7 @@ format:
     code-copy: true
     css: styles.css
     toc: true
+    mainfont: Pretendard
 
 filters:
   - include-files.lua
