@@ -21,38 +21,36 @@ website:
     </button>
 
   navbar:
+    logo: assets/images/navbar-logo.png
+    title: " "
     search: true
     left:
       - text: About
         file: index.qmd
-      - text: Logistics
-        file: logistics/index.qmd
-      - text: Tutorials
-        file: tutorials/index.qmd
-      - text: Submit
-        file: submit.qmd
+      - icon: bookmark-star
+        text: Submit your Project
+        href: https://huggingface.co/pseudolab
+        target: blank
+      - icon: building-check
+        text: Offline event
+        href: https://event-us.kr/huggingfacekrew/event/72612
+        target: blank
     tools:
-      - icon: twitter
-        href: https://twitter.com
-      - icon: github
-        href: https://github.com
+      - icon: discord
+        href: https://hf.co/join/discord
+        target: blank
 
   sidebar:
-    - title: Logistics
-      style: floating
-      contents:
-        - text: Main Guidelines
-          file: logistics/index.qmd
-        - text: How to Form a Team
-          file: logistics/how-to-form-teams.qmd
-        # - text: 사전준비 사항
-        #   file: logistics/prerequisites.qmd
+    # logo: assets/images/poster.png
+    pinned: true
+    align: center
 
-    - title: Tutorials
-      contents:
-        - text: Overview
-          file: tutorials/index.qmd
-      
+    style: floating
+    contents:
+      - index.qmd
+      - section: Tutorials
+        contents: tutorials/*
+
 format:
   html:
     theme:
@@ -62,6 +60,10 @@ format:
     code-copy: true
     css: styles.css
     toc: true
+    header-includes: |
+      <link rel="stylesheet" media="screen" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" type="text/css"/>
+
+mainfont: Pretendard
 
 filters:
   - include-files.lua

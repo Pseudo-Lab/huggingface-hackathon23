@@ -32,29 +32,32 @@
 :::
 
 ::: {.content-visible when-profile="english"}
-### Tutorials Overview
+## Tutorial Overview
 
-The success of our hackathon participants is of utmost importance to us. To ensure everyone has the tools and knowledge needed to create innovative projects, we are in the process of curating a series of tutorials tailored to various aspects of the hackathon. Whether you're a beginner getting your feet wet or an experienced developer looking for advanced techniques, our tutorials will be designed to cater to all proficiency levels.
+Welcome to the first page of your journey. This guide is designed to provide you with the information necessary for the Hugging Face KREW Hackathon 2023.
 
-### What to Expect
+We intend to briefly guide you through the processes from the initiation of your project to submission and evaluation, step by step. Please use this page as a reference material while preparing for the hackathon!
 
-1. Getting Started
-   - **Platform Orientation:** Understand the basics of the tools and platforms we're using in the hackathon.
-   - **Setting Up Your Environment:** Step-by-step guides to ensure your development environment is hackathon-ready.
+### 01. Before You Start: Checking the Prerequisites
+   - Joining the communication channels
+   - Team-building guide
 
-2. Hugging Face 101
-   - **Introduction to Hugging Face:** A beginner's guide to understanding the Hugging Face ecosystem.
-   - **Deploying Your First Model:** Learn how to get your model up and running with Hugging Face.
+### 02. Project Initiation: Taking the First Step
+   - How to sign up for Hugging Face
+   - Registering as a Pseudo Lab contributor
+   - Project registration and setup
 
-3. Advanced Techniques
-   - **Optimizing Model Performance:** Tips and tricks to get the most out of your models.
-   - **Integration with Other Platforms:** Guides on how to integrate Hugging Face with other popular tools and platforms.
+### 03. Project Submission and Evaluation: Enhancing the Value of Your Outputs
+   - Ways to contribute to the project
+   - Guidelines for communication and collaboration with the community
+   - Submission of the completed project
 
-4. Collaboration and Teamwork
-   - **Best Practices for Team Collaboration:** Ensure smooth teamwork and efficient collaboration during the hackathon.
-   - **Version Control and Collaboration with Git:** A guide on how to use Git for team projects.
+### 04. Concluding the Hackathon: The Journey’s End (Scheduled for release on Oct 22nd)
+   - Procedure for the issuance of completion certificates
+   - Sharing participants' feedback and reflections
+   - Post-hackathon activities and opportunities
 
----
+This curriculum is structured to give you a basic understanding of the process needed to complete the hackathon.
 
-We're actively working on producing these tutorials and will be releasing them in the coming weeks. We encourage participants to regularly check this section for updates. If there are specific topics you'd like to see covered, please let us know in the `#support` channel on Discord.
+We hope this hackathon contributes to your technical growth and creative advancements. Let's collaboratively craft an extraordinary experience through this hackathon. Best of luck!
 :::

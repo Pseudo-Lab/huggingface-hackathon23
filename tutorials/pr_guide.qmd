@@ -1,3 +1,4 @@
+::: {.content-visible when-profile="korean"}
 ## 03_기여 및 제출
 
 이제부터는 커뮤니티와의 소통과 평가 과정을 통해 프로젝트의 가치를 더욱 높일 수 있는 단계입니다. 해커톤은 서로의 작업을 공유하고 성장할 수 있는 소중한 기회이니만큼 적극적인 참여 부탁드려요!
@@ -37,3 +38,46 @@
 ### 해커톤 및 평가 일정 확인
 
 프로젝트 제출 이후, 전체 해커톤 기간인 3주 동안 여러분의 프로젝트는 커뮤니티의 리뷰와 평가를 받게 됩니다. 이 기간에 프로젝트의 질을 보증하고 부정행위를 방지하기 위해, 팀별로 적어도 (팀원 수 + 2)개의 '좋아요'를 받아야 수료증이 발급된다는 점, 잊지 마세요!
+:::
+
+::: {.content-visible when-profile="english"}
+## 03_Contributions and Submissions
+
+This phase marks a critical juncture where you can enhance the value of your project through community interaction and assessment processes. The hackathon represents a valuable opportunity to share and grow each other's work, so your active participation is highly encouraged!
+
+### Contributing to a Project
+
+Begin by visiting the `Community` tab of a project that piques your interest and click the `New Pull Request` button.
+
+![](images/community-tab.png)
+
+To clearly communicate your intended contributions, please concisely articulate an overview of your planned work in the commit message section of the new window that appears. This approach significantly eases the process of tracking project contribution histories later on.
+
+![](images/new-pr-message.png)
+
+As shown on the screen, proceed with `clone`, `fetch`, and `checkout` to set up your local environment for work.
+
+![](images/pr-get-started.png)
+
+### Access Token Generation and Login Process
+
+Subsequently, you'll need to create an access token through your Hugging Face account and utilize it for login. This token plays a crucial role in authenticating and safeguarding your contributions. For detailed instructions, please refer to the [English guide](https://huggingface.co/docs/hub/security-tokens).
+
+![](https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/hub/User-Access-Token.png)
+
+To verify a successful login, execute the `huggingface-cli whoami` command in your terminal.
+
+### Sharing Work and Committing
+
+Commit important stages of your project as you progress, and push them to maintain continuous communication with the community. This process ensures the transparent sharing of your work's ongoing progress.
+
+![](images/pr-examples.png)
+
+### Crafting a README
+
+The project's README file should be meticulously crafted to ensure that anyone can easily comprehend the project. It should provide ample information about the project, including its objectives, the technologies employed, key changes, among other pertinent details.
+
+### Hackathon and Evaluation Timeline
+
+Following the submission of your project, there is a three-week period throughout the entire hackathon during which your project will be subject to community reviews and evaluations. During this phase, to uphold the caliber of the project and prevent any unfair practices, remember that each team must receive at least (number of team members + 2) 'likes' to be issued a completion certificate.
+:::

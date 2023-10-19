@@ -1,3 +1,4 @@
+::: {.content-visible when-profile="korean"}
 ## 02_프로젝트 생성
 
 이제 본격적으로 해커톤 여정을 시작해봅시다! 이번 해커톤에서는 각자의 뛰어난 아이디어와 프로젝트를 `Hugging Face KREW Hackathon 2023` 컬렉션에 등록하여 전 세계 사람들과 공유하는 기회를 갖게 됩니다.
@@ -37,9 +38,9 @@
 - 다른 참가자를 배려한 효율적인 사용 부탁드립니다.
 :::
 
-### 콜렉션에 공유하기
+### 컬렉션에 공유하기
 
-멋집니다! 이제 여러분은 자신의 프로젝트를 실행할 스페이스를 생성했고 다른 참가자들에게 빨리 소개하고 싶습니다. 프로젝트를 헤커톤 컬랙션에 연결하는 방법을 알아 봅시다.
+멋집니다! 이제 여러분은 자신의 프로젝트를 실행할 스페이스를 생성했고 다른 참가자들에게 빨리 소개하고 싶습니다. 프로젝트를 해커톤 컬렉션에 연결하는 방법을 알아 봅시다.
 
 ![](images/paste-7.png){fig-align="center"}
 
@@ -47,7 +48,7 @@
 
 ![](images/paste-8.png){fig-align="center"}
 
-`Hugging Face KREW Hackathon 2023 (pseudolab)`을 선택하여 자신의 프로젝트를 헤커톤 컬렉션에 추가할 수 있습니다.
+`Hugging Face KREW Hackathon 2023 (pseudolab)`을 선택하여 자신의 프로젝트를 해커톤 컬렉션에 추가할 수 있습니다.
 
 ### 기존 프로젝트 가져오기
 
@@ -55,3 +56,66 @@
 
 ![](images/paste-15.png)
 ![](images/paste-17.png)
+
+:::
+
+::: {.content-visible when-profile="english"}
+## 02_Creating a Project
+
+Let's kickstart your journey through the hackathon! In this hackathon, you will have the opportunity to register your innovative ideas and projects in the `Hugging Face KREW Hackathon 2023` collection, and share them with both the local and global audience via a wall of fame in our offline event and community blog post on Hugging Face.
+
+```{shell}
+"Hugging Face KREW Hackathon 2023" (collection)
+    ├── ParticipantProject(1) (space)
+    ├── ...
+    ├── ParticipantProject(n-1) (model)
+    └── ParticipantProject(n) (dataset)
+```
+
+### Registering with Hugging Face
+Before you begin, sign up with Hugging Face through this link: [hf.co/join](https://hf.co/join). Become part of a global community by completing a simple registration process.
+
+![](images/join-huggingface.png){fig-align="center"}
+
+### Enrolling as a Pseudo Lab Contributor
+After signing up, proceed to the [Contributor Registration](https://huggingface.co/organizations/pseudolab/share/UYPZnwyOTadGJDReehItrwtbWKSxHYmAku) page and gain the privilege to contribute to 'Pseudo Lab' projects. This platform is where your ideas will shine.
+
+![](images/join-pseudolab.png){fig-align="center"}
+
+### Directly Creating Your Project
+
+Try creating a new `Space` by clicking the `New` button within the `Pseudo Lab` organization. For the `Space name`, use something representative of your project. In the license selection, we recommend the "[Apache 2.0 License](https://www.olis.or.kr/license/Detailselect.do?lId=1002)."
+
+![](images/paste-2.png){fig-align="center"}
+
+![](images/paste-4.png){fig-align="center"}
+
+Configuring your project for actual deployment is crucial. In the `SDK` options, we particularly recommend `Gradio` for beginners. It's user-friendly, offering various examples for quick learning. While the basic free CPU resources are provided for hardware, you can request additional `GPU` resources if necessary. However, please make such requests only when essential, as all participants share these resources!
+
+![](images/paste-6.png){fig-align="center"}
+
+::: {.callout-note appearance="simple"}
+- Using advanced GPU hardware resources will consume the overall hackathon Credit.
+- We request efficient usage with consideration for other participants.
+:::
+
+### Sharing in the Collection
+
+Fantastic! Now that you've created a space for launching your project, you're probably eager to introduce it to other participants. Let’s see how to link your project to the hackathon collection.
+
+![](images/paste-7.png){fig-align="center"}
+
+Click the `...` button in the upper right corner and select `Add to collection`.
+
+![](images/paste-8.png){fig-align="center"}
+
+Choose `Hugging Face KREW Hackathon 2023 (pseudolab)` to add your project to the hackathon collection.
+
+### Importing an Existing Project
+
+If you’ve already initiated a project in your personal space, no need to worry. You can clone the space, change the ownership to `pseudolab`, and add it to the collection following the same procedure.
+
+![](images/paste-15.png)
+![](images/paste-17.png)
+
+:::

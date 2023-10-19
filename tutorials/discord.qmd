@@ -33,56 +33,37 @@
 :::
 
 ::: {.content-visible when-profile="english"}
-## **How to Form Teams in Discord**
+## 01_Joining Discord
 
-Discord offers an ideal platform for participants to connect, discuss ideas, and form teams for our hackathon. Below is a step-by-step guide to help you navigate the team formation process on Discord.
+Welcome to the hackathon! First things first, please follow the link below to join our community server and drop a greeting!
 
-### 1. Join the Official Hackathon Discord Server
+::: {.callout-note appearance="simple"}
+[https://hf.co/join/discord](https://hf.co/join/discord)
+:::
 
-First and foremost, ensure you've joined the official hackathon Discord server.
+![](images/hf-server-first-steps.png)
 
-### 2. Familiarize Yourself with the Channels
+### I Can't See the Hackathon Channel!
 
-Once you've joined, take a moment to familiarize yourself with the various channels. There should be a specific channel dedicated to team formation, named `#team-formation`.
+If you're new to the server, you’ll need to add the `Open Source ML` role to dive into the diverse conversations happening in the `krew23-hackathon` channel. Your involvement will undoubtedly elevate the energy and creativity here.
 
-### 3. Introduce Yourself
+![](images/get-roles.png)
 
--   In the `#team-formation` channel, post a brief introduction about yourself. Include:
-    -   Your skills and expertise
-    -   Your hackathon goals
-    -   What you're looking for in team members
+### What Should Be My First Message?
 
-For example:
+Your initial engagement with the community can leave a lasting impression. Start by introducing yourself in the `krew23-hackathon` channel. Sharing your expertise, objectives for this hackathon, and the qualities you’re seeking in potential team members can help others understand and connect with you better.
 
-> "*Hi, I'm Alex! I specialize in NLP and have experience with Hugging Face. Looking for a frontend developer and a data scientist to form a team. Let's create something amazing together!*"
+![](images/introduce-yourself.png)
 
-### 4. Connect with Others
+Additionally, don’t hesitate to contribute to other participants' threads. Share your feedback on their ideas and engage in thorough exchanges of thoughts as you collaborate on projects.
 
-Engage with other participants' introduction posts. If someone seems like a potential fit for your team, you can:
+### Any Further Questions?
 
--   React to their message with a thumbs-up emoji.
--   Send them a direct message to discuss in more detail.
+Should you have any inquiries, feel free to reach out directly to the administrators listed below for immediate assistance.
 
-### 5. Use Voice Channels for Deeper Discussion
+- @wonhseo
+- @gabriely1004
+- @jungnerd
 
-If you're getting serious about teaming up, hop into one of the available voice channels to chat in real-time. This will help ensure compatibility and alignment of goals.
-
-### 6. Confirm Your Team
-
-Once you've formed a team:
-
--   Announce your team members in the `#team-formation` channel: "\_Team \[YourTeamName\]: @Alex, @Jordan, @Taylor_"
--   Designate a team leader who'll be responsible for official communications during the hackathon.
-
-### 7. Create a Discord Group (Optional)
-
-You can make a private channel for your team via [Discord Groups](https://www.alphr.com/create-groups-discord/). This will give you a dedicated space to discuss strategies, share resources, and collaborate.
-
-### 8. Stay Updated
-
-Always keep an eye on `#announcements` or any other important channels. Admins or organizers will post important updates related to team formation or other hackathon processes.
-
-------------------------------------------------------------------------
-
-Discord offers a seamless platform for participants to connect and form teams. By following the steps above, you'll find compatible team members and set the stage for a successful hackathon experience. Best of luck, and happy team forming!
+Now, you are an integral part of this hackathon's epicenter, the community. Never underestimate how your participation and communication enrich this communal experience. We support your new venture wholeheartedly!
 :::
