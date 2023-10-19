@@ -125,13 +125,41 @@ format:
 ::: {.content-visible when-profile="english"}
 ## Introduction
 
-Hello there!
+Welcome to the Hugging Face KREW Hackathon!
 
-This hackathon is for everyone who shares a love for Hugging Face, providing a platform where your passion and creativity can shine. Please read through the guidelines carefully and join us in this journey of collective growth.
+This hackathon is for everyone who shares a love for Hugging Face, a platform to showcase your passion and creativity. Please read through the guidelines carefully and join us in this journey of collective growth.
 
 ### 1. How Does It Work?
 
 Participating in the hackathon is easy! Just follow these 4 steps carefully:
+
+```{=html}
+<div class='app-layout'>
+  <a class='box' id='g1' href="./tutorials/discord.html">
+    <i class="bi bi-1-circle"></i>
+    <br>
+    Join Discord
+  </a>
+  <a class='box' id='g2' href="./tutorials/hf_hub.html">
+    <i class="bi bi-2-circle"></i>
+    <br>
+    Create a Project
+  </a>
+  <a class='box' id='g3' href="./tutorials/pr_guide.html">
+    <i class="bi bi-3-circle"></i>
+    <br>
+    Contribute & Submit
+  </a>
+  <a class='box' id='g4'>
+    <i class="bi bi-4-circle"></i>
+    <br>
+    Completion & Beyond
+    <br>
+    (in writing)
+  </a>
+</div>
+```
+
 - **Join Discord**: Stay updated with the hackathon news, form a team, or meet new friends by joining our vibrant Discord community!
 - **Create a Project**: Upload your working project demo to the [Hackathon Collection](https://huggingface.co/collections/pseudolab/hugging-face-krew-hackathon-2023-652bb5066f88e29851af8076), and showcase your creativity to the world!
 - **Contribute & Submit**: Enhance your project, share ideas through Pull Requests on the Hub, and learn along with the community. Your growth empowers the community. Check your popularity on the [Leaderboard](https://huggingface.co/spaces/pseudolab/2023-Hackathon-Certification)!

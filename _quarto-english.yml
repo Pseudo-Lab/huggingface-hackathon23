@@ -49,7 +49,13 @@ website:
     contents:
       - index.qmd
       - section: Tutorials
-        contents: tutorials/*
+        contents:
+          - text: 01_Joining Discord
+            file: tutorials/discord.qmd
+          - text: 02_Creating a Project
+            file: tutorials/hf_hub.qmd
+          - text: 03_Contributions and Submissions
+            file: tutorials/pr_guide.qmd
 
 format:
   html:

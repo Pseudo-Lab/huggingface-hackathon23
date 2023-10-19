@@ -78,7 +78,7 @@ Before you begin, sign up with Hugging Face through this link: [hf.co/join](http
 ![](images/join-huggingface.png){fig-align="center"}
 
 ### Enrolling as a Pseudo Lab Contributor
-After signing up, proceed to the [Contributor Registration](https://huggingface.co/organizations/pseudolab/share/UYPZnwyOTadGJDReehItrwtbWKSxHYmAku) page and gain the privilege to contribute to 'Pseudo Lab' projects. This platform is where your ideas will shine.
+After signing up, proceed to the [Contributor Registration](https://huggingface.co/organizations/pseudolab/share/UYPZnwyOTadGJDReehItrwtbWKSxHYmAku) page and gain access to 'Pseudo Lab' projects. This platform is where your ideas will shine.
 
 ![](images/join-pseudolab.png){fig-align="center"}
 
