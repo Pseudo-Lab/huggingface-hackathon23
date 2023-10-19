@@ -77,7 +77,7 @@ format:
   ]'
   options="'Apple','Google'"
   hideBackground="True"
-  buttonStyle="flat"
+  buttonStyle="round"
 ></add-to-calendar-button>
 ```
 
