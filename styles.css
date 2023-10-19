@@ -34,9 +34,9 @@ body {
   max-height: 45px;
 }
 
-@media (min-width: 1350px) {
+@media (min-width: 1300px) {
   .navbar-expand-lg {
-    max-width: 1350px;
+    max-width: 1300px;
     margin: auto;
   }
 }
@@ -74,9 +74,11 @@ a.box {
   text-align: center;
   margin: 20px;
   border-radius: 15px;
-  border: none;
   color: white;
-  font-weight: bolder;
+
+  /* Add transition property */
+  -webkit-transition: background 0.3s ease, font-weight 0.3s; /* For Safari and older Chrome versions */
+  transition: background 0.3s ease, font-weight 0.3s; /* Standard syntax */
 }
 
 .box i {
@@ -84,22 +86,43 @@ a.box {
 }
 
 /* Gradient 1 */
-#g1 {
-  background: linear-gradient(0deg, #69b7eb, #88ccfa);
+a.box#g1 {
+  background: linear-gradient(0deg, #9dcfeb, #b2e0fa);
 }
 
 /* Gradient 2 */
-#g2 {
+a.box#g2 {
   background: linear-gradient(0deg, #b3dbd3, #cfecd0);
 }
 
 /* Gradient 3 */
-#g3 {
-  background: linear-gradient(0deg, #f598a8, #ffc5ca);
+a.box#g3 {
+  background: linear-gradient(0deg, #f7b9c8, #ffd7dc);
 }
 
 /* Gradient 4 */
-#g4 {
-  background: linear-gradient(0deg, #f6edb2, #fff1c8);
+a.box#g4 {
+  background: linear-gradient(0deg, #fbeed2, #fff8e8);
   color: grey;
+}
+
+/* Define the lighter gradients for each box on hover */
+a.box#g1:hover {
+  background: linear-gradient(0deg, #69b7eb, #88ccfa);
+  font-weight: 900;
+}
+
+a.box#g2:hover {
+  background: linear-gradient(0deg, #91c0b1, #b1d7b0);
+  font-weight: 900;
+}
+
+a.box#g3:hover {
+  background: linear-gradient(0deg, #f598a8, #ffc5ca);
+  font-weight: 900;
+}
+
+a.box#g4:hover {
+  background: linear-gradient(0deg, #f6edb2, #fff1c8);
+  font-weight: 900;
 }
