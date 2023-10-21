@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -195,8 +229,8 @@ gtag('config', 'G-HMKJZ8LF1Y', { 'anonymize_ip': true});
   <li><a href="#registering-with-hugging-face" id="toc-registering-with-hugging-face" class="nav-link" data-scroll-target="#registering-with-hugging-face">Registering with Hugging Face</a></li>
   <li><a href="#enrolling-as-a-pseudo-lab-contributor" id="toc-enrolling-as-a-pseudo-lab-contributor" class="nav-link" data-scroll-target="#enrolling-as-a-pseudo-lab-contributor">Enrolling as a Pseudo Lab Contributor</a></li>
   <li><a href="#directly-creating-your-project" id="toc-directly-creating-your-project" class="nav-link" data-scroll-target="#directly-creating-your-project">Directly Creating Your Project</a></li>
-  <li><a href="#sharing-in-the-collection" id="toc-sharing-in-the-collection" class="nav-link" data-scroll-target="#sharing-in-the-collection">Sharing in the Collection</a></li>
   <li><a href="#importing-an-existing-project" id="toc-importing-an-existing-project" class="nav-link" data-scroll-target="#importing-an-existing-project">Importing an Existing Project</a></li>
+  <li><a href="#crafting-a-readme" id="toc-crafting-a-readme" class="nav-link" data-scroll-target="#crafting-a-readme">Crafting a README</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -282,26 +316,28 @@ gtag('config', 'G-HMKJZ8LF1Y', { 'anonymize_ip': true});
 </div>
 </div>
 </section>
-<section id="sharing-in-the-collection" class="level3">
-<h3 class="anchored" data-anchor-id="sharing-in-the-collection">Sharing in the Collection</h3>
-<p>Fantastic! Now that you’ve created a space for launching your project, you’re probably eager to introduce it to other participants. Let’s see how to link your project to the hackathon collection.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/paste-7.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-<p>Click the <code>...</code> button in the upper right corner and select <code>Add to collection</code>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/paste-8.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-<p>Choose <code>Hugging Face KREW Hackathon 2023 (pseudolab)</code> to add your project to the hackathon collection.</p>
-</section>
 <section id="importing-an-existing-project" class="level3">
 <h3 class="anchored" data-anchor-id="importing-an-existing-project">Importing an Existing Project</h3>
-<p>If you’ve already initiated a project in your personal space, no need to worry. You can clone the space, change the ownership to <code>pseudolab</code>, and add it to the collection following the same procedure.</p>
+<p>If you’ve already initiated a project in your personal account, no need to worry. You can clone the repo, change the ownership to <code>pseudolab</code>, and it will show up in our leaderboard!</p>
 <p><img src="images/paste-15.png" class="img-fluid"> <img src="images/paste-17.png" class="img-fluid"></p>
+</section>
+<section id="crafting-a-readme" class="level3">
+<h3 class="anchored" data-anchor-id="crafting-a-readme">Crafting a README</h3>
+<p>The project’s README file should be meticulously crafted to ensure that anyone can easily comprehend the project. It should provide ample information about the project, including its objectives, the technologies employed, key changes, among other pertinent details. Other participants will definitely appreciate your gesture!</p>
+<p>Lastly set the <code>pinned</code> argument to <code>false</code>. We want a fair review process among participants, so please promote your work through other options (such as sns).</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>README.md</strong></pre>
+</div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode md code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> 'My Project'</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="an">emoji:</span><span class="co"> 🌌</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="an">colorFrom:</span><span class="co"> purple</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="an">colorTo:</span><span class="co"> yellow</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="an">sdk:</span><span class="co"> gradio</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="an">sdk_version:</span><span class="co"> 3.36.1</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="an">app_file:</span><span class="co"> app.py</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="an">pinned:</span><span class="co"> false</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 
 
 </section>
