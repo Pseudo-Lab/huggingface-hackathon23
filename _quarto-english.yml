@@ -12,6 +12,7 @@ website:
     title: "2023 Everyday AI Hackathon"
     description: "The Everyday AI Hackathon is where Hugging Face enthusiasts in Korea meet."
     image: assets/images/hackathon-960x540.png
+  google-analytics: "G-HMKJZ8LF1Y"
   page-navigation: true
   site-url: https://pseudo-lab.github.io/huggingface-hackathon23/
   page-footer: "Pseudo Lab (2023). 2023 Everyday AI Hackathon"
