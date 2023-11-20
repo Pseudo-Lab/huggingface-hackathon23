@@ -16,6 +16,12 @@ image:
     data/thumbnail.png
 ---
 
-##
+::: {.content-visible when-profile="korean"}
 <iframe class="slide-deck" src="data/허깅페이스 도전기_20231105.pdf" title="Day 1A Slides">
 </iframe>
+:::
+
+::: {.content-visible when-profile="english"}
+<iframe class="slide-deck" src="data/허깅페이스 도전기_20231105.pdf" title="Day 1A Slides">
+</iframe>
+:::

@@ -17,6 +17,12 @@ image:
     data/thumbnail.jpg
 ---
 
-##
+::: {.content-visible when-profile="korean"}
 <iframe class="slide-deck" src="data/SonGPT_ 손흥민 선수와 대화해보기.pdf">
 </iframe>
+:::
+
+::: {.content-visible when-profile="english"}
+<iframe class="slide-deck" src="data/SonGPT_ 손흥민 선수와 대화해보기.pdf">
+</iframe>
+:::

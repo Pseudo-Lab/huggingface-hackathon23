@@ -16,6 +16,13 @@ image:
     data/thumbnail.png
 ---
 
-##
+::: {.content-visible when-profile="korean"}
 <iframe class="slide-deck" src="data/huggingface-korea-theme.pdf">
 </iframe>
+:::
+
+::: {.content-visible when-profile="english"}
+<iframe class="slide-deck" src="data/huggingface-korea-theme.pdf">
+</iframe>
+:::
+

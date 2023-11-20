@@ -1,1 +1,0 @@
-Sitemap: https://pseudo-lab.github.io/huggingface-hackathon23/sitemap.xml
