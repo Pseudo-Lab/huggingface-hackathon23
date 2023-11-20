@@ -1,0 +1,21 @@
+---
+title: Colorful Illustration
+description:
+  Stable diffusion 모델로 나만의 프로필 이미지 생성하기
+categories:
+  - Stable diffusion
+  - LoRA
+author: 이준형
+date: "11/11/2023"
+id: 04
+page-layout: article
+format:
+  html:
+    css: ../styles.css
+image:
+    data/thumbnail.png
+---
+
+##
+<iframe class="slide-deck" src="data/이준형_Colorful illustration.pdf">
+</iframe>

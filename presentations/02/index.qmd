@@ -1,0 +1,21 @@
+---
+title: 성취기준 기반 세특 생성기
+description:
+  교사를 위한 GPT 활용 방법
+categories:
+  - GPT
+  - Few-shot
+author: 코난쌤
+date: "11/11/2023"
+id: 02
+page-layout: article
+format:
+  html:
+    css: ../styles.css
+image:
+    data/thumbnail.png
+---
+
+##
+<iframe class="slide-deck" src="data/conan님_231107_070823.pdf">
+</iframe>

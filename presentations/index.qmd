@@ -1,0 +1,15 @@
+---
+listing:
+    contents: "*/index.qmd"
+    sort: id
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    type: grid
+    page-size: 36
+title-block-banner-color: body
+search: false
+---
+
+## 발표자료
+7th PseudoCon에서 소개한 프로젝트의 발표자료를 다시 볼 수 있습니다.

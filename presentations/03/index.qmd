@@ -1,0 +1,21 @@
+---
+title: Hugging Face Korea Theme
+description:
+  Gradio로 아름다운 해커톤 테마 만들기
+categories:
+  - Gradio
+  - theme
+author: 장동욱
+date: "11/11/2023"
+id: 03
+page-layout: article
+format:
+  html:
+    css: ../styles.css
+image:
+    data/thumbnail.png
+---
+
+##
+<iframe class="slide-deck" src="data/huggingface-korea-theme.pdf">
+</iframe>
