@@ -4,11 +4,11 @@ project:
 
 website:
   favicon: favicon.ico
-  open-graph: 
+  open-graph:
     title: "2023 Everyday AI Hackathon"
     description: "The Everyday AI Hackathon is where Hugging Face enthusiasts in Korea meet."
     image: assets/images/hackathon-960x540.png
-  twitter-card: 
+  twitter-card:
     title: "2023 Everyday AI Hackathon"
     description: "The Everyday AI Hackathon is where Hugging Face enthusiasts in Korea meet."
     image: assets/images/hackathon-960x540.png
@@ -52,11 +52,14 @@ website:
       - section: Tutorials
         contents:
           - text: 01_Joining Discord
+            contents: tutorials/*
             file: tutorials/discord.qmd
           - text: 02_Creating a Project
             file: tutorials/hf_hub.qmd
           - text: 03_Contributions and Submissions
             file: tutorials/pr_guide.qmd
+      - text: Presentations
+        file: presentations/index.qmd
 
 format:
   html:
