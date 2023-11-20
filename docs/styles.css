@@ -1,0 +1,128 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+
+body {
+  font-family: 'Pretendard';
+}
+
+.sidebar-logo {
+  max-width: 150px;
+}
+
+.sidebar-title {
+  font-size: 1.7rem;
+}
+
+.platform-table td {
+  vertical-align: middle;
+}
+
+.platform-table td > div.sourceCode {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.btn-translate {
+  float: right;
+  /* Make the button less visible, may be off below the internal toc */
+}
+
+.btn-submit {
+  float: right;
+}
+
+.navbar-logo {
+  max-height: 45px;
+}
+
+@media (min-width: 1300px) {
+  .navbar-expand-lg {
+    max-width: 1300px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 380px) {
+  .navbar-logo {
+    max-height: 30px;
+    margin: auto;
+  }
+}
+
+/* Our Grid Code */
+.app-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 20vh;
+}
+
+/* try to resize the screen */
+@media screen and (max-width: 1024px) {
+  .app-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20vh 20vh;
+  }
+}
+
+a.box {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  padding: 10% 0;
+
+  text-decoration: none;
+  text-align: center;
+  margin: 20px;
+  border-radius: 15px;
+  color: white;
+
+  /* Add transition property */
+  -webkit-transition: background 0.3s ease, font-weight 0.3s; /* For Safari and older Chrome versions */
+  transition: background 0.3s ease, font-weight 0.3s; /* Standard syntax */
+}
+
+.box i {
+  font-size: 2rem;
+}
+
+/* Gradient 1 */
+a.box#g1 {
+  background: linear-gradient(0deg, #9dcfeb, #b2e0fa);
+}
+
+/* Gradient 2 */
+a.box#g2 {
+  background: linear-gradient(0deg, #b3dbd3, #cfecd0);
+}
+
+/* Gradient 3 */
+a.box#g3 {
+  background: linear-gradient(0deg, #f7b9c8, #ffd7dc);
+}
+
+/* Gradient 4 */
+a.box#g4 {
+  background: linear-gradient(0deg, #fbeed2, #fff8e8);
+  color: grey;
+}
+
+/* Define the lighter gradients for each box on hover */
+a.box#g1:hover {
+  background: linear-gradient(0deg, #69b7eb, #88ccfa);
+  font-weight: 900;
+}
+
+a.box#g2:hover {
+  background: linear-gradient(0deg, #91c0b1, #b1d7b0);
+  font-weight: 900;
+}
+
+a.box#g3:hover {
+  background: linear-gradient(0deg, #f598a8, #ffc5ca);
+  font-weight: 900;
+}
+
+a.box#g4:hover {
+  background: linear-gradient(0deg, #f6edb2, #fff1c8);
+  font-weight: 900;
+}
