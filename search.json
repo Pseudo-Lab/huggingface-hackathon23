@@ -4,7 +4,7 @@
     "href": "intro/organizers.html",
     "title": "Our Team",
     "section": "",
-    "text": "See in English"
+    "text": "한국어 버전"
   },
   {
     "objectID": "intro/organizers.html#main-instructors-and-support",
@@ -23,44 +23,30 @@
   {
     "objectID": "submit.html",
     "href": "submit.html",
-    "title": "제출하기",
+    "title": "2023 Everyday AI Hackathon",
     "section": "",
-    "text": "See in English"
-  },
-  {
-    "objectID": "submit.html#제출-가이드라인",
-    "href": "submit.html#제출-가이드라인",
-    "title": "제출하기",
-    "section": "제출 가이드라인",
-    "text": "제출 가이드라인\n\n1. 제출 기간\n\n10월 20일부터 11월 4일 24:00까지 프로젝트를 제출할 수 있습니다. 마감일 이후에는 접수되지 않습니다.\n\n\n\n2. 프로젝트 형식\n\n모든 프로젝트는 Hugging Face Spaces에 올라와 있어야 합니다.\n프로젝트의 README.md에는 문제 설명, 솔루션, 사용된 기술 및 기타 관련 정보를 설명하는 포괄적인 개요가 포함되어야 합니다.\n\n\n\n3. 팀 정보\n\n모든 팀원의 이름과 역할을 명확하게 언급하세요.\n연락을 받을 수 있는 팀 리더를 지정하세요.\n\n\n\n4. 제출 방법\n\n제출 양식 작성하기\n\n프로젝트 이름: 프로젝트를 대표하는 이름을 선택하세요.\n프로젝트 URL: 프로젝트의 Hugging Face Space 링크를 입력하세요.\n간단한 설명: 프로젝트에 대한 간략한 개요(최대 200자)를 작성하세요.\n팀원: 모든 팀원과 역할을 나열하세요.\n연락처 이메일: 팀 리더의 이메일을 입력하세요.\n\n추가 파일 업로드(선택 사항)\n\n프로젝트를 보완하는 추가 리소스, 문서 또는 슬라이드가 있는 경우 제공된 인터페이스를 사용하여 업로드하세요.\n\n검토 및 제출\n\n모든 정보가 정확한지 확인하세요. URL이 제대로 작동하는지 다시 확인하세요.\n제출을 클릭하여 프로젝트 제출을 완료합니다."
-  },
-  {
-    "objectID": "submit.html#제출-후",
-    "href": "submit.html#제출-후",
-    "title": "제출하기",
-    "section": "제출 후",
-    "text": "제출 후\n제출이 완료되면 확인 이메일을 받게 됩니다. 프로젝트는 검토를 거치게 되며, 최종 후보에 오른 팀에게는 다음 단계에 대한 알림이 발송됩니다.\n일상에서의 AI 해커톤에 참여해 주셔서 감사합니다! 여러분의 혁신적인 솔루션을 기대하며 모든 참가자에게 행운이 함께하기를 기원합니다. 제출하는 동안 문제가 발생하면 Discord #support 채널을 통해 문의해 주시기 바랍니다.\n\n 제출하기"
+    "text": "한국어 버전\n\n\n\n\nYou’ve worked hard, collaborated with your team, and developed something incredible. Now it’s time to show it to the world! Follow the steps below to submit your project for the Everyday AI Hackathon.\n\nSubmission Guidelines\n\nSubmission Period:\n\nProjects can be submitted from October 20th to November 4th, 24:00. No submissions will be accepted after the deadline.\n\nProject Format:\n\nAll projects must be hosted on Hugging Face Spaces.\nYour project’s README.md should include a comprehensive overview, explaining the problem statement, solution, technologies used, and any other relevant information.\n\nTeam Information:\n\nClearly mention all team members’ names and roles.\nDesignate a team leader who’ll act as the primary contact point.\n\n\n\n\nHow to Submit\n\nFill Out the Submission Form:\n\nProject Name: Choose a name that represents your project.\nProject URL: Provide the link to your project hosted on Hugging Face Spaces.\nShort Description: A brief overview of your project (max 200 words).\nTeam Members: List all members and their roles.\nContact Email: Provide the team leader’s email for correspondence.\n\nUpload Additional Files (Optional):\n\nIf you have additional resources, documents, or slides that complement your project, upload them using the provided interface.\n\nReview & Submit:\n\nEnsure all information is accurate. Double-check URLs to ensure they’re working.\nClick “Submit” to finalize your project submission.\n\n\n\n\nPost-Submission\nOnce submitted, you’ll receive a confirmation email. Projects will undergo a review, and shortlisted teams will be notified regarding the next steps.\nThank you for being a part of the Everyday AI Hackathon! We’re excited to see your innovations and wish all participants the best of luck. If you face any issues during submission, please contact us through the Discord #support channel.\n\n 제출하기"
   },
   {
     "objectID": "presentations/02/index.html",
     "href": "presentations/02/index.html",
     "title": "성취기준 기반 세특 생성기",
     "section": "",
-    "text": "See in English"
+    "text": "한국어 버전"
   },
   {
     "objectID": "presentations/03/index.html",
     "href": "presentations/03/index.html",
     "title": "Hugging Face Korea Theme",
     "section": "",
-    "text": "See in English"
+    "text": "한국어 버전"
   },
   {
     "objectID": "presentations/00/data/HF-K23-Tutorial.html",
     "href": "presentations/00/data/HF-K23-Tutorial.html",
     "title": "Hugging Face Hackathon 2023 튜토리얼",
     "section": "",
-    "text": "See in English\n작성자: 정우준 (karl7ung@gmail.com)"
+    "text": "한국어 버전\n작성자: 정우준 (karl7ung@gmail.com)"
   },
   {
     "objectID": "presentations/00/data/HF-K23-Tutorial.html#시작-전-준비",
@@ -102,104 +88,111 @@
     "href": "presentations/04/index.html",
     "title": "Colorful Illustration",
     "section": "",
-    "text": "See in English"
+    "text": "한국어 버전"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "2023 Everyday AI Hackathon",
     "section": "",
-    "text": "See in English"
+    "text": "한국어 버전"
   },
   {
-    "objectID": "index.html#소개",
-    "href": "index.html#소개",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "소개",
-    "text": "소개\n안녕하세요!\n본 해커톤은 Hugging Face를 사랑하는 모든 분들을 위한 행사로 여러분의 열정과 창의력을 마음껏 펼칠 수 있는 자리입니다. 아래 안내사항을 주의 깊게 읽어보시고, 이번 행사를 통해 함께 성장하는 시간을 가져보시기 바랍니다.\n\n1. 어떻게 진행하나요?\n해커톤에 참여하는 과정은 간단합니다! 아래 4단계를 차근차근 따라와 주세요:\n\n  \n    \n    \n    디스코드 참여\n  \n  \n    \n    \n    프로젝트 생성\n  \n  \n    \n    \n    기여 및 제출\n  \n  \n    \n    \n    수료와 그 이후\n    \n    (예정)\n  \n\n\n디스코드 참여: 해커톤의 소식을 접하고, 함께할 팀을 구성하거나 친구들을 만날 수 있는 디스코드 커뮤니티에 참여해보세요!\n프로젝트 생성: PseudoLab 조직에 프로젝트 데모를 업로드하고, 세계에 여러분의 창의력을 보여주세요!\n기여 및 제출: 프로젝트를 발전시키고, Hub에서 Pull Request를 통해 모두와 아이디어를 공유하며 같이 배워가세요. 여러분의 성장이 커뮤니티의 힘이 됩니다. 리더보드로 얼마나 인기 있는지도 확인할 수 있답니다!\n수료와 그 이후: 해커톤을 성공적으로 마친 후, 오프라인에서도 만나고 싶다면 이벤터스에서 팀 정보와 프로젝트 URL을 제출하고, 참가 확정 메일을 기다려주세요!\n\n\n\n\n\n\n\n\n타인의 작업을 무단으로 사용하는 경우 제출 작품은 무효 처리되며,\n프로젝트에 대한 설명과 데모는 성의 있게 작성해주셔야 합니다.\n\n\n\n\n\n\n2. 보상 및 혜택\n\nHF 크레딧 지원 (~11월 11일까지)\n해커톤 완주 수료증 (예시)\n다양한 네트워킹 기회\n오프라인 행사 초청자에게 제공되는 특별한 혜택 (상세 내용은 추후 공개 예정)\n\n\n\n3. 오프라인 행사\n신청자 중 “Like”를 많이 받은 프로젝트 기여자들을 PseudoCon에 초대하여 데모를 서로 공유하고 네트워킹할 수 있는 시간을 가집니다. 상세한 내용은 오프라인 행사 신청 페이지에서 확인하실 수 있습니다.\n\n\n4. 주요 일정\n\n\n\n일정\n날짜\n\n\n\n\n해커톤 시작\n10월 20일(금)\n\n\n수료증 발급 마감\n11월 10일(금) 24시\n\n\n개별 오프라인 초대\n11월 6일(월) ~ 11월 9일(목)\n\n\nHugging Face 로컬 밋업 w/ PseudoCon\n11월 11일 (토)\n\n\n\n\n\n\n5. 대회 목표\n일상에서의 AI 해커톤은\n\n사전 경험과 관계없이 모든 분들이 참여할 수 있고,\n서로 배우며 성장할 수 있는 커뮤니티를 만드는 것에\n\n큰 중점을 두고 있습니다. 제공된 krew23-hackathon 스레드에서 함께 창의적인 아이디어를 공유하고 실력을 향상시킬 수 있습니다.\n참가자 여러분의 많은 관심과 참여를 부탁드립니다. 함께 성장하고, 서로를 격려하는 커뮤니티를 만들어가요. 감사합니다."
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "2023 Everyday AI Hackathon",
+    "section": "Introduction",
+    "text": "Introduction\nWelcome to the Hugging Face KREW Hackathon!\nThis hackathon is for everyone who shares a love for Hugging Face, a platform to showcase your passion and creativity. Please read through the guidelines carefully and join us in this journey of collective growth.\n\n1. How Does It Work?\nParticipating in the hackathon is easy! Just follow these 4 steps carefully:\n\n  \n    \n    \n    Join Discord\n  \n  \n    \n    \n    Create a Project\n  \n  \n    \n    \n    Contribute & Submit\n  \n  \n    \n    \n    Completion & Beyond\n    \n    (in writing)\n  \n\n\nJoin Discord: Stay updated with the hackathon news, form a team, or meet new friends by joining our vibrant Discord community!\nCreate a Project: Upload your working project demo to the PseudoLab Organization, and showcase your creativity to the world!\nContribute & Submit: Enhance your project, share ideas through Pull Requests on the Hub, and learn along with the community. Your growth empowers the community. Check your popularity on the Leaderboard!\nCompletion & Beyond: After successfully finishing the hackathon, if you wish to meet in person, submit your team information and project URL through Event-us, and await the confirmation email!\n\n\n\n\n\n\n\n\nUnauthorized use of someone else’s work will result in disqualification.\nEnsure that your project description and demo are descriptive.\n\n\n\n\n\n\n2. Rewards & Benefits\n\nSupport with HF credits (until November 11)\nHackathon completion certificate (example)\nNumerous networking opportunities\nExclusive perks for offline event attendees (details to be announced)\n\n\n\n3. Offline Event\nContributors with the most “Likes” on their projects will be invited to PseudoCon, where you can share demos and network. More details are available on the offline event application page.\n\n\n4. Key Dates\n\n\n\nSchedule\nDate\n\n\n\n\nHackathon Starts\nOctober 20 (Fri)\n\n\nCertificate Issuance Deadline\nNovember 10 (Fri) Midnight\n\n\nIndividual Offline Invites\nNovember 6 (Mon) - November 9 (Thurs)\n\n\nHugging Face Local Meetup w/ PseudoCon\nNovember 11 (Sat)\n\n\n\n\n\n\n5. Hackathon Goals\nThe Everyday AI Hackathon emphasizes:\n\nParticipation from everyone, regardless of prior experience,\nCreating a community where we can all learn and grow together.\n\nLet’s engage in the krew23-hackathon thread, sharing creative ideas, and enhancing our skills.\nWe count on your active interest and participation. Let’s build a supportive community that grows and encourages together. Thank you!"
   },
   {
     "objectID": "tutorials/index.html",
     "href": "tutorials/index.html",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "2023 Everyday AI Hackathon",
     "section": "",
-    "text": "See in English"
+    "text": "한국어 버전"
   },
   {
-    "objectID": "tutorials/index.html#튜토리얼-개요",
-    "href": "tutorials/index.html#튜토리얼-개요",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "튜토리얼 개요",
-    "text": "튜토리얼 개요\n안녕하세요, 참가자 여러분!\n여러분을 위한 여정의 첫 페이지에 오신 것을 환영합니다. 여기에서 여러분이 Hugging Face KREW 해커톤 2023에 참여하며 필요로 하는 기본적인 정보와 지침을 제공할 것입니다.\n프로젝트 시작부터 제출, 평가까지의 과정을 단계별로 간단히 안내드릴 예정이니, 해커톤을 준비하며 이 페이지를 참고 자료로 꼭 활용해 주세요!\n\n01. 시작하기 전에: 준비사항 확인\n\n소통 채널 참가하기\n팀 빌딩 가이드\n\n\n\n02. 프로젝트 생성: 첫 걸음 떼기\n\nHugging Face 가입 방법\nPseudo Lab 기여자 등록\n프로젝트 등록 및 설정\n\n\n\n03. 프로젝트 제출 및 평가: 결과물의 가치 높이기\n\n프로젝트에 기여하는 방법\n커뮤니티와의 소통 및 협업 가이드\n완성된 프로젝트의 제출\n\n\n\n04. 해커톤 마무리: 여정의 종착점 (22일 배포 예정)\n\n수료증 발급 절차\n참가자 피드백 및 소감 공유\n해커톤 후속 활동 및 기회\n\n이 커리큘럼은 여러분이 해커톤에서 성공적인 결과를 이끌어낼 수 있도록 설계되었습니다. 각 섹션을 꼼꼼히 읽고 지침을 따라주신다면, 더 많은 인사이트와 기회를 얻으실 수 있을 거예요.\n이번 해커톤이 여러분의 기술적 성장과 창의적 발전에 큰 기여가 되길 바랍니다. 함께 해커톤을 통한 특별한 경험을 만들어가요. 행운을 빕니다!"
+    "objectID": "tutorials/index.html#tutorial-overview",
+    "href": "tutorials/index.html#tutorial-overview",
+    "title": "2023 Everyday AI Hackathon",
+    "section": "Tutorial Overview",
+    "text": "Tutorial Overview\nWelcome to the first page of your journey. This guide is designed to provide you with the information necessary for the Hugging Face KREW Hackathon 2023.\nWe intend to briefly guide you through the processes from the initiation of your project to submission and evaluation, step by step. Please use this page as a reference material while preparing for the hackathon!\n\n01. Before You Start: Checking the Prerequisites\n\nJoining the communication channels\nTeam-building guide\n\n\n\n02. Project Initiation: Taking the First Step\n\nHow to sign up for Hugging Face\nRegistering as a Pseudo Lab contributor\nProject registration and setup\n\n\n\n03. Project Submission and Evaluation: Enhancing the Value of Your Outputs\n\nWays to contribute to the project\nGuidelines for communication and collaboration with the community\nSubmission of the completed project\n\n\n\n04. Concluding the Hackathon: The Journey’s End (Scheduled for release on Oct 22nd)\n\nProcedure for the issuance of completion certificates\nSharing participants’ feedback and reflections\nPost-hackathon activities and opportunities\n\nThis curriculum is structured to give you a basic understanding of the process needed to complete the hackathon.\nWe hope this hackathon contributes to your technical growth and creative advancements. Let’s collaboratively craft an extraordinary experience through this hackathon. Best of luck!"
   },
   {
     "objectID": "tutorials/pr_guide.html",
     "href": "tutorials/pr_guide.html",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "2023 Everyday AI Hackathon",
     "section": "",
-    "text": "See in English"
+    "text": "한국어 버전"
   },
   {
-    "objectID": "tutorials/pr_guide.html#기여-및-제출",
-    "href": "tutorials/pr_guide.html#기여-및-제출",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "03_기여 및 제출",
-    "text": "03_기여 및 제출\n이제부터는 커뮤니티와의 소통과 평가 과정을 통해 프로젝트의 가치를 더욱 높일 수 있는 단계입니다. 해커톤은 서로의 작업을 공유하고 성장할 수 있는 소중한 기회이니만큼 적극적인 참여 부탁드려요!\n\n프로젝트에 기여하기\n먼저 흥미있는 프로젝트의 Community 탭을 방문해서 New Pull Request 버튼을 클릭하세요.\n\n여러분이 기여하고자 하는 내용을 명확히 전달하기 위해, 새 창에서 나타나는 커밋 메시지 부분에 계획하는 작업의 개요를 간단명료하게 작성해 주세요. 이렇게 하면 나중에 프로젝트 기여 내역을 파악하기가 훨씬 수월해집니다.\n\n화면에 보이는 것처럼 로컬 환경에서 작업할 수 있도록 clone, fetch, checkout을 해주세요.\n\n\n\n액세스 토큰 생성과 로그인 과정\n이어서, 여러분의 Hugging Face 계정으로 액세스 토큰을 만들어 로그인하는 단계가 필요합니다. 이 토큰은 여러분의 작업을 인증하고 보호하는 역할을 해요. 자세한 설명은 영문 가이드를 참조하시길 바랍니다.\n\n로그인이 제대로 되었는지 확인하려면 터미널에서 huggingface-cli whoami 명령어를 실행하시면 됩니다.\n\n\n작업 공유와 커밋\n프로젝트를 진행하며 중요한 단계마다 커밋을 하고, 이를 푸시해서 커뮤니티와 계속 소통하세요. 이 과정을 통해 여러분의 작업 진척 상황을 투명하게 공유할 수 있어요.\n\n\n\nREADME 작성하기\n다시 강조드리지만 프로젝트의 README 파일은 누구나 프로젝트를 쉽게 이해할 수 있도록 상세하게 작성해야 해요. 프로젝트의 목적, 사용된 기술, 주요 변경 사항 등을 포함하여, 이 프로젝트에 대한 충분한 정보를 제공해 주세요.\n\n\n해커톤 및 평가 일정 확인\n프로젝트 제출 이후, 전체 해커톤 기간인 3주 동안 여러분의 프로젝트는 커뮤니티의 리뷰와 평가를 받게 됩니다. 이 기간에 프로젝트의 질을 보증하고 부정행위를 방지하기 위해, 팀별로 적어도 (팀원 수 + 2)개의 ’좋아요’를 받아야 수료증이 발급된다는 점, 잊지 마세요!"
+    "objectID": "tutorials/pr_guide.html#contributions-and-submissions",
+    "href": "tutorials/pr_guide.html#contributions-and-submissions",
+    "title": "2023 Everyday AI Hackathon",
+    "section": "03_Contributions and Submissions",
+    "text": "03_Contributions and Submissions\nThis phase marks a critical juncture where you can enhance the value of your project through community interaction and assessment processes. The hackathon represents a valuable opportunity to share and grow each other’s work, so your active participation is highly encouraged!\n\nContributing to a Project\nBegin by visiting the Community tab of a project that piques your interest and click the New Pull Request button.\n\nTo clearly communicate your intended contributions, please concisely articulate an overview of your planned work in the commit message section of the new window that appears. This approach significantly eases the process of tracking project contribution histories later on.\n\nAs shown on the screen, proceed with clone, fetch, and checkout to set up your local environment for work.\n\n\n\nAccess Token Generation and Login Process\nSubsequently, you’ll need to create an access token through your Hugging Face account and utilize it for login. This token plays a crucial role in authenticating and safeguarding your contributions. For detailed instructions, please refer to the English guide.\n\nTo verify a successful login, execute the huggingface-cli whoami command in your terminal.\n\n\nSharing Work and Committing\nCommit important stages of your project as you progress, and push them to maintain continuous communication with the community. This process ensures the transparent sharing of your work’s ongoing progress.\n\n\n\nCrafting a README\nWe’d like to highlight that the project’s README file should be meticulously crafted to ensure that anyone can easily comprehend the project. It should provide ample information about the project, including its objectives, the technologies employed, key changes, among other pertinent details.\n\n\nHackathon and Evaluation Timeline\nFollowing the submission of your project, there is a three-week period throughout the entire hackathon during which your project will be subject to community reviews and evaluations. During this phase, to uphold the caliber of the project and prevent any unfair practices, remember that each team must receive at least (number of team members + 2) ‘likes’ to be issued a completion certificate."
   },
   {
     "objectID": "tutorials/discord.html",
     "href": "tutorials/discord.html",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "2023 Everyday AI Hackathon",
     "section": "",
-    "text": "See in English"
+    "text": "한국어 버전"
   },
   {
-    "objectID": "tutorials/discord.html#디스코드-참여",
-    "href": "tutorials/discord.html#디스코드-참여",
-    "title": "2023 일상에서의 AI 해커톤",
-    "section": "01_디스코드 참여",
-    "text": "01_디스코드 참여\n해커톤에 오신 것을 환영합니다! 먼저 아래 링크를 통해 커뮤니티 서버에 오셔서 인사를 남겨주세요!\n\n\n\n\n\n\nhttps://hf.co/join/discord\n\n\n\n\n\n해커톤 채널이 안 보여요!\n서버에 처음 들어오셨다면, Open Source ML 역할을 추가하고 krew23-hackathon 채널에 참여하여 해커톤과 관련된 다양한 대화에 뛰어들 수 있습니다. 여러분의 참여가 이곳의 에너지와 창의성을 한층 더 끌어올릴 것입니다. \n\n\n첫 메시지는 무엇이 좋을까요?\n커뮤니티와의 첫 인사는 깊은 인상을 남기기에 충분합니다. krew23-hackathon 채널에서 자신을 소개하며 시작해보세요. 본인의 전문 분야, 해커톤에서 이루고자 하는 목표, 그리고 함께하고 싶은 팀원의 조건 등을 말해주시면 다른 참가자들이 여러분을 더 잘 이해할 수 있습니다. \n또한, 다른 참가자들의 스레드에 적극적으로 참여하세요. 아이디어에 당신의 피드백을 공유하고, 함께 프로젝트를 만들어나가는 과정에서 서로의 생각을 충분히 교환하세요.\n\n\n더 궁금하신 점이 있으신가요?\n언제든지 궁금한 점이 생기면 아래 운영진에게 문의하여 즉각적인 도움을 받을 수 있습니다.\n\n@wonhseo\n@gabriely1004\n@jungnerd\n\n이제, 여러분은 해커톤의 중심지인 이 커뮤니티의 일원입니다. 여러분의 참여와 소통이 이 커뮤니티를 더욱 풍요롭게 만든다는 점, 잊지 말아주세요. 여러분의 새로운 도전을 응원합니다!"
+    "objectID": "tutorials/discord.html#joining-discord",
+    "href": "tutorials/discord.html#joining-discord",
+    "title": "2023 Everyday AI Hackathon",
+    "section": "01_Joining Discord",
+    "text": "01_Joining Discord\nWelcome to the hackathon! First things first, please follow the link below to join our community server and drop a greeting!\n\n\n\n\n\n\nhttps://hf.co/join/discord\n\n\n\n\n\nI Can’t See the Hackathon Channel!\nIf you’re new to the server, you’ll need to add the Open Source ML role to dive into the diverse conversations happening in the krew23-hackathon channel. Your involvement will undoubtedly elevate the energy and creativity here.\n\n\n\nWhat Should Be My First Message?\nYour initial engagement with the community can leave a lasting impression. Start by introducing yourself in the krew23-hackathon channel. Sharing your expertise, objectives for this hackathon, and the qualities you’re seeking in potential team members can help others understand and connect with you better.\n\nAdditionally, don’t hesitate to contribute to other participants’ threads. Share your feedback on their ideas and engage in thorough exchanges of thoughts as you collaborate on projects.\n\n\nAny Further Questions?\nShould you have any inquiries, feel free to reach out directly to the administrators listed below for immediate assistance.\n\n@wonhseo\n@gabriely1004\n@jungnerd\n\nNow, you are an integral part of this hackathon’s epicenter, the community. Never underestimate how your participation and communication enrich this communal experience. We support your new venture wholeheartedly!"
   },
   {
     "objectID": "tutorials/hf_hub.html",
     "href": "tutorials/hf_hub.html",
     "title": "02_프로젝트 생성",
     "section": "",
-    "text": "See in English\n\n이제 본격적으로 해커톤 여정을 시작해봅시다! 이번 해커톤에서는 각자의 뛰어난 아이디어와 프로젝트를 Hugging Face KREW Hackathon 2023 컬렉션에 등록하여 전 세계 사람들과 공유하는 기회를 갖게 됩니다.\n\"Hugging Face KREW Hackathon 2023\" (collection)\n    ├── 참가자프로젝트(1) (space)\n    ├── ...\n    ├── 참가자프로젝트(n-1) (model)\n    └── 참가자프로젝트(n) (dataset)\n\nHugging Face 가입\n시작하기 전에, hf.co/join 링크를 통해 Hugging Face에 가입하시고, 전 세계적인 커뮤니티의 일원이 되어 주세요. 간단한 회원 가입 과정을 거치면 됩니다.\n\n\n\n\n\n\n\nPseudo Lab 기여자 등록\n회원 가입을 마친 후, 기여자 등록 페이지로 이동하여 ’Pseudo Lab’의 프로젝트에 기여할 수 있는 권한을 얻으세요. 여러분의 아이디어가 빛을 발할 수 있는 공간을 제공합니다.\n\n\n\n\n\n\n\n바로 프로젝트 생성해보기\nPseudo Lab 조직 내에서 New 버튼을 눌러 새로운 Space를 시험삼아 만들어보세요. 여기서 Space name은 여러분의 프로젝트를 대표할 이름을 사용해 주세요. 라이선스 선택 부분에서는 “Apache 2.0 License”를 추천합니다.\n\n\n\n\n\n\n\n\n\n\n프로젝트를 실제로 작동시킬 설정도 중요합니다. SDK 옵션에서는 특히 초보자분들께 Gradio를 추천드려요. 사용하기 쉽고, 다양한 예제를 통해 빠르게 배울 수 있습니다. 그리고 하드웨어는 기본적으로 제공되는 무료 CPU 자원을 사용하되, 필요에 따라 추가적인 GPU 자원을 요청할 수도 있어요. 하지만, 모든 참가자가 자원을 공유해야 하니 꼭 필요한 경우에만 요청해 주세요!\n\n\n\n\n\n\n\n\n\n\n\n\n고급 GPU 하드웨어 자원을 사용하면 해커톤 전체 Credit이 소모됩니다.\n다른 참가자를 배려한 효율적인 사용 부탁드립니다.\n\n\n\n\n\n\n기존 프로젝트 가져오기\n개인 스페이스에서 프로젝트를 먼저 시작한 경우에도 걱정하지 마세요. 스페이스를 복제한 후, 소유권을 pseudolab으로 변경하면 동일하게 리더보드에서 보실 수 있습니다.\n \n\n\nREADME 파일 작성하기\n프로젝트의 README 파일은 누구나 프로젝트를 쉽게 이해할 수 있도록 상세하게 작성해야 해요. 프로젝트의 목적, 사용된 기술, 주요 변경 사항 등을 포함하여, 충분한 정보를 제공해 주세요. 다른 참가자들이 더욱 더 흥미롭게 즐길 수 있을 거에요!\n마지막으로 pinned 항목을 false로 설정해주세요. 공정한 평가를 위함이며, 홍보는 (sns 등) 다른 채널을 통해 해주시길 바랍니다.\n\n\nREADME.md\n\ntitle: 'My Project'\nemoji: 🌌\ncolorFrom: purple\ncolorTo: yellow\nsdk: gradio\nsdk_version: 3.36.1\napp_file: app.py\npinned: false"
+    "text": "한국어 버전"
+  },
+  {
+    "objectID": "tutorials/hf_hub.html#creating-a-project",
+    "href": "tutorials/hf_hub.html#creating-a-project",
+    "title": "02_프로젝트 생성",
+    "section": "02_Creating a Project",
+    "text": "02_Creating a Project\nLet’s kickstart your journey through the hackathon! In this hackathon, you will have the opportunity to register your innovative ideas and projects in the Hugging Face KREW Hackathon 2023 collection, and share them with both the local and global audience via a wall of fame in our offline event and community blog post on Hugging Face.\n\"Hugging Face KREW Hackathon 2023\" (collection)\n    ├── ParticipantProject(1) (space)\n    ├── ...\n    ├── ParticipantProject(n-1) (model)\n    └── ParticipantProject(n) (dataset)\n\nRegistering with Hugging Face\nBefore you begin, sign up with Hugging Face through this link: hf.co/join. Become part of a global community by completing a simple registration process.\n\n\n\n\n\n\n\nEnrolling as a Pseudo Lab Contributor\nAfter signing up, proceed to the Contributor Registration page and gain access to ‘Pseudo Lab’ projects. This platform is where your ideas will shine.\n\n\n\n\n\n\n\nDirectly Creating Your Project\nTry creating a new Space by clicking the New button within the Pseudo Lab organization. For the Space name, use something representative of your project. In the license selection, we recommend the “Apache 2.0 License.”\n\n\n\n\n\n\n\n\n\n\nConfiguring your project for actual deployment is crucial. In the SDK options, we particularly recommend Gradio for beginners. It’s user-friendly, offering various examples for quick learning. While the basic free CPU resources are provided for hardware, you can request additional GPU resources if necessary. However, please make such requests only when essential, as all participants share these resources!\n\n\n\n\n\n\n\n\n\n\n\n\nUsing advanced GPU hardware resources will consume the overall hackathon Credit.\nWe request efficient usage with consideration for other participants.\n\n\n\n\n\n\nImporting an Existing Project\nIf you’ve already initiated a project in your personal account, no need to worry. You can clone the repo, change the ownership to pseudolab, and it will show up in our leaderboard!\n \n\n\nCrafting a README\nThe project’s README file should be meticulously crafted to ensure that anyone can easily comprehend the project. It should provide ample information about the project, including its objectives, the technologies employed, key changes, among other pertinent details. Other participants will definitely appreciate your gesture!\nLastly set the pinned argument to false. We want a fair review process among participants, so please promote your work through other options (such as sns).\n\n\nREADME.md\n\ntitle: 'My Project'\nemoji: 🌌\ncolorFrom: purple\ncolorTo: yellow\nsdk: gradio\nsdk_version: 3.36.1\napp_file: app.py\npinned: false"
   },
   {
     "objectID": "presentations/01/index.html",
     "href": "presentations/01/index.html",
     "title": "Hugging Face 도전기",
     "section": "",
-    "text": "See in English"
+    "text": "한국어 버전"
   },
   {
     "objectID": "presentations/00/index.html",
     "href": "presentations/00/index.html",
     "title": "Hugging Face 튜토리얼",
     "section": "",
-    "text": "See in English"
+    "text": "한국어 버전"
   },
   {
     "objectID": "presentations/05/index.html",
     "href": "presentations/05/index.html",
     "title": "SonGPT",
     "section": "",
-    "text": "See in English"
+    "text": "한국어 버전"
   },
   {
     "objectID": "tutorials-templates/index.html",
     "href": "tutorials-templates/index.html",
     "title": "Notebooks for live-coding",
     "section": "",
-    "text": "See in English\nTemplates of all tutorials — .ipynb notebooks with code removed — are available at:\nhttps://github.com/NASA-Openscapes/2021-Cloud-Hackathon/tree/main/tutorials-templates.\nPlease open these tutorial templates in our JupyterHub to follow along and live-code with the tutorial lead."
+    "text": "한국어 버전\nTemplates of all tutorials — .ipynb notebooks with code removed — are available at:\nhttps://github.com/NASA-Openscapes/2021-Cloud-Hackathon/tree/main/tutorials-templates.\nPlease open these tutorial templates in our JupyterHub to follow along and live-code with the tutorial lead."
   },
   {
     "objectID": "intro/code-of-conduct.html",
     "href": "intro/code-of-conduct.html",
-    "title": "2023 일상에서의 AI 해커톤",
+    "title": "2023 Everyday AI Hackathon",
     "section": "",
-    "text": "See in English"
+    "text": "한국어 버전"
   }
 ]
