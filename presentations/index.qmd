@@ -11,5 +11,12 @@ title-block-banner-color: body
 search: false
 ---
 
+::: {.content-visible when-profile="korean"}
 ## 발표자료
 7th PseudoCon에서 소개한 프로젝트의 발표자료를 다시 볼 수 있습니다.
+:::
+
+::: {.content-visible when-profile="english"}
+## Presentations
+the presentations introduced at the 7th PseudoCon.
+:::

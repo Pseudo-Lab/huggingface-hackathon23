@@ -1,7 +1,7 @@
 ---
 title: Hugging Face 튜토리얼
 description:
-  처음부터 시작하는 Hugging Face 
+  처음부터 시작하는 Hugging Face
 categories:
   - Tutorial
 author: 정우준
@@ -15,6 +15,12 @@ image:
     data/thumbnail.png
 ---
 
-##
+::: {.content-visible when-profile="korean"}
 <iframe class="slide-deck" src="data/tutorial.pdf" title="Day 1A Slides">
 </iframe>
+:::
+
+::: {.content-visible when-profile="english"}
+<iframe class="slide-deck" src="data/tutorial.pdf" title="Day 1A Slides">
+</iframe>
+:::
