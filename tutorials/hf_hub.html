@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -63,6 +97,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-HMKJZ8LF1Y"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-HMKJZ8LF1Y', { 'anonymize_ip': true});
+</script>
 <link rel="stylesheet" media="screen" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" type="text/css">
 
 
@@ -102,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">소개</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://huggingface.co/pseudolab" rel="" target="blank"><i class="bi bi-bookmark-star" role="img">
+    <a class="nav-link" href="https://huggingface.co/organizations/pseudolab/share/UYPZnwyOTadGJDReehItrwtbWKSxHYmAku" rel="" target="blank"><i class="bi bi-bookmark-star" role="img">
 </i> 
  <span class="menu-text">데모 제출</span></a>
   </li>  
@@ -171,6 +214,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../presentations/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">발표자료</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -184,8 +233,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#hugging-face-가입" id="toc-hugging-face-가입" class="nav-link active" data-scroll-target="#hugging-face-가입">Hugging Face 가입</a></li>
   <li><a href="#pseudo-lab-기여자-등록" id="toc-pseudo-lab-기여자-등록" class="nav-link" data-scroll-target="#pseudo-lab-기여자-등록">Pseudo Lab 기여자 등록</a></li>
   <li><a href="#바로-프로젝트-생성해보기" id="toc-바로-프로젝트-생성해보기" class="nav-link" data-scroll-target="#바로-프로젝트-생성해보기">바로 프로젝트 생성해보기</a></li>
-  <li><a href="#콜렉션에-공유하기" id="toc-콜렉션에-공유하기" class="nav-link" data-scroll-target="#콜렉션에-공유하기">콜렉션에 공유하기</a></li>
   <li><a href="#기존-프로젝트-가져오기" id="toc-기존-프로젝트-가져오기" class="nav-link" data-scroll-target="#기존-프로젝트-가져오기">기존 프로젝트 가져오기</a></li>
+  <li><a href="#readme-파일-작성하기" id="toc-readme-파일-작성하기" class="nav-link" data-scroll-target="#readme-파일-작성하기">README 파일 작성하기</a></li>
   </ul>
 </nav>
     </div>
@@ -268,26 +317,28 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="콜렉션에-공유하기" class="level3">
-<h3 class="anchored" data-anchor-id="콜렉션에-공유하기">콜렉션에 공유하기</h3>
-<p>멋집니다! 이제 여러분은 자신의 프로젝트를 실행할 스페이스를 생성했고 다른 참가자들에게 빨리 소개하고 싶습니다. 프로젝트를 헤커톤 컬랙션에 연결하는 방법을 알아 봅시다.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/paste-7.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-<p>우측 상단의 <code>...</code> 버튼을 누르고 <code>Add to collection</code>을 선택하세요.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/paste-8.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-<p><code>Hugging Face KREW Hackathon 2023 (pseudolab)</code>을 선택하여 자신의 프로젝트를 헤커톤 컬렉션에 추가할 수 있습니다.</p>
-</section>
 <section id="기존-프로젝트-가져오기" class="level3">
 <h3 class="anchored" data-anchor-id="기존-프로젝트-가져오기">기존 프로젝트 가져오기</h3>
-<p>개인 스페이스에서 프로젝트를 먼저 시작한 경우에도 걱정하지 마세요. 스페이스를 복제한 후, 소유권을 <code>pseudolab</code>으로 변경하면 동일한 방법으로 컬렉션에 추가할 수 있습니다.</p>
+<p>개인 스페이스에서 프로젝트를 먼저 시작한 경우에도 걱정하지 마세요. 스페이스를 복제한 후, 소유권을 <code>pseudolab</code>으로 변경하면 동일하게 리더보드에서 보실 수 있습니다.</p>
 <p><img src="images/paste-15.png" class="img-fluid"> <img src="images/paste-17.png" class="img-fluid"></p>
+</section>
+<section id="readme-파일-작성하기" class="level3">
+<h3 class="anchored" data-anchor-id="readme-파일-작성하기">README 파일 작성하기</h3>
+<p>프로젝트의 README 파일은 누구나 프로젝트를 쉽게 이해할 수 있도록 상세하게 작성해야 해요. 프로젝트의 목적, 사용된 기술, 주요 변경 사항 등을 포함하여, 충분한 정보를 제공해 주세요. 다른 참가자들이 더욱 더 흥미롭게 즐길 수 있을 거에요!</p>
+<p>마지막으로 <code>pinned</code> 항목을 <code>false</code>로 설정해주세요. 공정한 평가를 위함이며, 홍보는 (sns 등) 다른 채널을 통해 해주시길 바랍니다.</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>README.md</strong></pre>
+</div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode md code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> 'My Project'</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="an">emoji:</span><span class="co"> 🌌</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="an">colorFrom:</span><span class="co"> purple</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="an">colorTo:</span><span class="co"> yellow</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="an">sdk:</span><span class="co"> gradio</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="an">sdk_version:</span><span class="co"> 3.36.1</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="an">app_file:</span><span class="co"> app.py</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="an">pinned:</span><span class="co"> false</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 
 
 </section>
