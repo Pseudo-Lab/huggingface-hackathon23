@@ -1,0 +1,20 @@
+---
+title: Hugging Face 튜토리얼
+description:
+  처음부터 시작하는 Hugging Face 
+categories:
+  - Tutorial
+author: 정우준
+date: "11/11/2023"
+id: 00
+page-layout: article
+format:
+  html:
+    css: ../styles.css
+image:
+    data/thumbnail.png
+---
+
+##
+<iframe class="slide-deck" src="data/tutorial.pdf" title="Day 1A Slides">
+</iframe>

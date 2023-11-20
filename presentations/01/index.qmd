@@ -1,0 +1,21 @@
+---
+title: Hugging Face 도전기
+description:
+  Hugging Face 도전기 - 경제기사 요약과 감정평가
+categories:
+  - Summarization
+  - Sentimental Analysis
+author: 양성모, 윤현서
+date: "11/11/2023"
+id: 01
+page-layout: article
+format:
+  html:
+    css: ../styles.css
+image:
+    data/thumbnail.png
+---
+
+##
+<iframe class="slide-deck" src="data/허깅페이스 도전기_20231105.pdf" title="Day 1A Slides">
+</iframe>

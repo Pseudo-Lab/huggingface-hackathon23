@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>2023 일상에서의 AI 해커톤</title>
+<link>https://pseudo-lab.github.io/huggingface-hackathon23/presentations/index.html</link>
+<atom:link href="https://pseudo-lab.github.io/huggingface-hackathon23/presentations/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.3.433</generator>
+<lastBuildDate>Fri, 10 Nov 2023 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>Hugging Face 도전기</title>
+  <dc:creator>양성모, 윤현서</dc:creator>
+  <link>https://pseudo-lab.github.io/huggingface-hackathon23/presentations/01/index.html</link>
+  <description><![CDATA[ 
+
+
+<button onclick="window.location = location.href.replace('/ko/','/en/');" class="btn btn-translate">
+<i class="bi bi-translate"></i> See in English
+</button>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+<iframe class="slide-deck" src="data/허깅페이스 도전기_20231105.pdf" title="Day 1A Slides">
+</iframe>
+
+
+</section>
+
+ ]]></description>
+  <category>Summarization</category>
+  <category>Sentimental Analysis</category>
+  <guid>https://pseudo-lab.github.io/huggingface-hackathon23/presentations/01/index.html</guid>
+  <pubDate>Fri, 10 Nov 2023 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>성취기준 기반 세특 생성기</title>
+  <dc:creator>코난쌤 </dc:creator>
+  <link>https://pseudo-lab.github.io/huggingface-hackathon23/presentations/02/index.html</link>
+  <description><![CDATA[ 
+
+
+<button onclick="window.location = location.href.replace('/ko/','/en/');" class="btn btn-translate">
+<i class="bi bi-translate"></i> See in English
+</button>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+<iframe class="slide-deck" src="data/conan님_231107_070823.pdf">
+</iframe>
+
+
+</section>
+
+ ]]></description>
+  <category>GPT</category>
+  <category>Few-shot</category>
+  <guid>https://pseudo-lab.github.io/huggingface-hackathon23/presentations/02/index.html</guid>
+  <pubDate>Fri, 10 Nov 2023 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Hugging Face Korea Theme</title>
+  <dc:creator>장동욱 </dc:creator>
+  <link>https://pseudo-lab.github.io/huggingface-hackathon23/presentations/03/index.html</link>
+  <description><![CDATA[ 
+
+
+<button onclick="window.location = location.href.replace('/ko/','/en/');" class="btn btn-translate">
+<i class="bi bi-translate"></i> See in English
+</button>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+<iframe class="slide-deck" src="data/huggingface-korea-theme.pdf">
+</iframe>
+
+
+</section>
+
+ ]]></description>
+  <category>Gradio</category>
+  <category>theme</category>
+  <guid>https://pseudo-lab.github.io/huggingface-hackathon23/presentations/03/index.html</guid>
+  <pubDate>Fri, 10 Nov 2023 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Colorful Illustration</title>
+  <dc:creator>이준형 </dc:creator>
+  <link>https://pseudo-lab.github.io/huggingface-hackathon23/presentations/04/index.html</link>
+  <description><![CDATA[ 
+
+
+<button onclick="window.location = location.href.replace('/ko/','/en/');" class="btn btn-translate">
+<i class="bi bi-translate"></i> See in English
+</button>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+<iframe class="slide-deck" src="data/이준형_Colorful illustration.pdf">
+</iframe>
+
+
+</section>
+
+ ]]></description>
+  <category>Stable diffusion</category>
+  <category>LoRA</category>
+  <guid>https://pseudo-lab.github.io/huggingface-hackathon23/presentations/04/index.html</guid>
+  <pubDate>Fri, 10 Nov 2023 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>SonGPT</title>
+  <dc:creator>석주영, 김기남, 안상민</dc:creator>
+  <link>https://pseudo-lab.github.io/huggingface-hackathon23/presentations/05/index.html</link>
+  <description><![CDATA[ 
+
+
+<button onclick="window.location = location.href.replace('/ko/','/en/');" class="btn btn-translate">
+<i class="bi bi-translate"></i> See in English
+</button>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+<iframe class="slide-deck" src="data/SonGPT_ 손흥민 선수와 대화해보기.pdf">
+</iframe>
+
+
+</section>
+
+ ]]></description>
+  <category>Knowledge Base</category>
+  <category>Prompt Engineering</category>
+  <category>LangChain</category>
+  <guid>https://pseudo-lab.github.io/huggingface-hackathon23/presentations/05/index.html</guid>
+  <pubDate>Fri, 10 Nov 2023 15:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

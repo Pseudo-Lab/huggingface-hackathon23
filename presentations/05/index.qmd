@@ -1,0 +1,22 @@
+---
+title: SonGPT
+description:
+  손흥민 선수와 대화해보기
+categories:
+  - Knowledge Base
+  - Prompt Engineering
+  - LangChain
+author: 석주영, 김기남, 안상민
+date: "11/11/2023"
+id: 05
+page-layout: article
+format:
+  html:
+    css: ../styles.css
+image:
+    data/thumbnail.jpg
+---
+
+##
+<iframe class="slide-deck" src="data/SonGPT_ 손흥민 선수와 대화해보기.pdf">
+</iframe>
