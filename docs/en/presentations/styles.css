@@ -1,0 +1,36 @@
+.reveal pre code {
+    display: block;
+    padding: 6px 9px;
+    overflow: auto;
+    max-height: 550px;
+    min-height: 550px;
+    word-wrap: normal;
+  }
+
+  /* Style for inline code */
+.reveal p code, .reveal li code, .reveal td code {
+    padding: 2px 9px;
+    background-color: #303030;
+    border-radius: 4px;
+  }
+
+  /* Style for code chunk */
+  .reveal pre.sourceCode code {
+    color: #ccc;
+    background-color: #303030;
+    padding: 6px 9px;
+    min-height: 550px;
+    max-height: 550px;
+    white-space: pre;
+  }
+
+  .reveal pre.sourceCode {
+    background-color: none;
+  }
+
+  iframe.slide-deck {
+    border: 3px solid #dee2e6;
+    width: 100%;
+    height: 475px;
+    display:block;
+  }
