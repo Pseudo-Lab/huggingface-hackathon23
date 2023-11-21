@@ -58,8 +58,9 @@ website:
             file: tutorials/hf_hub.qmd
           - text: 03_Contributions and Submissions
             file: tutorials/pr_guide.qmd
-      - text: Presentations
-        file: presentations/index.qmd
+      - href: presentations/index.qmd
+        text: Presentations
+
 
 format:
   html:

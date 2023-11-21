@@ -51,7 +51,7 @@ website:
       - index.qmd
       - section: 튜토리얼
         contents: tutorials/*
-      - Text: 발표자료
+      - text: 발표자료
         file: presentations/index.qmd
 
 
