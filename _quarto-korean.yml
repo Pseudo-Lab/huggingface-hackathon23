@@ -29,13 +29,8 @@ website:
       - text: 소개
         file: index.qmd
       - icon: bookmark-star
-        text: 데모 제출
-        href: https://huggingface.co/organizations/pseudolab/share/UYPZnwyOTadGJDReehItrwtbWKSxHYmAku
-        target: blank
-      - icon: building-check
-        text: 오프라인 참가
-        href: https://event-us.kr/huggingfacekrew/event/72612
-        target: blank
+        text: "발표자료"
+        file: presentations/index.qmd
     tools:
       - icon: discord
         href: https://hf.co/join/discord
@@ -50,8 +45,6 @@ website:
       style: floating
       contents:
         - index.qmd
-        - text: "발표자료"
-          file: presentations/index.qmd
         - section: "튜토리얼"
           contents: tutorials/*
 
