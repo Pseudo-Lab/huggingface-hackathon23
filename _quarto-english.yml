@@ -29,13 +29,8 @@ website:
       - text: About
         file: index.qmd
       - icon: bookmark-star
-        text: Submit your Project
-        href: https://huggingface.co/organizations/pseudolab/share/UYPZnwyOTadGJDReehItrwtbWKSxHYmAku
-        target: blank
-      - icon: building-check
-        text: Offline event
-        href: https://event-us.kr/huggingfacekrew/event/72612
-        target: blank
+        text: "Presentations"
+        file: presentations/index.qmd
     tools:
       - icon: discord
         href: https://hf.co/join/discord
@@ -49,18 +44,16 @@ website:
 
       style: floating
       contents:
-        - index.qmd
+        - text: "Introduction"
+          file: index.qmd
         - section: Tutorials
           contents:
-            - text: 01_Joining Discord
-              contents: tutorials/*
+            - text: "01_Joining Discord"
               file: tutorials/discord.qmd
-            - text: 02_Creating a Project
+            - text: "02_Creating a Project"
               file: tutorials/hf_hub.qmd
-            - text: 03_Contributions and Submissions
+            - text: "03_Contributions and Submissions"
               file: tutorials/pr_guide.qmd
-        - text: Presentations
-          file: presentations/index.qmd
 
 
 
